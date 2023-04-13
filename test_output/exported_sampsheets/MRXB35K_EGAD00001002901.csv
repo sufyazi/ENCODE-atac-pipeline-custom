@@ -1,0 +1,5 @@
+DONOR_ID,DISEASE,CELL_TYPE,TISSUE_TYPE,FILE
+SANQUIN_mono_41,None,monocyte,venous_blood,HFCGLBGXX_lane1_8455_GTAGAGGA_L001_R1.fastq.gz
+SANQUIN_mono_41,None,monocyte,venous_blood,HFCGLBGXX_lane1_8455_GTAGAGGA_L001_R2.fastq.gz
+SANQUIN_mono_62,None,monocyte,venous_blood,HKCJCBGXX_lane1_9482_2_AGGCAGAA_L001_R1.fastq.gz
+SANQUIN_mono_62,None,monocyte,venous_blood,HKCJCBGXX_lane1_9482_2_AGGCAGAA_L001_R2.fastq.gz

@@ -1,0 +1,5 @@
+DONOR_ID,DISEASE,CELL_TYPE,TISSUE_TYPE,FILE
+NC15_72,None,class_switched_memory_B_cell,venous_blood,HFCCCBGXX_lane1_8422_TAAGGCGA_L001_R1.fastq.gz
+NC15_72,None,class_switched_memory_B_cell,venous_blood,HFCCCBGXX_lane1_8422_TAAGGCGA_L001_R2.fastq.gz
+NC15_79,None,class_switched_memory_B_cell,venous_blood,HNFWNBGXX_lane1_9861_GTAGAGGA_L001_R1.fastq.gz
+NC15_79,None,class_switched_memory_B_cell,venous_blood,HNFWNBGXX_lane1_9861_GTAGAGGA_L001_R2.fastq.gz
