@@ -1,5 +1,0 @@
-DONOR_ID,DISEASE,CELL_TYPE,TISSUE_TYPE,FILE
-BC2_0,None,osteoclast,venous_blood,HGL5WBGXX_lane1_2_8688_TAGGCATG_L001_R1.fastq.gz
-BC2_0,None,osteoclast,venous_blood,HGL5WBGXX_lane1_2_8688_TAGGCATG_L001_R2.fastq.gz
-BC2_10,None,osteoclast,venous_blood,HGL5WBGXX_lane1_2_8689_CTCTCTAC_L001_R1.fastq.gz
-BC2_10,None,osteoclast,venous_blood,HGL5WBGXX_lane1_2_8689_CTCTCTAC_L001_R2.fastq.gz

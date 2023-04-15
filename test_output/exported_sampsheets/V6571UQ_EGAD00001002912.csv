@@ -1,5 +1,0 @@
-DONOR_ID,DISEASE,CELL_TYPE,TISSUE_TYPE,FILE
-T15_12,None,plasma_cell,tonsil,HF5T2BGXX_lane1_8123_GGACTCCT_L001_R1.fastq.gz
-T15_12,None,plasma_cell,tonsil,HF5T2BGXX_lane1_8123_GGACTCCT_L001_R2.fastq.gz
-T15_18,None,plasma_cell,tonsil,HNFWNBGXX_lane1_9853_TCCTGAGC_L001_R1.fastq.gz
-T15_18,None,plasma_cell,tonsil,HNFWNBGXX_lane1_9853_TCCTGAGC_L001_R2.fastq.gz

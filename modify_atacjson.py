@@ -5,6 +5,7 @@ import os
 import sys
 import re
 import argparse
+import pandas as pd
 
 #### Define functions ############################################################
 def is_json_file(filename):
@@ -15,11 +16,20 @@ def is_json_file(filename):
     except ValueError:
         return False
     
-def get_fastq_filenames(directory_path):
+# def get_fastq_filenames(directory_path):
+#     fastq_files = []
+#     for filename in os.listdir(directory_path):
+#         if filename.endswith(".fastq.gz"):
+#             fastq_files.append(filename)
+#     return fastq_files
+
+def get_fastq_filenames(sample_sheet_csv):
+    # Read the CSV file into a pandas dataframe
+    df = pd.read_csv(sample_sheet_csv)
+    # Extract the values from the "FILE" column and append them to the list of fastq files
     fastq_files = []
-    for filename in os.listdir(directory_path):
-        if filename.endswith(".fastq.gz"):
-            fastq_files.append(filename)
+    for file in df["FILE"]:
+        fastq_files.append(file)       
     return fastq_files
     
 def get_replicated_dir(directory_path):
