@@ -3,7 +3,6 @@
 import random
 import string
 import argparse
-from os import path
 
 ######### FUNCTIONS #########
 def generate_random_string(length):

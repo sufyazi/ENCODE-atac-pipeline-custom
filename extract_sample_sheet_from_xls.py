@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 
-import numpy as np
-import pandas as pd
 import sys
 from os import path
+import numpy as np
+import pandas as pd
 import analysis_id_gen
 
 # Define a function to replace spaces with underscores
@@ -35,10 +35,6 @@ excel_filepath = sys.argv[2]
 output_dir = sys.argv[3]
 analysis_id_list = sys.argv[4]
 
-if not path.exists(analysis_id_list):
-    with open(analysis_id_list, 'w') as f:
-        f.write("analysis_ID\tdataset_ID\n") # creates the file if it does not exist
-
 # Load file containing a list of dataset ids to be processed
 dataset_ids = []
 with open(datasets, 'r') as f:
@@ -51,8 +47,24 @@ excel_file = pd.ExcelFile(excel_filepath, engine='openpyxl')
 # Define list of columns to extract
 columns_to_extract = ["DONOR_ID", "LIBRARY_LAYOUT", "DISEASE", "TISSUE_TYPE", "FILE"]
 
+# Check if the analysis_id_list.txt file exists and create it if it doesn't exist
+if not path.exists(analysis_id_list):
+    with open(analysis_id_list, 'w') as f:
+        f.write("analysis_ID\tdataset_ID\n")
+
 # Loop through specified sheets in the Excel file
 for sheet_name in dataset_ids:
+    
+    # Check if the sheet/dataset ID exists in the analysis_id_list.txt file
+    if sheet_name in pd.read_csv(analysis_id_list, sep='\t', header=0)['dataset_ID'].values:
+        print(f"WARNING: {sheet_name} already exists in {analysis_id_list}: Skipping...")
+        continue
+    
+    # generate a random string for the analysis ID then update the analysis_id_list.txt file
+    random_string = analysis_id_gen.generate_id(7, analysis_id_list)   
+    with open(analysis_id_list, 'a') as f:
+        f.write(f"{random_string}\t{sheet_name}\n")
+    
     # Create an empty DataFrame to store the extracted columns
     output_df = pd.DataFrame()
     
@@ -135,12 +147,7 @@ for sheet_name in dataset_ids:
     else:
         print(f"Error: {sheet_name} contains a mixture of paired-end and single-end reads")
         sys.exit(1)
-    
-    # generate a random string for the analysis ID then update the analysis_id_list.txt file
-    random_string = analysis_id_gen.generate_id(7, analysis_id_list)    
-    with open(analysis_id_list, 'a') as f:
-        f.write(f"{random_string}\t{sheet_name}\n")
-    
+
     # Construct the output file name and path
     output_file = f"{output_dir}/{random_string}_{sheet_name}.csv"
     
