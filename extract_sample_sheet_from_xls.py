@@ -82,7 +82,7 @@ for sheet_name in dataset_ids:
     extracted_cols = df[extracted_cols]
     
     # Append the extracted columns to the output DataFrame
-    output_df = output_df._append(extracted_cols, ignore_index=True)
+    output_df = pd.concat([output_df, extracted_cols], axis=1, ignore_index=False)
     output_df.fillna('None', inplace=True)
     
     # Collapse the DONOR_ID column values into unique categories and assign them to a new column called SAMPLE

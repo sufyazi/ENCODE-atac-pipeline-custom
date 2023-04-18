@@ -1,5 +1,12 @@
 #!/usr/bin/env bash
 
+# Check if the correct number of arguments were provided
+if [[ "$#" -ne 2 ]]
+then
+  echo -e "Usage: $0 [--dry-run|--live-run] <analysis_id_list.txt>\n"
+  exit 1
+fi
+
 # Set the source directory to traverse
 SOURCE_DIR="/data/shop/accRLJEHM.jmcarter/v0/depo"
 
@@ -13,13 +20,16 @@ DRY_RUN=""
 if [[ "$1" == "--dry-run" ]]
 then
   DRY_RUN="--dry-run"
-  echo -e "Running in dry run mode\n"
+  echo -e "Running in dry mode\n"
+else
+  DRY_RUN="--live-run"
+  echo -e "Running in live mode\n"
 fi
 
-# Set the path to the file containing the list of subdirectories to rsync
-SUBDIR_LIST=$(awk -F'\t' '{print $2}' < "$2") #ensure that the input is the analysis_id_list.txt file
+# Process the analysis_id_list.txt file
+SUBDIRLIST="$2" #ensure that the input is the analysis_id_list.txt file
 
-# Loop through the subdirectories in the list
+# Loop through the subdirectories in the file
 while read -r SUBDIR
 do
   # Find subdirectories in the current subdirectory
@@ -34,7 +44,6 @@ do
     then
       # Extract the name of the .fastq.gz file
       FASTQ_FILE=$(basename "$(find "$SAMPLE" -name "*.fastq.gz" -type f)" )
-      echo -e "$FASTQ_FILE as file basename\n"
 
       # Extract the expected MD5 checksum value from the .md5 file
       MD5_FILE="$SAMPLE/$FASTQ_FILE.md5"
@@ -53,9 +62,9 @@ do
         echo -e "Rsyncing $FASTQ_FILE to $REMOTE_SERVER\n"
         if [ "$DRY_RUN" == "--dry-run" ]
         then
-          rsync -aPHAXz "$DRY_RUN" --exclude="/.*" -e"ssh -i /home/suffi.azizan/.ssh/odin_id_rsa" msazizan@10.97.133.177:"${SOURCE_DIR}"/"${SAMPLE}" /home/suffi.azizan/scratchspace/inputs/fastq/blueprint-atac
+          rsync -aPHAXz "$DRY_RUN" --exclude="/.*" "$SAMPLE/$FASTQ_FILE" "${REMOTE_SERVER}":/home/suffi.azizan/scratchspace/inputs/fastq/blueprint-atac/"$SUBDIR"/
         else
-          rsync -aPHAXz --exclude="/.*" -e"ssh -i /home/suffi.azizan/.ssh/odin_id_rsa" msazizan@10.97.133.177:"${SOURCE_DIR}"/"${SAMPLE}" /home/suffi.azizan/scratchspace/inputs/fastq/blueprint-atac
+          rsync -aPHAXz --exclude="/.*" "$SAMPLE/$FASTQ_FILE" "${REMOTE_SERVER}":/home/suffi.azizan/scratchspace/inputs/fastq/blueprint-atac/"$SUBDIR"/
         fi
       else
         # The checksums do not match, so skip this subdirectory
@@ -66,4 +75,4 @@ do
       echo -e "Skipping $SAMPLE because no .fastq.gz file was found\n"
     fi
   done
-done < "$SUBDIR_LIST"
+done < <(awk -F'\t' '{print $2}' "$SUBDIRLIST" | tail -n +2)

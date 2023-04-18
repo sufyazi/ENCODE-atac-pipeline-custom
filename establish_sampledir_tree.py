@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 
 import os
-import re
 import sys
 import glob
 import shutil
@@ -97,22 +96,24 @@ for i in dataset_id:
         sys.stdout.write(f'No sample sheet found for dataset {i}...\n')
         continue
     
-    # clean up the dataset directory
-    sys.stdout.write(f'Fasta files sorted into respective directories. Cleaning up dataset folder {dataset_dir}...\n')
-    # list all files and folders in the directory
-    all_files = os.listdir(dataset_dir)
+######### Clean up the dataset directory #########[Deprecated as it is not necessary to clean up the dataset directory now as the cp_blueprint_files_to_gekko.sh script has already rendered this moot]
+    # import re
+    # # clean up the dataset directory
+    # sys.stdout.write(f'Fasta files sorted into respective directories. Cleaning up dataset folder {dataset_dir}...\n')
+    # # list all files and folders in the directory
+    # all_files = os.listdir(dataset_dir)
 
-    # Compile a regular expression pattern to match directory names
-    pattern = re.compile(r"^sample_")
+    # # Compile a regular expression pattern to match directory names
+    # pattern = re.compile(r"^sample_")
     
-    # loop through each folder and remove those that do not match the pattern
-    for folder in all_files:
-        if os.path.isdir(os.path.join(dataset_dir, folder)) and not pattern.match(folder):
-            try:
-                sys.stdout.write(f'Removing directory {folder} in {dataset_dir}...\n')
-                os.rmdir(os.path.join(dataset_dir, folder))
-                sys.stdout.write(f'Directory {folder} removed...\n')
-            except OSError:
-                sys.stdout.write(f'Could not remove directory {folder} in {dataset_dir} as it is not empty. Hiding it...\n')
-                os.rename(os.path.join(dataset_dir, folder), os.path.join(dataset_dir, f".{folder}"))
-                continue
+    # # loop through each folder and remove those that do not match the pattern
+    # for folder in all_files:
+    #     if os.path.isdir(os.path.join(dataset_dir, folder)) and not pattern.match(folder):
+    #         try:
+    #             sys.stdout.write(f'Removing directory {folder} in {dataset_dir}...\n')
+    #             os.rmdir(os.path.join(dataset_dir, folder))
+    #             sys.stdout.write(f'Directory {folder} removed...\n')
+    #         except OSError:
+    #             sys.stdout.write(f'Could not remove directory {folder} in {dataset_dir} as it is not empty. Hiding it...\n')
+    #             os.rename(os.path.join(dataset_dir, folder), os.path.join(dataset_dir, f".{folder}"))
+    #             continue
