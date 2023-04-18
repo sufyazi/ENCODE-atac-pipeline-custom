@@ -17,7 +17,7 @@ then
 fi
 
 # Set the path to the file containing the list of subdirectories to rsync
-SUBDIR_LIST=$2 #make sure to supply a list of blueprint dataset ID starting with EGAD...
+SUBDIR_LIST=$(awk -F'\t' '{print $2}' < "$2") #ensure that the input is the analysis_id_list.txt file
 
 # Loop through the subdirectories in the list
 while read -r SUBDIR

@@ -8,10 +8,9 @@ import shutil
 import pandas as pd
 
 def find_file(dataset_dir, filename):
-    for root, dirs, files in os.walk(dataset_dir):
+    for root, _, files in os.walk(dataset_dir):
         # ignore dotfiles
         files = [f for f in files if not f.startswith('.')]
-        dirs[:] = [d for d in dirs if not d.startswith('.')]
         if filename in files:
             file_path = os.path.join(root, filename)
             return file_path
@@ -56,8 +55,14 @@ for i in dataset_id:
                 os.mkdir(f"{dataset_dir}/sample_{samp}")
                 sys.stdout.write(f'Created directory for sample {samp} of dataset {i}...\n')
             else:
-                sys.stdout.write(f'Directory for sample {samp} in dataset folder {i} already exists. Skipping directory creation...\n')
-        
+                # check if the directory is empty
+                if len(os.listdir(f"{dataset_dir}/sample_{samp}")) != 0:
+                    sys.stdout.write(f'Directory for sample {samp} in dataset folder {i} already exists and is not empty. Skipping directory creation...\n')
+                    continue
+                else:
+                    sys.stdout.write(f'Directory for sample {samp} in dataset folder {i} already exists and is empty. Skipping directory creation...\n')
+                
+    
         # Move fasta files to sample directories
         for row in df.iterrows():
             file = row[1]['FILE']
@@ -65,23 +70,35 @@ for i in dataset_id:
             rep = row[1]['REP']
             #get the path of the fasta files to move
             file_path = find_file(dataset_dir, file)
+            print(file_path)
             if file_path is None:
                 sys.stdout.write(f'Error: Could not find file {file} in {dataset_dir}')
                 continue
             #create a directory for each replicate
             try:
                 os.mkdir(f"{dataset_dir}/sample_{sample}/rep_{rep}")
+                sys.stdout.write(f'Created directory for replicate {rep} of sample {sample}...\n')
             except FileExistsError:
                 sys.stdout.write(f'Directory for replicate {rep} of sample {sample} already exists. Skipping directory creation...\n')
-            # move the file to the replicate directory
-            #shutil.move(file_path, f"{dataset_dir}/sample_{sample}/rep_{rep}/{file}")
-            #sys.stdout.write(f'Moved file {file} to rep_{rep} subdir of sample_{sample} directory...')
+                # check if file already exists in the directory
+                if os.path.exists(f"{dataset_dir}/sample_{sample}/rep_{rep}/{file}"):
+                    sys.stdout.write(f'File {file} already exists in replicate {rep} directory of sample {sample}. Skipping file move...\n')
+                    continue
+                else:
+                    # move the file to the replicate directory
+                    shutil.move(file_path, f"{dataset_dir}/sample_{sample}/rep_{rep}")
+                    sys.stdout.write(f'Moved file {file} to rep_{rep} subdir of sample_{sample} directory...\n')
+            else:
+                # move the file to the replicate directory
+                shutil.move(file_path, f"{dataset_dir}/sample_{sample}/rep_{rep}")
+                sys.stdout.write(f'Moved file {file} to rep_{rep} subdir of sample_{sample} directory...\n')
            
     else:
-        sys.stdout.write(f'No sample sheet found for dataset {i}...')
+        sys.stdout.write(f'No sample sheet found for dataset {i}...\n')
         continue
     
     # clean up the dataset directory
+    sys.stdout.write(f'Fasta files sorted into respective directories. Cleaning up dataset folder {dataset_dir}...\n')
     # list all files and folders in the directory
     all_files = os.listdir(dataset_dir)
 
@@ -91,5 +108,11 @@ for i in dataset_id:
     # loop through each folder and remove those that do not match the pattern
     for folder in all_files:
         if os.path.isdir(os.path.join(dataset_dir, folder)) and not pattern.match(folder):
-            os.rmdir(os.path.join(dataset_dir, folder))
-    
+            try:
+                sys.stdout.write(f'Removing directory {folder} in {dataset_dir}...\n')
+                os.rmdir(os.path.join(dataset_dir, folder))
+                sys.stdout.write(f'Directory {folder} removed...\n')
+            except OSError:
+                sys.stdout.write(f'Could not remove directory {folder} in {dataset_dir} as it is not empty. Hiding it...\n')
+                os.rename(os.path.join(dataset_dir, folder), os.path.join(dataset_dir, f".{folder}"))
+                continue
