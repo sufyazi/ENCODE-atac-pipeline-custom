@@ -1,0 +1,12 @@
+{
+    "atac.title": "2I1Y0Z9_2907",
+    "atac.description": "blueprint atac-seq",
+    "atac.pipeline_type": "atac",
+    "atac.align_only": "false",
+    "atac.true_rep_only": "false",
+    "atac.genome_tsv": "https://storage.googleapis.com/encode-pipeline-genome-data/genome_tsv/v4/hg38.tsv",
+    "atac.paired_end": true,
+    "atac.auto_detect_adapter": true,
+    "atac.fastqs_rep0_R1": "/home/suffi.azizan/scratchspace/inputs/fastq/blueprint-atac/EGAD00001002907/sample_2/rep_0/HGL5WBGXX_lane1_2_8689_CTCTCTAC_L001_R1.fastq.gz",
+    "atac.fastqs_rep0_R2": "/home/suffi.azizan/scratchspace/inputs/fastq/blueprint-atac/EGAD00001002907/sample_2/rep_0/HGL5WBGXX_lane1_2_8689_CTCTCTAC_L001_R2.fastq.gz"
+}
