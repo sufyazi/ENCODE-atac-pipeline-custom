@@ -49,29 +49,29 @@ def modify_atacseq_json():
     # Parse command line arguments
     parser = argparse.ArgumentParser(prog='edit-atacjson', 
             description="Automate the editing of ENCODE ATAC-seq pipeline input JSON template file for each sample data.", 
-            usage="./<script>.py [-h] -d working_directory -j json_file -s sample_sheet_csv -o output_path [-r]", add_help=False)
+            usage="./<script>.py [-h] -d dataset_directory -j template_json_file -s sample_sheet_csv -o json_output_path", add_help=False)
     
     # Add required and optional arguments to groups to refine help message as argparse does not have a built-in way to do this
     required = parser.add_argument_group('required arguments')
     optional = parser.add_argument_group('optional arguments')
     
-    required.add_argument("-d", "--working-directory", 
+    required.add_argument("-d", '--dataset-directory',
             required=True, 
-            metavar="<path/to/directory>", 
+            metavar="<dir path>", 
             help='Absolute path to top level directory where fastq files are located. Must contain subdirectories named as such: "sample_n" where n are digits.')
     
-    required.add_argument("-j", "--json-file", 
+    required.add_argument("-j", '--template-json', 
             metavar="<file path>", 
             required=True, 
             help="ENCODE ATAC-seq pipeline input JSON file template")
     
-    required.add_argument("-s", "--sample-sheet-csv", 
+    required.add_argument("-s", '--sample-sheet-csv', 
             metavar="<file path>", 
             required=True, 
             help="Path to the sample sheet CSV file")
     
-    required.add_argument("-o", "--output", 
-            metavar="<path/for/output>", 
+    required.add_argument("-o", '--output', 
+            metavar="<dir path>", 
             required=True, 
             help="Absolute path where the new JSON files will be created")
     
@@ -87,8 +87,8 @@ def modify_atacseq_json():
     args = parser.parse_args()
     
     # Assign command line arguments to variables
-    working_directory = args.working_directory
-    json_file = args.json_file
+    working_directory = args.dataset_directory
+    json_file = args.template_json
     sample_sheet_csv = args.sample_sheet_csv
     output_directory = args.output
 
@@ -205,8 +205,12 @@ def modify_atacseq_json():
             # Filter for filenames that end with "R2.fastq.gz"
             r2_file = [f for f in fastq_files if re.search(r"R2\.fastq\.gz$", f)]
             if r1_file and r2_file:
-                fastq_keys[f"atac.fastqs_rep{rep[4:]}_R1"] = os.path.join(working_directory, f"sample_{n}", rep, r1_file[0])
-                fastq_keys[f"atac.fastqs_rep{rep[4:]}_R2"] = os.path.join(working_directory, f"sample_{n}", rep, r2_file[0])
+                if rep[4:] == "0":
+                    fastq_keys[f"atac.fastqs_rep1_R1"] = [os.path.join(working_directory, f"sample_{n}", rep, r1_file[0])]
+                    fastq_keys[f"atac.fastqs_rep1_R2"] = [os.path.join(working_directory, f"sample_{n}", rep, r2_file[0])]
+                else:
+                    fastq_keys[f"atac.fastqs_rep{rep[4:]}_R1"] = [os.path.join(working_directory, f"sample_{n}", rep, r1_file[0])]
+                    fastq_keys[f"atac.fastqs_rep{rep[4:]}_R2"] = [os.path.join(working_directory, f"sample_{n}", rep, r2_file[0])]
             else:
                 print(f"No fastq.gz files found in {working_directory}/sample_{n}/{rep}")
                 continue

@@ -7,6 +7,10 @@
     "atac.genome_tsv": "https://storage.googleapis.com/encode-pipeline-genome-data/genome_tsv/v4/hg38.tsv",
     "atac.paired_end": true,
     "atac.auto_detect_adapter": true,
-    "atac.fastqs_rep0_R1": "/home/suffi.azizan/scratchspace/inputs/fastq/blueprint-atac/EGAD00001002905/sample_1/rep_0/HFCCCBGXX_lane1_8423_TAGGCATG_L001_R1.fastq.gz",
-    "atac.fastqs_rep0_R2": "/home/suffi.azizan/scratchspace/inputs/fastq/blueprint-atac/EGAD00001002905/sample_1/rep_0/HFCCCBGXX_lane1_8423_TAGGCATG_L001_R2.fastq.gz"
+    "atac.fastqs_rep1_R1": [
+        "/home/suffi.azizan/scratchspace/inputs/fastq/blueprint-atac/EGAD00001002905/sample_1/rep_0/HFCCCBGXX_lane1_8423_TAGGCATG_L001_R1.fastq.gz"
+    ],
+    "atac.fastqs_rep1_R2": [
+        "/home/suffi.azizan/scratchspace/inputs/fastq/blueprint-atac/EGAD00001002905/sample_1/rep_0/HFCCCBGXX_lane1_8423_TAGGCATG_L001_R2.fastq.gz"
+    ]
 }
