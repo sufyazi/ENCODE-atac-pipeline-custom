@@ -17,6 +17,7 @@ fi
 analysis_id=$1
 dataset_json_dir=$2
 output_dir=$3
+MAX_JOBS=5
 
 # Check if the dataset json directory exists
 if [[ ! -d "$dataset_json_dir" ]]; then
@@ -62,11 +63,11 @@ for json in "${json_files[@]}"; do
     mkdir -p "${output_dir}/${analysis_id}_${sample_id}"
     local_output_dir="${output_dir}/${analysis_id}_${sample_id}"
     # Run the pipeline
-    caper hpc submit /home/suffi.azizan/installs/atac-seq-pipeline/atac.wdl -i "${json}" --conda --pbs-queue q32 --leader-job-name "${analysis_id}_${sample_id}" --local-out-dir "${local_output_dir}" --cromwell-stdout "/home/suffi.azizan/tmp/cromwell_out/cromwell.${analysis_id}_${sample_id}.out"
+    caper hpc submit /home/suffi.azizan/installs/atac-seq-pipeline/atac.wdl -i "${json}" -s "${analysis_id}" --conda --pbs-queue q32 --pbs-extra-param "-o /home/suffi.azizan/cromwell-workflow-logs" --leader-job-name "${analysis_id}_${sample_id}" --local-out-dir "${local_output_dir}" --cromwell-stdout "/home/suffi.azizan/tmp/cromwell_out/cromwell.${analysis_id}_${sample_id}.out"
     # Increment the counter
     counter=$((counter+1))
-    if [[ $((counter % 5)) -eq 0 && $counter -ne 0 ]]; then
-        echo "5 jobs submitted. Pausing for 2 hours..."
+    if [[ $((counter % "$MAX_JOBS")) -eq 0 && $counter -ne 0 ]]; then
+        echo "${MAX_JOBS} jobs submitted. Pausing for 2 hours..."
         sleep 2h
         echo "Resuming job submission..."
     fi

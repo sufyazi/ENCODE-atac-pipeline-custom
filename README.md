@@ -10,13 +10,13 @@
     ./extract_sample_sheet_from_xls.py test_files/atac-datasets-to-import.txt test_files/collated-cancer-datasets-v1.6.xlsx test_output/exported_sampsheets test_files/analysis_id_list.txt
     ```
 
-2. Once the `analysis_id_list.txt` and the corresponding    `sampsheet.csv` have been generated, copy the `analysis_id_list.txt` to Odin where the raw datasets are stored and run the bash script `cp_blueprint_files_to_gekko.sh`. This will `rsync` select datasets into Gekko HPC `scratch` first.
+2. Once the `analysis_id_list.txt` and the corresponding `sampsheet.csv` have been generated, copy the `analysis_id_list.txt` to Odin where the raw datasets are stored and run the bash script `cp_blueprint_files_to_gekko.sh`. This will `rsync` select datasets into Gekko HPC `scratch` first.
 
     **NOTE: This is run on Odin, NOT Gekko.**
 
-    > `--dry-run` can be supplied as the first parameter for the script to test where `rsync` will transfer your files. The location of the script is not crucial for the script's logic but ensure that it is run on Odin (or where the raw datasets are stored) and the path to the analysis ID list text file is specified correctly. *
+    > *`--dry-run` can be supplied as the first parameter for the script to test where `rsync` will transfer your files. The location of the script is not crucial for the script's logic but ensure that it is run on Odin (or where the raw datasets are stored) and the path to the analysis ID list text file is specified correctly.*
     >
-    > `nohup` and log redirection can be used so the running terminal can be exited without exiting the program prematurely as the syncing of the raw files might take hours.
+    > *`nohup` and log redirection can be used so the running terminal can be exited without exiting the program prematurely as the syncing of the raw files might take hours.*
 
     ```bash
     nohup ./cp_blueprint_files_to_gekko.sh --dry-run|--live-run input_files/analysis_id_list.txt > rsync_output.log &
@@ -40,9 +40,9 @@
 
     The example below shows how to run the pipeline on the sample dataset `2I1Y0Z9` with the JSON files located in `output_files/json/2I1Y0Z9_2907` and the output files will be stored in `/home/suffi.azizan/scratchspace/outputs/encd-atac-pipe-raw-out/2I1Y0Z9`.
 
-    Note that the wrapper `bash` script below is written to run the `caper` command for just 5 samples at a time. This is to prevent the HPC scheduler from being overloaded with too many jobs at once. The script will wait for the first 5 jobs to finish before submitting the next 5 jobs. This can be changed by modifying the `MAX_JOBS` variable in the script.
+    Note that the wrapper `bash` script below is written to run the `caper` command for just 5 samples at a time. This is to prevent the HPC scheduler from being overloaded with too many jobs at once. The script will wait for 2 hours before submitting the next batch of jobs (via `sleep` command). This can be changed by modifying the `MAX_JOBS` variable in the script.
 
-    Additionally, the script essentially remains idle for 2 hours (via `sleep` command) before continuing to submit the next batch of jobs. Consider running this script with `nohup` and log redirection if you are submitting more than 5 samples to process at once in case you need to exit the terminal.
+    Consider running this script with `nohup` and log redirection if you are submitting more than 5 samples to process at once in case you need to exit the terminal.
 
     ```bash
     ./submit_atac_pipeline_caper.sh 2I1Y0Z9 output_files/json/2I1Y0Z9_2907 /home/suffi.azizan/scratchspace/outputs/encd-atac-pipe-raw-out/2I1Y0Z9
