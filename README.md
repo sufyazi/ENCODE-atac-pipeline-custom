@@ -47,3 +47,17 @@
     ```bash
     ./submit_atac_pipeline_caper.sh 2I1Y0Z9 output_files/json/2I1Y0Z9_2907 /home/suffi.azizan/scratchspace/outputs/encd-atac-pipe-raw-out/2I1Y0Z9
     ```
+
+6. Once the pipeline has finished and all of the stderr files contain the line `Workflow finished successfully`, the `caper` output files can be organized using `croo` by running the `atac_croo_postprocessing.sh` script. This script will also generate a `croo` report for each sample.
+
+    ```bash
+    ./atac_croo_postprocessing.sh <analysis_id> <caper_output_directory_path> <croo_output_dir_path>
+    ```
+
+    An example of command with complete arguments is as follows:
+
+    ```bash
+    ./atac_croo_postprocessing.sh 50RWL61 /home/suffi.azizan/scratchspace/outputs/encd-atac-pipe-raw-out/50RWL61 /home/suffi.azizan/scratchspace/outputs/atac_croo_out
+    ```
+
+    Note that the script will organize the pipeline raw output files into specific folders and collate them into a single folder for each sample. The script will then `rsync` the resulting folder to a remote storage location on Odin. This is to prevent the HPC scratch space from being overloaded with too many files. The original croo output files will be retained in the scratch space so ensure that this space is cleaned up periodically.
