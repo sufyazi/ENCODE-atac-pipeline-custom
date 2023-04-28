@@ -9,7 +9,7 @@ set -eo pipefail
 
 # Check if the correct number of arguments were provided
 if [[ $# -ne 3 ]]; then
-    echo "Usage: submit_atac_pipeline_caper.sh <analysis_id> <dataset_json_directory_abs_path> <output_directory_abs_path>"
+    echo "Usage: submit_atac_pipeline_caper.sh <analysis_id> <dataset_json_directory_abs_path> <output_dataset_directory_abs_path>"
     exit 1
 fi
 
@@ -17,7 +17,7 @@ fi
 analysis_id=$1
 dataset_json_dir=$2
 output_dir=$3
-MAX_JOBS=5
+declare -i MAX_JOBS=5
 
 # Check if the dataset json directory exists
 if [[ ! -d "$dataset_json_dir" ]]; then
@@ -29,8 +29,8 @@ fi
 
 # Check if the output directory exists and create it if it doesn't
 if [[ ! -d "$output_dir" ]]; then
-    mkdir "$output_dir"
-    echo "Output directory did not exist so it has been created. Proceeding..."
+    mkdir -p "$output_dir"
+    echo "Output dataset directory did not exist so it has been created. Proceeding..."
 else
     echo "Output directory exists. Proceeding..."
 fi
@@ -62,11 +62,13 @@ for json in "${json_files[@]}"; do
     # Create a new directory to store the output of the pipeline
     mkdir -p "${output_dir}/${analysis_id}_${sample_id}"
     local_output_dir="${output_dir}/${analysis_id}_${sample_id}"
+    # Create a new directory to store the cromwell logs; it will do nothing if the directory already exists
+    mkdir -p "/home/suffi.azizan/cromwell-workflow-logs/${analysis_id}"
     # Run the pipeline
-    caper hpc submit /home/suffi.azizan/installs/atac-seq-pipeline/atac.wdl -i "${json}" -s "${analysis_id}" --conda --pbs-queue q32 --pbs-extra-param "-o /home/suffi.azizan/cromwell-workflow-logs" --leader-job-name "${analysis_id}_${sample_id}" --local-out-dir "${local_output_dir}" --cromwell-stdout "/home/suffi.azizan/tmp/cromwell_out/cromwell.${analysis_id}_${sample_id}.out"
+    caper hpc submit /home/suffi.azizan/installs/atac-seq-pipeline/atac.wdl -i "${json}" -s "${analysis_id}" --conda --pbs-queue q32 --leader-job-name "${analysis_id}_${sample_id}" --local-out-dir "${local_output_dir}" --cromwell-stdout "/home/suffi.azizan/logs/cromwell_out/cromwell.${analysis_id}_${sample_id}.out"
     # Increment the counter
     counter=$((counter+1))
-    if [[ $((counter % "$MAX_JOBS")) -eq 0 && $counter -ne 0 ]]; then
+    if [[ $((counter % MAX_JOBS)) -eq 0 && $counter -ne 0 ]]; then
         echo "${MAX_JOBS} jobs submitted. Pausing for 2 hours..."
         sleep 2h
         echo "Resuming job submission..."

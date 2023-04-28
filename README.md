@@ -33,7 +33,7 @@
 4. Once the sample directories have been established, the sample `fastq.gz` files can be processed with `modify_encd-atac-json_paired.py` to generate the JSON files required for the ATAC-seq pipeline to run.
 
     ```bash
-    ./modify_encd-atac-json_paired.py [-h] -d <working_directory> -j <json_file_template> -s <sample_sheet_csv> -o <output_path>
+    ./modify_encd-atac-json_paired.py [-h] -d <dataset_directory> -j <json_file_template> -s <sample_sheet_csv> -o <output_path>
     ```
 
 5. Once the requisite `json` files have been generated, the pipeline can be run with `submit_atac_pipeline_caper.sh`. This script will submit a `caper hpc` job for each of the sample JSON file in the dataset directory supplied to the script.
