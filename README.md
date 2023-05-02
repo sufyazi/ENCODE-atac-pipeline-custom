@@ -60,4 +60,8 @@
     ./atac_croo_postprocessing.sh 50RWL61 /home/suffi.azizan/scratchspace/outputs/encd-atac-pipe-raw-out/50RWL61 /home/suffi.azizan/scratchspace/outputs/atac_croo_out
     ```
 
-    Note that the script will organize the pipeline raw output files into specific folders and collate them into a single folder for each sample. The script will then `rsync` the resulting folder to a remote storage location on Odin. This is to prevent the HPC scratch space from being overloaded with too many files. The original croo output files will be retained in the scratch space so ensure that this space is cleaned up periodically.
+    Note that the script will organize the pipeline raw output files into specific folders and collate them into a single folder for each sample.
+
+    The script will then `rsync` the resulting folder to a remote storage location on Odin. This is to prevent the HPC scratch space from being overloaded with too many files. The script, when exiting successfully, will then rename the `croo` output folder with the tag `'-can-remove'` appended to the end of the folder name. This is to indicate that the folder can be removed from the HPC scratch space manually to free up space.
+
+    The script also appends the same tag to the folder name of the raw pipeline output folder. This is a massive raw output folder whose important files `rsync` should already make a copy of to Odin, so the folder can be removed from the HPC scratch space manually as well to reduce disk usage.

@@ -46,8 +46,29 @@ for dir in "${dir_path[@]}"; do
     # check croo status
     if [[ "$status" == "croo succeeded" ]]; then
         echo "Croo completed successfully. Proceeding to rsync..."
-        rsync -avPhz --copy-links -e"ssh -i ~/.ssh/odin_id_rsa" "$output_dir/$analysis_id/$names" "msazizan@10.97.133.177:/home/msazizan/cargospace/encd-atac-pl/expo/atac_croo_out/$analysis_id"
+        if rsync -avPhz --copy-links -e"ssh -i ~/.ssh/odin_id_rsa" "$output_dir/$analysis_id/$names" "msazizan@10.97.133.177:/home/msazizan/cargospace/encd-atac-pl/expo/atac_croo_out/$analysis_id"; then
+            echo "Rsync completed successfully."
+        else
+            echo "Rsync encountered an error."
+            exit 1
+        fi
     else
         echo "Croo failed!!"
+        exit 1
     fi
 done
+
+# tag hpc croo dir as can-remove if ryync is successful
+mv "$output_dir/$analysis_id" "$output_dir/${analysis_id}-can-remove"
+
+        
+# transfer the atac pipeline raw output to the cargospace
+echo "Now transferring the raw output of the atac pipeline to the cargospace..."
+if rsync -avPhz --copy-links -e"ssh -i ~/.ssh/odin_id_rsa" "/home/suffi.azizan/scratchspace/outputs/encd-atac-pipe-raw-out/$analysis_id" "msazizan@10.97.133.177:/home/msazizan/cargospace/encd-atac-pl/prod/encd-atac-pipe-raw-out"; then
+    echo "Raw output transfer completed successfully."
+    # tag dir as can-remove
+    mv "/home/suffi.azizan/scratchspace/outputs/encd-atac-pipe-raw-out/$analysis_id" "/home/suffi.azizan/scratchspace/outputs/encd-atac-pipe-raw-out/${analysis_id}-can-remove"
+else
+    echo "Raw output transfer encountered an error."
+    exit 1
+fi

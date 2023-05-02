@@ -1,0 +1,16 @@
+{
+    "atac.title": "DE7909W_2710",
+    "atac.description": "DE7909W_2710 blueprint atac-seq",
+    "atac.pipeline_type": "atac",
+    "atac.align_only": "false",
+    "atac.true_rep_only": "false",
+    "atac.genome_tsv": "https://storage.googleapis.com/encode-pipeline-genome-data/genome_tsv/v4/hg38.tsv",
+    "atac.paired_end": true,
+    "atac.auto_detect_adapter": true,
+    "atac.fastqs_rep1_R1": [
+        "/home/suffi.azizan/scratchspace/inputs/fastq/blueprint-atac/EGAD00001002710/sample_3/rep_0/HFCCCBGXX_lane1_8429_GCTACGCT_L001_R1.fastq.gz"
+    ],
+    "atac.fastqs_rep1_R2": [
+        "/home/suffi.azizan/scratchspace/inputs/fastq/blueprint-atac/EGAD00001002710/sample_3/rep_0/HFCCCBGXX_lane1_8429_GCTACGCT_L001_R2.fastq.gz"
+    ]
+}
