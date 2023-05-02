@@ -11,7 +11,7 @@ module load graphviz/5.0.1
 
 # Check if the correct number of arguments were provided
 if [[ $# -ne 3 ]]; then
-    echo "Usage: atac_croo_postprocessing.sh <analysis_id> <caper_output_directory_path> <croo_output_dir_path>"
+    echo "Usage: atac_croo_postprocessing.sh <analysis_id> <caper_output_directory_path> <croo_output_root_dir_path>"
     exit 1
 fi
 
@@ -59,7 +59,8 @@ for dir in "${dir_path[@]}"; do
 done
 
 # tag hpc croo dir as can-remove if ryync is successful
-mv "$output_dir/$analysis_id" "$output_dir/${analysis_id}-can-remove"
+echo "Renaming $output_dir/$analysis_id"
+mv "$output_dir/$analysis_id" "$output_dir/$analysis_id-can-remove"
 
         
 # transfer the atac pipeline raw output to the cargospace
