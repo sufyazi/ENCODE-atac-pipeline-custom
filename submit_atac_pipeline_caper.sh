@@ -62,8 +62,6 @@ for json in "${json_files[@]}"; do
     # Create a new directory to store the output of the pipeline
     mkdir -p "${output_dir}/${analysis_id}_${sample_id}"
     local_output_dir="${output_dir}/${analysis_id}_${sample_id}"
-    # Create a new directory to store the cromwell logs; it will do nothing if the directory already exists
-    mkdir -p "/home/suffi.azizan/cromwell-workflow-logs/${analysis_id}"
     # Run the pipeline
     caper hpc submit /home/suffi.azizan/installs/atac-seq-pipeline/atac.wdl -i "${json}" -s "${analysis_id}" --conda --pbs-queue q32 --leader-job-name "${analysis_id}_${sample_id}" --local-out-dir "${local_output_dir}" --cromwell-stdout "/home/suffi.azizan/logs/cromwell_out/cromwell.${analysis_id}_${sample_id}.out"
     # Increment the counter
