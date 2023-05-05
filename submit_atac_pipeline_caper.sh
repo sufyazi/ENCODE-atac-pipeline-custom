@@ -67,8 +67,9 @@ for json in "${json_files[@]}"; do
     # Increment the counter
     counter=$((counter+1))
     if [[ $((counter % MAX_JOBS)) -eq 0 && $counter -ne 0 ]]; then
-        echo "${MAX_JOBS} jobs submitted. Pausing for 2 hours..."
-        sleep 2h
+        echo "${MAX_JOBS} jobs submitted. Pausing for 5 hours..."
+        sleep 5h
+        
         echo "Resuming job submission..."
     fi
 done

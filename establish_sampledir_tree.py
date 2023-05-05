@@ -44,57 +44,62 @@ dataset_id = df['dataset_ID'].tolist()
     
 for i in dataset_id:
     dataset_dir = os.path.join(sample_rootdir, i)
-    # Extract relevant columns from sample sheets using wrangle_sample_names function
-    df = wrangle_sample_names(i, csv_sampsheet_dir)  
-    if df is not None:
-        # Create directory in sample_rootdir for each unique sample
-        unique_samp = df['SAMPLE'].unique().tolist()
-        for samp in unique_samp:
-            if not os.path.exists(f"{dataset_dir}/sample_{samp}"):
-                os.mkdir(f"{dataset_dir}/sample_{samp}")
-                sys.stdout.write(f'Created directory for sample {samp} of dataset {i}...\n')
-            else:
-                # check if the directory is empty
-                if len(os.listdir(f"{dataset_dir}/sample_{samp}")) != 0:
-                    sys.stdout.write(f'Directory for sample {samp} in dataset folder {i} already exists and is not empty. Skipping directory creation...\n')
-                    continue
+    # First check if the dataset directory exists; the absence of such directory but presence of the dataset ID in the analysis_id_list.txt file indicates that the dataset has been deleted from the database so we need to skip this dataset
+    if not os.path.exists(dataset_dir):
+        sys.stdout.write(f'Dataset directory {dataset_dir} does not exist. Skipping dataset {i}...\n')
+        continue
+    else:
+        # Extract relevant columns from sample sheets using wrangle_sample_names function
+        df = wrangle_sample_names(i, csv_sampsheet_dir)  
+        if df is not None:
+            # Create directory in sample_rootdir for each unique sample
+            unique_samp = df['SAMPLE'].unique().tolist()
+            for samp in unique_samp:
+                if not os.path.exists(f"{dataset_dir}/sample_{samp}"):
+                    os.mkdir(f"{dataset_dir}/sample_{samp}")
+                    sys.stdout.write(f'Created directory for sample {samp} of dataset {i}...\n')
                 else:
-                    sys.stdout.write(f'Directory for sample {samp} in dataset folder {i} already exists and is empty. Skipping directory creation...\n')
+                    # check if the directory is empty
+                    if len(os.listdir(f"{dataset_dir}/sample_{samp}")) != 0:
+                        sys.stdout.write(f'Directory for sample {samp} in dataset folder {i} already exists and is not empty. Skipping directory creation...\n')
+                        continue
+                    else:
+                        sys.stdout.write(f'Directory for sample {samp} in dataset folder {i} already exists and is empty. Skipping directory creation...\n')
                 
     
-        # Move fasta files to sample directories
-        for row in df.iterrows():
-            file = row[1]['FILE']
-            sample = row[1]['SAMPLE']
-            rep = row[1]['REP']
-            #get the path of the fasta files to move
-            file_path = find_file(dataset_dir, file)
-            print(file_path)
-            if file_path is None:
-                sys.stdout.write(f'Error: Could not find file {file} in {dataset_dir}')
-                continue
-            #create a directory for each replicate
-            try:
-                os.mkdir(f"{dataset_dir}/sample_{sample}/rep_{rep}")
-                sys.stdout.write(f'Created directory for replicate {rep} of sample {sample}...\n')
-            except FileExistsError:
-                sys.stdout.write(f'Directory for replicate {rep} of sample {sample} already exists. Skipping directory creation...\n')
-                # check if file already exists in the directory
-                if os.path.exists(f"{dataset_dir}/sample_{sample}/rep_{rep}/{file}"):
-                    sys.stdout.write(f'File {file} already exists in replicate {rep} directory of sample {sample}. Skipping file move...\n')
+            # Move fasta files to sample directories
+            for row in df.iterrows():
+                file = row[1]['FILE']
+                sample = row[1]['SAMPLE']
+                rep = row[1]['REP']
+                #get the path of the fasta files to move
+                file_path = find_file(dataset_dir, file)
+                print(file_path)
+                if file_path is None:
+                    sys.stdout.write(f'Error: Could not find file {file} in {dataset_dir}')
                     continue
+                #create a directory for each replicate
+                try:
+                    os.mkdir(f"{dataset_dir}/sample_{sample}/rep_{rep}")
+                    sys.stdout.write(f'Created directory for replicate {rep} of sample {sample}...\n')
+                except FileExistsError:
+                    sys.stdout.write(f'Directory for replicate {rep} of sample {sample} already exists. Skipping directory creation...\n')
+                    # check if file already exists in the directory
+                    if os.path.exists(f"{dataset_dir}/sample_{sample}/rep_{rep}/{file}"):
+                        sys.stdout.write(f'File {file} already exists in replicate {rep} directory of sample {sample}. Skipping file move...\n')
+                        continue
+                    else:
+                        # move the file to the replicate directory
+                        shutil.move(file_path, f"{dataset_dir}/sample_{sample}/rep_{rep}")
+                        sys.stdout.write(f'Moved file {file} to rep_{rep} subdir of sample_{sample} directory...\n')
                 else:
                     # move the file to the replicate directory
                     shutil.move(file_path, f"{dataset_dir}/sample_{sample}/rep_{rep}")
                     sys.stdout.write(f'Moved file {file} to rep_{rep} subdir of sample_{sample} directory...\n')
-            else:
-                # move the file to the replicate directory
-                shutil.move(file_path, f"{dataset_dir}/sample_{sample}/rep_{rep}")
-                sys.stdout.write(f'Moved file {file} to rep_{rep} subdir of sample_{sample} directory...\n')
            
-    else:
-        sys.stdout.write(f'No sample sheet found for dataset {i}...\n')
-        continue
+        else:
+            sys.stdout.write(f'No sample sheet found for dataset {i}...\n')
+            continue
     
 ######### Clean up the dataset directory #########[Deprecated as it is not necessary to clean up the dataset directory now as the cp_blueprint_files_to_gekko.sh script has already rendered this moot]
     # import re
