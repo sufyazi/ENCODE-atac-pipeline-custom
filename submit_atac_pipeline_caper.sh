@@ -1,15 +1,16 @@
 #!/usr/bin/env bash
-
+# shellcheck disable=SC1091
 # Set up environment
 eval "$(conda shell.bash hook)"
 conda activate encd-atac
 module load jdk/11.0.12
+module load graphviz/5.0.1
 set -eo noclobber
 set -eo pipefail
 
 # Check if the correct number of arguments were provided
-if [[ $# -ne 3 ]]; then
-    echo "Usage: submit_atac_pipeline_caper.sh <analysis_id> <dataset_json_directory_abs_path> <output_dataset_directory_abs_path>"
+if [[ $# -ne 4 ]]; then
+    echo "Usage: submit_atac_pipeline_caper.sh <analysis_id> <dataset_json_directory_abs_path> <output_dataset_directory_abs_path> <croo_output_root_dir_path>"
     exit 1
 fi
 
@@ -17,7 +18,8 @@ fi
 analysis_id=$1
 dataset_json_dir=$2
 output_dir=$3
-declare -i MAX_JOBS=5
+croo_output_root_dir=$4
+declare -i MAX_JOBS=10
 
 # Check if the dataset json directory exists
 if [[ ! -d "$dataset_json_dir" ]]; then
@@ -43,16 +45,6 @@ while IFS= read -r -d '' json; do
   json_files+=("$json")
 done < <(find "$dataset_json_dir" -mindepth 1 -maxdepth 1 -type f -name "*.json" -print0)
 
-# # Prompt the user to confirm the number of json files found
-# echo "json files found:${#json_files[@]}. Proceed? (y/n)"
-# read -r answer
-# if [[ $answer == "y" ]]; then
-#   echo "Proceeding..."
-# else
-#   echo "Aborting..."
-#   exit 1
-# fi
-
 # Initialize a counter
 counter=0
 # Loop through the json file array with a counter
@@ -69,13 +61,30 @@ for json in "${json_files[@]}"; do
     if [[ $((counter % MAX_JOBS)) -eq 0 && $counter -ne 0 ]]; then
         echo "${MAX_JOBS} jobs submitted. Pausing for 5 hours..."
         sleep 5h
-        
-        echo "Resuming job submission..."
+        while true; do
+            if find /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts -name "*{$analysis_id}_sample${counter}.e*" -print0 | xargs -0 grep -q "Cromwell finished successfully."; then 
+                echo "Current jobs finished; starting croo post-processing..."
+                # Run croo
+                . /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/croo_processing_module.sh "${analysis_id}" "${output_dir}" "${croo_output_root_dir}"
+                # continue the loop
+                echo "Resuming job submission..."
+                break
+            else
+                echo "Jobs still running. Pausing for 30 min..."
+                sleep 30m
+            fi
+        done
+    else
+        echo "Submitting next job..."
     fi
 done
 
 # Print a message to the user
-echo "${counter} jobs submitted to the cluster. Check the status of the jobs using the command 'caper hpc list'."
+echo "${counter} jobs has been successfully processed with the pipeline and post-processed with croo."
+# if transfer is successful, delete the croo output directory
+echo "Deleting empty directories..."
+find "$croo_output_root_dir" -type d -empty -delete
+echo "Workflow is done."
 
 
 
