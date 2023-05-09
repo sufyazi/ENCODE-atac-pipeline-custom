@@ -2,7 +2,7 @@
 # shellcheck disable=SC1091
 
 
-declare -i MAX_JOBS=10
+declare -i MAX_JOBS=$1
 
 
 # Create an empty array to store the json file names just in the target directory

@@ -33,6 +33,8 @@ for dir in "${dir_path[@]}"; do
         echo "Croo completed successfully. Proceeding to rsync..."
         if rsync -avPhz --remove-source-files -e"ssh -i ~/.ssh/odin_id_rsa" "$croo_output_root_dir/$analysis_id/$names" "msazizan@10.97.133.177:/home/msazizan/cargospace/encd-atac-pl/expo/atac_croo_out/$analysis_id"; then
             echo "Rsync completed successfully."
+            echo "Deleting empty directories..."
+            find "$croo_output_root_dir" -type d -empty -delete
         else
             echo "Rsync encountered an error."
             exit 1
