@@ -145,7 +145,7 @@ for sheet_name in dataset_ids:
                             break
                         output_df.at[i, 'REP'] = str(rep)
     else:
-        print(f"Error: {sheet_name} contains a mixture of paired-end and single-end reads")
+        print(f"Error: {sheet_name} contains a mixture of paired-end and single-end reads. Please consider splitting the sheet into two separate sheets based on library layout.")
         sys.exit(1)
 
     # Construct the output file name and path
@@ -154,3 +154,6 @@ for sheet_name in dataset_ids:
     # Replace all spaces with underscores, then write the merged DataFrame to a new CSV file
     output_df = output_df.applymap(replace_spaces)
     output_df.to_csv(output_file, index=False)
+    
+    # Print the output file name to the terminal
+    print(f"Extraction completed. The file {random_string}_{sheet_name}.csv has been saved in {output_dir}.")

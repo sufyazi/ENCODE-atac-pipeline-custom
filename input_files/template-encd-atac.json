@@ -2,7 +2,7 @@
     "atac.title" : "",
     "atac.description" : "",
 
-    "atac.pipeline_type" : "atac",
+    "atac.pipeline_type" : "",
     "atac.align_only" : false,
     "atac.true_rep_only" : false,
 
@@ -10,5 +10,7 @@
 
     "atac.paired_end" : true,
 
-    "atac.auto_detect_adapter" : true
+    "atac.auto_detect_adapter" : true,
+
+    "atac.align_cpu" : 12
 }
