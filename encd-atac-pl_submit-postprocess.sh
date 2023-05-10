@@ -62,26 +62,30 @@ for json in "${json_files[@]}"; do
     mkdir -p "${pl_raw_output_root_dir}/${analysis_id}/${analysis_id}_${sample_id}"
     local_output_dir="${pl_raw_output_root_dir}/${analysis_id}/${analysis_id}_${sample_id}"
     # Run the pipeline
+    #echo "run caper to ${local_output_dir}"
     caper hpc submit /home/suffi.azizan/installs/atac-seq-pipeline/atac.wdl -i "${json}" -s "${analysis_id}" --conda --pbs-queue q32 --leader-job-name "${analysis_id}_${sample_id}" --local-out-dir "${local_output_dir}" --cromwell-stdout "/home/suffi.azizan/logs/cromwell_out/cromwell.${analysis_id}_${sample_id}.out"
     # Increment the counter
     counter=$((counter+1))
     echo "Submitted job number ${counter}: ${json}"
     # This conditional block ensures that only the maximum number of jobs are submitted at a time; the script will pause until the jobs are finished before submitting the next batch of jobs
     if [[ $((counter % MAX_JOBS)) -eq 0 && $counter -ne 0 ]]; then
-        echo "${MAX_JOBS} jobs submitted. Pausing for 4 hours..."
-        sleep 4h
-        echo "4 hours have elapsed. Checking if jobs are finished..."
+        echo "${MAX_JOBS} jobs submitted. Pausing for 3 hours..."
+        sleep 3h
+        echo "3 hours have elapsed. Checking if jobs are finished..."
         while true; do
-            if find /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts -name "*{$analysis_id}_sample${counter}.e*" -print0 | xargs -0 grep -q "Cromwell finished successfully."; then
+            if find /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts -type f -name "CAPER_${analysis_id}_sample${remainder}.e*" -print0 | xargs -0 grep "Cromwell finished successfully."; then
                 echo "Job number ${counter} has finished."
                 echo "Running croo post-processing script..."
+                set +e # Disable the exit on error option so that the script can continue if the croo post-processing script fails
                 # Run the croo post-processing script
                 if . /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/croo_processing_module.sh "${analysis_id}" "${pl_raw_output_root_dir}/${analysis_id}" "${croo_output_root_dir}"; then
                     echo "Croo post-processing script completed successfully."
+                    echo "Processed files have been transferred to remote storage Odin."
                     # Remove the sample directory in the dataset-specific directory to save space
                     echo "Removing sample subdirectories in ${analysis_id} from the pipeline raw output directory..."
                     find "${pl_raw_output_root_dir}/${analysis_id}" -depth -type d -name "*_sample*" -exec rm -rf {} \;
-                    echo "All sample subdirectories have been removed."
+                    mv "${pl_raw_output_root_dir}/${analysis_id}" "${pl_raw_output_root_dir}/${analysis_id}-transferred"
+                    echo "All sample subdirectories have been copied to Odin and removed from Gekko."
                     echo "Submitting the next batch of jobs..."
                 else
                     echo "Croo post-processing script failed on sample ${counter}. Continuing the pipeline submission..."
@@ -100,20 +104,22 @@ done
 echo "All jobs submitted. Current count: ${counter}"
 if [[ $((counter % MAX_JOBS)) -ne 0 ]]; then
     remainder=$((counter % MAX_JOBS))
-    echo "${remainder} jobs to post-process. Pausing for 4 hours..."
-    sleep 4h
+    echo "${remainder} jobs to post-process. Pausing for 3 hours..."
+    sleep 3h
     while true; do
-        if find /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts -name "*{$analysis_id}_sample${counter}.e*" -print0 | xargs -0 grep -q "Cromwell finished successfully."; then
+        if find /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts -type f -name "CAPER_${analysis_id}_sample${remainder}.e*" -print0 | xargs -0 grep "Cromwell finished successfully."; then
                 echo "The last job of sample no. ${counter} has finished."
                 echo "Running croo post-processing script..."
+                set +e # Disable the exit on error option so that the script can continue if the croo post-processing script fails
                 # Run the croo post-processing script
                 if . /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/croo_processing_module.sh "${analysis_id}" "${pl_raw_output_root_dir}/${analysis_id}" "${croo_output_root_dir}"; then
                     echo "Croo post-processing script completed successfully."
-                    echo "Output files have been post-processed and transferred to remote storage."
+                    echo "Processed files have been transferred to remote storage Odin."
                     # Remove the sample directory in the dataset-specific directory to save space
                     echo "Removing sample subdirectories in ${analysis_id} from the pipeline raw output directory..."
                     find "${pl_raw_output_root_dir}/${analysis_id}" -depth -type d -name "*_sample*" -exec rm -rf {} \;
-                    echo "All sample subdirectories have been removed."
+                    mv "${pl_raw_output_root_dir}/${analysis_id}" "${pl_raw_output_root_dir}/${analysis_id}-transferred"
+                    echo "All sample subdirectories have been copied to Odin and removed from Gekko."
                 else
                     echo "Croo post-processing script failed on sample ${counter}."
                     break
@@ -127,5 +133,9 @@ if [[ $((counter % MAX_JOBS)) -ne 0 ]]; then
 fi
 
 # Print a message to the user
-echo "${counter} jobs has been successfully processed with the pipeline and post-processed with croo."
+if [[ $counter -eq 1 ]]; then
+    echo "1 job has been successfully processed with the pipeline and post-processed with croo."
+else
+    echo "${counter} jobs have been successfully processed with the pipeline and post-processed with croo."
+fi
 echo "Workflow is done."
