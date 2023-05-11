@@ -51,25 +51,29 @@ excel_file = pd.ExcelFile(excel_filepath, engine='openpyxl')
 if not path.exists(analysis_id_master):
     with open(analysis_id_master, 'w') as f:
         f.write("analysis_ID\tdataset_ID\n")
+
+# Load the analysis_id_list.txt file into a DataFrame
+analysis_id_df = pd.read_csv(analysis_id_master, sep='\t', header=0)
         
 # Create an empty DataFrame to store the extracted columns
-output_df = pd.DataFrame()
+placeholder_df = pd.DataFrame()
 
 # Loop through specified sheets in the Excel file
 for sheet_name in dataset_ids:
     # Initialize an empty DataFrame to store the extracted columns
     df = pd.DataFrame()
     # Check if the sheet/dataset ID exists in the analysis_id_list.txt file
-    if sheet_name in pd.read_csv(analysis_id_master, sep='\t', header=0)['dataset_ID'].values:
+    if sheet_name in analysis_id_df['dataset_ID'].values:
         # Grab all columns except the "Source URL" column in the Excel file sheet, and uppercase the column names
         df = pd.read_excel(excel_file, sheet_name=sheet_name).rename(columns=str.upper)
         df = df.drop("SOURCE URL", axis=1)
-        print(df)
-    #     # Add a column containing the dataset ID for all rows, and place it as the first column
-    #     df.insert(0, 'DATASET_ID', sheet_name)
+    
+        # Add a column containing the dataset ID for all rows, and place it as the first column
+        df.insert(0, 'DATASET_ID', sheet_name)
         
-    #     # Collapse the DONOR_ID column values into unique categories and assign them to a new column called SAMPLE
-    #     df['SAMPLE'] = pd.factorize(df['DONOR_ID'])[0] + 1
+        # Collapse the DONOR_ID column values into unique categories and assign them to a new column called SAMPLE
+        df['SAMPLE'] = pd.factorize(df['DONOR_ID'])[0] + 1
+        print(df)
         
     #     # Now we have to construct replicate numbers for each sample and read combination
     #     # First check if the column LIBRARY_LAYOUT exists or not in the DataFrame
@@ -137,14 +141,24 @@ for sheet_name in dataset_ids:
     #             print(f"Error: {sheet_name} contains a mixture of paired-end and single-end reads. Please consider splitting the sheet into two separate sheets based on library layout.")
     #             continue
         
-        # Check first if the output_df DataFrame is empty
-        if output_df.empty:
+        # Check first if the placeholder_df DataFrame is empty
+        if placeholder_df.empty:
             # If it is empty, assign the df DataFrame to it
-            output_df = df
+            placeholder_df = df
         else:
-            # If it is not empty, append the df DataFrame to it according to the existing columns, if there is a mismatch, fill the missing columns with 'None'
-            output_df = pd.concat([output_df, df], axis=1, ignore_index=False)
-            output_df.fillna('None', inplace=True)
+            # If it is not empty, append the df DataFrame to it according to the existing columns, if there are exclusive columns, combine them into the output df using symmetric_difference then fill the missing columns with 'None'
+            # Create a list of common columns
+            common_columns = list(set(placeholder_df.columns).intersection(df.columns))
+            # Concatenate the DataFrames
+            output_df = pd.concat([placeholder_df[common_columns], df[common_columns]], axis=0, ignore_index=True)
+            # Add missing columns and fill with 'None'
+            missing_columns = list(set(placeholder_df.columns).symmetric_difference(df.columns))
+            for column in missing_columns:
+                if column in df.columns:
+                    output_df[column] = df[column]
+                else:
+                    output_df[column] = placeholder_df[column]
+                    output_df[column].fillna('None', inplace=True)
         continue
     
     # else:
