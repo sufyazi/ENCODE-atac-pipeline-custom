@@ -63,15 +63,15 @@ for json in "${json_files[@]}"; do
     local_output_dir="${pl_raw_output_root_dir}/${analysis_id}/${analysis_id}_${sample_id}"
     # Run the pipeline
     #echo "run caper to ${local_output_dir}"
-    caper hpc submit /home/suffi.azizan/installs/atac-seq-pipeline/atac.wdl -i "${json}" -s "${analysis_id}" --conda --pbs-queue q32 --leader-job-name "${analysis_id}_${sample_id}" --local-out-dir "${local_output_dir}" --cromwell-stdout "/home/suffi.azizan/logs/cromwell_out/cromwell.${analysis_id}_${sample_id}.out"
+    caper hpc submit /home/suffi.azizan/installs/atac-seq-pipeline/atac.wdl -i "${json}" -s "${analysis_id}" --conda --pbs-queue q128 --leader-job-name "${analysis_id}_${sample_id}" --local-out-dir "${local_output_dir}" --cromwell-stdout "/home/suffi.azizan/logs/cromwell_out/cromwell.${analysis_id}_${sample_id}.out"
     # Increment the counter
     counter=$((counter+1))
     echo "Submitted job number ${counter}: ${json}"
     # This conditional block ensures that only the maximum number of jobs are submitted at a time; the script will pause until the jobs are finished before submitting the next batch of jobs
     if [[ $((counter % MAX_JOBS)) -eq 0 && $counter -ne 0 ]]; then
-        echo "${MAX_JOBS} jobs submitted. Pausing for 3 hours..."
-        sleep 3h
-        echo "3 hours have elapsed. Checking if jobs are finished..."
+        echo "${MAX_JOBS} jobs submitted. Pausing for 4 hours..."
+        sleep 4h
+        echo "4 hours have elapsed. Checking if jobs are finished..."
         while true; do
             if find /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts -type f -name "CAPER_${analysis_id}_sample${remainder}.e*" -print0 | xargs -0 grep "Cromwell finished successfully."; then
                 echo "Job number ${counter} has finished."
@@ -104,8 +104,8 @@ done
 echo "All jobs submitted. Current count: ${counter}"
 if [[ $((counter % MAX_JOBS)) -ne 0 ]]; then
     remainder=$((counter % MAX_JOBS))
-    echo "${remainder} jobs to post-process. Pausing for 3 hours..."
-    sleep 3h
+    echo "${remainder} jobs to post-process. Pausing for 4 hours..."
+    sleep 4h
     while true; do
         if find /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts -type f -name "CAPER_${analysis_id}_sample${remainder}.e*" -print0 | xargs -0 grep "Cromwell finished successfully."; then
                 echo "The last job of sample no. ${counter} has finished."
