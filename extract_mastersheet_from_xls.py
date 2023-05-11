@@ -4,9 +4,9 @@
 
 import sys
 from os import path
-import numpy as np
 import pandas as pd
 import analysis_id_gen
+import samplesheet_wrangler
 
 # Define a function to replace spaces with underscores
 def replace_spaces(cell):
@@ -15,18 +15,9 @@ def replace_spaces(cell):
     else:
         return str(cell).replace(' ', '_')
 
-# Define a function to count the number of unique sample and read combinations
-def count_reps(df):
-    # Initialize an empty dictionary
-    counts = {}
-    # Iterate through the rows of the output DataFrame to store unique counts of each sample and read combination
-    for _, row in df.iterrows():
-        sample, read = row['SAMPLE'], row['READ']
-        if (sample, read) not in counts:
-            counts[(sample, read)] = 1
-        else:
-            counts[(sample, read)] += 1
-    return counts
+
+
+#################################################
 
 # Get the command line arguments
 if len(sys.argv) != 5:
@@ -54,7 +45,21 @@ if not path.exists(analysis_id_master):
 
 # Load the analysis_id_list.txt file into a DataFrame
 analysis_id_df = pd.read_csv(analysis_id_master, sep='\t', header=0)
-        
+
+# Check if the input dataset IDs are in the analysis_id_list.txt file
+for sheet_name in dataset_ids:
+    if sheet_name not in analysis_id_df['dataset_ID'].values:
+        # generate a random string for the analysis ID then update the analysis_id_list.txt file
+        random_string = analysis_id_gen.generate_id(7, analysis_id_master)   
+        with open(analysis_id_master, 'a') as f:
+            f.write(f"{random_string}\t{sheet_name}\n")
+        # reload the modified analysis_id_list.txt file into a DataFrame
+        analysis_id_df = pd.read_csv(analysis_id_master, sep='\t', header=0)
+    else:
+        continue
+
+#################################################
+     
 # Create an empty DataFrame to store the extracted columns
 placeholder_df = pd.DataFrame()
 
@@ -62,202 +67,63 @@ placeholder_df = pd.DataFrame()
 for sheet_name in dataset_ids:
     # Initialize an empty DataFrame to store the extracted columns
     df = pd.DataFrame()
-    # Check if the sheet/dataset ID exists in the analysis_id_list.txt file
-    if sheet_name in analysis_id_df['dataset_ID'].values:
-        # Grab all columns except the "Source URL" column in the Excel file sheet, and uppercase the column names
-        df = pd.read_excel(excel_file, sheet_name=sheet_name).rename(columns=str.upper)
-        df = df.drop("SOURCE URL", axis=1)
-    
-        # Add a column containing the dataset ID for all rows, and place it as the first column
-        df.insert(0, 'DATASET_ID', sheet_name)
+
+    # Call the samplesheet_wrangler function to extract the columns from the Excel file sheet
+    # This would process the sheet and return a DataFrame containing a new dataframe with correctly formatted columns and consolidated replicate values
+    df = samplesheet_wrangler.main(df, excel_file, sheet_name, analysis_id_df)
         
-        # Collapse the DONOR_ID column values into unique categories and assign them to a new column called SAMPLE
-        df['SAMPLE'] = pd.factorize(df['DONOR_ID'])[0] + 1
-        print(df)
-        
-    #     # Now we have to construct replicate numbers for each sample and read combination
-    #     # First check if the column LIBRARY_LAYOUT exists or not in the DataFrame
-    #     if 'LIBRARY_LAYOUT' not in df.columns:
-    #         print(f"LIBRARY_LAYOUT column not found in {sheet_name} sheet. Skipping this sheet...")
-    #         continue
-    #     else:
-    #         # Check the LIBRARY_LAYOUT column for the presence of paired-end reads: 
-    #         # this checks if all the rows in the column contains ONLY the value 'PAIRED'
-    #         if np.array_equal(df['LIBRARY_LAYOUT'].unique(), ['PAIRED']):
-        
-    #             # Extract the read ID from the FILE column and assign it to a new column called READ
-    #             df['READ'] = df['FILE'].str.extract('(R[12])', expand=False).astype(str)
-        
-    #             #Run replicate counting function
-    #             counts = count_reps(df)
-        
-    #             # Use the counts dictionary to assign replicate numbers to each sample and read combination
-    #             # Set up a generator to keep track of the number of replicates
-    #             def count_up(n):
-    #                 for i in range(1, n+1):
-    #                     yield i
-    #             # Run the generator
-    #             for key, value in counts.items():
-    #                 sample, read = key
-    #                 counter = count_up(value)
-    #                 for i, row in df.iterrows():
-    #                     if row['SAMPLE'] == sample and row['READ'] == read:
-    #                         if value == 1:
-    #                             df.at[i, 'REP'] = str(0)
-    #                         else:
-    #                             try:
-    #                                 rep = next(counter)
-    #                             except StopIteration:
-    #                                 break
-    #                             df.at[i, 'REP'] = str(rep)
-    #         # Check the LIBRARY_LAYOUT column for the presence of single-end reads:
-    #         elif np.array_equal(df['LIBRARY_LAYOUT'].unique(), ['SINGLE']):
-    #             # Extract the read ID from the FILE column and assign it to a new column called READ
-    #             df['READ'] = df['FILE'].str.extract('(R1)', expand=False).astype(str)
-        
-    #             #Run replicate counting function
-    #             counts = count_reps(df)
-        
-    #             # Use the counts dictionary to assign replicate numbers to each sample and read combination
-    #             # Set up a generator to keep track of the number of replicates
-    #             def count_up(n):
-    #                 for i in range(1, n+1):
-    #                     yield i
-    #             # Run the generator
-    #             for key, value in counts.items():
-    #                 sample, read = key
-    #                 counter = count_up(value)
-    #                 for i, row in df.iterrows():
-    #                     if row['SAMPLE'] == sample and row['READ'] == read:
-    #                         if value == 1:
-    #                             df.at[i, 'REP'] = str(0)
-    #                         else:
-    #                             try:
-    #                                 rep = next(counter)
-    #                             except StopIteration:
-    #                                 break
-    #                             df.at[i, 'REP'] = str(rep)
-    #         else:
-    #             print(f"Error: {sheet_name} contains a mixture of paired-end and single-end reads. Please consider splitting the sheet into two separate sheets based on library layout.")
-    #             continue
-        
-        # Check first if the placeholder_df DataFrame is empty
-        if placeholder_df.empty:
-            # If it is empty, assign the df DataFrame to it
-            placeholder_df = df
-        else:
-            # If it is not empty, append the df DataFrame to it according to the existing columns, if there are exclusive columns, combine them into the output df using symmetric_difference then fill the missing columns with 'None'
-            # Create a list of common columns
-            common_columns = list(set(placeholder_df.columns).intersection(df.columns))
-            # Concatenate the DataFrames
-            output_df = pd.concat([placeholder_df[common_columns], df[common_columns]], axis=0, ignore_index=True)
-            # Add missing columns and fill with 'None'
-            missing_columns = list(set(placeholder_df.columns).symmetric_difference(df.columns))
-            for column in missing_columns:
-                if column in df.columns:
-                    output_df[column] = df[column]
-                else:
-                    output_df[column] = placeholder_df[column]
-                    output_df[column].fillna('None', inplace=True)
-        continue
-    
-    # else:
-    #     # generate a random string for the analysis ID then update the analysis_id_list.txt file
-    #     random_string = analysis_id_gen.generate_id(7, analysis_id_master)   
-    #     with open(analysis_id_master, 'a') as f:
-    #         f.write(f"{random_string}\t{sheet_name}\n")
-    
-    #     # Grab all columns except the "Source URL" column in the Excel file sheet, and uppercase the column names
-    #     df = pd.read_excel(excel_file, sheet_name=sheet_name, usecols=lambda x: x not in ["Source URL"]).rename(columns=str.upper)
-    #     # Replace spaces with underscores in the column names
-    #     df.columns = df.columns.map(replace_spaces)
-    #     # Add a column containing the dataset ID for all rows, and place it as the first column
-    #     df.insert(0, 'DATASET_ID', sheet_name)
-    #     # Collapse the DONOR_ID column values into unique categories and assign them to a new column called SAMPLE
-    #     df['SAMPLE'] = pd.factorize(df['DONOR_ID'])[0] + 1
-        
-    #     # Now we have to construct replicate numbers for each sample and read combination
-    #     # First check if the column LIBRARY_LAYOUT exists or not in the DataFrame
-    #     if 'LIBRARY_LAYOUT' not in df.columns:
-    #         print(f"LIBRARY_LAYOUT column not found in {sheet_name} sheet. Skipping this sheet...")
-    #         continue
-    #     else:
-    #         # Check the LIBRARY_LAYOUT column for the presence of paired-end reads: 
-    #         # this checks if all the rows in the column contains ONLY the value 'PAIRED'
-    #         if np.array_equal(df['LIBRARY_LAYOUT'].unique(), ['PAIRED']):
-        
-    #             # Extract the read ID from the FILE column and assign it to a new column called READ
-    #             df['READ'] = df['FILE'].str.extract('(R[12])', expand=False).astype(str)
-        
-    #             #Run replicate counting function
-    #             counts = count_reps(df)
-        
-    #             # Use the counts dictionary to assign replicate numbers to each sample and read combination
-    #             # Set up a generator to keep track of the number of replicates
-    #             def count_up(n):
-    #                 for i in range(1, n+1):
-    #                     yield i
-    #             # Run the generator
-    #             for key, value in counts.items():
-    #                 sample, read = key
-    #                 counter = count_up(value)
-    #                 for i, row in df.iterrows():
-    #                     if row['SAMPLE'] == sample and row['READ'] == read:
-    #                         if value == 1:
-    #                             df.at[i, 'REP'] = str(0)
-    #                         else:
-    #                             try:
-    #                                 rep = next(counter)
-    #                             except StopIteration:
-    #                                 break
-    #                             df.at[i, 'REP'] = str(rep)
-    #         # Check the LIBRARY_LAYOUT column for the presence of single-end reads:
-    #         elif np.array_equal(df['LIBRARY_LAYOUT'].unique(), ['SINGLE']):
-    #             # Extract the read ID from the FILE column and assign it to a new column called READ
-    #             df['READ'] = df['FILE'].str.extract('(R1)', expand=False).astype(str)
-        
-    #             #Run replicate counting function
-    #             counts = count_reps(df)
-        
-    #             # Use the counts dictionary to assign replicate numbers to each sample and read combination
-    #             # Set up a generator to keep track of the number of replicates
-    #             def count_up(n):
-    #                 for i in range(1, n+1):
-    #                     yield i
-    #             # Run the generator
-    #             for key, value in counts.items():
-    #                 sample, read = key
-    #                 counter = count_up(value)
-    #                 for i, row in df.iterrows():
-    #                     if row['SAMPLE'] == sample and row['READ'] == read:
-    #                         if value == 1:
-    #                             df.at[i, 'REP'] = str(0)
-    #                         else:
-    #                             try:
-    #                                 rep = next(counter)
-    #                             except StopIteration:
-    #                                 break
-    #                             df.at[i, 'REP'] = str(rep)
-    #         else:
-    #             print(f"Error: {sheet_name} contains a mixture of paired-end and single-end reads. Please consider splitting the sheet into two separate sheets based on library layout.")
-    #             continue
-            
-    #     # Check first if the output_df DataFrame is empty
-    #     if output_df.empty:
-    #     # If it is empty, assign the df DataFrame to it
-    #         output_df = df
-    #     else:
-    #         # If it is not empty, append the df DataFrame to it according to the existing columns, if there is a mismatch, fill the missing columns with 'None'
-    #         output_df = pd.concat([output_df, df], axis=1, ignore_index=False)
-    #         output_df.fillna('None', inplace=True)
-    #     continue
+    # Check first if the placeholder_df DataFrame is empty
+    if placeholder_df.empty:
+        # If it is empty, assign the df DataFrame to it
+        placeholder_df = df.copy()
+    else:
+        # If it is not empty, append the df DataFrame to it according to the existing columns, if there are exclusive columns, combine them into the output df using symmetric_difference then fill the missing columns with 'None'
+        # Create a list of common columns
+        common_columns = list(set(placeholder_df.columns).intersection(df.columns))
+        # Extract non-intersecting columns
+        no_intersect_columns = list(set(placeholder_df.columns).symmetric_difference(df.columns))
+        # Concatenate the DataFrames
+        output_df = pd.concat([placeholder_df[common_columns], df[common_columns]], axis=0, ignore_index=True)
+        # Add the non-intersecting columns to the output DataFrame
+        for column in no_intersect_columns:
+            if column in df.columns:
+                output_df[column] = df[column]
+            elif column in placeholder_df.columns:
+                output_df[column] = placeholder_df[column]
+        placeholder_df = output_df.copy()         
+    continue
+
+###############POST-PROCESSING#################
+# Remove some columns if they exist
+try:
+    output_df = output_df.drop("CULTURE_CONDITIONS", axis=1).drop("DONOR_ETHNICITY", axis=1).drop("SAMPLE_NAME", axis=1)
+except KeyError:
+    pass
+
+# Define the columns to be placed first in a desired order
+desired_first = ['DATASET_ID', 'ANALYSIS_ID', 'DISEASE', 'SAMPLE_ID', 'LIBRARY_STRATEGY', 'LIBRARY_LAYOUT', 'SAMPLE', 'REP', 'READ']
+
+# Define the column to be placed last
+desired_last = 'FILE'
+
+# Get the remaining columns to be sorted
+remaining_columns = sorted(set(output_df.columns) - set(desired_first) - {desired_last})
+
+# Concatenate the desired first columns, sorted remaining columns, and the desired last column
+new_columns = desired_first + remaining_columns + [desired_last]
+
+# Reorder the DataFrame based on the new column order
+output_df = output_df[new_columns]
+
+# Replace all whitespaces in the DataFrame with underscores then fill all NaN values with 'NA'
+output_df = output_df.applymap(replace_spaces).fillna('NA')
+print(output_df)
 
 # Construct the output file name and path
-output_file = f"{output_dir}/ACE_project_dataset_masterlist.csv"
+output_file = f"{output_dir}/ACE_project_dataset_masterlist.tsv"
     
-# Replace all spaces with underscores, then write the merged DataFrame to a new CSV file
-#output_df = output_df.applymap(replace_spaces)
-output_df.to_csv(output_file, index=False)
+# Write the merged DataFrame to a new TSV file
+output_df.to_csv(output_file, sep='\t', index=False)
     
 # Print the output file name to the terminal
-print(f"Extraction completed. The file ACE_project_dataset_masterlist.csv has been saved in {output_dir}.")
+print(f"Extraction completed. The file {output_file} has been generated.")
