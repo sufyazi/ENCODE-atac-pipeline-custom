@@ -52,7 +52,7 @@ while IFS= read -r -d '' json; do
 done < <(find "$dataset_json_dir" -mindepth 1 -maxdepth 1 -type f -name "*.json" -print0)
 
 # Initialize a counter for job submission queue later
-declare -i counter=10
+declare -i counter=0
 
 # Loop through the json file array with a counter
 for json in "${json_files[@]}"; do
