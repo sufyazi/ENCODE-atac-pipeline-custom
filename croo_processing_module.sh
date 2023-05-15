@@ -30,17 +30,17 @@ for dir in "${dir_path[@]}"; do
 
     # check croo status
     if [[ "$status" == "croo succeeded" ]]; then
-        echo "Croo completed successfully. Proceeding to rsync..."
+        echo "Croo completed successfully on sample $names. Proceeding to rsync..."
         if rsync -avPhz --copy-links -e"ssh -i ~/.ssh/odin_id_rsa" "$croo_output_root_dir/$analysis_id/$names" "msazizan@10.97.133.177:/home/msazizan/cargospace/encd-atac-pl/expo/atac_croo_out/$analysis_id"; then
-            echo "Rsync completed successfully."
+            echo "Rsync completed successfully for $names."
             mv "$croo_output_root_dir/$analysis_id/$names" "$croo_output_root_dir/$analysis_id/${names}-transferred"
         else
-            echo "Rsync encountered an error."
-            exit 1
+            echo "Rsync encountered an error on $names."
+            continue
         fi
     else
-        echo "Croo simply failed for some reason."
-        exit 1
+        echo "Croo simply failed on $names for some reason."
+        continue
     fi
 done
 

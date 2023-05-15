@@ -60,14 +60,14 @@ for json in "${json_files[@]}"; do
     sample_id=$(basename "$json" | cut -d'.' -f1 | cut -d'_' -f3)
     # Create a new sample directory in the dataset-specific directory to store the output of each pipeline run
     #mkdir -p "${pl_raw_output_root_dir}/${analysis_id}/${analysis_id}_${sample_id}"
-    local_output_dir="${pl_raw_output_root_dir}/${analysis_id}/${analysis_id}_${sample_id}"
+    #local_output_dir="${pl_raw_output_root_dir}/${analysis_id}/${analysis_id}_${sample_id}"
     # Run the pipeline
-    echo "ran caper to ${local_output_dir}"
+    echo "$sample_id"
     #caper hpc submit /home/suffi.azizan/installs/atac-seq-pipeline/atac.wdl -i "${json}" -s "${analysis_id}" --conda --pbs-queue q128 --leader-job-name "${analysis_id}_${sample_id}" --local-out-dir "${local_output_dir}" --cromwell-stdout "/home/suffi.azizan/logs/cromwell_out/cromwell.${analysis_id}_${sample_id}.out"
     # Increment the counter
     counter=$((counter+1))
     echo "Submitted job number ${counter}: ${json}"
-    if (( counter <= MAX_JOBS )); then
+    if (( counter >= 61 && counter <= 70 )); then
         if [[ $((counter % MAX_JOBS)) -eq 0 && $counter -ne 0 ]]; then
             set +e # Disable the exit on error option so that the script can continue if the croo post-processing script fails
             # Run the croo post-processing script
@@ -78,9 +78,8 @@ for json in "${json_files[@]}"; do
                 echo "Removing sample subdirectories in ${analysis_id} from the pipeline raw output directory..."
                 find "${pl_raw_output_root_dir}/${analysis_id}" -depth -type d -name "*_sample*" -exec rm -rf {} \;
                 echo "All sample subdirectories have been copied to Odin and removed from Gekko."
-                echo "Submitting the next batch of jobs..."
             else
-                echo "Croo post-processing script failed on sample ${counter}. Continuing the pipeline submission..."
+                echo "Croo post-processing script failed on sample ${counter}."
             fi
         fi
     fi

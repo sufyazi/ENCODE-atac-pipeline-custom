@@ -29,6 +29,9 @@ fi
 # Process the analysis_id_list.txt file
 SUBDIRLIST="$2" #ensure that the input is the analysis_id_list.txt file
 
+# Initialize a counter
+COUNTER=0
+
 # Loop through the subdirectories in the file
 while read -r SUBDIR
 do
@@ -38,7 +41,9 @@ do
   # Loop through the subdirectories found in the current subdirectory
   for SAMPLE in "${SUBSUBDIR[@]}"
   do
-    echo "$SAMPLE"
+    # Increment the counter
+    ((COUNTER++))
+    echo "$SAMPLE: sample no. $COUNTER"
     # Check if the subdirectory contains a .fastq.gz file
     if [[ $(find "$SAMPLE" -name '*.fastq.gz' -type f) ]]
     then

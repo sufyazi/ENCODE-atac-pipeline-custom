@@ -56,20 +56,21 @@ if not path.exists(analysis_id_list):
 for sheet_name in dataset_ids:
     
     # Check if the sheet/dataset ID exists in the analysis_id_list.txt file
-    if sheet_name in pd.read_csv(analysis_id_list, sep='\t', header=0)['dataset_ID'].values:
-        print(f"WARNING: {sheet_name} already exists in {analysis_id_list}: Skipping...")
-        continue
-    
-    # generate a random string for the analysis ID then update the analysis_id_list.txt file
-    random_string = analysis_id_gen.generate_id(7, analysis_id_list)   
-    with open(analysis_id_list, 'a') as f:
-        f.write(f"{random_string}\t{sheet_name}\n")
+    if sheet_name not in pd.read_csv(analysis_id_list, sep='\t', header=0)['dataset_ID'].values:
+        print(f"WARNING: {sheet_name} does not exist in {analysis_id_list}: generating a new analysis ID...")
+        # generate a random string for the analysis ID then update the analysis_id_list.txt file
+        random_string = analysis_id_gen.generate_id(7, analysis_id_list)
+        with open(analysis_id_list, 'a') as f:
+            f.write(f"{random_string}\t{sheet_name}\n")
     
     # Create an empty DataFrame to store the extracted columns
     output_df = pd.DataFrame()
     
     # Read in the sheet as a DataFrame
     df = pd.read_excel(excel_file, sheet_name=sheet_name)
+    
+    # Read in the analysis_id_list.txt file as a DataFrame
+    analysis_id_df = pd.read_csv(analysis_id_list, sep='\t', header=0)
     
     # Extract the specified columns that exist in the target sheet and preserve the order
     extracted_cols = []
@@ -149,11 +150,13 @@ for sheet_name in dataset_ids:
         sys.exit(1)
 
     # Construct the output file name and path
-    output_file = f"{output_dir}/{random_string}_{sheet_name}.csv"
+    # First, find the analysis ID for the current sheet in the analysis_id_df DataFrame
+    analysis_id = analysis_id_df.loc[analysis_id_df['dataset_ID'] == sheet_name, 'analysis_ID'].iloc[0]
+    output_file = f"{output_dir}/{analysis_id}_{sheet_name}.csv"
     
     # Replace all spaces with underscores, then write the merged DataFrame to a new CSV file
     output_df = output_df.applymap(replace_spaces)
     output_df.to_csv(output_file, index=False)
     
     # Print the output file name to the terminal
-    print(f"Extraction completed. The file {random_string}_{sheet_name}.csv has been saved in {output_dir}.")
+    print(f"Extraction completed. The file {analysis_id}_{sheet_name}.csv has been saved in {output_dir}.")

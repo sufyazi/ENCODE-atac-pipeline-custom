@@ -1,0 +1,14 @@
+{
+    "atac.title": "128T8B4_2355",
+    "atac.description": "128T8B4_2355 blueprint dnase-seq",
+    "atac.pipeline_type": "dnase",
+    "atac.align_only": false,
+    "atac.true_rep_only": false,
+    "atac.genome_tsv": "https://storage.googleapis.com/encode-pipeline-genome-data/genome_tsv/v4/hg38.tsv",
+    "atac.paired_end": false,
+    "atac.auto_detect_adapter": true,
+    "atac.align_cpu": 16,
+    "atac.fastqs_rep1_R1": [
+        "/home/suffi.azizan/scratchspace/inputs/fastq/blueprint-atac/EGAD00001002355/sample_36/rep_0/C7KUGACXX_lane5_8072_CCGTCC_L005_R1.fastq.gz"
+    ]
+}
