@@ -18,7 +18,7 @@ if [[ $# -ne 4 ]]; then
 fi
 
 # Set the number of jobs to submit at a time; this number should be unchanged for now so I will hardcode it
-declare -i MAX_JOBS=10
+declare -i MAX_JOBS=5
 
 # Assign the arguments to variables
 analysis_id=$1
@@ -52,7 +52,7 @@ while IFS= read -r -d '' json; do
 done < <(find "$dataset_json_dir" -mindepth 1 -maxdepth 1 -type f -name "*.json" -print0)
 
 # Initialize a counter for job submission queue later
-declare -i counter=0
+declare -i counter=90
 
 # Loop through the json file array with a counter
 for json in "${json_files[@]}"; do
@@ -69,9 +69,9 @@ for json in "${json_files[@]}"; do
     echo "Submitted job number ${counter}: ${json}"
     # This conditional block ensures that only the maximum number of jobs are submitted at a time; the script will pause until the jobs are finished before submitting the next batch of jobs
     if [[ $((counter % MAX_JOBS)) -eq 0 && $counter -ne 0 ]]; then
-        echo "${MAX_JOBS} jobs submitted. Pausing for 4 hours..."
-        sleep 4h
-        echo "4 hours have elapsed. Checking if jobs are finished..."
+        echo "${MAX_JOBS} jobs submitted. Pausing for 3 hours..."
+        sleep 3h
+        echo "3 hours have elapsed. Checking if jobs are finished..."
         while true; do
             finish_counts=$(find /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts -type f -name "CAPER_${analysis_id}_sample*.e*" -print0 | xargs -0 grep "Cromwell finished successfully." | sort -u | wc -l)
             if (( finish_counts == MAX_JOBS )); then
@@ -97,77 +97,11 @@ for json in "${json_files[@]}"; do
                     echo "Croo post-processing script failed for this batch of jobs. Continuing with the next batch..."
                     break
                 fi
-            else
-                echo "Jobs are still running. Pausing for 30 minutes..."
-                sleep 30m
-                if find /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts -type f -name "CAPER_${analysis_id}_sample*.e*" -print0 | xargs -0 grep "Cromwell failed." && [[ $(qstat -u suffi.azizan | wc -l) -eq 0 ]]; then
-                    echo "One or more jobs have failed. Proceeds with croo post-processing script..."
-                    set +e # Disable the exit on error option so that the script can continue if the croo post-processing script fails
-                    # Run the croo post-processing script
-                    if . /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/croo_processing_module.sh "${analysis_id}" "${pl_raw_output_root_dir}/${analysis_id}" "${croo_output_root_dir}"; then
-                        echo "Croo post-processing script completed successfully."
-                        echo "Files successfully processed have been transferred to remote storage Odin."
-                        # Remove the sample directory in the dataset-specific directory to save space
-                        echo "Removing sample subdirectories in ${analysis_id} from the pipeline raw output directory..."
-                        find "${pl_raw_output_root_dir}/${analysis_id}" -depth -type d -name "*_sample*" -exec rm -rf {} \;
-                        echo "All processed subdirectories have been copied to Odin and removed from Gekko."
-                        # move the error log files
-                        find /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts -type f -name "CAPER_${analysis_id}_sample*.e*" -exec mv {} /home/suffi.azizan/caper_logs/to_inspect \;
-                        #move the stdout log files
-                        find /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts -type f -name "CAPER_${analysis_id}_sample*.o*" -exec mv {} /home/suffi.azizan/caper_logs/to_inspect \;
-                        echo "Both stderr and stdout caper log files have been moved to the special log directory in HOME for manual inspection."
-                        echo "Submitting the next batch of jobs..."
-                        break
-                    else
-                        echo "Croo post-processing script failed for this batch of jobs. Continuing with the next batch..."
-                        break
-                    fi
-                fi
-                
-            fi
-        done
-    fi
-done
-
-# This conditional block ensures that the last batch of jobs are submitted if the total number of jobs is not a multiple of the maximum number of jobs
-echo "All jobs submitted. Current count: ${counter}"
-if [[ $((counter % MAX_JOBS)) -ne 0 ]]; then
-    remainder=$((counter % MAX_JOBS))
-    echo "${remainder} jobs to post-process. Pausing for 4 hours..."
-    sleep 4h
-    echo "4 hours have elapsed. Checking if the remaining jobs are finished..."
-    while true; do
-        finish_counts=$(find /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts -type f -name "CAPER_${analysis_id}_sample*.e*" -print0 | xargs -0 grep "Cromwell finished successfully." | sort -u | wc -l)
-        if (( finish_counts == remainder )); then
-                echo "All currently submitted jobs have finished."
-                echo "Running croo post-processing script..."
+            elif (( finish_counts != MAX_JOBS )) && [[ $(qstat -u suffi.azizan | grep -c "CAPER_${analysis_id:0:3}") -eq 0 ]]; then
                 set +e # Disable the exit on error option so that the script can continue if the croo post-processing script fails
                 # Run the croo post-processing script
-                if . /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/croo_processing_module.sh "${analysis_id}" "${pl_raw_output_root_dir}/${analysis_id}" "${croo_output_root_dir}"; then
-                    echo "Croo post-processing script completed successfully."
-                    echo "Processed files have been transferred to remote storage Odin."
-                    # Remove the sample directory in the dataset-specific directory to save space
-                    echo "Removing sample subdirectories in ${analysis_id} from the pipeline raw output directory..."
-                    find "${pl_raw_output_root_dir}/${analysis_id}" -depth -type d -name "*_sample*" -exec rm -rf {} \;
-                    echo "All sample subdirectories have been copied to Odin and removed from Gekko."
-
-                    # move the error log files
-                    find /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts -type f -name "CAPER_${analysis_id}_sample*.e*" -exec mv {} /home/suffi.azizan/caper_logs \;
-                    #move the stdout log files
-                    find /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts -type f -name "CAPER_${analysis_id}_sample*.o*" -exec mv {} /home/suffi.azizan/caper_logs \;
-                    echo "Both stderr and stdout caper log files have been moved to the log directory in HOME."
-                else
-                    echo "Croo post-processing script failed for some reason."
-                    break
-                fi
-                break
-        else
-            echo "Jobs are still running. Pausing for 30 minutes..."
-            sleep 30m
-            if find /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts -type f -name "CAPER_${analysis_id}_sample*.e*" -print0 | xargs -0 grep "Cromwell failed." && [[ $(qstat -u suffi.azizan | wc -l) -eq 0 ]]; then
-                echo "One or more jobs have failed. Proceeds with croo post-processing script..."
-                set +e # Disable the exit on error option so that the script can continue if the croo post-processing script fails
-                    # Run the croo post-processing script
+                find /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts -type f -name "CAPER_${analysis_id}_sample*.e*" -print0 | xargs -0 grep "Cromwell failed." 
+                echo "One or more jobs above have failed. Proceeding with croo post-processing script..."
                 if . /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/croo_processing_module.sh "${analysis_id}" "${pl_raw_output_root_dir}/${analysis_id}" "${croo_output_root_dir}"; then
                     echo "Croo post-processing script completed successfully."
                     echo "Files successfully processed have been transferred to remote storage Odin."
@@ -179,17 +113,78 @@ if [[ $((counter % MAX_JOBS)) -ne 0 ]]; then
                     find /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts -type f -name "CAPER_${analysis_id}_sample*.e*" -exec mv {} /home/suffi.azizan/caper_logs/to_inspect \;
                     #move the stdout log files
                     find /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts -type f -name "CAPER_${analysis_id}_sample*.o*" -exec mv {} /home/suffi.azizan/caper_logs/to_inspect \;
-                    echo "Both stderr and stdout caper log files have been moved to the special log directory in HOME for manual inspection."
-                    # Print a message to the user
-                    if [[ $counter -eq 1 ]]; then
-                        echo "1 job has been successfully processed with the pipeline and post-processed with croo."
-                        break
-                    else
-                        echo "Some jobs have been successfully processed with the pipeline and post-processed with croo. Others errored out and need to be manually checked."
-                        break
-                    fi
+                    echo "Both stderr and stdout caper log files of this batch have been moved to the special log directory in HOME for manual inspection."
+                    echo "Submitting the next batch of jobs..."
+                    break
+                else
+                    echo "Croo post-processing script failed for this batch of jobs. Continuing with the next batch..."
+                    break
                 fi
+            else
+                echo "Jobs are still running. Pausing for 30 minutes..."
+                sleep 30m
             fi
+        done
+    fi
+done
+
+# This conditional block ensures that the last batch of jobs are submitted if the total number of jobs is not a multiple of the maximum number of jobs
+echo "All jobs submitted. Current count: ${counter}"
+if [[ $((counter % MAX_JOBS)) -ne 0 ]]; then
+    remainder=$((counter % MAX_JOBS))
+    echo "${remainder} remaining jobs to post-process. Pausing for 3 hours..."
+    sleep 3h
+    echo "3 hours have elapsed. Checking if the remaining jobs are finished..."
+    while true; do
+        finish_counts=$(find /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts -type f -name "CAPER_${analysis_id}_sample*.e*" -print0 | xargs -0 grep "Cromwell finished successfully." | sort -u | wc -l)
+        if (( finish_counts == MAX_JOBS )); then
+            echo "All currently submitted jobs have finished."
+            echo "Running croo post-processing script..."
+            set +e # Disable the exit on error option so that the script can continue if the croo post-processing script fails
+            # Run the croo post-processing script
+            if . /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/croo_processing_module.sh "${analysis_id}" "${pl_raw_output_root_dir}/${analysis_id}" "${croo_output_root_dir}"; then
+                echo "Croo post-processing script completed successfully."
+                echo "Processed files have been transferred to remote storage Odin."
+                # Remove the sample directory in the dataset-specific directory to save space
+                echo "Removing sample subdirectories in ${analysis_id} from the pipeline raw output directory..."
+                find "${pl_raw_output_root_dir}/${analysis_id}" -depth -type d -name "*_sample*" -exec rm -rf {} \;
+                echo "All sample subdirectories have been copied to Odin and removed from Gekko."
+                # move the error log files
+                find /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts -type f -name "CAPER_${analysis_id}_sample*.e*" -exec mv {} /home/suffi.azizan/caper_logs \;
+                #move the stdout log files
+                find /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts -type f -name "CAPER_${analysis_id}_sample*.o*" -exec mv {} /home/suffi.azizan/caper_logs \;
+                echo "Both stderr and stdout caper log files have been moved to the log directory in HOME."
+                echo "Submitting the next batch of jobs..."
+                break
+            else
+                echo "Croo post-processing script failed for this batch of jobs. Continuing with the next batch..."
+                break
+            fi
+        elif (( finish_counts != MAX_JOBS )) && [[ $(qstat -u suffi.azizan | grep -c "CAPER_${analysis_id:0:3}") -eq 0 ]]; then
+            set +e # Disable the exit on error option so that the script can continue if the croo post-processing script fails
+            # Run the croo post-processing script
+            find /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts -type f -name "CAPER_${analysis_id}_sample*.e*" -print0 | xargs -0 grep "Cromwell failed." 
+            echo "One or more jobs above have failed. Proceeding with croo post-processing script..."
+            if . /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/croo_processing_module.sh "${analysis_id}" "${pl_raw_output_root_dir}/${analysis_id}" "${croo_output_root_dir}"; then
+                echo "Croo post-processing script completed successfully."
+                echo "Files successfully processed have been transferred to remote storage Odin."
+                # Remove the sample directory in the dataset-specific directory to save space
+                echo "Removing sample subdirectories in ${analysis_id} from the pipeline raw output directory..."
+                find "${pl_raw_output_root_dir}/${analysis_id}" -depth -type d -name "*_sample*" -exec rm -rf {} \;
+                echo "All processed subdirectories have been copied to Odin and removed from Gekko."
+                # move the error log files
+                find /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts -type f -name "CAPER_${analysis_id}_sample*.e*" -exec mv {} /home/suffi.azizan/caper_logs/to_inspect \;
+                #move the stdout log files
+                find /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts -type f -name "CAPER_${analysis_id}_sample*.o*" -exec mv {} /home/suffi.azizan/caper_logs/to_inspect \;
+                echo "Both stderr and stdout caper log files of this batch have been moved to the special log directory in HOME for manual inspection."
+                break
+            else
+                echo "Croo post-processing script failed for this batch of jobs."
+                break
+            fi
+        else
+            echo "Jobs are still running. Pausing for 30 minutes..."
+            sleep 30m
         fi
     done
 fi
