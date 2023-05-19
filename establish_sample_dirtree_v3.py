@@ -100,3 +100,6 @@ for i in dataset_id:
         else:
             sys.stdout.write(f'No sample sheet found for dataset {i}...\n')
             continue
+
+       
+print("Script has finished.")

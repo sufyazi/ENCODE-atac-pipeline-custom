@@ -52,7 +52,7 @@ while IFS= read -r -d '' json; do
 done < <(find "$dataset_json_dir" -mindepth 1 -maxdepth 1 -type f -name "*.json" -print0)
 
 # Initialize a counter for job submission queue later
-declare -i counter=90
+declare -i counter=0
 
 # Loop through the json file array with a counter
 for json in "${json_files[@]}"; do
@@ -137,7 +137,7 @@ if [[ $((counter % MAX_JOBS)) -ne 0 ]]; then
     echo "3 hours have elapsed. Checking if the remaining jobs are finished..."
     while true; do
         finish_counts=$(find /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts -type f -name "CAPER_${analysis_id}_sample*.e*" -print0 | xargs -0 grep "Cromwell finished successfully." | sort -u | wc -l)
-        if (( finish_counts == MAX_JOBS )); then
+        if (( finish_counts == remainder )); then
             echo "All currently submitted jobs have finished."
             echo "Running croo post-processing script..."
             set +e # Disable the exit on error option so that the script can continue if the croo post-processing script fails
@@ -160,7 +160,7 @@ if [[ $((counter % MAX_JOBS)) -ne 0 ]]; then
                 echo "Croo post-processing script failed for this batch of jobs. Continuing with the next batch..."
                 break
             fi
-        elif (( finish_counts != MAX_JOBS )) && [[ $(qstat -u suffi.azizan | grep -c "CAPER_${analysis_id:0:3}") -eq 0 ]]; then
+        elif (( finish_counts != remainder )) && [[ $(qstat -u suffi.azizan | grep -c "CAPER_${analysis_id:0:3}") -eq 0 ]]; then
             set +e # Disable the exit on error option so that the script can continue if the croo post-processing script fails
             # Run the croo post-processing script
             find /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts -type f -name "CAPER_${analysis_id}_sample*.e*" -print0 | xargs -0 grep "Cromwell failed." 

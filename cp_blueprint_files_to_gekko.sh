@@ -29,21 +29,27 @@ fi
 # Process the analysis_id_list.txt file
 SUBDIRLIST="$2" #ensure that the input is the analysis_id_list.txt file
 
-# Initialize a counter
-COUNTER=0
+# Initialize counters
+COUNTER_DIR=0
 
 # Loop through the subdirectories in the file
 while read -r SUBDIR
 do
+  # Increment the counter
+  ((COUNTER_DIR++))
+  COUNTER_SAMP=0
+  echo "${SUBSUBDIR[@]}"
+  echo "Directory no. $COUNTER_DIR"
+  
   # Find subdirectories in the current subdirectory
   mapfile -t SUBSUBDIR < <(find "$SOURCE_DIR/$SUBDIR" -maxdepth 1 -mindepth 1 -type d)
-  echo "${SUBSUBDIR[@]}"
+
   # Loop through the subdirectories found in the current subdirectory
   for SAMPLE in "${SUBSUBDIR[@]}"
   do
     # Increment the counter
-    ((COUNTER++))
-    echo "$SAMPLE: sample no. $COUNTER"
+    ((COUNTER_SAMP++))
+    echo "$SAMPLE: sample no. $COUNTER_SAMP"
     # Check if the subdirectory contains a .fastq.gz file
     if [[ $(find "$SAMPLE" -name '*.fastq.gz' -type f) ]]
     then
