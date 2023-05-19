@@ -154,10 +154,9 @@ if [[ $((counter % MAX_JOBS)) -ne 0 ]]; then
                 #move the stdout log files
                 find /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts -type f -name "CAPER_${analysis_id}_sample*.o*" -exec mv {} /home/suffi.azizan/caper_logs \;
                 echo "Both stderr and stdout caper log files have been moved to the log directory in HOME."
-                echo "Submitting the next batch of jobs..."
                 break
             else
-                echo "Croo post-processing script failed for this batch of jobs. Continuing with the next batch..."
+                echo "Croo post-processing script failed for this batch of jobs. Please check standard error log files for more information."
                 break
             fi
         elif (( finish_counts != remainder )) && [[ $(qstat -u suffi.azizan | grep -c "CAPER_${analysis_id:0:3}") -eq 0 ]]; then
