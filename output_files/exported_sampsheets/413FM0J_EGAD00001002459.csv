@@ -1,0 +1,3 @@
+DONOR_ID,LIBRARY_LAYOUT,DISEASE,TISSUE_TYPE,FILE,SAMPLE,READ,REP
+1525CLL,SINGLE,Chronic_Lymphocytic_Leukemia,venous_blood,C5NY1ACXX_lane8_6126_ATCACG_L008_R1.fastq.gz,1,R1,0
+12CLL,SINGLE,Chronic_Lymphocytic_Leukemia,venous_blood,C68R7ACXX_lane5_7046_GCCAAT_L005_R1.fastq.gz,2,R1,0

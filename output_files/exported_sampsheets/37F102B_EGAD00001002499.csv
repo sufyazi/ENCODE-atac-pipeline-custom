@@ -1,0 +1,3 @@
+DONOR_ID,LIBRARY_LAYOUT,DISEASE,TISSUE_TYPE,FILE,SAMPLE,READ,REP
+pz_294,SINGLE,Acute_Lymphocytic_Leukemia,bone_marrow,C2U81ACXX_lane8_4901_CGATGT_L008_R1.fastq.gz,1,R1,0
+pz_287,SINGLE,Acute_Lymphocytic_Leukemia,bone_marrow,C3JN9ACXX_lane8_5222_GCCAAT_L008_R1.fastq.gz,2,R1,0
