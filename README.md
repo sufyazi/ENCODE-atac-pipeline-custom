@@ -2,32 +2,33 @@
 
 ## Workflow to process ATAC-seq datasets on NTU HPC cluster, Gekko
 
-1. Run `extract_sample_sheets_from_xls.py`, which also runs `analysis_id_gen` module to generate unique random strings to be assigned to each dataset for downstream reference. This would also produce an `analysis_id_list.txt` file that stores the `analysis_ID` and `dataset_ID` in a one-to-one correspondence. This command would also require the Excel master file of datasets that is available in a shared folder on Microsoft Teams group named `collated-cancer-datasets.xlsx` so ensure that this master file has been copied to the base directory prior to running this script.
+1. Run `extract_sample_sheets_from_xls.py`, which also runs `analysis_id_gen` module to generate unique random strings to be assigned to each dataset for downstream reference if a unique ID has not been assigned. This would also produce an `analysis_id_master_list.txt` file that stores the `analysis_ID` and `dataset_ID` in a one-to-one correspondence. This command would require the Excel master file of datasets that is available in a shared folder on Microsoft Teams group named `collated-cancer-datasets-<version>.xlsx` so ensure that this master file has been copied to the base directory prior to running this script.
 
-    > *NOTE: Please run these scripts at the base directory of the repository (currently named `atacseq-pipeline-scripting`).*
+    > *NOTE: Only run these scripts from the base directory of this repository (currently named `atacseq-workflow-scripts`), where these scripts live.*
 
     ```bash
-    ./extract_sample_sheet_from_xls.py test_files/atac-datasets-to-import.txt test_files/collated-cancer-datasets-v1.6.xlsx test_output/exported_sampsheets test_files/analysis_id_list.txt
+    ./extract_sample_sheet_from_xls.py test_files/atac-datasets-to-import.txt test_files/collated-cancer-datasets-v1.6.xlsx test_output/exported_sampsheets test_files/analysis_id_master_list.txt
     ```
 
-2. Once the `analysis_id_list.txt` and the corresponding `sampsheet.csv` have been generated, copy the `analysis_id_list.txt` to Odin where the raw datasets are stored and run the bash script `cp_blueprint_files_to_gekko.sh`. This will `rsync` select datasets into Gekko HPC `scratch` first.
+2. Once the `analysis_id_master_list.txt` and the corresponding `sampsheet.csv` have been generated, copy the ID master list `.txt` file to Odin where the raw datasets are stored and run the bash script `cp_blueprint_files_to_gekko.sh`. This will `rsync` select datasets into Gekko HPC `scratchspace` first.
 
     **NOTE: This is run on Odin, NOT Gekko.**
 
-    > *`--dry-run` can be supplied as the first parameter for the script to test where `rsync` will transfer your files. The location of the script is not crucial for the script's logic but ensure that it is run on Odin (or where the raw datasets are stored) and the path to the analysis ID list text file is specified correctly.*
+    > *`--dry-run` can and should be supplied as the first parameter for the script to test where `rsync` will transfer your files and to see if the correct files are transferred. Once you are sure, you can use the `--live-run` option instead to execute the actual sync. The location of the script is not crucial for the script's logic but ensure that it is run on Odin (or where the raw datasets are stored) and the path to the analysis ID list text file is specified correctly. Additionally, there is an md5 check logic in the script prior to executing the wrapped `rsync` command so please ensure that an md5 text file is present in each dataset folder.*
     >
-    > *`nohup` and log redirection can be used so the running terminal can be exited without exiting the program prematurely as the syncing of the raw files might take hours.*
+    > *This script makes use of Bash `read` built-in, which is a bit finicky with the input file. Make sure to leave a blank line at the end of the input file or the last line will not be read. Also ensure that the file is UNIX-compatible, as Windows return character will cause the script to fail.*
+    >
+    > *Consider running this script in a `tmux` session as file transfer may take a long time depending on connection latency.*
 
     ```bash
-    nohup ./cp_blueprint_files_to_gekko.sh --dry-run|--live-run input_files/analysis_id_list.txt > rsync_output.log &
-
-    disown -h
+    tmux new -s rsync
+    ./cp_blueprint_files_to_gekko.sh [--dry-run|--live-run] input_files/analysis_id_list.txt > rsync_output.log
     ```
 
 3. On the HPC Gekko cluster, the dataset directories containing raw `fastq.gz` sample files can now be sorted into appropriate ***sample*** and ***rep*** directories based on the information contained in the CSV files within `exported_sampsheets` produced by the python script in **step 1**.
 
     ```bash
-    ./establish_sampledir_tree.py <analysis_id_list.txt> <sample_root_directory> <csv_samplesheet_directory>
+    ./establish_sample_dirtree_v3.py <analysis_id_list.txt> <sample_root_directory> <csv_samplesheet_directory>
     ```
 
 4. Once the sample directories have been established, the sample `fastq.gz` files can be processed with `modify_encd-atac-json_paired.py` to generate the JSON files required for the ATAC-seq pipeline to run.

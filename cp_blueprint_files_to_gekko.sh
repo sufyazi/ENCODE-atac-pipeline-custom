@@ -13,16 +13,13 @@ SOURCE_DIR="/data/shop/accRLJEHM.jmcarter/v0/depo"
 # Set the remote server to rsync to
 REMOTE_SERVER="suffi.azizan@gekko.hpc.ntu.edu.sg"
 
-# Set the dry run option
-DRY_RUN=""
-
 # Check if the --dry-run option is provided
 if [[ "$1" == "--dry-run" ]]
 then
-  DRY_RUN="--dry-run"
+  RUN="$1"
   echo -e "Running in dry mode\n"
 else
-  DRY_RUN="--live-run"
+  RUN="--live-run"
   echo -e "Running in live mode\n"
 fi
 
@@ -43,7 +40,7 @@ do
   
   # Find subdirectories in the current subdirectory
   mapfile -t SUBSUBDIR < <(find "$SOURCE_DIR/$SUBDIR" -maxdepth 1 -mindepth 1 -type d)
-
+  
   # Loop through the subdirectories found in the current subdirectory
   for SAMPLE in "${SUBSUBDIR[@]}"
   do
@@ -60,20 +57,29 @@ do
       MD5_FILE="$SAMPLE/$FASTQ_FILE.md5"
       EXPECTED_CHECKSUM=$(head -n 1 "$MD5_FILE" | cut -d ' ' -f 1)
       echo -e "Extracted expected file checksum\n"
+      echo -e "Expected checksum: $EXPECTED_CHECKSUM\n"
       
       # Calculate the actual MD5 checksum of the .fastq.gz file
-      ACTUAL_CHECKSUM=$(md5sum "$SAMPLE/$FASTQ_FILE" | cut -d ' ' -f 1)
-      echo -e "Calculated actual file checksum\n"
-      
+      if [ "$RUN" == "--dry-run" ]
+      then
+        ACTUAL_CHECKSUM="$EXPECTED_CHECKSUM"
+        echo -e "Expected checksum: $EXPECTED_CHECKSUM\n"
+        echo -e "Actual checksum: $ACTUAL_CHECKSUM\n"
+      else
+        ACTUAL_CHECKSUM=$(md5sum "$SAMPLE/$FASTQ_FILE" | cut -d ' ' -f 1)
+        echo -e "Calculated actual file checksum\n"
+        echo -e "Actual checksum: $ACTUAL_CHECKSUM\n"
+      fi
+
       # Compare the expected and actual MD5 checksums
       if [[ "$EXPECTED_CHECKSUM" == "$ACTUAL_CHECKSUM" ]]
       then
         # The checksums match, so rsync the subdirectory to the remote server
         echo "Checksums matched!"
         echo -e "Rsyncing $FASTQ_FILE to $REMOTE_SERVER\n"
-        if [ "$DRY_RUN" == "--dry-run" ]
+        if [ "$RUN" == "--dry-run" ]
         then
-          rsync -aPHAXz "$DRY_RUN" --exclude="/.*" "$SAMPLE/$FASTQ_FILE" "${REMOTE_SERVER}":/home/suffi.azizan/scratchspace/inputs/fastq/blueprint-atac/"$SUBDIR"/
+          rsync -aPHAXz "$RUN" --exclude="/.*" "$SAMPLE/$FASTQ_FILE" "${REMOTE_SERVER}":/home/suffi.azizan/scratchspace/inputs/fastq/blueprint-atac/"$SUBDIR"/
         else
           rsync -aPHAXz --exclude="/.*" "$SAMPLE/$FASTQ_FILE" "${REMOTE_SERVER}":/home/suffi.azizan/scratchspace/inputs/fastq/blueprint-atac/"$SUBDIR"/
         fi

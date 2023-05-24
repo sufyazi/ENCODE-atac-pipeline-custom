@@ -55,22 +55,34 @@ if not path.exists(analysis_id_list):
 # Loop through specified sheets in the Excel file
 for sheet_name in dataset_ids:
     
+    # Read in the analysis_id_list.txt file as a DataFrame
+    analysis_id_df = pd.read_csv(analysis_id_list, sep='\t', header=0)
+    
     # Check if the sheet/dataset ID exists in the analysis_id_list.txt file
-    if sheet_name not in pd.read_csv(analysis_id_list, sep='\t', header=0)['dataset_ID'].values:
+    if sheet_name not in analysis_id_df['dataset_ID'].values:
         print(f"WARNING: {sheet_name} does not exist in {analysis_id_list}: generating a new analysis ID...")
         # generate a random string for the analysis ID then update the analysis_id_list.txt file
         random_string = analysis_id_gen.generate_id(7, analysis_id_list)
         with open(analysis_id_list, 'a') as f:
             f.write(f"{random_string}\t{sheet_name}\n")
+        
+        # Then reload the analysis_id_list.txt file as a DataFrame
+        analysis_id_df = pd.read_csv(analysis_id_list, sep='\t', header=0)
+        
+    else:
+        # Find the analysis ID for the current sheet in the analysis_id_df DataFrame
+        analysis_id = analysis_id_df.loc[analysis_id_df['dataset_ID'] == sheet_name, 'analysis_ID'].iloc[0]
+        
+    # Check if the output csv file already exists
+    if path.exists(f"{output_dir}/{analysis_id}_{sheet_name}.csv"):
+        print(f"WARNING: {output_dir}/{analysis_id}_{sheet_name}.csv already exists: Skipping...")
+        continue
     
     # Create an empty DataFrame to store the extracted columns
     output_df = pd.DataFrame()
     
     # Read in the sheet as a DataFrame
     df = pd.read_excel(excel_file, sheet_name=sheet_name)
-    
-    # Read in the analysis_id_list.txt file as a DataFrame
-    analysis_id_df = pd.read_csv(analysis_id_list, sep='\t', header=0)
     
     # Extract the specified columns that exist in the target sheet and preserve the order
     extracted_cols = []
@@ -150,8 +162,6 @@ for sheet_name in dataset_ids:
         sys.exit(1)
 
     # Construct the output file name and path
-    # First, find the analysis ID for the current sheet in the analysis_id_df DataFrame
-    analysis_id = analysis_id_df.loc[analysis_id_df['dataset_ID'] == sheet_name, 'analysis_ID'].iloc[0]
     output_file = f"{output_dir}/{analysis_id}_{sheet_name}.csv"
     
     # Replace all spaces with underscores, then write the merged DataFrame to a new CSV file
