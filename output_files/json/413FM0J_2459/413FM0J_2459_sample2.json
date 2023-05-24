@@ -1,0 +1,14 @@
+{
+    "atac.title": "413FM0J_2459",
+    "atac.description": "413FM0J_2459 blueprint dnase-seq",
+    "atac.pipeline_type": "dnase",
+    "atac.align_only": false,
+    "atac.true_rep_only": false,
+    "atac.genome_tsv": "https://storage.googleapis.com/encode-pipeline-genome-data/genome_tsv/v4/hg38.tsv",
+    "atac.paired_end": false,
+    "atac.auto_detect_adapter": true,
+    "atac.align_cpu": 16,
+    "atac.fastqs_rep1_R1": [
+        "/home/suffi.azizan/scratchspace/inputs/fastq/blueprint-atac/EGAD00001002459/sample_2/rep_0/C68R7ACXX_lane5_7046_GCCAAT_L005_R1.fastq.gz"
+    ]
+}

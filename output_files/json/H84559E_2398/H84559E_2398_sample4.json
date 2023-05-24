@@ -1,0 +1,17 @@
+{
+    "atac.title": "H84559E_2398",
+    "atac.description": "H84559E_2398 blueprint dnase-seq",
+    "atac.pipeline_type": "dnase",
+    "atac.align_only": false,
+    "atac.true_rep_only": false,
+    "atac.genome_tsv": "https://storage.googleapis.com/encode-pipeline-genome-data/genome_tsv/v4/hg38.tsv",
+    "atac.paired_end": false,
+    "atac.auto_detect_adapter": true,
+    "atac.align_cpu": 16,
+    "atac.fastqs_rep1_R1": [
+        "/home/suffi.azizan/scratchspace/inputs/fastq/blueprint-atac/EGAD00001002398/sample_4/rep_1/C2N9FACXX_lane8_4643_CGATGT_L008_R1.fastq.gz"
+    ],
+    "atac.fastqs_rep2_R1": [
+        "/home/suffi.azizan/scratchspace/inputs/fastq/blueprint-atac/EGAD00001002398/sample_4/rep_2/C2MVTACXX_lane8_4643_CGATGT_L008_R1.fastq.gz"
+    ]
+}

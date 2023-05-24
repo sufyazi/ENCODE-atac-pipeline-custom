@@ -1,0 +1,14 @@
+{
+    "atac.title": "BV5W979_2382",
+    "atac.description": "BV5W979_2382 blueprint dnase-seq",
+    "atac.pipeline_type": "dnase",
+    "atac.align_only": false,
+    "atac.true_rep_only": false,
+    "atac.genome_tsv": "https://storage.googleapis.com/encode-pipeline-genome-data/genome_tsv/v4/hg38.tsv",
+    "atac.paired_end": false,
+    "atac.auto_detect_adapter": true,
+    "atac.align_cpu": 16,
+    "atac.fastqs_rep1_R1": [
+        "/home/suffi.azizan/scratchspace/inputs/fastq/blueprint-atac/EGAD00001002382/sample_4/rep_0/C2NTUACXX_lane8_4647_CAGATC_L008_R1.fastq.gz"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "atac.title": "U05HLZY_2468",
+    "atac.description": "U05HLZY_2468 blueprint dnase-seq",
+    "atac.pipeline_type": "dnase",
+    "atac.align_only": false,
+    "atac.true_rep_only": false,
+    "atac.genome_tsv": "https://storage.googleapis.com/encode-pipeline-genome-data/genome_tsv/v4/hg38.tsv",
+    "atac.paired_end": false,
+    "atac.auto_detect_adapter": true,
+    "atac.align_cpu": 16,
+    "atac.fastqs_rep1_R1": [
+        "/home/suffi.azizan/scratchspace/inputs/fastq/blueprint-atac/EGAD00001002468/sample_1/rep_0/C5TLLACXX_lane7_6736_GGCTAC_L007_R1.fastq.gz"
+    ]
+}

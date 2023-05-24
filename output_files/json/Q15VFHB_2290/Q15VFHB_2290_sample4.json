@@ -1,0 +1,14 @@
+{
+    "atac.title": "Q15VFHB_2290",
+    "atac.description": "Q15VFHB_2290 blueprint dnase-seq",
+    "atac.pipeline_type": "dnase",
+    "atac.align_only": false,
+    "atac.true_rep_only": false,
+    "atac.genome_tsv": "https://storage.googleapis.com/encode-pipeline-genome-data/genome_tsv/v4/hg38.tsv",
+    "atac.paired_end": false,
+    "atac.auto_detect_adapter": true,
+    "atac.align_cpu": 16,
+    "atac.fastqs_rep1_R1": [
+        "/home/suffi.azizan/scratchspace/inputs/fastq/blueprint-atac/EGAD00001002290/sample_4/rep_0/C3JYVACXX_lane8_5397_ACAGTG_L008_R1.fastq.gz"
+    ]
+}

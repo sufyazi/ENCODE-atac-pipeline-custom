@@ -1,0 +1,14 @@
+{
+    "atac.title": "3RGFT20_2425",
+    "atac.description": "3RGFT20_2425 blueprint dnase-seq",
+    "atac.pipeline_type": "dnase",
+    "atac.align_only": false,
+    "atac.true_rep_only": false,
+    "atac.genome_tsv": "https://storage.googleapis.com/encode-pipeline-genome-data/genome_tsv/v4/hg38.tsv",
+    "atac.paired_end": false,
+    "atac.auto_detect_adapter": true,
+    "atac.align_cpu": 16,
+    "atac.fastqs_rep1_R1": [
+        "/home/suffi.azizan/scratchspace/inputs/fastq/blueprint-atac/EGAD00001002425/sample_2/rep_0/C3JYVACXX_lane7_5398_GCCAAT_L007_R1.fastq.gz"
+    ]
+}

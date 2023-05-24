@@ -1,0 +1,14 @@
+{
+    "atac.title": "T04OBGX_2286",
+    "atac.description": "T04OBGX_2286 blueprint dnase-seq",
+    "atac.pipeline_type": "dnase",
+    "atac.align_only": false,
+    "atac.true_rep_only": false,
+    "atac.genome_tsv": "https://storage.googleapis.com/encode-pipeline-genome-data/genome_tsv/v4/hg38.tsv",
+    "atac.paired_end": false,
+    "atac.auto_detect_adapter": true,
+    "atac.align_cpu": 16,
+    "atac.fastqs_rep1_R1": [
+        "/home/suffi.azizan/scratchspace/inputs/fastq/blueprint-atac/EGAD00001002286/sample_9/rep_0/C791JACXX_lane8_7990_CTTGTA_L008_R1.fastq.gz"
+    ]
+}

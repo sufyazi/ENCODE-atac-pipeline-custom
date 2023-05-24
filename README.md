@@ -31,38 +31,30 @@
     ./establish_sample_dirtree_v3.py <analysis_id_list.txt> <sample_root_directory> <csv_samplesheet_directory>
     ```
 
-4. Once the sample directories have been established, the sample `fastq.gz` files can be processed with `modify_encd-atac-json_paired.py` to generate the JSON files required for the ATAC-seq pipeline to run.
+4. Once the sample directories have been established, the sample `fastq.gz` files can be processed with `modify_encd-atac-json_v3.py` to generate the JSON files required for the ATAC-seq pipeline to run.
 
     ```bash
-    ./modify_encd-atac-json_paired.py [-h] -d <dataset_directory> -j <json_file_template> -s <sample_sheet_csv> -o <output_path>
+    ./modify_encd-atac-json_v3.py [-h] -d <dataset_directory> -j <json_file_template> -s <sample_sheet_csv> -o <output_path>
     ```
 
-5. Once the requisite `json` files have been generated, the pipeline can be run with `submit_atac_pipeline_caper.sh`. This script will submit a `caper hpc` job for each of the sample JSON file in the dataset directory supplied to the script.
+5. Once the requisite `json` files have been generated, the pipeline can be run with `encd-atac-pl_submit-postprocess.sh`. This script will submit a `caper hpc` job for each of the sample JSON file in the dataset directory supplied to the script. The example below shows how to run the pipeline on the sample dataset `2I1Y0Z9` with the JSON files located in `output_files/json/2I1Y0Z9_2907` and the output files will be stored in `/home/suffi.azizan/scratchspace/outputs/encd-atac-pipe-raw-out/2I1Y0Z9`.
 
-    The example below shows how to run the pipeline on the sample dataset `2I1Y0Z9` with the JSON files located in `output_files/json/2I1Y0Z9_2907` and the output files will be stored in `/home/suffi.azizan/scratchspace/outputs/encd-atac-pipe-raw-out/2I1Y0Z9`.
+Note that the wrapper Bash script below is written to run the `caper` command for just 5 samples at a time. This is to prevent the HPC scheduler from being overloaded with too many jobs at once. The script will wait for 3 hours before submitting the next batch of jobs (via `sleep` command). This can be changed by modifying the `MAX_JOBS` variable in the script.
 
-    Note that the wrapper `bash` script below is written to run the `caper` command for just 5 samples at a time. This is to prevent the HPC scheduler from being overloaded with too many jobs at once. The script will wait for 2 hours before submitting the next batch of jobs (via `sleep` command). This can be changed by modifying the `MAX_JOBS` variable in the script.
+Consider running this script in a `tmux` session as the pipeline may take a long time to run depending on the number of samples and the HPC scheduler queue.
 
-    Consider running this script with `nohup` and log redirection if you are submitting more than 5 samples to process at once in case you need to exit the terminal.
+```bash
+./encd-atac-pl_submit-postprocess.sh 2I1Y0Z9 output_files/json/2I1Y0Z9_2907 /home/suffi.azizan/scratchspace/outputs/encd-atac-pipe-raw-out/2I1Y0Z9
+```
 
-    ```bash
-    ./submit_atac_pipeline_caper.sh 2I1Y0Z9 output_files/json/2I1Y0Z9_2907 /home/suffi.azizan/scratchspace/outputs/encd-atac-pipe-raw-out/2I1Y0Z9
-    ```
+Note that once the pipeline has finished, it will wait for the rest of the batch jobs to finish as well by monitoring for the CAPER log files. Once all of the stderr files contain the line `Workflow finished successfully`, the `caper` output files will automatically be processed using `croo` and the the resulting data files will be immediately moved to a remote storage location on Odin. This is to prevent the HPC scratch space from being overloaded with too many files.
 
-6. Once the pipeline has finished and all of the stderr files contain the line `Workflow finished successfully`, the `caper` output files can be organized using `croo` by running the `atac_croo_postprocessing.sh` script. This script will also generate a `croo` report for each sample.
+To achieve this, the wrapper script actually runs another script called `croo_processing_module.sh`. Do not move this file anywhere as it is an important dependency for the wrapper script to work.
 
-    ```bash
-    ./atac_croo_postprocessing.sh <analysis_id> <caper_output_directory_path> <croo_output_dir_path>
-    ```
+Alternatively, the `croo_processing_module.sh` script can be run manually to process the `caper` output files. The script takes 3 arguments:
 
-    An example of command with complete arguments is as follows:
+An example of command with complete arguments is as follows:
 
-    ```bash
-    ./atac_croo_postprocessing.sh 50RWL61 /home/suffi.azizan/scratchspace/outputs/encd-atac-pipe-raw-out/50RWL61 /home/suffi.azizan/scratchspace/outputs/atac_croo_out
-    ```
-
-    Note that the script will organize the pipeline raw output files into specific folders and collate them into a single folder for each sample.
-
-    The script will then `rsync` the resulting folder to a remote storage location on Odin. This is to prevent the HPC scratch space from being overloaded with too many files. The script, when exiting successfully, will then rename the `croo` output folder with the tag `'-can-remove'` appended to the end of the folder name. This is to indicate that the folder can be removed from the HPC scratch space manually to free up space.
-
-    The script also appends the same tag to the folder name of the raw pipeline output folder. This is a massive raw output folder whose important files `rsync` should already make a copy of to Odin, so the folder can be removed from the HPC scratch space manually as well to reduce disk usage.
+```bash
+./croo_processing_module.sh 50RWL61 /home/suffi.azizan/scratchspace/outputs/encd-atac-pipe-raw-out/50RWL61 /home/suffi.azizan/scratchspace/outputs/atac_croo_out
+```
