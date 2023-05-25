@@ -135,6 +135,7 @@ if [[ $((counter % MAX_JOBS)) -ne 0 ]]; then
     echo "${remainder} remaining jobs to post-process. Pausing for 3 hours..."
     sleep 3h
     echo "3 hours have elapsed. Checking if the remaining jobs are finished..."
+    
     while true; do
         finish_counts=$(find /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts -type f -name "CAPER_${analysis_id}_sample*.e*" -print0 | xargs -0 grep "Cromwell finished successfully." | sort -u | wc -l)
         if (( finish_counts == remainder )); then
