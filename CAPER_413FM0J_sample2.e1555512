@@ -1,0 +1,103 @@
+2023-05-26 12:15:29,340|caper.cli|INFO| Cromwell stdout: /home/suffi.azizan/logs/cromwell_out/cromwell.413FM0J_sample2.out
+2023-05-26 12:15:29,379|caper.caper_base|INFO| Creating a timestamped temporary directory. /scratch/suffi.azizan/.caper_tmp/atac/20230526_121529_377801
+2023-05-26 12:15:29,379|caper.caper_runner|INFO| Localizing files on work_dir. /scratch/suffi.azizan/.caper_tmp/atac/20230526_121529_377801
+2023-05-26 12:15:29,695|autouri.autouri|INFO| cp: (77e1d264) started. src=https://www.encodeproject.org/files/GRCh38_no_alt_analysis_set_GCA_000001405.15/@@download/GRCh38_no_alt_analysis_set_GCA_000001405.15.fasta.gz, dest=/scratch/suffi.azizan/.caper_tmp/caf534ed3cf684406e731d19be272b4a/GRCh38_no_alt_analysis_set_GCA_000001405.15.fasta.gz
+2023-05-26 12:15:32,845|autouri.autouri|INFO| cp: (77e1d264) skipped due to name_size_match. size=872949833, mt=1549739698.0
+2023-05-26 12:15:32,847|autouri.autouri|INFO| cp: (822e3c2c) started. src=https://www.encodeproject.org/files/GRCh38_no_alt_analysis_set_GCA_000001405.15_mito_only/@@download/GRCh38_no_alt_analysis_set_GCA_000001405.15_mito_only.fasta.gz, dest=/scratch/suffi.azizan/.caper_tmp/f43b63a83784d3ec8055f1a22168ed89/GRCh38_no_alt_analysis_set_GCA_000001405.15_mito_only.fasta.gz
+2023-05-26 12:15:34,671|autouri.autouri|INFO| cp: (822e3c2c) skipped due to md5_match. md5=05297d96dd1f7cfb45a7b637d6dd7036
+2023-05-26 12:15:34,674|autouri.autouri|INFO| cp: (59fb14bd) started. src=https://www.encodeproject.org/files/ENCFF356LFX/@@download/ENCFF356LFX.bed.gz, dest=/scratch/suffi.azizan/.caper_tmp/f183dcba5d34f959d8b55ed438ee2e22/ENCFF356LFX.bed.gz
+2023-05-26 12:15:36,416|autouri.autouri|INFO| cp: (59fb14bd) skipped due to md5_match. md5=393688b4f06c9ce26165d47433dd8c37
+2023-05-26 12:15:38,639|autouri.autouri|INFO| cp: (fb6a03da) started. src=https://www.encodeproject.org/files/GRCh38_EBV.chrom.sizes/@@download/GRCh38_EBV.chrom.sizes.tsv, dest=/scratch/suffi.azizan/.caper_tmp/c52f52c7bfa357f55a39b1de7e4d0b0c/GRCh38_EBV.chrom.sizes.tsv
+2023-05-26 12:15:40,432|autouri.autouri|INFO| cp: (fb6a03da) skipped due to md5_match. md5=c95303fb77cc3e11d50e3c3a4b93b3fb
+2023-05-26 12:15:40,435|autouri.autouri|INFO| cp: (e0f6ac2b) started. src=https://www.encodeproject.org/files/ENCFF110MCL/@@download/ENCFF110MCL.tar.gz, dest=/scratch/suffi.azizan/.caper_tmp/3ff4ac4c3f59d096b1a3842a182072ae/ENCFF110MCL.tar.gz
+2023-05-26 12:15:43,433|autouri.autouri|INFO| cp: (e0f6ac2b) skipped due to name_size_match. size=3749246230, mt=1571469011.0
+2023-05-26 12:15:43,435|autouri.autouri|INFO| cp: (9f397261) started. src=https://www.encodeproject.org/files/GRCh38_no_alt_analysis_set_GCA_000001405.15_mito_only_bowtie2_index/@@download/GRCh38_no_alt_analysis_set_GCA_000001405.15_mito_only_bowtie2_index.tar.gz, dest=/scratch/suffi.azizan/.caper_tmp/df5193e07055d13c48be59bacd0f56b8/GRCh38_no_alt_analysis_set_GCA_000001405.15_mito_only_bowtie2_index.tar.gz
+2023-05-26 12:15:45,296|autouri.autouri|INFO| cp: (9f397261) skipped due to md5_match. md5=80b263f6ea6ff65d547eef07102535db
+2023-05-26 12:15:45,298|autouri.autouri|INFO| cp: (114a8f5d) started. src=https://www.encodeproject.org/files/ENCFF643CGH/@@download/ENCFF643CGH.tar.gz, dest=/scratch/suffi.azizan/.caper_tmp/8c692fba4640609720272154ab0faa30/ENCFF643CGH.tar.gz
+2023-05-26 12:15:48,488|autouri.autouri|INFO| cp: (114a8f5d) skipped due to name_size_match. size=4318261891, mt=1549723866.0
+2023-05-26 12:15:48,490|autouri.autouri|INFO| cp: (4d9ee427) started. src=https://www.encodeproject.org/files/GRCh38_no_alt_analysis_set_GCA_000001405.15_mito_only_bwa_index/@@download/GRCh38_no_alt_analysis_set_GCA_000001405.15_mito_only_bwa_index.tar.gz, dest=/scratch/suffi.azizan/.caper_tmp/d3dff25534e93d893902540d81e4f475/GRCh38_no_alt_analysis_set_GCA_000001405.15_mito_only_bwa_index.tar.gz
+2023-05-26 12:15:50,456|autouri.autouri|INFO| cp: (4d9ee427) skipped due to md5_match. md5=7e088c24a017a43b1db5e8f50060eec1
+2023-05-26 12:15:50,458|autouri.autouri|INFO| cp: (9a484475) started. src=https://www.encodeproject.org/files/ENCFF766FGL/@@download/ENCFF766FGL.bed.gz, dest=/scratch/suffi.azizan/.caper_tmp/f16cc7892540d7a9bc3207cc44eb8288/ENCFF766FGL.bed.gz
+2023-05-26 12:15:52,456|autouri.autouri|INFO| cp: (9a484475) skipped due to md5_match. md5=d108aa2a392ce5dd207fb8769a6e8240
+2023-05-26 12:15:52,458|autouri.autouri|INFO| cp: (44d84c79) started. src=https://www.encodeproject.org/files/ENCFF304XEX/@@download/ENCFF304XEX.bed.gz, dest=/scratch/suffi.azizan/.caper_tmp/805e179275a9c0fb7a37def40c4312d1/ENCFF304XEX.bed.gz
+2023-05-26 12:15:55,443|autouri.autouri|INFO| cp: (44d84c79) skipped due to name_size_match. size=14377496, mt=1592463730.0
+2023-05-26 12:15:55,445|autouri.autouri|INFO| cp: (ece4bbbf) started. src=https://www.encodeproject.org/files/ENCFF140XLU/@@download/ENCFF140XLU.bed.gz, dest=/scratch/suffi.azizan/.caper_tmp/0cbd2c602ddad252bc39729fc8a29286/ENCFF140XLU.bed.gz
+2023-05-26 12:15:57,225|autouri.autouri|INFO| cp: (ece4bbbf) skipped due to md5_match. md5=91047588129069ff91ec1b0664179f8e
+2023-05-26 12:15:57,227|autouri.autouri|INFO| cp: (c8d317d9) started. src=https://www.encodeproject.org/files/ENCFF212UAV/@@download/ENCFF212UAV.bed.gz, dest=/scratch/suffi.azizan/.caper_tmp/1d3aa436b05f16a509edb94789c061d3/ENCFF212UAV.bed.gz
+2023-05-26 12:16:00,151|autouri.autouri|INFO| cp: (c8d317d9) skipped due to name_size_match. size=18381891, mt=1592463727.0
+2023-05-26 12:16:00,153|autouri.autouri|INFO| cp: (3f574714) started. src=https://storage.googleapis.com/encode-pipeline-genome-data/hg38/ataqc/hg38_dnase_avg_fseq_signal_formatted.txt.gz, dest=/scratch/suffi.azizan/.caper_tmp/3b39284516e676ea52238f0636c0bbbf/hg38_dnase_avg_fseq_signal_formatted.txt.gz
+2023-05-26 12:16:00,569|autouri.autouri|INFO| cp: (3f574714) skipped due to md5_match. md5=df624401f76fbd4d651e736068c43a1a
+2023-05-26 12:16:00,571|autouri.autouri|INFO| cp: (e1efc19d) started. src=https://storage.googleapis.com/encode-pipeline-genome-data/hg38/ataqc/hg38_celltype_compare_subsample.bed.gz, dest=/scratch/suffi.azizan/.caper_tmp/c73f434c3fa4f3f54bc2ecad09c065c2/hg38_celltype_compare_subsample.bed.gz
+2023-05-26 12:16:00,881|autouri.autouri|INFO| cp: (e1efc19d) skipped due to md5_match. md5=ced0c653d28628654288f7a8ab052590
+2023-05-26 12:16:00,883|autouri.autouri|INFO| cp: (c0955533) started. src=https://storage.googleapis.com/encode-pipeline-genome-data/hg38/ataqc/hg38_dnase_avg_fseq_signal_metadata.txt, dest=/scratch/suffi.azizan/.caper_tmp/a9745b33b4ffdd83d7d2c5a7d3c8036a/hg38_dnase_avg_fseq_signal_metadata.txt
+2023-05-26 12:16:01,094|autouri.autouri|INFO| cp: (c0955533) skipped due to md5_match. md5=3f7fd85ab9a4c6274f28c3e82a79c10d
+2023-05-26 12:16:02,196|caper.caper_workflow_opts|INFO| Conda environment name found in WDL metadata. wdl=/home/suffi.azizan/installs/atac-seq-pipeline/atac.wdl, s=encd-atac
+2023-05-26 12:16:02,210|caper.cromwell|INFO| Validating WDL/inputs/imports with Womtool...
+2023-05-26 12:16:05,310|caper.nb_subproc_thread|INFO| Subprocess finished successfully.
+2023-05-26 12:16:05,310|caper.cromwell|INFO| Passed Womtool validation.
+2023-05-26 12:16:05,311|caper.caper_runner|INFO| launching run: wdl=/home/suffi.azizan/installs/atac-seq-pipeline/atac.wdl, inputs=/scratch/suffi.azizan/.caper_tmp/home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/json/413FM0J_2459/413FM0J_2459_sample2.local.json, backend_conf=/scratch/suffi.azizan/.caper_tmp/atac/20230526_121529_377801/backend.conf
+2023-05-26 12:16:10,965|caper.cromwell_workflow_monitor|INFO| Workflow: id=608a5af6-0a60-4d9d-81f3-7b8d31b369bd, status=Submitted
+2023-05-26 12:16:11,004|caper.cromwell_workflow_monitor|INFO| Workflow: id=608a5af6-0a60-4d9d-81f3-7b8d31b369bd, status=Running
+2023-05-26 12:16:20,792|caper.cromwell_workflow_monitor|INFO| Task: id=608a5af6-0a60-4d9d-81f3-7b8d31b369bd, task=atac.read_genome_tsv:-1, retry=0, status=Started, job_id=1555513
+2023-05-26 12:16:20,798|caper.cromwell_workflow_monitor|INFO| Task: id=608a5af6-0a60-4d9d-81f3-7b8d31b369bd, task=atac.read_genome_tsv:-1, retry=0, status=Running
+2023-05-26 12:18:05,401|caper.cromwell_workflow_monitor|INFO| Task: id=608a5af6-0a60-4d9d-81f3-7b8d31b369bd, task=atac.read_genome_tsv:-1, retry=0, status=Done
+2023-05-26 12:18:15,790|caper.cromwell_workflow_monitor|INFO| Task: id=608a5af6-0a60-4d9d-81f3-7b8d31b369bd, task=atac.align:0, retry=0, status=Started, job_id=1555519
+2023-05-26 12:18:15,790|caper.cromwell_workflow_monitor|INFO| Task: id=608a5af6-0a60-4d9d-81f3-7b8d31b369bd, task=atac.align_mito:0, retry=0, status=Started, job_id=1555521
+2023-05-26 12:18:15,791|caper.cromwell_workflow_monitor|INFO| Task: id=608a5af6-0a60-4d9d-81f3-7b8d31b369bd, task=atac.align:0, retry=0, status=Running
+2023-05-26 12:18:15,792|caper.cromwell_workflow_monitor|INFO| Task: id=608a5af6-0a60-4d9d-81f3-7b8d31b369bd, task=atac.align_mito:0, retry=0, status=Running
+2023-05-26 13:04:11,282|caper.cromwell_workflow_monitor|INFO| Task: id=608a5af6-0a60-4d9d-81f3-7b8d31b369bd, task=atac.align:0, retry=0, status=Done
+2023-05-26 13:04:25,789|caper.cromwell_workflow_monitor|INFO| Task: id=608a5af6-0a60-4d9d-81f3-7b8d31b369bd, task=atac.filter:0, retry=0, status=Started, job_id=1555536
+2023-05-26 13:04:25,790|caper.cromwell_workflow_monitor|INFO| Task: id=608a5af6-0a60-4d9d-81f3-7b8d31b369bd, task=atac.filter:0, retry=0, status=Running
+2023-05-26 13:25:42,891|caper.cromwell_workflow_monitor|INFO| Task: id=608a5af6-0a60-4d9d-81f3-7b8d31b369bd, task=atac.filter:0, retry=0, status=Done
+2023-05-26 13:25:55,791|caper.cromwell_workflow_monitor|INFO| Task: id=608a5af6-0a60-4d9d-81f3-7b8d31b369bd, task=atac.bam2ta:0, retry=0, status=Started, job_id=1555543
+2023-05-26 13:25:55,791|caper.cromwell_workflow_monitor|INFO| Task: id=608a5af6-0a60-4d9d-81f3-7b8d31b369bd, task=atac.tss_enrich:0, retry=0, status=Started, job_id=1555545
+2023-05-26 13:25:55,791|caper.cromwell_workflow_monitor|INFO| Task: id=608a5af6-0a60-4d9d-81f3-7b8d31b369bd, task=atac.gc_bias:0, retry=0, status=Started, job_id=1555544
+2023-05-26 13:25:55,792|caper.cromwell_workflow_monitor|INFO| Task: id=608a5af6-0a60-4d9d-81f3-7b8d31b369bd, task=atac.gc_bias:0, retry=0, status=Running
+2023-05-26 13:25:55,792|caper.cromwell_workflow_monitor|INFO| Task: id=608a5af6-0a60-4d9d-81f3-7b8d31b369bd, task=atac.tss_enrich:0, retry=0, status=Running
+2023-05-26 13:25:55,792|caper.cromwell_workflow_monitor|INFO| Task: id=608a5af6-0a60-4d9d-81f3-7b8d31b369bd, task=atac.bam2ta:0, retry=0, status=Running
+2023-05-26 13:26:00,778|caper.cromwell_workflow_monitor|INFO| Task: id=608a5af6-0a60-4d9d-81f3-7b8d31b369bd, task=atac.jsd:-1, retry=0, status=Started, job_id=1555546
+2023-05-26 13:26:00,779|caper.cromwell_workflow_monitor|INFO| Task: id=608a5af6-0a60-4d9d-81f3-7b8d31b369bd, task=atac.jsd:-1, retry=0, status=Running
+2023-05-26 13:27:57,259|caper.cromwell_workflow_monitor|INFO| Task: id=608a5af6-0a60-4d9d-81f3-7b8d31b369bd, task=atac.align_mito:0, retry=0, status=Done
+2023-05-26 13:28:05,788|caper.cromwell_workflow_monitor|INFO| Task: id=608a5af6-0a60-4d9d-81f3-7b8d31b369bd, task=atac.frac_mito:0, retry=0, status=Started, job_id=1555549
+2023-05-26 13:28:05,789|caper.cromwell_workflow_monitor|INFO| Task: id=608a5af6-0a60-4d9d-81f3-7b8d31b369bd, task=atac.frac_mito:0, retry=0, status=Running
+2023-05-26 14:09:00,660|caper.cromwell_workflow_monitor|INFO| Task: id=608a5af6-0a60-4d9d-81f3-7b8d31b369bd, task=atac.frac_mito:0, retry=0, status=Done
+2023-05-26 14:09:27,091|caper.cromwell_workflow_monitor|INFO| Task: id=608a5af6-0a60-4d9d-81f3-7b8d31b369bd, task=atac.bam2ta:0, retry=0, status=Done
+2023-05-26 14:09:36,078|caper.cromwell_workflow_monitor|INFO| Task: id=608a5af6-0a60-4d9d-81f3-7b8d31b369bd, task=atac.annot_enrich:0, retry=0, status=Started, job_id=1555583
+2023-05-26 14:09:36,078|caper.cromwell_workflow_monitor|INFO| Task: id=608a5af6-0a60-4d9d-81f3-7b8d31b369bd, task=atac.annot_enrich:0, retry=0, status=Running
+2023-05-26 14:09:41,079|caper.cromwell_workflow_monitor|INFO| Task: id=608a5af6-0a60-4d9d-81f3-7b8d31b369bd, task=atac.call_peak:0, retry=0, status=Started, job_id=1555584
+2023-05-26 14:09:41,079|caper.cromwell_workflow_monitor|INFO| Task: id=608a5af6-0a60-4d9d-81f3-7b8d31b369bd, task=atac.macs2_signal_track:0, retry=0, status=Started, job_id=1555585
+2023-05-26 14:09:41,080|caper.cromwell_workflow_monitor|INFO| Task: id=608a5af6-0a60-4d9d-81f3-7b8d31b369bd, task=atac.call_peak:0, retry=0, status=Running
+2023-05-26 14:09:41,080|caper.cromwell_workflow_monitor|INFO| Task: id=608a5af6-0a60-4d9d-81f3-7b8d31b369bd, task=atac.macs2_signal_track:0, retry=0, status=Running
+2023-05-26 14:09:46,078|caper.cromwell_workflow_monitor|INFO| Task: id=608a5af6-0a60-4d9d-81f3-7b8d31b369bd, task=atac.spr:0, retry=0, status=Started, job_id=1555586
+2023-05-26 14:09:46,078|caper.cromwell_workflow_monitor|INFO| Task: id=608a5af6-0a60-4d9d-81f3-7b8d31b369bd, task=atac.spr:0, retry=0, status=Running
+2023-05-26 14:11:27,589|caper.cromwell_workflow_monitor|INFO| Task: id=608a5af6-0a60-4d9d-81f3-7b8d31b369bd, task=atac.spr:0, retry=0, status=Done
+2023-05-26 14:11:36,078|caper.cromwell_workflow_monitor|INFO| Task: id=608a5af6-0a60-4d9d-81f3-7b8d31b369bd, task=atac.call_peak_pr1:0, retry=0, status=Started, job_id=1555587
+2023-05-26 14:11:36,079|caper.cromwell_workflow_monitor|INFO| Task: id=608a5af6-0a60-4d9d-81f3-7b8d31b369bd, task=atac.call_peak_pr1:0, retry=0, status=Running
+2023-05-26 14:11:41,079|caper.cromwell_workflow_monitor|INFO| Task: id=608a5af6-0a60-4d9d-81f3-7b8d31b369bd, task=atac.call_peak_pr2:0, retry=0, status=Started, job_id=1555588
+2023-05-26 14:11:41,080|caper.cromwell_workflow_monitor|INFO| Task: id=608a5af6-0a60-4d9d-81f3-7b8d31b369bd, task=atac.call_peak_pr2:0, retry=0, status=Running
+2023-05-26 14:12:12,569|caper.cromwell_workflow_monitor|INFO| Task: id=608a5af6-0a60-4d9d-81f3-7b8d31b369bd, task=atac.annot_enrich:0, retry=0, status=Done
+2023-05-26 14:13:51,968|caper.cromwell_workflow_monitor|INFO| Task: id=608a5af6-0a60-4d9d-81f3-7b8d31b369bd, task=atac.call_peak:0, retry=0, status=Done
+2023-05-26 14:13:55,718|caper.cromwell_workflow_monitor|INFO| Task: id=608a5af6-0a60-4d9d-81f3-7b8d31b369bd, task=atac.tss_enrich:0, retry=0, status=Done
+2023-05-26 14:14:24,779|caper.cromwell_workflow_monitor|INFO| Task: id=608a5af6-0a60-4d9d-81f3-7b8d31b369bd, task=atac.call_peak_pr2:0, retry=0, status=Done
+2023-05-26 14:14:29,199|caper.cromwell_workflow_monitor|INFO| Task: id=608a5af6-0a60-4d9d-81f3-7b8d31b369bd, task=atac.gc_bias:0, retry=0, status=Done
+2023-05-26 14:15:05,638|caper.cromwell_workflow_monitor|INFO| Task: id=608a5af6-0a60-4d9d-81f3-7b8d31b369bd, task=atac.call_peak_pr1:0, retry=0, status=Done
+2023-05-26 14:15:16,078|caper.cromwell_workflow_monitor|INFO| Task: id=608a5af6-0a60-4d9d-81f3-7b8d31b369bd, task=atac.idr_pr:0, retry=0, status=Started, job_id=1555589
+2023-05-26 14:15:16,079|caper.cromwell_workflow_monitor|INFO| Task: id=608a5af6-0a60-4d9d-81f3-7b8d31b369bd, task=atac.overlap_pr:0, retry=0, status=Started, job_id=1555590
+2023-05-26 14:15:16,079|caper.cromwell_workflow_monitor|INFO| Task: id=608a5af6-0a60-4d9d-81f3-7b8d31b369bd, task=atac.idr_pr:0, retry=0, status=Running
+2023-05-26 14:15:16,079|caper.cromwell_workflow_monitor|INFO| Task: id=608a5af6-0a60-4d9d-81f3-7b8d31b369bd, task=atac.overlap_pr:0, retry=0, status=Running
+2023-05-26 14:16:38,788|caper.cromwell_workflow_monitor|INFO| Task: id=608a5af6-0a60-4d9d-81f3-7b8d31b369bd, task=atac.overlap_pr:0, retry=0, status=Done
+2023-05-26 14:16:46,079|caper.cromwell_workflow_monitor|INFO| Task: id=608a5af6-0a60-4d9d-81f3-7b8d31b369bd, task=atac.reproducibility_overlap:-1, retry=0, status=Started, job_id=1555602
+2023-05-26 14:16:46,079|caper.cromwell_workflow_monitor|INFO| Task: id=608a5af6-0a60-4d9d-81f3-7b8d31b369bd, task=atac.reproducibility_overlap:-1, retry=0, status=Running
+2023-05-26 14:17:24,689|caper.cromwell_workflow_monitor|INFO| Task: id=608a5af6-0a60-4d9d-81f3-7b8d31b369bd, task=atac.reproducibility_overlap:-1, retry=0, status=Done
+2023-05-26 14:17:45,208|caper.cromwell_workflow_monitor|INFO| Task: id=608a5af6-0a60-4d9d-81f3-7b8d31b369bd, task=atac.idr_pr:0, retry=0, status=Done
+2023-05-26 14:17:56,078|caper.cromwell_workflow_monitor|INFO| Task: id=608a5af6-0a60-4d9d-81f3-7b8d31b369bd, task=atac.reproducibility_idr:-1, retry=0, status=Started, job_id=1555603
+2023-05-26 14:17:56,079|caper.cromwell_workflow_monitor|INFO| Task: id=608a5af6-0a60-4d9d-81f3-7b8d31b369bd, task=atac.reproducibility_idr:-1, retry=0, status=Running
+2023-05-26 14:17:58,208|caper.cromwell_workflow_monitor|INFO| Task: id=608a5af6-0a60-4d9d-81f3-7b8d31b369bd, task=atac.jsd:-1, retry=0, status=Done
+2023-05-26 14:18:22,722|caper.cromwell_workflow_monitor|INFO| Task: id=608a5af6-0a60-4d9d-81f3-7b8d31b369bd, task=atac.reproducibility_idr:-1, retry=0, status=Done
+2023-05-26 14:53:48,481|caper.cromwell_workflow_monitor|INFO| Task: id=608a5af6-0a60-4d9d-81f3-7b8d31b369bd, task=atac.macs2_signal_track:0, retry=0, status=Done
+2023-05-26 14:54:01,079|caper.cromwell_workflow_monitor|INFO| Task: id=608a5af6-0a60-4d9d-81f3-7b8d31b369bd, task=atac.qc_report:-1, retry=0, status=Started, job_id=1555667
+2023-05-26 14:54:01,083|caper.cromwell_workflow_monitor|INFO| Task: id=608a5af6-0a60-4d9d-81f3-7b8d31b369bd, task=atac.qc_report:-1, retry=0, status=Running
+2023-05-26 14:54:28,316|caper.cromwell_workflow_monitor|INFO| Task: id=608a5af6-0a60-4d9d-81f3-7b8d31b369bd, task=atac.qc_report:-1, retry=0, status=Done
+2023-05-26 14:54:31,086|caper.cromwell_workflow_monitor|INFO| Workflow: id=608a5af6-0a60-4d9d-81f3-7b8d31b369bd, status=Succeeded
+2023-05-26 14:55:01,839|caper.cromwell_metadata|INFO| Wrote metadata file. /home/suffi.azizan/scratchspace/outputs/encd-atac-pipe-raw-out/413FM0J/413FM0J_sample2/atac/608a5af6-0a60-4d9d-81f3-7b8d31b369bd/metadata.json
+2023-05-26 14:55:01,840|caper.nb_subproc_thread|INFO| Cromwell finished successfully.

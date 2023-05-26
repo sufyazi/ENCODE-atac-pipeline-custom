@@ -10,7 +10,7 @@
     ./extract_sample_sheet_from_xls.py test_files/atac-datasets-to-import.txt test_files/collated-cancer-datasets-v1.6.xlsx test_output/exported_sampsheets test_files/analysis_id_master_list.txt
     ```
 
-2. Once the `analysis_id_master_list.txt` and the corresponding `sampsheet.csv` have been generated, copy the ID master list `.txt` file to Odin where the raw datasets are stored and run the bash script `cp_blueprint_files_to_gekko.sh`. This will `rsync` select datasets into Gekko HPC `scratchspace` first.
+2. Once the `analysis_id_master_list.txt` and the corresponding `sampsheet.csv` have been generated, copy the ID master list `.txt` file to Odin where the raw datasets are stored and run the bash script `cp_blueprint_files_to_gekko.sh`. This will `rsync` select datasets into Gekko HPC `scratchspace` first. If you are running analysis in batches due to limited storage space on Gekko, copy and paste only the id entries you want to transfer for now from the master list into a new text file on Odin and use this as the input of the script below.
 
     **NOTE: This is run on Odin, NOT Gekko.**
 
@@ -25,10 +25,10 @@
     ./cp_blueprint_files_to_gekko.sh [--dry-run|--live-run] input_files/analysis_id_list.txt > rsync_output.log
     ```
 
-3. On the HPC Gekko cluster, the dataset directories containing raw `fastq.gz` sample files can now be sorted into appropriate ***sample*** and ***rep*** directories based on the information contained in the CSV files within `exported_sampsheets` produced by the python script in **step 1**.
+3. On the HPC Gekko cluster, the dataset directories containing raw `fastq.gz` sample files can now be sorted into appropriate ***sample*** and ***rep*** directories based on the information contained in the CSV files within `exported_sampsheets` produced by the python script in **step 1**. In this step, you can use the master ID list, as this script will only modify dataset directories that are present in the fastq storage directory and skip any dataset ID in the master list whose raw data files are not present.
 
     ```bash
-    ./establish_sample_dirtree_v3.py <analysis_id_list.txt> <sample_root_directory> <csv_samplesheet_directory>
+    ./establish_sample_dirtree_v3.py <analysis_id_master_list.txt> <sample_root_directory> <csv_samplesheet_directory>
     ```
 
 4. Once the sample directories have been established, the sample `fastq.gz` files can be processed with `modify_encd-atac-json_v3.py` to generate the JSON files required for the ATAC-seq pipeline to run.
