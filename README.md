@@ -39,17 +39,17 @@
 
 5. Once the requisite `json` files have been generated, the pipeline can be run with `encd-atac-pl_submit-postprocess.sh`. This script will submit a `caper hpc` job for each of the sample JSON file in the dataset directory supplied to the script. The example below shows how to run the pipeline on the sample dataset `2I1Y0Z9` with the JSON files located in `output_files/json/2I1Y0Z9_2907` and the output files will be stored in `/home/suffi.azizan/scratchspace/outputs/encd-atac-pipe-raw-out/2I1Y0Z9`.
 
-Note that the wrapper Bash script below is written to run the `caper` command for just 5 samples at a time. This is to prevent the HPC scheduler from being overloaded with too many jobs at once. The script will wait for 3 hours before submitting the next batch of jobs (via `sleep` command). This can be changed by modifying the `MAX_JOBS` variable in the script.
+    Note that the wrapper Bash script below is written to run the `caper` command for just 5 samples at a time. This is to prevent the HPC scheduler from being overloaded with too many jobs at once. The script will wait for 3 hours before submitting the next batch of jobs (via `sleep` command). This can be changed by modifying the `MAX_JOBS` variable in the script.
 
-Consider running this script in a `tmux` session as the pipeline may take a long time to run depending on the number of samples and the HPC scheduler queue.
+    Consider running this script in a `tmux` session as the pipeline may take a long time to run depending on the number of samples and the HPC scheduler queue.
 
-```bash
-./encd-atac-pl_submit-postprocess.sh 2I1Y0Z9 output_files/json/2I1Y0Z9_2907 /home/suffi.azizan/scratchspace/outputs/encd-atac-pipe-raw-out/2I1Y0Z9
-```
+    >WARNING: After initial testings, running this wrapper script on `tmux` on the login node on Gekko, may sometimes trigger the HPC scheduler to kill the script after a while, but the `tmux` session would still be kept alive. This is likely due to the scheduler detecting the `tmux` session as an idle process. To prevent this, run the script on a compute node instead. This can be done by requesting an interactive session on a compute node with `qsub` and then running the script from within the interactive session on a `tmux` window.
 
-Note that once the pipeline has finished, it will wait for the rest of the batch jobs to finish as well by monitoring for the CAPER log files. Once all of the stderr files contain the line `Workflow finished successfully`, the `caper` output files will automatically be processed using `croo` and the the resulting data files will be immediately moved to a remote storage location on Odin. This is to prevent the HPC scratch space from being overloaded with too many files.
+    ```bash
+    ./encd-atac-pl_submit-postprocess.sh 2I1Y0Z9 output_files/json/2I1Y0Z9_2907 /home/suffi.azizan/scratchspace/outputs/encd-atac-pipe-raw-out/2I1Y0Z9
+    ```
 
-To achieve this, the wrapper script actually runs another script called `croo_processing_module.sh`. Do not move this file anywhere as it is an important dependency for the wrapper script to work.
+Once the pipeline has finished, it will wait for the rest of the batch jobs to finish as well by monitoring for the CAPER log files at the path where the `encode-atac-pl_submit-postprocess.sh` script is run. Once all of the stderr files contain the line `Workflow finished successfully`, the `caper` output files will automatically be processed using `croo` and the the resulting data files will be immediately moved to a remote storage location on Odin. This is to prevent the HPC scratch space from being overloaded with too many large-sized output files. To achieve this, the wrapper script actually runs another script called `croo_processing_module.sh`. Do not move this file anywhere as it is an important dependency for the wrapper script to work.
 
 Alternatively, the `croo_processing_module.sh` script can be run manually to process the `caper` output files. The script takes 3 arguments:
 
@@ -58,3 +58,5 @@ An example of command with complete arguments is as follows:
 ```bash
 ./croo_processing_module.sh 50RWL61 /home/suffi.azizan/scratchspace/outputs/encd-atac-pipe-raw-out/50RWL61 /home/suffi.azizan/scratchspace/outputs/atac_croo_out
 ```
+
+NB: If there are pipeline failures, the wrapper script will catch that as well and report it to the user.
