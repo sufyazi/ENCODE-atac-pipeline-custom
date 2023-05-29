@@ -170,3 +170,7 @@ for sheet_name in dataset_ids:
     
     # Print the output file name to the terminal
     print(f"Extraction completed. The file {analysis_id}_{sheet_name}.csv has been saved in {output_dir}.")
+    
+# Print a message to the terminal
+print("All done!")
+
