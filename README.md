@@ -2,12 +2,12 @@
 
 ## Workflow to process ATAC-seq datasets on NTU HPC cluster, Gekko
 
-1. Run `extract_sample_sheets_from_xls.py`, which also runs `analysis_id_gen` module to generate unique random strings to be assigned to each dataset for downstream reference if a unique ID has not been assigned. This would also produce an `analysis_id_master_list.txt` file that stores the `analysis_ID` and `dataset_ID` in a one-to-one correspondence. This command would require the Excel master file of datasets that is available in a shared folder on Microsoft Teams group named `collated-cancer-datasets-<version>.xlsx` so ensure that this master file has been copied to the base directory prior to running this script.
+1. Run `extract_sample_sheets_from_xls.py` on a list of dataset IDs to be processed (in `txt` file), which also runs `analysis_id_gen` module to generate unique random strings to be assigned to each dataset for downstream reference if a unique ID has not been assigned. This would also produce an `analysis_id_master_list.txt` file that stores the `analysis_ID` and `dataset_ID` in a one-to-one correspondence. This command would require the Excel master file of datasets that is available in a shared folder on Microsoft Teams group named `collated-cancer-datasets-<version>.xlsx` so ensure that this master file has been copied to the base directory prior to running this script.
 
     > *NOTE: Only run these scripts from the base directory of this repository (currently named `atacseq-workflow-scripts`), where these scripts live.*
 
     ```bash
-    ./extract_sample_sheet_from_xls.py test_files/atac-datasets-to-import.txt test_files/collated-cancer-datasets-v1.6.xlsx test_output/exported_sampsheets test_files/analysis_id_master_list.txt
+    ./extract_sample_sheet_from_xls.py input_files/atac-datasets-to-import.txt input_files/collated-cancer-datasets-v1.6.xlsx output_files/exported_sampsheets input_files/analysis_id_master_list.txt
     ```
 
 2. Once the `analysis_id_master_list.txt` and the corresponding `sampsheet.csv` have been generated, copy the ID master list `.txt` file to Odin where the raw datasets are stored and run the bash script `cp_blueprint_files_to_gekko.sh`. This will `rsync` select datasets into Gekko HPC `scratchspace` first. If you are running analysis in batches due to limited storage space on Gekko, copy and paste only the id entries you want to transfer for now from the master list into a new text file on Odin and use this as the input of the script below.
@@ -52,6 +52,10 @@
 Once the pipeline has finished, it will wait for the rest of the batch jobs to finish as well by monitoring for the CAPER log files at the path where the `encode-atac-pl_submit-postprocess.sh` script is run. Once all of the stderr files contain the line `Workflow finished successfully`, the `caper` output files will automatically be processed using `croo` and the the resulting data files will be immediately moved to a remote storage location on Odin. This is to prevent the HPC scratch space from being overloaded with too many large-sized output files. To achieve this, the wrapper script actually runs another script called `croo_processing_module.sh`. Do not move this file anywhere as it is an important dependency for the wrapper script to work.
 
 Alternatively, the `croo_processing_module.sh` script can be run manually to process the `caper` output files. The script takes 3 arguments:
+
+- the unique 7-character analysis ID
+- the path to the `caper` output directory of said analysis ID
+- the path to the output directory where the processed `croo` files will be stored (*root path; the script will create a subdirectory with the analysis ID as the name*)
 
 An example of command with complete arguments is as follows:
 
