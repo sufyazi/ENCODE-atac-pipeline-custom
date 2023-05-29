@@ -25,10 +25,10 @@
     ./cp_blueprint_files_to_gekko.sh [--dry-run|--live-run] input_files/analysis_id_list.txt > rsync_output.log
     ```
 
-3. On the HPC Gekko cluster, the dataset directories containing raw `fastq.gz` sample files can now be sorted into appropriate ***sample*** and ***rep*** directories based on the information contained in the CSV files within `exported_sampsheets` produced by the python script in **step 1**. In this step, you can use the master ID list, as this script will only modify dataset directories that are present in the fastq storage directory and skip any dataset ID in the master list whose raw data files are not present.
+3. On the HPC Gekko cluster, the dataset directories containing raw `fastq.gz` sample files can now be sorted into appropriate ***sample*** and ***rep*** directories based on the information contained in the CSV files within `exported_sampsheets` produced by the python script in **step 1**. In this step, you can use the master ID list, as this script will only modify dataset directories that are present in the FASTQ storage directory and skip any dataset ID in the master list whose raw data files are not present.
 
     ```bash
-    ./establish_sample_dirtree_v3.py <analysis_id_master_list.txt> <sample_root_directory> <csv_samplesheet_directory>
+    ./establish_sample_dirtree_v3.py <analysis_id_master_list.txt> <fastq_file_root_directory> <csv_samplesheet_directory>
     ```
 
 4. Once the sample directories have been established, the sample `fastq.gz` files can be processed with `modify_encd-atac-json_v3.py` to generate the JSON files required for the ATAC-seq pipeline to run.
