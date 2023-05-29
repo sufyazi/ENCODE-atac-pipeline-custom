@@ -73,9 +73,9 @@ for json in "${json_files[@]}"; do
     if [[ $((counter % MAX_JOBS)) -eq 0 && $counter -ne 0 ]]; then
         if [[ $counter -lt $json_files_len ]]; then
             # If the counter is less than the length of the json file array, then pause for 3 hours and check if the jobs are finished
-            echo "${MAX_JOBS} jobs submitted. Pausing for 3 hours..."
-            sleep 3h
-            echo "3 hours have elapsed. Checking if jobs are finished..."
+            echo "${MAX_JOBS} jobs submitted. Pausing for 1 hour..."
+            sleep 1h
+            echo "1 hour has elapsed. Checking if jobs are finished..."
             while true; do
                 #echo "block 1"
                 #break
@@ -132,9 +132,9 @@ for json in "${json_files[@]}"; do
                 fi
             done
         else
-            echo "All ${counter} jobs submitted. Pausing for 3 hours..."
-            sleep 3h
-            echo "3 hours have elapsed. Checking if jobs are finished..."
+            echo "All ${counter} jobs submitted. Pausing for 1 hour..."
+            sleep 1h
+            echo "1 hour has elapsed. Checking if jobs are finished..."
             while true; do
                 #echo "block 2"
                 #break
@@ -193,9 +193,9 @@ for json in "${json_files[@]}"; do
     elif [[ $((counter % MAX_JOBS)) -ne 0 && $counter -ne 0 ]]; then
         if [[ $counter -eq $json_files_len ]]; then
             remainder=$((counter % MAX_JOBS))
-            echo "${remainder} remaining jobs to post-process. Pausing for 3 hours..."
-            sleep 3s
-            echo "3 hours have elapsed. Checking if the remaining jobs are finished..."
+            echo "${remainder} remaining jobs to post-process. Pausing for 1 hour..."
+            sleep 1h
+            echo "1 hour has elapsed. Checking if the remaining jobs are finished..."
             while true; do
                 #echo "block 3"
                 #break
