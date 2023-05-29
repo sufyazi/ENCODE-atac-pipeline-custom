@@ -1,0 +1,14 @@
+{
+    "atac.title": "UYX1M7A_0905",
+    "atac.description": "UYX1M7A_0905 blueprint dnase-seq",
+    "atac.pipeline_type": "dnase",
+    "atac.align_only": false,
+    "atac.true_rep_only": false,
+    "atac.genome_tsv": "https://storage.googleapis.com/encode-pipeline-genome-data/genome_tsv/v4/hg38.tsv",
+    "atac.paired_end": false,
+    "atac.auto_detect_adapter": true,
+    "atac.align_cpu": 16,
+    "atac.fastqs_rep1_R1": [
+        "/home/suffi.azizan/scratchspace/inputs/fastq/blueprint-atac/EGAD00001000905/sample_4/rep_0/C20BGACXX_lane6_3758_CAGATC_L006_R1.fastq.gz"
+    ]
+}
