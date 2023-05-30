@@ -61,7 +61,7 @@ for json in "${json_files[@]}"; do
     # Get the sample id from the json file name
     sample_id=$(basename "$json" | cut -d'.' -f1 | cut -d'_' -f3)
     # Create a new sample directory in the dataset-specific directory to store the output of each pipeline run
-    echo "mkdir -p ${pl_raw_output_root_dir}/${analysis_id}/${analysis_id}_${sample_id}"
+    mkdir -p "${pl_raw_output_root_dir}/${analysis_id}/${analysis_id}_${sample_id}"
     local_output_dir="${pl_raw_output_root_dir}/${analysis_id}/${analysis_id}_${sample_id}"
     # Run the pipeline
     #echo "run caper to ${local_output_dir}"
