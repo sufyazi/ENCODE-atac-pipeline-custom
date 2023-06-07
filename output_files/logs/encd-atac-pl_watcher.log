@@ -1,0 +1,231 @@
+
+Dataset json directory exists. Proceeding...
+Dataset-specific output directory exists. Proceeding...
+Number of json files in the target directory: 37
+Sample ID: sample1
+Local output directory: /home/suffi.azizan/scratchspace/outputs/encd-atac-pipe-raw-out/128T8B4/128T8B4_sample1
+Submitted job number 1: /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/json/128T8B4_2355/128T8B4_2355_sample1.json in if block 0
+Sample ID: sample2
+Local output directory: /home/suffi.azizan/scratchspace/outputs/encd-atac-pipe-raw-out/128T8B4/128T8B4_sample2
+Submitted job number 2: /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/json/128T8B4_2355/128T8B4_2355_sample2.json in elif block 1
+Sample ID: sample3
+Local output directory: /home/suffi.azizan/scratchspace/outputs/encd-atac-pipe-raw-out/128T8B4/128T8B4_sample3
+Submitted job number 3: /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/json/128T8B4_2355/128T8B4_2355_sample3.json in elif block 1
+Sample ID: sample4
+Local output directory: /home/suffi.azizan/scratchspace/outputs/encd-atac-pipe-raw-out/128T8B4/128T8B4_sample4
+Submitted job number 4: /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/json/128T8B4_2355/128T8B4_2355_sample4.json in elif block 1
+Sample ID: sample5
+Local output directory: /home/suffi.azizan/scratchspace/outputs/encd-atac-pipe-raw-out/128T8B4/128T8B4_sample5
+Submitted job number 5: /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/json/128T8B4_2355/128T8B4_2355_sample5.json in elif block 2
+Max jobs at a time have been submitted.
+Current count is 5
+Current sample count is 5
+job 16714 at Wed Jun  7 16:45:00 2023
+Watcher script has been scheduled to run in 1 hour.
+WARNING: LD_LIBRARY_PATH_modshare exists ( /usr/local/graphviz-5.0.1/lib:1:/usr/local/jdk-11.0.12/lib:1 ), but LD_LIBRARY_PATH doesn't. Environment is corrupted.
+Max sample count has not been reached. Proceeding...
+Number of CAPER log files: 5
+All currently running jobs have finished.
+Running croo post-processing script...
+script run in if block 1 watcher script
+Submitting the next batch of jobs...
+Dataset json directory exists. Proceeding...
+Dataset-specific output directory exists. Proceeding...
+Number of json files in the target directory: 37
+Sample ID: sample6
+Local output directory: /home/suffi.azizan/scratchspace/outputs/encd-atac-pipe-raw-out/128T8B4/128T8B4_sample6
+Submitted job number 6: /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/json/128T8B4_2355/128T8B4_2355_sample6.json in elif block 1
+Sample ID: sample7
+Local output directory: /home/suffi.azizan/scratchspace/outputs/encd-atac-pipe-raw-out/128T8B4/128T8B4_sample7
+Submitted job number 7: /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/json/128T8B4_2355/128T8B4_2355_sample7.json in elif block 1
+Sample ID: sample8
+Local output directory: /home/suffi.azizan/scratchspace/outputs/encd-atac-pipe-raw-out/128T8B4/128T8B4_sample8
+Submitted job number 8: /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/json/128T8B4_2355/128T8B4_2355_sample8.json in elif block 1
+Sample ID: sample9
+Local output directory: /home/suffi.azizan/scratchspace/outputs/encd-atac-pipe-raw-out/128T8B4/128T8B4_sample9
+Submitted job number 9: /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/json/128T8B4_2355/128T8B4_2355_sample9.json in elif block 1
+Sample ID: sample10
+Local output directory: /home/suffi.azizan/scratchspace/outputs/encd-atac-pipe-raw-out/128T8B4/128T8B4_sample10
+Submitted job number 10: /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/json/128T8B4_2355/128T8B4_2355_sample10.json in elif block 2
+Max jobs at a time have been submitted.
+Current count is 10
+Current sample count is 10
+job 16715 at Wed Jun  7 16:46:00 2023
+Watcher script has been scheduled to run in 1 hour.
+WARNING: LD_LIBRARY_PATH_modshare exists ( /usr/local/graphviz-5.0.1/lib:1:/usr/local/jdk-11.0.12/lib:1 ), but LD_LIBRARY_PATH doesn't. Environment is corrupted.
+Max sample count has not been reached. Proceeding...
+Number of CAPER log files: 5
+All currently running jobs have finished.
+Running croo post-processing script...
+script run in if block 1 watcher script
+Submitting the next batch of jobs...
+Dataset json directory exists. Proceeding...
+Dataset-specific output directory exists. Proceeding...
+Number of json files in the target directory: 37
+Sample ID: sample11
+Local output directory: /home/suffi.azizan/scratchspace/outputs/encd-atac-pipe-raw-out/128T8B4/128T8B4_sample11
+Submitted job number 11: /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/json/128T8B4_2355/128T8B4_2355_sample11.json in elif block 1
+Sample ID: sample12
+Local output directory: /home/suffi.azizan/scratchspace/outputs/encd-atac-pipe-raw-out/128T8B4/128T8B4_sample12
+Submitted job number 12: /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/json/128T8B4_2355/128T8B4_2355_sample12.json in elif block 1
+Sample ID: sample13
+Local output directory: /home/suffi.azizan/scratchspace/outputs/encd-atac-pipe-raw-out/128T8B4/128T8B4_sample13
+Submitted job number 13: /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/json/128T8B4_2355/128T8B4_2355_sample13.json in elif block 1
+Sample ID: sample14
+Local output directory: /home/suffi.azizan/scratchspace/outputs/encd-atac-pipe-raw-out/128T8B4/128T8B4_sample14
+Submitted job number 14: /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/json/128T8B4_2355/128T8B4_2355_sample14.json in elif block 1
+Sample ID: sample15
+Local output directory: /home/suffi.azizan/scratchspace/outputs/encd-atac-pipe-raw-out/128T8B4/128T8B4_sample15
+Submitted job number 15: /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/json/128T8B4_2355/128T8B4_2355_sample15.json in elif block 2
+Max jobs at a time have been submitted.
+Current count is 15
+Current sample count is 15
+job 16716 at Wed Jun  7 16:47:00 2023
+Watcher script has been scheduled to run in 1 hour.
+WARNING: LD_LIBRARY_PATH_modshare exists ( /usr/local/graphviz-5.0.1/lib:1:/usr/local/jdk-11.0.12/lib:1 ), but LD_LIBRARY_PATH doesn't. Environment is corrupted.
+Max sample count has not been reached. Proceeding...
+Number of CAPER log files: 5
+All currently running jobs have finished.
+Running croo post-processing script...
+script run in if block 1 watcher script
+Submitting the next batch of jobs...
+Dataset json directory exists. Proceeding...
+Dataset-specific output directory exists. Proceeding...
+Number of json files in the target directory: 37
+Sample ID: sample16
+Local output directory: /home/suffi.azizan/scratchspace/outputs/encd-atac-pipe-raw-out/128T8B4/128T8B4_sample16
+Submitted job number 16: /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/json/128T8B4_2355/128T8B4_2355_sample16.json in elif block 1
+Sample ID: sample17
+Local output directory: /home/suffi.azizan/scratchspace/outputs/encd-atac-pipe-raw-out/128T8B4/128T8B4_sample17
+Submitted job number 17: /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/json/128T8B4_2355/128T8B4_2355_sample17.json in elif block 1
+Sample ID: sample18
+Local output directory: /home/suffi.azizan/scratchspace/outputs/encd-atac-pipe-raw-out/128T8B4/128T8B4_sample18
+Submitted job number 18: /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/json/128T8B4_2355/128T8B4_2355_sample18.json in elif block 1
+Sample ID: sample19
+Local output directory: /home/suffi.azizan/scratchspace/outputs/encd-atac-pipe-raw-out/128T8B4/128T8B4_sample19
+Submitted job number 19: /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/json/128T8B4_2355/128T8B4_2355_sample19.json in elif block 1
+Sample ID: sample20
+Local output directory: /home/suffi.azizan/scratchspace/outputs/encd-atac-pipe-raw-out/128T8B4/128T8B4_sample20
+Submitted job number 20: /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/json/128T8B4_2355/128T8B4_2355_sample20.json in elif block 2
+Max jobs at a time have been submitted.
+Current count is 20
+Current sample count is 20
+job 16717 at Wed Jun  7 16:48:00 2023
+Watcher script has been scheduled to run in 1 hour.
+WARNING: LD_LIBRARY_PATH_modshare exists ( /usr/local/graphviz-5.0.1/lib:1:/usr/local/jdk-11.0.12/lib:1 ), but LD_LIBRARY_PATH doesn't. Environment is corrupted.
+Max sample count has not been reached. Proceeding...
+Number of CAPER log files: 5
+All currently running jobs have finished.
+Running croo post-processing script...
+script run in if block 1 watcher script
+Submitting the next batch of jobs...
+Dataset json directory exists. Proceeding...
+Dataset-specific output directory exists. Proceeding...
+Number of json files in the target directory: 37
+Sample ID: sample21
+Local output directory: /home/suffi.azizan/scratchspace/outputs/encd-atac-pipe-raw-out/128T8B4/128T8B4_sample21
+Submitted job number 21: /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/json/128T8B4_2355/128T8B4_2355_sample21.json in elif block 1
+Sample ID: sample22
+Local output directory: /home/suffi.azizan/scratchspace/outputs/encd-atac-pipe-raw-out/128T8B4/128T8B4_sample22
+Submitted job number 22: /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/json/128T8B4_2355/128T8B4_2355_sample22.json in elif block 1
+Sample ID: sample23
+Local output directory: /home/suffi.azizan/scratchspace/outputs/encd-atac-pipe-raw-out/128T8B4/128T8B4_sample23
+Submitted job number 23: /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/json/128T8B4_2355/128T8B4_2355_sample23.json in elif block 1
+Sample ID: sample24
+Local output directory: /home/suffi.azizan/scratchspace/outputs/encd-atac-pipe-raw-out/128T8B4/128T8B4_sample24
+Submitted job number 24: /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/json/128T8B4_2355/128T8B4_2355_sample24.json in elif block 1
+Sample ID: sample25
+Local output directory: /home/suffi.azizan/scratchspace/outputs/encd-atac-pipe-raw-out/128T8B4/128T8B4_sample25
+Submitted job number 25: /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/json/128T8B4_2355/128T8B4_2355_sample25.json in elif block 2
+Max jobs at a time have been submitted.
+Current count is 25
+Current sample count is 25
+job 16718 at Wed Jun  7 16:49:00 2023
+Watcher script has been scheduled to run in 1 hour.
+WARNING: LD_LIBRARY_PATH_modshare exists ( /usr/local/graphviz-5.0.1/lib:1:/usr/local/jdk-11.0.12/lib:1 ), but LD_LIBRARY_PATH doesn't. Environment is corrupted.
+Max sample count has not been reached. Proceeding...
+Number of CAPER log files: 5
+All currently running jobs have finished.
+Running croo post-processing script...
+script run in if block 1 watcher script
+Submitting the next batch of jobs...
+Dataset json directory exists. Proceeding...
+Dataset-specific output directory exists. Proceeding...
+Number of json files in the target directory: 37
+Sample ID: sample26
+Local output directory: /home/suffi.azizan/scratchspace/outputs/encd-atac-pipe-raw-out/128T8B4/128T8B4_sample26
+Submitted job number 26: /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/json/128T8B4_2355/128T8B4_2355_sample26.json in elif block 1
+Sample ID: sample27
+Local output directory: /home/suffi.azizan/scratchspace/outputs/encd-atac-pipe-raw-out/128T8B4/128T8B4_sample27
+Submitted job number 27: /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/json/128T8B4_2355/128T8B4_2355_sample27.json in elif block 1
+Sample ID: sample28
+Local output directory: /home/suffi.azizan/scratchspace/outputs/encd-atac-pipe-raw-out/128T8B4/128T8B4_sample28
+Submitted job number 28: /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/json/128T8B4_2355/128T8B4_2355_sample28.json in elif block 1
+Sample ID: sample29
+Local output directory: /home/suffi.azizan/scratchspace/outputs/encd-atac-pipe-raw-out/128T8B4/128T8B4_sample29
+Submitted job number 29: /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/json/128T8B4_2355/128T8B4_2355_sample29.json in elif block 1
+Sample ID: sample30
+Local output directory: /home/suffi.azizan/scratchspace/outputs/encd-atac-pipe-raw-out/128T8B4/128T8B4_sample30
+Submitted job number 30: /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/json/128T8B4_2355/128T8B4_2355_sample30.json in elif block 2
+Max jobs at a time have been submitted.
+Current count is 30
+Current sample count is 30
+job 16719 at Wed Jun  7 16:50:00 2023
+Watcher script has been scheduled to run in 1 hour.
+WARNING: LD_LIBRARY_PATH_modshare exists ( /usr/local/graphviz-5.0.1/lib:1:/usr/local/jdk-11.0.12/lib:1 ), but LD_LIBRARY_PATH doesn't. Environment is corrupted.
+Max sample count has not been reached. Proceeding...
+Number of CAPER log files: 5
+All currently running jobs have finished.
+Running croo post-processing script...
+script run in if block 1 watcher script
+Submitting the next batch of jobs...
+Dataset json directory exists. Proceeding...
+Dataset-specific output directory exists. Proceeding...
+Number of json files in the target directory: 37
+Sample ID: sample31
+Local output directory: /home/suffi.azizan/scratchspace/outputs/encd-atac-pipe-raw-out/128T8B4/128T8B4_sample31
+Submitted job number 31: /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/json/128T8B4_2355/128T8B4_2355_sample31.json in elif block 1
+Sample ID: sample32
+Local output directory: /home/suffi.azizan/scratchspace/outputs/encd-atac-pipe-raw-out/128T8B4/128T8B4_sample32
+Submitted job number 32: /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/json/128T8B4_2355/128T8B4_2355_sample32.json in elif block 1
+Sample ID: sample33
+Local output directory: /home/suffi.azizan/scratchspace/outputs/encd-atac-pipe-raw-out/128T8B4/128T8B4_sample33
+Submitted job number 33: /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/json/128T8B4_2355/128T8B4_2355_sample33.json in elif block 1
+Sample ID: sample34
+Local output directory: /home/suffi.azizan/scratchspace/outputs/encd-atac-pipe-raw-out/128T8B4/128T8B4_sample34
+Submitted job number 34: /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/json/128T8B4_2355/128T8B4_2355_sample34.json in elif block 1
+Sample ID: sample35
+Local output directory: /home/suffi.azizan/scratchspace/outputs/encd-atac-pipe-raw-out/128T8B4/128T8B4_sample35
+Submitted job number 35: /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/json/128T8B4_2355/128T8B4_2355_sample35.json in elif block 2
+Max jobs at a time have been submitted.
+Current count is 35
+Current sample count is 35
+job 16720 at Wed Jun  7 16:51:00 2023
+Watcher script has been scheduled to run in 1 hour.
+WARNING: LD_LIBRARY_PATH_modshare exists ( /usr/local/graphviz-5.0.1/lib:1:/usr/local/jdk-11.0.12/lib:1 ), but LD_LIBRARY_PATH doesn't. Environment is corrupted.
+Max sample count has not been reached. Proceeding...
+Number of CAPER log files: 5
+All currently running jobs have finished.
+Running croo post-processing script...
+script run in if block 1 watcher script
+Submitting the next batch of jobs...
+Dataset json directory exists. Proceeding...
+Dataset-specific output directory exists. Proceeding...
+Number of json files in the target directory: 37
+Sample ID: sample36
+Local output directory: /home/suffi.azizan/scratchspace/outputs/encd-atac-pipe-raw-out/128T8B4/128T8B4_sample36
+Submitted job number 36: /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/json/128T8B4_2355/128T8B4_2355_sample36.json in elif block 1
+Sample ID: sample37
+Local output directory: /home/suffi.azizan/scratchspace/outputs/encd-atac-pipe-raw-out/128T8B4/128T8B4_sample37
+All samples have been submitted for processing.
+Current count is 37
+Current sample count is 37
+job 16721 at Wed Jun  7 16:52:00 2023
+Watcher script has been scheduled to run in 1 hour.
+WARNING: LD_LIBRARY_PATH_modshare exists ( /usr/local/graphviz-5.0.1/lib:1:/usr/local/jdk-11.0.12/lib:1 ), but LD_LIBRARY_PATH doesn't. Environment is corrupted.
+Max sample count has been reached. Checking to see if all jobs have finished...
+Number of CAPER log files: 5
+Something is wrong with the current pipeline jobs...
+script run in elif block 4 watcher script
+All jobs have finished. Exiting watcher script...
+Workflow is done.
