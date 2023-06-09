@@ -1,0 +1,9 @@
+DONOR_ID,LIBRARY_LAYOUT,DISEASE,TISSUE_TYPE,FILE,SAMPLE,READ,REP
+TCGA-BH-A0HP,PAIRED,Ductal_and_Lobular_Neoplasms,Breast,b0dde559-618f-43ce-9ccf-66c744f8e831.bam,1,nan,0
+TCGA-A2-A0ES,PAIRED,Ductal_and_Lobular_Neoplasms,Breast,d747eefa-5d9d-4cc7-b104-84e828260068.bam,2,nan,0
+TCGA-A2-A0YL,PAIRED,Ductal_and_Lobular_Neoplasms,Breast,e9e09047-e848-4663-9d8f-10d6b3c91117.bam,3,nan,0
+TCGA-4H-AAAK,PAIRED,Ductal_and_Lobular_Neoplasms,Breast,f2dd76cc-ddfa-448b-87ca-8d7ae5903400.bam,4,nan,0
+TCGA-A2-A0T5,PAIRED,Ductal_and_Lobular_Neoplasms,Breast,945a9898-675f-47aa-a512-589ec4971313.bam,5,nan,0
+TCGA-A2-A0EW,PAIRED,Ductal_and_Lobular_Neoplasms,Breast,faec640f-c5e4-411e-94e9-167649d9d712.bam,6,nan,0
+TCGA-A2-A0YK,PAIRED,Ductal_and_Lobular_Neoplasms,Breast,7723730f-40b3-4cfa-b03c-9ac457ab64d1.bam,7,nan,0
+TCGA-A2-A0T7,PAIRED,Ductal_and_Lobular_Neoplasms,Breast,a7b7da60-26cf-4748-bb38-661e84d46900.bam,8,nan,0

@@ -69,6 +69,9 @@ for sheet_name in dataset_ids:
         # Then reload the analysis_id_list.txt file as a DataFrame
         analysis_id_df = pd.read_csv(analysis_id_list, sep='\t', header=0)
         
+        # Find the analysis ID for the current sheet in the updated analysis_id_df DataFrame
+        analysis_id = analysis_id_df.loc[analysis_id_df['dataset_ID'] == sheet_name, 'analysis_ID'].iloc[0]
+        
     else:
         # Find the analysis ID for the current sheet in the analysis_id_df DataFrame
         analysis_id = analysis_id_df.loc[analysis_id_df['dataset_ID'] == sheet_name, 'analysis_ID'].iloc[0]
