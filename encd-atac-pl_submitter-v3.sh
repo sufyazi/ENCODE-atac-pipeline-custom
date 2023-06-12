@@ -13,7 +13,7 @@ module load graphviz/5.0.1
 
 # Check if the correct number of arguments were provided
 if [[ $# -ne 5 ]]; then
-    echo "Usage: encd-atac-pl_submit-v3.sh <analysis_id> <dataset_json_directory_abs_path> <pipeline_raw_output_root_dir_abs_path> <croo_output_root_dir_abs_path> <counter>"
+    echo "Usage: encd-atac-pl_submitter-v3.sh <analysis_id> <dataset_json_directory_abs_path> <pipeline_raw_output_root_dir_abs_path> <croo_output_root_dir_abs_path> <counter>"
     # counter should always be 0 when this script is run manually
     exit 1
 fi
@@ -78,7 +78,7 @@ for json in "${json_files[@]:$counter}"; do
             local_output_dir="${pl_raw_output_root_dir}/${analysis_id}/${analysis_id}_${sample_id}"
             echo "Local output directory: ${local_output_dir}"
             # Run the pipeline
-            ######caper hpc submit /home/suffi.azizan/installs/atac-seq-pipeline/atac.wdl -i "${json}" -s "${analysis_id}" --conda --pbs-queue q32 --leader-job-name "${analysis_id}_${sample_id}" --local-out-dir "${local_output_dir}" --cromwell-stdout "/home/suffi.azizan/logs/cromwell_out/cromwell.${analysis_id}_${sample_id}.out"
+            caper hpc submit /home/suffi.azizan/installs/atac-seq-pipeline/atac.wdl -i "${json}" -s "${analysis_id}" --conda --pbs-queue q32 --leader-job-name "${analysis_id}_${sample_id}" --local-out-dir "${local_output_dir}" --cromwell-stdout "/home/suffi.azizan/logs/cromwell_out/cromwell.${analysis_id}_${sample_id}.out"
             # Increment the counter
             counter=$((counter+1))
             echo "Submitted job number ${sample_count}: ${json} in if block 0"
@@ -90,7 +90,7 @@ for json in "${json_files[@]:$counter}"; do
             local_output_dir="${pl_raw_output_root_dir}/${analysis_id}/${analysis_id}_${sample_id}"
             echo "Local output directory: ${local_output_dir}"
             # Run the pipeline
-            ######caper hpc submit /home/suffi.azizan/installs/atac-seq-pipeline/atac.wdl -i "${json}" -s "${analysis_id}" --conda --pbs-queue q32 --leader-job-name "${analysis_id}_${sample_id}" --local-out-dir "${local_output_dir}" --cromwell-stdout "/home/suffi.azizan/logs/cromwell_out/cromwell.${analysis_id}_${sample_id}.out"
+            caper hpc submit /home/suffi.azizan/installs/atac-seq-pipeline/atac.wdl -i "${json}" -s "${analysis_id}" --conda --pbs-queue q32 --leader-job-name "${analysis_id}_${sample_id}" --local-out-dir "${local_output_dir}" --cromwell-stdout "/home/suffi.azizan/logs/cromwell_out/cromwell.${analysis_id}_${sample_id}.out"
             # Increment the counter
             counter=$((counter+1))
             echo "Submitted job number ${sample_count}: ${json} in elif block 1"
@@ -102,14 +102,14 @@ for json in "${json_files[@]:$counter}"; do
             local_output_dir="${pl_raw_output_root_dir}/${analysis_id}/${analysis_id}_${sample_id}"
             echo "Local output directory: ${local_output_dir}"
             # Run the pipeline
-            ######caper hpc submit /home/suffi.azizan/installs/atac-seq-pipeline/atac.wdl -i "${json}" -s "${analysis_id}" --conda --pbs-queue q32 --leader-job-name "${analysis_id}_${sample_id}" --local-out-dir "${local_output_dir}" --cromwell-stdout "/home/suffi.azizan/logs/cromwell_out/cromwell.${analysis_id}_${sample_id}.out"
+            caper hpc submit /home/suffi.azizan/installs/atac-seq-pipeline/atac.wdl -i "${json}" -s "${analysis_id}" --conda --pbs-queue q32 --leader-job-name "${analysis_id}_${sample_id}" --local-out-dir "${local_output_dir}" --cromwell-stdout "/home/suffi.azizan/logs/cromwell_out/cromwell.${analysis_id}_${sample_id}.out"
             # Increment the counter
             counter=$((counter+1))
             echo "Submitted job number ${sample_count}: ${json} in elif block 2"
             echo "Max jobs at a time have been submitted."
             echo "Current count is ${counter}"
             echo "Current sample count is ${sample_count}"
-            at now + 1 minute <<EOF
+            at now + 1 hour <<EOF
 /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/encd-atac-pl_watcher-v3.sh "${analysis_id}" "${dataset_json_dir}" "${pl_raw_output_root_dir}" "${croo_output_root_dir}" "${counter}" "${json_files_len}" >> /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/logs/encd-atac-pl_watcher.log 2>&1
 EOF
             echo "Watcher script has been scheduled to run in 1 hour."
@@ -122,13 +122,13 @@ EOF
         local_output_dir="${pl_raw_output_root_dir}/${analysis_id}/${analysis_id}_${sample_id}"
         echo "Local output directory: ${local_output_dir}"
         # Run the pipeline
-        ######caper hpc submit /home/suffi.azizan/installs/atac-seq-pipeline/atac.wdl -i "${json}" -s "${analysis_id}" --conda --pbs-queue q32 --leader-job-name "${analysis_id}_${sample_id}" --local-out-dir "${local_output_dir}" --cromwell-stdout "/home/suffi.azizan/logs/cromwell_out/cromwell.${analysis_id}_${sample_id}.out"
+        caper hpc submit /home/suffi.azizan/installs/atac-seq-pipeline/atac.wdl -i "${json}" -s "${analysis_id}" --conda --pbs-queue q32 --leader-job-name "${analysis_id}_${sample_id}" --local-out-dir "${local_output_dir}" --cromwell-stdout "/home/suffi.azizan/logs/cromwell_out/cromwell.${analysis_id}_${sample_id}.out"
         # Increment the counter
         counter=$((counter+1))
         echo "All samples have been submitted for processing."
         echo "Current count is ${counter}"
         echo "Current sample count is ${sample_count}"
-        at now + 1 minute <<EOF
+        at now + 1 hour <<EOF
 /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/encd-atac-pl_watcher-v3.sh "${analysis_id}" "${dataset_json_dir}" "${pl_raw_output_root_dir}" "${croo_output_root_dir}" "${counter}" "${json_files_len}" >> /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/logs/encd-atac-pl_watcher.log 2>&1
 EOF
         echo "Watcher script has been scheduled to run in 1 hour."

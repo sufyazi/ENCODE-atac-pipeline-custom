@@ -39,7 +39,7 @@ def modify_atacseq_json():
     Required arguments:
         -d/--working-directory <directory>: absolute path to top level directory where fastq files are located
         -j/--json-file <filepath>: ENCODE ATAC-seq pipeline input JSON file template
-        -n/--sample-sheet-csv <filepath>: absolute path to the sample sheet CSV file
+        -s/--sample-sheet-csv <filepath>: absolute path to the sample sheet CSV file
         -o/--output <output_path>: absolute path to the directory where the new JSON files will be created
     
     Optional arguments:
@@ -132,7 +132,7 @@ def modify_atacseq_json():
         bam_file = True
     
     # Check if the sample directories are named as such: "sample_n" where n is the sample number
-    wd = [f for f in os.listdir(working_directory) if not f.startswith('.')]
+    wd = [f for f in os.listdir(working_directory) if not f.startswith('.') and os.path.isdir(os.path.join(working_directory, f))]
     for subdir in wd:
         try:
             int(subdir.split("_")[1])
@@ -222,15 +222,14 @@ def modify_atacseq_json():
             if paired_end:
                 # Check if the bam_file variable is True; if yes, then the pipeline will be run on BAM files
                 if bam_file:
-
                     bam_inputs = [f for f in input_files if re.search(r"\.bam$", f)]
                     if bam_inputs:
                         if rep[4:] == "0":
-                            input_file_keys[f"atac.bams"] = [os.path.join(working_directory, f"sample_{n}", rep, r1_file[0])]
+                            input_file_keys[f"atac.bams"] = [os.path.join(working_directory, f"sample_{n}", rep, bam_inputs[0])]
                         else:
-                            input_file_keys[f"atac.bams"] = [os.path.join(working_directory, f"sample_{n}", rep, r1_file[0])]
+                            input_file_keys.setdefault("atac.bams", []).append(os.path.join(working_directory, f"sample_{n}", rep, bam_inputs[0]))
                     else:
-                        print(f"No fastq.gz files found in {working_directory}/sample_{n}/{rep}")
+                        print(f"No bam files found in {working_directory}/sample_{n}/{rep}")
                         continue
                 else:
                     # Filter for filenames that end with "R1.fastq.gz"
@@ -250,14 +249,26 @@ def modify_atacseq_json():
                 
             # if the dataset to be processed is single-end
             else:
-                if input_files:
-                    if rep[4:] == "0":
-                        input_file_keys[f"atac.fastqs_rep1_R1"] = [os.path.join(working_directory, f"sample_{n}", rep, input_files[0])]
+                # Check if the bam_file variable is True; if yes, then the pipeline will be run on BAM files
+                if bam_file:
+                    bam_inputs = [f for f in input_files if re.search(r"\.bam$", f)]
+                    if bam_inputs:
+                        if rep[4:] == "0":
+                            input_file_keys[f"atac.bams"] = [os.path.join(working_directory, f"sample_{n}", rep, bam_inputs[0])]
+                        else:
+                            input_file_keys.setdefault("atac.bams", []).append(os.path.join(working_directory, f"sample_{n}", rep, bam_inputs[0]))
                     else:
-                        input_file_keys[f"atac.fastqs_rep{rep[4:]}_R1"] = [os.path.join(working_directory, f"sample_{n}", rep, input_files[0])]
+                        print(f"No bam files found in {working_directory}/sample_{n}/{rep}")
+                        continue
                 else:
-                    print(f"No fastq.gz files found in {working_directory}/sample_{n}/{rep}")
-                    continue
+                    if input_files:
+                        if rep[4:] == "0":
+                            input_file_keys[f"atac.fastqs_rep1_R1"] = [os.path.join(working_directory, f"sample_{n}", rep, input_files[0])]
+                        else:
+                            input_file_keys[f"atac.fastqs_rep{rep[4:]}_R1"] = [os.path.join(working_directory, f"sample_{n}", rep, input_files[0])]
+                    else:
+                        print(f"No fastq.gz files found in {working_directory}/sample_{n}/{rep}")
+                        continue
             
         # create a copy of the original data dictionary
         data_copy = data.copy() 
