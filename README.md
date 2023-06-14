@@ -1,6 +1,10 @@
-# ATAC-seq-workflow-scripts
+# ATAC-seq Workflow Scripts
 
-## Workflow to process ATAC-seq datasets on NTU HPC cluster, Gekko
+## Introduction
+
+This repository contains the scripts used to process ATAC-seq datasets on the NTU HPC cluster, Gekko. The workflow is created to ease pre-processing and bulk processing of datasets for ENCODE ATAC-seq pipeline. The workflow is designed to be run on the HPC cluster, Gekko, but can be adapted to run on other HPC clusters.
+
+## Workflow Step-by-Step Guide
 
 1. Run `extract_sample_sheets_from_xls.py` on a list of dataset IDs to be processed (in `txt` file), which also runs `analysis_id_gen` module to generate unique random strings to be assigned to each dataset for downstream reference if a unique ID has not been assigned. This would also produce an `analysis_id_master_list.txt` file that stores the `analysis_ID` and `dataset_ID` in a one-to-one correspondence. This command would require the Excel master file of datasets that is available in a shared folder on Microsoft Teams group named `collated-cancer-datasets-<version>.xlsx` so ensure that this master file has been copied to the base directory prior to running this script.
 
@@ -31,25 +35,33 @@
     ./establish_sample_dirtree_v3.py <analysis_id_master_list.txt> <fastq_file_root_directory> <csv_samplesheet_directory>
     ```
 
-4. Once the sample directories have been established, the sample `fastq.gz` files can be processed with `modify_encd-atac-json_v3.py` to generate the JSON files required for the ATAC-seq pipeline to run.
+4. Once the sample directories have been established, the sample `fastq.gz` files can be processed with `modify_encd-atac-json_v4.py` to generate the JSON files required for the ATAC-seq pipeline to run.
 
     ```bash
-    ./modify_encd-atac-json_v3.py [-h] -d <dataset_directory> -j <json_file_template> -s <sample_sheet_csv> -o <output_path>
+    ./modify_encd-atac-json_v4.py [-h] -d <dataset_directory> -j <json_file_template> -s <sample_sheet_csv> -o <output_path>
     ```
 
-5. Once the requisite `json` files have been generated, the pipeline can be run with `encd-atac-pl_submit-postprocess.sh`. This script will submit a `caper hpc` job for each of the sample JSON file in the dataset directory supplied to the script. The example below shows how to run the pipeline on the sample dataset `2I1Y0Z9` with the JSON files located in `output_files/json/2I1Y0Z9_2907` and the output files will be stored in `/home/suffi.azizan/scratchspace/outputs/encd-atac-pipe-raw-out/2I1Y0Z9`.
+5. Once the requisite `json` files have been generated, the pipeline can be run with the submitter script `encd-atac-pl_submitter-v3.sh` (together with its dependency script, `encd-atac-pl_watcher-v3.sh`). This script will submit a `caper hpc` job for each of the sample JSON file in the dataset directory supplied to the script.
 
-    Note that the wrapper Bash script below is written to run the `caper` command for just 5 samples at a time. This is to prevent the HPC scheduler from being overloaded with too many jobs at once. The script will wait for 3 hours before submitting the next batch of jobs (via `sleep` command). This can be changed by modifying the `MAX_JOBS` variable in the script.
+    Note that the wrapper Bash script below is written to run the `caper` command for just 5 samples at a time. This is to prevent the HPC scheduler from being overloaded with too many jobs at once. The script will then exit after scheduling the sentinel script `encd-atac-pl_watcher-v3.sh` with `at` command. The sentinel script will be run in 1 hour, after which it would check the progress of the submitted jobs, and watch for the generation of the `metadata.json` file in the output folder signalling the completion of a job before submitting the next batch of jobs by sourcing the main submitter script and then exiting.
 
-    Consider running this script in a `tmux` session as the pipeline may take a long time to run depending on the number of samples and the HPC scheduler queue.
-
-    >WARNING: After initial testings, running this wrapper script on `tmux` on the login node on Gekko, may sometimes trigger the HPC scheduler to kill the script after a while, but the `tmux` session would still be kept alive. This is likely due to the scheduler detecting the `tmux` session as an idle process. To prevent this, run the script on a compute node instead. This can be done by requesting an interactive session on a compute node with `qsub` and then running the script from within the interactive session on a `tmux` window.
+    The max job parameter can be changed directly by modifying the harcoded `MAX_JOBS` variable in the script.
 
     ```bash
-    ./encd-atac-pl_submit-postprocess.sh 2I1Y0Z9 output_files/json/2I1Y0Z9_2907 /home/suffi.azizan/scratchspace/outputs/encd-atac-pipe-raw-out/2I1Y0Z9
+    ./encd-atac-pl_submitter-v3.sh <analysis_id> <dataset_json_directory_abs_path> <pipeline_raw_output_root_dir_abs_path> <croo_output_root_dir_abs_path> <counter = always '0'>
     ```
 
-Once the pipeline has finished, it will wait for the rest of the batch jobs to finish as well by monitoring for the CAPER log files at the path where the `encode-atac-pl_submit-postprocess.sh` script is run. Once all of the stderr files contain the line `Workflow finished successfully`, the `caper` output files will automatically be processed using `croo` and the the resulting data files will be immediately moved to a remote storage location on Odin. This is to prevent the HPC scratch space from being overloaded with too many large-sized output files. To achieve this, the wrapper script actually runs another script called `croo_processing_module.sh`. Do not move this file anywhere as it is an important dependency for the wrapper script to work.
+    NOTE: Always set the `counter` parameter as 0 when this script is run manually, unless you are restarting an interrupted processing of a dataset, in which case you can set the `counter` parameter to the most recently processed sample number. This is to ensure that the script will not submit duplicate jobs for samples that have already been processed. For instance, if you have already processed sample 1–5 of a dataset but the workflow gets interrupted here, you can restart the workflow by setting the `counter` parameter to 5 to start processing sample 6-10.
+
+    The example below shows how to run the pipeline on the sample dataset `2I1Y0Z9` with the JSON files located in `output_files/json/2I1Y0Z9_2907` and the output files will be stored in `/home/suffi.azizan/scratchspace/outputs/encd-atac-pipe-raw-out/2I1Y0Z9`.
+
+    ```bash
+    ./encd-atac-pl_submitter-v3.sh 2I1Y0Z9 output_files/json/2I1Y0Z9_2907 /home/suffi.azizan/scratchspace/outputs/encd-atac-pipe-raw-out/2I1Y0Z9 0
+    ```
+
+## Closing Remarks
+
+Within the sentinel script, there are conditional blocks that invoke `croo_processing_module.sh` dependency script, which would automatically process the `caper` output files using `croo` and the the resulting data files will be immediately moved to a remote storage location on Odin. This is to prevent the HPC scratch space from being overloaded with too many large-sized output files. Do not move this module script anywhere than where the submitter/watcher scripts are being run to ensure workflow script integrity.
 
 Alternatively, the `croo_processing_module.sh` script can be run manually to process the `caper` output files. The script takes 3 arguments:
 
@@ -63,4 +75,4 @@ An example of command with complete arguments is as follows:
 ./croo_processing_module.sh 50RWL61 /home/suffi.azizan/scratchspace/outputs/encd-atac-pipe-raw-out/50RWL61 /home/suffi.azizan/scratchspace/outputs/atac_croo_out
 ```
 
-NB: If there are pipeline failures, the wrapper script will catch that as well and report it to the user.
+NB: If there are pipeline failures, the watcher script will catch that as well and report it to the user.
