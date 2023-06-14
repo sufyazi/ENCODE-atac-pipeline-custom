@@ -139,8 +139,12 @@ else
             fi
             
             echo "All job runs have finished. Exiting watcher script..."
+            echo "The current log file will be archived and a new log file will be created for the next workflow."
             echo "Workflow is done."
-        
+            mv /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/logs/encd-atac-pl_watcher.log /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/logs/encd-atac-pl_watcher_ARCHIVED-"${analysis_id}".log
+            touch /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/logs/encd-atac-pl_watcher.log
+
+
         elif (( finish_counts != remainder )) && [[ $(qstat -u suffi.azizan | grep -c "CAPER_${analysis_id:0:3}") -ne 0 ]]; then
             echo "The current batch of submitted jobs are still running. Will check again in 1 hour."
             echo "Number of metadata.json files indicating finished jobs: $finish_counts"
