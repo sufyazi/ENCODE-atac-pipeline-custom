@@ -1,0 +1,14 @@
+{
+    "atac.title": "ANAB5F7_TCGA-BRCA-Basal",
+    "atac.description": "ANAB5F7_TCGA-BRCA-Basal bam TCGA atac-seq",
+    "atac.pipeline_type": "atac",
+    "atac.align_only": false,
+    "atac.true_rep_only": false,
+    "atac.genome_tsv": "https://storage.googleapis.com/encode-pipeline-genome-data/genome_tsv/v4/hg38.tsv",
+    "atac.paired_end": true,
+    "atac.auto_detect_adapter": true,
+    "atac.align_cpu": 16,
+    "atac.bams": [
+        "/home/suffi.azizan/scratchspace/inputs/fastq/tcga-atac/BRCA/TCGA-BRCA-Basal/sample_10/rep_0/046abc0e-b5f5-48b4-9d34-17a17aa7f880.bam"
+    ]
+}
