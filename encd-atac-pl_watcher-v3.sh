@@ -141,7 +141,7 @@ else
             echo "All job runs have finished. Exiting watcher script..."
             echo "The current log file will be archived and a new log file will be created for the next workflow."
             echo "Workflow is done."
-            mv /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/logs/encd-atac-pl_watcher.log /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/logs/encd-atac-pl_watcher_ARCHIVED-"${analysis_id}".log
+            mv /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/logs/encd-atac-pl_watcher.log /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/logs/encd-atac-pl_watcher.log /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/logs/encd-atac-pl_watcher_ARCHIVED-"${analysis_id}".log
             touch /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/logs/encd-atac-pl_watcher.log
 
 
