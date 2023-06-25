@@ -1,0 +1,14 @@
+{
+    "atac.title": "98JKPD8_TCGA-BRCA-LumA",
+    "atac.description": "98JKPD8_TCGA-BRCA-LumA TCGA atac-seq",
+    "atac.pipeline_type": "atac",
+    "atac.align_only": false,
+    "atac.true_rep_only": false,
+    "atac.genome_tsv": "https://storage.googleapis.com/encode-pipeline-genome-data/genome_tsv/v4/hg38.tsv",
+    "atac.paired_end": true,
+    "atac.auto_detect_adapter": true,
+    "atac.align_cpu": 16,
+    "atac.bams": [
+        "/home/suffi.azizan/scratchspace/inputs/fastq/tcga-atac/BRCA/TCGA-BRCA-LumA/sample_2/rep_0/bfb51f42-7bd6-42ba-9367-e32710542d19.bam"
+    ]
+}
