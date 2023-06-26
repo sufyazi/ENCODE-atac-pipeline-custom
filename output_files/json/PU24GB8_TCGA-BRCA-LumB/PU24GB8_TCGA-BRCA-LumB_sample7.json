@@ -1,0 +1,14 @@
+{
+    "atac.title": "PU24GB8_TCGA-BRCA-LumB",
+    "atac.description": "PU24GB8_TCGA-BRCA-LumB TCGA atac-seq",
+    "atac.pipeline_type": "atac",
+    "atac.align_only": false,
+    "atac.true_rep_only": false,
+    "atac.genome_tsv": "https://storage.googleapis.com/encode-pipeline-genome-data/genome_tsv/v4/hg38.tsv",
+    "atac.paired_end": true,
+    "atac.auto_detect_adapter": true,
+    "atac.align_cpu": 16,
+    "atac.bams": [
+        "/home/suffi.azizan/scratchspace/inputs/fastq/tcga-atac/BRCA/TCGA-BRCA-LumB/sample_7/rep_0/7c28a2ea-3b9d-4616-9172-c763c3ddab3d.bam"
+    ]
+}

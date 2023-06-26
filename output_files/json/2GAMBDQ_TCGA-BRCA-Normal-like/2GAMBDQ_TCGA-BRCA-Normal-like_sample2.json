@@ -1,0 +1,14 @@
+{
+    "atac.title": "2GAMBDQ_TCGA-BRCA-Normal-like",
+    "atac.description": "2GAMBDQ_TCGA-BRCA-Normal-like TCGA atac-seq",
+    "atac.pipeline_type": "atac",
+    "atac.align_only": false,
+    "atac.true_rep_only": false,
+    "atac.genome_tsv": "https://storage.googleapis.com/encode-pipeline-genome-data/genome_tsv/v4/hg38.tsv",
+    "atac.paired_end": true,
+    "atac.auto_detect_adapter": true,
+    "atac.align_cpu": 16,
+    "atac.bams": [
+        "/home/suffi.azizan/scratchspace/inputs/fastq/tcga-atac/BRCA/TCGA-BRCA-Normal-like/sample_2/rep_0/d747eefa-5d9d-4cc7-b104-84e828260068.bam"
+    ]
+}
