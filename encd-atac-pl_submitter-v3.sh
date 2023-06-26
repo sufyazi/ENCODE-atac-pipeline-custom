@@ -110,7 +110,7 @@ for json in "${json_files[@]:$counter}"; do
             echo "Current count is ${counter}"
             echo "Current sample count is ${sample_count}"
             at now + 1 hour <<EOF
-/home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/encd-atac-pl_watcher-v3.sh "${analysis_id}" "${dataset_json_dir}" "${pl_raw_output_root_dir}" "${croo_output_root_dir}" "${counter}" "${json_files_len}" >> /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/logs/encd-atac-pl_watcher.log 2>&1
+/home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/encd-atac-pl_watcher-v3.sh "${analysis_id}" "${dataset_json_dir}" "${pl_raw_output_root_dir}" "${croo_output_root_dir}" "${counter}" "${json_files_len}" >> "/home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/logs/encd-atac-pl_watcher_${analysis_id}.log" 2>&1
 EOF
             echo "Watcher script has been scheduled to run in 1 hour."
             break
@@ -129,7 +129,7 @@ EOF
         echo "Current count is ${counter}"
         echo "Current sample count is ${sample_count}"
         at now + 1 hour <<EOF
-/home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/encd-atac-pl_watcher-v3.sh "${analysis_id}" "${dataset_json_dir}" "${pl_raw_output_root_dir}" "${croo_output_root_dir}" "${counter}" "${json_files_len}" >> /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/logs/encd-atac-pl_watcher.log 2>&1
+/home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/encd-atac-pl_watcher-v3.sh "${analysis_id}" "${dataset_json_dir}" "${pl_raw_output_root_dir}" "${croo_output_root_dir}" "${counter}" "${json_files_len}" >> "/home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/logs/encd-atac-pl_watcher_${analysis_id}.log" 2>&1
 EOF
         echo "Watcher script has been scheduled to run in 1 hour."
         break

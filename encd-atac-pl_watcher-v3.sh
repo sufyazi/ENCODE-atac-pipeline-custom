@@ -81,13 +81,13 @@ if [[ "$counter" -ne "$max_samp_count" ]]; then
             echo "The current batch of submitted jobs are still running. Will check again in 1 hour."
             echo "Number of metadata.json files indicating finished jobs: $finish_counts"
             at now + 1 hour <<EOF
-/home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/encd-atac-pl_watcher-v3.sh "${analysis_id}" "${dataset_json_dir}" "${pl_raw_output_root_dir}" "${croo_output_root_dir}" "${counter}" "${max_samp_count}" >> /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/logs/encd-atac-pl_watcher.log 2>&1
+/home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/encd-atac-pl_watcher-v3.sh "${analysis_id}" "${dataset_json_dir}" "${pl_raw_output_root_dir}" "${croo_output_root_dir}" "${counter}" "${max_samp_count}" >> "/home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/logs/encd-atac-pl_watcher_${analysis_id}.log" 2>&1
 EOF
         fi
     else
         echo "None of the currently running jobs has finished. Will check again in 1 hour."
         at now + 1 hour <<EOF
-/home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/encd-atac-pl_watcher-v3.sh "${analysis_id}" "${dataset_json_dir}" "${pl_raw_output_root_dir}" "${croo_output_root_dir}" "${counter}" "${max_samp_count}" >> /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/logs/encd-atac-pl_watcher.log 2>&1
+/home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/encd-atac-pl_watcher-v3.sh "${analysis_id}" "${dataset_json_dir}" "${pl_raw_output_root_dir}" "${croo_output_root_dir}" "${counter}" "${max_samp_count}" >> "/home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/logs/encd-atac-pl_watcher_${analysis_id}.log" 2>&1
 EOF
     fi
 
@@ -115,7 +115,6 @@ else
             fi
             echo "All job runs have finished. Exiting watcher script..."
             echo "Workflow is done."
-
         elif (( finish_counts != remainder )) && [[ $(qstat -u suffi.azizan | grep -c "CAPER_${analysis_id:0:3}") -eq 0 ]]; then
             echo "Something is wrong with the current pipeline jobs..."
             echo "Listing successful jobs..."
@@ -137,26 +136,18 @@ else
             else
                 echo "No successful jobs found."
             fi
-            
             echo "All job runs have finished. Exiting watcher script..."
-            echo "The current log file will be archived and a new log file will be created for the next workflow."
-            echo "Workflow is done."
-            mv /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/logs/encd-atac-pl_watcher.log /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/logs/encd-atac-pl_watcher_ARCHIVED-"${analysis_id}".log
-            touch /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/logs/encd-atac-pl_watcher.log
-
-
         elif (( finish_counts != remainder )) && [[ $(qstat -u suffi.azizan | grep -c "CAPER_${analysis_id:0:3}") -ne 0 ]]; then
             echo "The current batch of submitted jobs are still running. Will check again in 1 hour."
             echo "Number of metadata.json files indicating finished jobs: $finish_counts"
             at now + 1 hour <<EOF
-/home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/encd-atac-pl_watcher-v3.sh "${analysis_id}" "${dataset_json_dir}" "${pl_raw_output_root_dir}" "${croo_output_root_dir}" "${counter}" "${max_samp_count}" >> /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/logs/encd-atac-pl_watcher.log 2>&1
+/home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/encd-atac-pl_watcher-v3.sh "${analysis_id}" "${dataset_json_dir}" "${pl_raw_output_root_dir}" "${croo_output_root_dir}" "${counter}" "${max_samp_count}" >> "/home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/logs/encd-atac-pl_watcher_${analysis_id}.log" 2>&1
 EOF
         fi
-    
     else
         echo "None of the currently running jobs has finished. Will check again in 1 hour."
         at now + 1 hour <<EOF
-/home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/encd-atac-pl_watcher-v3.sh "${analysis_id}" "${dataset_json_dir}" "${pl_raw_output_root_dir}" "${croo_output_root_dir}" "${counter}" "${max_samp_count}" >> /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/logs/encd-atac-pl_watcher.log 2>&1
+/home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/encd-atac-pl_watcher-v3.sh "${analysis_id}" "${dataset_json_dir}" "${pl_raw_output_root_dir}" "${croo_output_root_dir}" "${counter}" "${max_samp_count}" >> "/home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/logs/encd-atac-pl_watcher_${analysis_id}.log" 2>&1
 EOF
     fi  
 fi
