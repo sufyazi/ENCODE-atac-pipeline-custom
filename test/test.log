@@ -1,0 +1,13 @@
+running main.sh
+another line of superfluous text
+yet another line of superfluous text
+yet another line of superfluous text for you
+yet another line of superfluous text for you to see
+finished running main.sh
+RSYNC_ERROR-on-sample1 CROO_ERROR-on-sample2 SUCCESS-on-sample3 CROO_ERROR-on-sample4
+st/test_dir’: File exists
+finished running env_test.sh
+This is the captured output: 
+ RSYNC_ERROR
+CROO_ERROR
+CROO_ERROR

@@ -1,19 +1,20 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC1091
 
-counter=$1
-echo "main script first line"
-echo "count is $counter"
-# check if the file test.txt exists in a folder
-if [[ -f /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/test/test.txt ]]; then
-    echo "file exists"
-else
-    counter=$((counter+1))
-    at now + 1 minute <<EOF
-/home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/test/main.sh $counter
-EOF
-fi
-echo "main script last line"
+status=()
+
+echo "running main.sh"
+echo "another line of superfluous text"
+echo "yet another line of superfluous text"
+echo "yet another line of superfluous text for you"
+echo "yet another line of superfluous text for you to see"
+mkdir /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/test/test_dir
+echo "finished running main.sh"
+status+=("RSYNC_ERROR-on-sample1")
+status+=("CROO_ERROR-on-sample2")
+status+=("SUCCESS-on-sample3")
+status+=("CROO_ERROR-on-sample4")
+echo "${status[@]}"
 
 
 

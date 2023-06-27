@@ -10,17 +10,13 @@
 # echo >> path/to/file.txt
 # echo "finished env" >> path/to/file.txt
 
-echo "start of inner script"
-# check if the file test.txt exists in a folder
-if [[ -f /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/test/test.txt ]]; then
-    echo "file exists"
+captured_out=$(bash /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/test/main.sh | tee /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/test/test.log | grep -oE "RSYNC_ERROR|CROO_ERROR")
+echo "finished running env_test.sh"
+if [[ -z "$captured_out" ]]; then
+    echo "Oops! Captured variable is empty!"
 else
-    at now + 1 minute <<EOF
-/home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/test/env_test.sh
-EOF
+    printf "This is the captured output: \n %s" "$captured_out"
 fi
-
-echo "end of inner script"
 
 
 

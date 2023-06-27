@@ -21,6 +21,9 @@ fi
 # Set the number of jobs to submit at a time; this number should be unchanged for now so I will hardcode it
 declare -i MAX_JOBS=5
 
+# Set the cluster queue to use (-r: read-only)
+declare -r CLUSTER_QUEUE="q128"
+
 # Assign the arguments to variables
 analysis_id=$1
 dataset_json_dir=$2
@@ -78,10 +81,10 @@ for json in "${json_files[@]:$counter}"; do
             local_output_dir="${pl_raw_output_root_dir}/${analysis_id}/${analysis_id}_${sample_id}"
             echo "Local output directory: ${local_output_dir}"
             # Run the pipeline
-            caper hpc submit /home/suffi.azizan/installs/atac-seq-pipeline/atac.wdl -i "${json}" -s "${analysis_id}" --conda --pbs-queue q32 --leader-job-name "${analysis_id}_${sample_id}" --local-out-dir "${local_output_dir}" --cromwell-stdout "/home/suffi.azizan/logs/cromwell_out/cromwell.${analysis_id}_${sample_id}.out"
+            caper hpc submit /home/suffi.azizan/installs/atac-seq-pipeline/atac.wdl -i "${json}" -s "${analysis_id}" --conda --pbs-queue "${CLUSTER_QUEUE}" --leader-job-name "${analysis_id}_${sample_id}" --local-out-dir "${local_output_dir}" --cromwell-stdout "/home/suffi.azizan/logs/cromwell_out/cromwell.${analysis_id}_${sample_id}.out"
             # Increment the counter
             counter=$((counter+1))
-            echo "Submitted job number ${sample_count}: ${json} in if block 0"
+            echo "Submitted job number ${sample_count}: ${json} in if-block 0"
 
         elif [[ $counter -ne 0 && $((sample_count % MAX_JOBS)) -ne 0 ]]; then
             echo "Sample ID: ${sample_id}"
@@ -90,10 +93,10 @@ for json in "${json_files[@]:$counter}"; do
             local_output_dir="${pl_raw_output_root_dir}/${analysis_id}/${analysis_id}_${sample_id}"
             echo "Local output directory: ${local_output_dir}"
             # Run the pipeline
-            caper hpc submit /home/suffi.azizan/installs/atac-seq-pipeline/atac.wdl -i "${json}" -s "${analysis_id}" --conda --pbs-queue q32 --leader-job-name "${analysis_id}_${sample_id}" --local-out-dir "${local_output_dir}" --cromwell-stdout "/home/suffi.azizan/logs/cromwell_out/cromwell.${analysis_id}_${sample_id}.out"
+            caper hpc submit /home/suffi.azizan/installs/atac-seq-pipeline/atac.wdl -i "${json}" -s "${analysis_id}" --conda --pbs-queue "${CLUSTER_QUEUE}" --leader-job-name "${analysis_id}_${sample_id}" --local-out-dir "${local_output_dir}" --cromwell-stdout "/home/suffi.azizan/logs/cromwell_out/cromwell.${analysis_id}_${sample_id}.out"
             # Increment the counter
             counter=$((counter+1))
-            echo "Submitted job number ${sample_count}: ${json} in elif block 1"
+            echo "Submitted job number ${sample_count}: ${json} in elif-block 1"
 
         elif [[ $counter -ne 0 && $((sample_count % MAX_JOBS)) -eq 0 ]]; then
             echo "Sample ID: ${sample_id}"
@@ -102,10 +105,10 @@ for json in "${json_files[@]:$counter}"; do
             local_output_dir="${pl_raw_output_root_dir}/${analysis_id}/${analysis_id}_${sample_id}"
             echo "Local output directory: ${local_output_dir}"
             # Run the pipeline
-            caper hpc submit /home/suffi.azizan/installs/atac-seq-pipeline/atac.wdl -i "${json}" -s "${analysis_id}" --conda --pbs-queue q32 --leader-job-name "${analysis_id}_${sample_id}" --local-out-dir "${local_output_dir}" --cromwell-stdout "/home/suffi.azizan/logs/cromwell_out/cromwell.${analysis_id}_${sample_id}.out"
+            caper hpc submit /home/suffi.azizan/installs/atac-seq-pipeline/atac.wdl -i "${json}" -s "${analysis_id}" --conda --pbs-queue "${CLUSTER_QUEUE}" --leader-job-name "${analysis_id}_${sample_id}" --local-out-dir "${local_output_dir}" --cromwell-stdout "/home/suffi.azizan/logs/cromwell_out/cromwell.${analysis_id}_${sample_id}.out"
             # Increment the counter
             counter=$((counter+1))
-            echo "Submitted job number ${sample_count}: ${json} in elif block 2"
+            echo "Submitted job number ${sample_count}: ${json} in elif-block 2"
             echo "Max jobs at a time have been submitted."
             echo "Current count is ${counter}"
             echo "Current sample count is ${sample_count}"
@@ -122,7 +125,7 @@ EOF
         local_output_dir="${pl_raw_output_root_dir}/${analysis_id}/${analysis_id}_${sample_id}"
         echo "Local output directory: ${local_output_dir}"
         # Run the pipeline
-        caper hpc submit /home/suffi.azizan/installs/atac-seq-pipeline/atac.wdl -i "${json}" -s "${analysis_id}" --conda --pbs-queue q32 --leader-job-name "${analysis_id}_${sample_id}" --local-out-dir "${local_output_dir}" --cromwell-stdout "/home/suffi.azizan/logs/cromwell_out/cromwell.${analysis_id}_${sample_id}.out"
+        caper hpc submit /home/suffi.azizan/installs/atac-seq-pipeline/atac.wdl -i "${json}" -s "${analysis_id}" --conda --pbs-queue "${CLUSTER_QUEUE}" --leader-job-name "${analysis_id}_${sample_id}" --local-out-dir "${local_output_dir}" --cromwell-stdout "/home/suffi.azizan/logs/cromwell_out/cromwell.${analysis_id}_${sample_id}.out"
         # Increment the counter
         counter=$((counter+1))
         echo "All samples have been submitted for processing."

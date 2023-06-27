@@ -15,6 +15,9 @@ croo_output_root_dir="$3"
 # then map their names only to the dir_names array
 readarray -t dir_path < <(find "$caper_dataset_dir" -mindepth 1 -maxdepth 1 -type d)
 
+# set up an array to store error messages
+error_msg=()
+
 for dir in "${dir_path[@]}"; do
     # find metadata.json in each subdirectory
     metadata_file=$(find "$dir" -name metadata.json -type f)
@@ -40,13 +43,18 @@ for dir in "${dir_path[@]}"; do
         if rsync -avPhz --copy-links -e"ssh -i ~/.ssh/odin_id_rsa" "$croo_output_root_dir/$analysis_id/$names" "msazizan@10.97.128.82:/home/msazizan/cargospace/encd-atac-pl/expo/atac_croo_out/$analysis_id"; then
             echo "Rsync completed successfully for $names."
             mv "$croo_output_root_dir/$analysis_id/$names" "$croo_output_root_dir/$analysis_id/${names}-transferred"
+            error_msg+=("SUCCESS-on-$names")
         else
             echo "Rsync encountered an error on $names."
+            # set error status
+            error_msg+=("RSYNC_ERROR-on-$names")
             continue
         fi
     else
         echo "Croo simply failed on $names for some reason."
+        error_msg+=("CROO_ERROR-on-$names")
         continue
     fi
 done
 
+echo "${error_msg[@]}"
