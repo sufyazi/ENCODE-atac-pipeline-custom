@@ -22,7 +22,7 @@ fi
 declare -i MAX_JOBS=5
 
 # Set the cluster queue to use (-r: read-only)
-declare -r CLUSTER_QUEUE="q128"
+declare -r CLUSTER_QUEUE="q32"
 
 # Assign the arguments to variables
 analysis_id=$1
