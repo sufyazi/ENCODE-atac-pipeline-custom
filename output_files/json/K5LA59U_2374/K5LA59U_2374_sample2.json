@@ -1,6 +1,6 @@
 {
     "atac.title": "K5LA59U_2374",
-    "atac.description": "K5LA59U_2374 blueprint dnase-seq",
+    "atac.description": "K5LA59U_2374 BLUEPRINT dnase-seq",
     "atac.pipeline_type": "dnase",
     "atac.align_only": false,
     "atac.true_rep_only": false,
@@ -9,6 +9,6 @@
     "atac.auto_detect_adapter": true,
     "atac.align_cpu": 16,
     "atac.fastqs_rep1_R1": [
-        "/home/suffi.azizan/scratchspace/inputs/fastq/blueprint-atac/EGAD00001002374/sample_1/rep_0/C2NTUACXX_lane8_4648_CTTGTA_L008_R1.fastq.gz"
+        "/scratch/akash.bahai/suffi_tmp/EGAD00001002374/sample_2/rep_0/C20BGACXX_lane5_3687_CTTGTA_L005_R1.fastq.gz"
     ]
 }

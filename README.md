@@ -6,12 +6,12 @@ This repository contains the scripts used to process ATAC-seq datasets on the NT
 
 ## Workflow Step-by-Step Guide
 
-1. Run `extract_sample_sheets_from_xls.py` on a list of dataset IDs to be processed (in `txt` file), which also runs `analysis_id_gen` module to generate unique random strings to be assigned to each dataset for downstream reference if a unique ID has not been assigned. This would also produce an `analysis_id_master_list.txt` file that stores the `analysis_ID` and `dataset_ID` in a one-to-one correspondence. This command would require the Excel master file of datasets that is available in a shared folder on Microsoft Teams group named `collated-cancer-datasets-<version>.xlsx` so ensure that this master file has been copied to the base directory prior to running this script.
+1. Run `extract_sample_sheets_from_xls_v2.py` on a list of dataset IDs to be processed (in `txt` file), which also runs `analysis_id_gen` module to generate unique random strings to be assigned to each dataset for downstream reference if a unique ID has not been assigned. This would also produce an `analysis_id_master_list.txt` file that stores the `analysis_ID` and `dataset_ID` in a one-to-one correspondence. This command would require the Excel master file of datasets that is available in a shared folder on Microsoft Teams group named `collated-cancer-datasets-<version>.xlsx` so ensure that this master file has been copied to the base directory prior to running this script.
 
     > *NOTE: Only run these scripts from the base directory of this repository (currently named `atacseq-workflow-scripts`), where these scripts live.*
 
     ```bash
-    ./extract_sample_sheet_from_xls.py input_files/atac-datasets-to-import.txt input_files/collated-cancer-datasets-v1.6.xlsx output_files/exported_sampsheets input_files/analysis_id_master_list.txt
+    ./extract_sample_sheet_from_xls_v2.py input_files/atac-datasets-to-import.txt input_files/collated-cancer-datasets-v1.6.xlsx output_files/exported_sampsheets input_files/analysis_id_master_list.txt
     ```
 
 2. Once the `analysis_id_master_list.txt` and the corresponding `sampsheet.csv` have been generated, copy the ID master list `.txt` file to Odin where the raw datasets are stored and run the bash script `cp_blueprint_files_to_gekko.sh`. This will `rsync` select datasets into Gekko HPC `scratchspace` first. If you are running analysis in batches due to limited storage space on Gekko, copy and paste only the id entries you want to transfer for now from the master list into a new text file on Odin and use this as the input of the script below.
