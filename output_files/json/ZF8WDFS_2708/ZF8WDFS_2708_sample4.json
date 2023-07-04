@@ -9,9 +9,9 @@
     "atac.auto_detect_adapter": true,
     "atac.align_cpu": 16,
     "atac.fastqs_rep1_R1": [
-        "./EGAD00001002708/sample_2/rep_0/HF5T2BGXX_lane1_8122_TAGGCATG_L001_R1.fastq.gz"
+        "./EGAD00001002708/sample_4/rep_0/HNFWNBGXX_lane1_9851_TAAGGCGA_L001_R1.fastq.gz"
     ],
     "atac.fastqs_rep1_R2": [
-        "./EGAD00001002708/sample_2/rep_0/HF5T2BGXX_lane1_8122_TAGGCATG_L001_R2.fastq.gz"
+        "./EGAD00001002708/sample_4/rep_0/HNFWNBGXX_lane1_9851_TAAGGCGA_L001_R2.fastq.gz"
     ]
 }

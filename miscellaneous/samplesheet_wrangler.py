@@ -58,9 +58,18 @@ def main(df, excel_file, sheet_name, analysis_id_df):
     if 'CELL_TYPE' in df.columns:
         df['CELL_TYPE'] = df['CELL_TYPE'].str.replace(',', '')
             
-    # Collapse the DONOR_ID column values into unique categories and assign them to a new column called SAMPLE
-    df['SAMPLE'] = pd.factorize(df['DONOR_ID'])[0] + 1
-        
+    # Collapse the SAMPLE_ID column values into unique categories and assign them to a new column called SAMPLE
+    try:
+        if df['SAMPLE_ID'].isna().any():
+            # If there are NA values in SAMPLE_ID, fallback to DONOR_ID
+            df['SAMPLE'] = pd.factorize(df['DONOR_ID'])[0] + 1
+        else:
+            df['SAMPLE'] = pd.factorize(df['SAMPLE_ID'])[0] + 1
+    except KeyError:
+        # Handle the case when SAMPLE_ID column is missing
+        # Fallback to DONOR_ID
+        df['SAMPLE'] = pd.factorize(df['DONOR_ID'])[0] + 1
+   
     # Now we have to construct replicate numbers for each sample and read combination
     # First check if the column LIBRARY_LAYOUT exists or not in the DataFrame
     if 'LIBRARY_LAYOUT' not in df.columns:

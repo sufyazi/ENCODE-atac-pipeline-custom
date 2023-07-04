@@ -13,6 +13,9 @@ SOURCE_DIR="/data/shop/accRLJEHM.jmcarter/v0/depo"
 # Set the remote server to rsync to
 REMOTE_SERVER="suffi.azizan@gekko.hpc.ntu.edu.sg"
 
+# Set the target path on the remote server
+REMOTE_PATH="/scratch/akash.bahai/suffi_tmp"
+
 # Check if the --dry-run option is provided
 if [[ "$1" == "--dry-run" ]]
 then
@@ -79,9 +82,9 @@ do
         echo -e "Rsyncing $FASTQ_FILE to $REMOTE_SERVER\n"
         if [ "$RUN" == "--dry-run" ]
         then
-          rsync -aPHAXz "$RUN" --exclude="/.*" "$SAMPLE/$FASTQ_FILE" "${REMOTE_SERVER}":/home/suffi.azizan/scratchspace/inputs/fastq/blueprint-atac/"$SUBDIR"/
+          rsync -aPHAXz "$RUN" --exclude="/.*" "$SAMPLE/$FASTQ_FILE" "${REMOTE_SERVER}":"${REMOTE_PATH}"/"$SUBDIR"/
         else
-          rsync -aPHAXz --exclude="/.*" "$SAMPLE/$FASTQ_FILE" "${REMOTE_SERVER}":/home/suffi.azizan/scratchspace/inputs/fastq/blueprint-atac/"$SUBDIR"/
+          rsync -aPHAXz --exclude="/.*" "$SAMPLE/$FASTQ_FILE" "${REMOTE_SERVER}":"${REMOTE_PATH}"/"$SUBDIR"/
         fi
       else
         # The checksums do not match, so skip this subdirectory

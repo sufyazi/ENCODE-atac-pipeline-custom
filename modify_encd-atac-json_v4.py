@@ -130,6 +130,8 @@ def modify_atacseq_json():
     if json_file.endswith("bams.json"):
         # initialize a Boolean variable to indicate that the pipeline will be run on BAM files
         bam_file = True
+    else:
+        bam_file = False
     
     # Check if the sample directories are named as such: "sample_n" where n is the sample number
     wd = [f for f in os.listdir(working_directory) if not f.startswith('.') and os.path.isdir(os.path.join(working_directory, f))]
