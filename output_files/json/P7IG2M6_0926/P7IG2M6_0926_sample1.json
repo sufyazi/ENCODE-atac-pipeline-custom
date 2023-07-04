@@ -1,5 +1,5 @@
 {
-    "atac.title": "P7IG2M6_0926 ",
+    "atac.title": "P7IG2M6_0926",
     "atac.description": "P7IG2M6_0926 BLUEPRINT dnase-seq",
     "atac.pipeline_type": "dnase",
     "atac.align_only": false,
@@ -9,6 +9,6 @@
     "atac.auto_detect_adapter": true,
     "atac.align_cpu": 16,
     "atac.fastqs_rep1_R1": [
-        "/scratch/akash.bahai/suffi_tmp/EGAD00001000926/sample_2/rep_0/C20BGACXX_lane5_3687_CTTGTA_L005_R1.fastq.gz"
+        "/scratch/akash.bahai/suffi_tmp/EGAD00001000926/sample_1/rep_0/D1YHUACXX_lane8_3686_CAGATC_L008_R1.fastq.gz"
     ]
 }

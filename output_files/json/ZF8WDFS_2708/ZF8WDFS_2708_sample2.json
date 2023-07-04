@@ -1,5 +1,5 @@
 {
-    "atac.title": "ZF8WDFS_2708 ",
+    "atac.title": "ZF8WDFS_2708",
     "atac.description": "ZF8WDFS_2708 BLUEPRINT atacseq",
     "atac.pipeline_type": "atac",
     "atac.align_only": false,
@@ -9,9 +9,9 @@
     "atac.auto_detect_adapter": true,
     "atac.align_cpu": 16,
     "atac.fastqs_rep1_R1": [
-        "/scratch/akash.bahai/suffi_tmp/EGAD00001002708/sample_4/rep_0/HNFWNBGXX_lane1_9851_TAAGGCGA_L001_R1.fastq.gz"
+        "/scratch/akash.bahai/suffi_tmp/EGAD00001002708/sample_2/rep_0/HF5T2BGXX_lane1_8122_TAGGCATG_L001_R1.fastq.gz"
     ],
     "atac.fastqs_rep1_R2": [
-        "/scratch/akash.bahai/suffi_tmp/EGAD00001002708/sample_4/rep_0/HNFWNBGXX_lane1_9851_TAAGGCGA_L001_R2.fastq.gz"
+        "/scratch/akash.bahai/suffi_tmp/EGAD00001002708/sample_2/rep_0/HF5T2BGXX_lane1_8122_TAGGCATG_L001_R2.fastq.gz"
     ]
 }
