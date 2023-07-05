@@ -1,8 +1,503 @@
-WARNING: LD_LIBRARY_PATH_modshare exists ( /usr/local/graphviz-5.0.1/lib:1:/usr/local/jdk-11.0.12/lib:1 ), but LD_LIBRARY_PATH doesn't. Environment is corrupted.
-Max sample count has been reached. Checking to see if all jobs have finished...
-None of the currently running jobs has finished. Will check again in 1 hour.
-job 17020 at Wed Jul  5 15:27:00 2023
-WARNING: LD_LIBRARY_PATH_modshare exists ( /usr/local/graphviz-5.0.1/lib:1:/usr/local/jdk-11.0.12/lib:1 ), but LD_LIBRARY_PATH doesn't. Environment is corrupted.
-Max sample count has been reached. Checking to see if all jobs have finished...
-None of the currently running jobs has finished. Will check again in 1 hour.
-job 17022 at Wed Jul  5 16:27:00 2023
+Metadata location: /home/suffi.azizan/scratchspace/outputs/encd-atac-pipe-raw-out/K5LA59U/K5LA59U_sample1/atac/990c89eb-59bf-4e66-a09f-37a060e028ce/metadata.json
+Sample name: K5LA59U_sample1
+Croo completed successfully on sample K5LA59U_sample1. Proceeding to rsync...
+sending incremental file list
+created directory /home/msazizan/cargospace/encd-atac-pl/expo/atac_croo_out/K5LA59U
+K5LA59U_sample1/
+K5LA59U_sample1/croo.filetable.990c89eb-59bf-4e66-a09f-37a060e028ce.tsv
+         14.43K 100%    0.00kB/s    0:00:00           14.43K 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=86/88)
+K5LA59U_sample1/croo.report.990c89eb-59bf-4e66-a09f-37a060e028ce.html
+         32.77K  55%   31.25MB/s    0:00:00           59.10K 100%   18.79MB/s    0:00:00 (xfr#2, to-chk=85/88)
+K5LA59U_sample1/croo.task_graph.990c89eb-59bf-4e66-a09f-37a060e028ce.dot
+         16.52K 100%    3.94MB/s    0:00:00           16.52K 100%    3.94MB/s    0:00:00 (xfr#3, to-chk=84/88)
+K5LA59U_sample1/croo.task_graph.990c89eb-59bf-4e66-a09f-37a060e028ce.svg
+         32.77K  95%    5.21MB/s    0:00:00           34.27K 100%    5.45MB/s    0:00:00 (xfr#4, to-chk=83/88)
+K5LA59U_sample1/align/
+K5LA59U_sample1/align/rep1/
+K5LA59U_sample1/align/rep1/C2NTUACXX_lane8_4648_CTTGTA_L008_R1.trim.srt.bam
+         32.77K   0%    2.84MB/s    0:29:08           36.37M   0%   20.71MB/s    0:03:58           74.81M   1%   26.68MB/s    0:03:03          112.59M   2%   29.23MB/s    0:02:46          150.54M   2%   30.72MB/s    0:02:36          189.10M   3%   36.43MB/s    0:02:11          227.31M   4%   36.37MB/s    0:02:10          265.65M   5%   36.51MB/s    0:02:08          304.45M   5%   36.71MB/s    0:02:07          342.92M   6%   36.69MB/s    0:02:06          358.81M   7%   31.37MB/s    0:02:27          396.26M   7%   31.16MB/s    0:02:27          408.65M   8%   24.86MB/s    0:03:03          414.68M   8%   13.98MB/s    0:05:26          453.31M   8%   18.40MB/s    0:04:05          470.88M   9%   13.91MB/s    0:05:24          509.94M  10%   18.88MB/s    0:03:56          547.91M  10%   30.12MB/s    0:02:27          585.43M  11%   29.87MB/s    0:02:27          612.93M  12%   31.54MB/s    0:02:18          651.07M  12%   31.34MB/s    0:02:18          688.95M  13%   31.32MB/s    0:02:17          726.96M  14%   31.42MB/s    0:02:15          756.91M  14%   30.86MB/s    0:02:17          770.77M  15%   23.12MB/s    0:03:02          808.88M  15%   23.16MB/s    0:03:00          847.77M  16%   23.33MB/s    0:02:57          884.97M  17%   27.24MB/s    0:02:30          923.99M  18%   36.55MB/s    0:01:51          962.92M  18%   36.74MB/s    0:01:49            1.00G  19%   36.58MB/s    0:01:49            1.04G  20%   36.51MB/s    0:01:48            1.08G  21%   36.15MB/s    0:01:48            1.11G  21%   35.74MB/s    0:01:48            1.15G  22%   35.86MB/s    0:01:47            1.19G  23%   36.20MB/s    0:01:45            1.22G  23%   34.56MB/s    0:01:49            1.26G  24%   34.95MB/s    0:01:46            1.30G  25%   34.98MB/s    0:01:45            1.34G  26%   35.15MB/s    0:01:44            1.38G  27%   37.09MB/s    0:01:37            1.41G  27%   37.08MB/s    0:01:36            1.45G  28%   37.06MB/s    0:01:35            1.49G  29%   35.46MB/s    0:01:39            1.52G  29%   35.46MB/s    0:01:38            1.56G  30%   35.42MB/s    0:01:37            1.60G  31%   35.38MB/s    0:01:36            1.63G  31%   33.75MB/s    0:01:40            1.67G  32%   33.60MB/s    0:01:39            1.70G  33%   28.78MB/s    0:01:54            1.74G  34%   28.88MB/s    0:01:53            1.77G  34%   26.85MB/s    0:02:00            1.81G  35%   26.71MB/s    0:01:59            1.84G  36%   28.98MB/s    0:01:49            1.88G  36%   28.84MB/s    0:01:48            1.92G  37%   34.56MB/s    0:01:29            1.96G  38%   34.78MB/s    0:01:27            1.99G  39%   36.64MB/s    0:01:22            2.03G  39%   36.76MB/s    0:01:21            2.07G  40%   36.26MB/s    0:01:21            2.11G  41%   36.36MB/s    0:01:20            2.14G  42%   36.09MB/s    0:01:19            2.18G  42%   35.99MB/s    0:01:18            2.22G  43%   36.43MB/s    0:01:16            2.26G  44%   36.39MB/s    0:01:15            2.30G  45%   36.66MB/s    0:01:14            2.34G  45%   36.52MB/s    0:01:13            2.37G  46%   36.49MB/s    0:01:12            2.41G  47%   36.41MB/s    0:01:11            2.45G  48%   36.35MB/s    0:01:10            2.49G  48%   36.37MB/s    0:01:09            2.53G  49%   36.26MB/s    0:01:08            2.56G  50%   36.20MB/s    0:01:08            2.60G  51%   36.16MB/s    0:01:07            2.64G  51%   36.17MB/s    0:01:06            2.68G  52%   36.21MB/s    0:01:04            2.72G  53%   36.28MB/s    0:01:03            2.75G  54%   36.29MB/s    0:01:02            2.79G  54%   36.30MB/s    0:01:01            2.83G  55%   36.39MB/s    0:01:00            2.87G  56%   36.39MB/s    0:00:59            2.91G  57%   36.28MB/s    0:00:58            2.94G  57%   35.38MB/s    0:00:59            2.98G  58%   34.99MB/s    0:00:58            3.02G  59%   34.81MB/s    0:00:58            3.05G  59%   34.65MB/s    0:00:57            3.09G  60%   35.38MB/s    0:00:55            3.13G  61%   35.60MB/s    0:00:53            3.16G  62%   35.47MB/s    0:00:52            3.20G  62%   35.51MB/s    0:00:51            3.24G  63%   35.56MB/s    0:00:50            3.28G  64%   35.68MB/s    0:00:49            3.31G  65%   35.96MB/s    0:00:48            3.35G  65%   36.17MB/s    0:00:46            3.39G  66%   36.29MB/s    0:00:45            3.43G  67%   36.36MB/s    0:00:44            3.47G  68%   36.35MB/s    0:00:43            3.51G  68%   36.38MB/s    0:00:42            3.54G  69%   36.31MB/s    0:00:41            3.58G  70%   36.20MB/s    0:00:40            3.62G  71%   36.21MB/s    0:00:39            3.66G  71%   36.32MB/s    0:00:38            3.70G  72%   36.52MB/s    0:00:37            3.73G  73%   36.59MB/s    0:00:36            3.77G  74%   36.75MB/s    0:00:34            3.81G  74%   36.77MB/s    0:00:33            3.85G  75%   36.82MB/s    0:00:32            3.89G  76%   36.87MB/s    0:00:31            3.93G  77%   36.86MB/s    0:00:30            3.97G  77%   36.92MB/s    0:00:29            4.00G  78%   36.89MB/s    0:00:28            4.04G  79%   36.99MB/s    0:00:27            4.08G  80%   36.98MB/s    0:00:26            4.12G  81%   36.93MB/s    0:00:25            4.16G  81%   37.00MB/s    0:00:24            4.20G  82%   36.92MB/s    0:00:23            4.24G  83%   36.81MB/s    0:00:22            4.28G  84%   36.75MB/s    0:00:21            4.31G  84%   36.42MB/s    0:00:20            4.35G  85%   36.49MB/s    0:00:19            4.39G  86%   36.53MB/s    0:00:18            4.43G  87%   36.45MB/s    0:00:17            4.47G  87%   36.59MB/s    0:00:16            4.50G  88%   36.45MB/s    0:00:15            4.54G  89%   36.42MB/s    0:00:14            4.58G  90%   36.49MB/s    0:00:13            4.62G  90%   36.62MB/s    0:00:12            4.66G  91%   36.69MB/s    0:00:11            4.70G  92%   36.81MB/s    0:00:10            4.74G  93%   36.83MB/s    0:00:09            4.77G  93%   36.83MB/s    0:00:08            4.81G  94%   36.83MB/s    0:00:07            4.85G  95%   36.74MB/s    0:00:06            4.89G  96%   36.78MB/s    0:00:05            4.93G  96%   36.70MB/s    0:00:04            4.97G  97%   36.60MB/s    0:00:03            5.00G  98%   36.54MB/s    0:00:02            5.04G  99%   36.37MB/s    0:00:01            5.08G  99%   36.30MB/s    0:00:00            5.09G 100%   34.10MB/s    0:02:22 (xfr#5, to-chk=77/88)
+K5LA59U_sample1/align/rep1/C2NTUACXX_lane8_4648_CTTGTA_L008_R1.trim.srt.nodup.no_chrM_MT.bam
+         32.77K   0%  156.10kB/s    3:51:37           30.51M   1%   29.09MB/s    0:01:11           68.71M   3%   32.78MB/s    0:01:02          106.82M   4%   33.98MB/s    0:00:59          145.16M   6%   34.63MB/s    0:00:57          182.98M   8%   36.37MB/s    0:00:53          221.09M  10%   36.35MB/s    0:00:52          259.00M  11%   36.29MB/s    0:00:51          296.45M  13%   36.08MB/s    0:00:50          333.58M  15%   35.92MB/s    0:00:49          370.97M  17%   35.74MB/s    0:00:49          409.37M  18%   35.87MB/s    0:00:47          446.73M  20%   35.84MB/s    0:00:46          484.74M  22%   36.05MB/s    0:00:45          521.86M  24%   35.99MB/s    0:00:44          559.38M  25%   35.78MB/s    0:00:43          596.97M  27%   35.84MB/s    0:00:42          634.62M  29%   35.76MB/s    0:00:41          672.33M  30%   35.89MB/s    0:00:40          709.92M  32%   35.91MB/s    0:00:39          747.73M  34%   35.96MB/s    0:00:38          784.14M  36%   35.66MB/s    0:00:37          821.79M  37%   35.65MB/s    0:00:36          859.08M  39%   35.57MB/s    0:00:35          897.29M  41%   35.67MB/s    0:00:34          935.33M  43%   36.06MB/s    0:00:33          973.08M  44%   36.09MB/s    0:00:32            1.01G  46%   36.39MB/s    0:00:31            1.05G  48%   36.39MB/s    0:00:30            1.09G  50%   36.52MB/s    0:00:28            1.13G  51%   36.65MB/s    0:00:27            1.17G  53%   36.68MB/s    0:00:26            1.20G  55%   36.69MB/s    0:00:25            1.24G  57%   36.57MB/s    0:00:24            1.28G  59%   36.60MB/s    0:00:23            1.32G  60%   36.65MB/s    0:00:22            1.36G  62%   36.47MB/s    0:00:21            1.39G  64%   36.51MB/s    0:00:20            1.43G  66%   36.64MB/s    0:00:19            1.47G  67%   36.61MB/s    0:00:18            1.51G  69%   36.95MB/s    0:00:17            1.55G  71%   37.09MB/s    0:00:16            1.59G  73%   37.10MB/s    0:00:15            1.63G  75%   37.15MB/s    0:00:14            1.67G  76%   37.15MB/s    0:00:13            1.71G  78%   37.16MB/s    0:00:12            1.74G  80%   36.93MB/s    0:00:11            1.78G  82%   36.82MB/s    0:00:10            1.82G  83%   36.32MB/s    0:00:09            1.86G  85%   36.05MB/s    0:00:08            1.90G  87%   36.06MB/s    0:00:07            1.93G  89%   35.85MB/s    0:00:06            1.97G  90%   36.06MB/s    0:00:05            2.01G  92%   36.20MB/s    0:00:04            2.05G  94%   36.13MB/s    0:00:03            2.09G  96%   36.27MB/s    0:00:02            2.12G  97%   36.33MB/s    0:00:01            2.16G  99%   36.49MB/s    0:00:00            2.17G 100%   36.19MB/s    0:00:57 (xfr#6, to-chk=76/88)
+K5LA59U_sample1/align/rep1/C2NTUACXX_lane8_4648_CTTGTA_L008_R1.trim.srt.nodup.no_chrM_MT.tagAlign.gz
+         32.77K   0%  160.80kB/s    0:28:52           24.84M   8%   23.69MB/s    0:00:10           55.41M  19%   26.44MB/s    0:00:08           80.54M  28%   25.61MB/s    0:00:07          110.53M  39%   26.36MB/s    0:00:06          140.97M  50%   27.70MB/s    0:00:04          173.70M  62%   28.22MB/s    0:00:03          201.98M  72%   28.97MB/s    0:00:02          233.18M  83%   29.26MB/s    0:00:01          265.88M  95%   29.80MB/s    0:00:00          278.63M 100%   28.22MB/s    0:00:09 (xfr#7, to-chk=75/88)
+K5LA59U_sample1/align/rep1/pseudorep1/
+K5LA59U_sample1/align/rep1/pseudorep1/C2NTUACXX_lane8_4648_CTTGTA_L008_R1.trim.srt.nodup.no_chrM_MT.pr1.tagAlign.gz
+         32.77K   0%   74.59kB/s    0:46:55           21.99M  10%   20.97MB/s    0:00:08           60.72M  28%   28.97MB/s    0:00:05           99.39M  47%   31.60MB/s    0:00:03          137.92M  65%   32.89MB/s    0:00:02          176.49M  84%   36.85MB/s    0:00:00          210.02M 100%   34.10MB/s    0:00:05 (xfr#8, to-chk=72/88)
+K5LA59U_sample1/align/rep1/pseudorep2/
+K5LA59U_sample1/align/rep1/pseudorep2/C2NTUACXX_lane8_4648_CTTGTA_L008_R1.trim.srt.nodup.no_chrM_MT.pr2.tagAlign.gz
+         32.77K   0%   36.32kB/s    1:36:21            4.39M   2%    4.19MB/s    0:00:47           42.60M  20%   20.31MB/s    0:00:08           81.26M  38%   25.84MB/s    0:00:04          119.87M  57%   28.59MB/s    0:00:03          158.53M  75%   36.77MB/s    0:00:01          196.87M  93%   36.80MB/s    0:00:00          210.03M 100%   31.51MB/s    0:00:06 (xfr#9, to-chk=71/88)
+K5LA59U_sample1/peak/
+K5LA59U_sample1/peak/idr_reproducibility/
+K5LA59U_sample1/peak/idr_reproducibility/idr.conservative_peak.narrowPeak.bb
+         32.77K   0%   87.43kB/s    0:01:23            7.32M 100%   12.13MB/s    0:00:00 (xfr#10, to-chk=66/88)
+K5LA59U_sample1/peak/idr_reproducibility/idr.conservative_peak.narrowPeak.gz
+         32.77K   1%   55.17kB/s    0:00:51            2.86M 100%    4.17MB/s    0:00:00 (xfr#11, to-chk=65/88)
+K5LA59U_sample1/peak/idr_reproducibility/idr.conservative_peak.narrowPeak.hammock.gz
+         32.77K   0%   48.63kB/s    0:01:12            3.58M 100%    4.54MB/s    0:00:00 (xfr#12, to-chk=64/88)
+K5LA59U_sample1/peak/idr_reproducibility/idr.conservative_peak.narrowPeak.starch
+         32.77K   1%   42.38kB/s    0:00:53            2.29M 100%    2.68MB/s    0:00:00 (xfr#13, to-chk=63/88)
+K5LA59U_sample1/peak/idr_reproducibility/idr.optimal_peak.narrowPeak.bb
+         32.77K   0%   39.07kB/s    0:03:06            6.36M  86%    6.06MB/s    0:00:00            7.32M 100%    6.80MB/s    0:00:01 (xfr#14, to-chk=62/88)
+K5LA59U_sample1/peak/idr_reproducibility/idr.optimal_peak.narrowPeak.gz
+         32.77K   1%    1.01MB/s    0:00:02            2.86M 100%   25.46MB/s    0:00:00 (xfr#15, to-chk=61/88)
+K5LA59U_sample1/peak/idr_reproducibility/idr.optimal_peak.narrowPeak.hammock.gz
+         32.77K   0%  285.71kB/s    0:00:12            3.58M 100%   16.19MB/s    0:00:00 (xfr#16, to-chk=60/88)
+K5LA59U_sample1/peak/idr_reproducibility/idr.optimal_peak.narrowPeak.starch
+         32.77K   1%  148.84kB/s    0:00:15            2.29M 100%    7.95MB/s    0:00:00 (xfr#17, to-chk=59/88)
+K5LA59U_sample1/peak/overlap_reproducibility/
+K5LA59U_sample1/peak/overlap_reproducibility/overlap.conservative_peak.narrowPeak.bb
+         32.77K   0%  114.70kB/s    0:01:42           11.84M 100%   18.60MB/s    0:00:00 (xfr#18, to-chk=58/88)
+K5LA59U_sample1/peak/overlap_reproducibility/overlap.conservative_peak.narrowPeak.gz
+         32.77K   0%   52.37kB/s    0:01:39            5.25M 100%    6.72MB/s    0:00:00 (xfr#19, to-chk=57/88)
+K5LA59U_sample1/peak/overlap_reproducibility/overlap.conservative_peak.narrowPeak.hammock.gz
+         32.77K   0%   42.72kB/s    0:02:22            6.14M 100%    6.45MB/s    0:00:00 (xfr#20, to-chk=56/88)
+K5LA59U_sample1/peak/overlap_reproducibility/overlap.conservative_peak.narrowPeak.starch
+         32.77K   0%   35.16kB/s    0:01:46            3.47M  92%    3.31MB/s    0:00:00            3.77M 100%    3.57MB/s    0:00:01 (xfr#21, to-chk=55/88)
+K5LA59U_sample1/peak/overlap_reproducibility/overlap.optimal_peak.narrowPeak.bb
+         32.77K   0%    2.84MB/s    0:00:04           11.84M 100%   33.21MB/s    0:00:00 (xfr#22, to-chk=54/88)
+K5LA59U_sample1/peak/overlap_reproducibility/overlap.optimal_peak.narrowPeak.gz
+         32.77K   0%   93.02kB/s    0:00:56            5.25M 100%   10.48MB/s    0:00:00 (xfr#23, to-chk=53/88)
+K5LA59U_sample1/peak/overlap_reproducibility/overlap.optimal_peak.narrowPeak.hammock.gz
+         32.77K   0%   66.39kB/s    0:01:31            6.14M 100%    9.16MB/s    0:00:00 (xfr#24, to-chk=52/88)
+K5LA59U_sample1/peak/overlap_reproducibility/overlap.optimal_peak.narrowPeak.starch
+         32.77K   0%   49.84kB/s    0:01:15            3.77M 100%    4.86MB/s    0:00:00 (xfr#25, to-chk=51/88)
+K5LA59U_sample1/peak/rep1-pseudorep1_vs_2/
+K5LA59U_sample1/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.bfilt.narrowPeak.bb
+         32.77K   0%   42.95kB/s    0:02:49            7.32M 100%    7.37MB/s    0:00:00 (xfr#26, to-chk=50/88)
+K5LA59U_sample1/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.bfilt.narrowPeak.gz
+         32.77K   1%   33.61kB/s    0:01:24            1.84M  64%    1.75MB/s    0:00:00            2.86M 100%    2.66MB/s    0:00:01 (xfr#27, to-chk=49/88)
+K5LA59U_sample1/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.bfilt.narrowPeak.hammock.gz
+         32.77K   0%    1.08MB/s    0:00:03            3.58M 100%   28.23MB/s    0:00:00 (xfr#28, to-chk=48/88)
+K5LA59U_sample1/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.bfilt.narrowPeak.starch
+         32.77K   1%  256.00kB/s    0:00:08            2.29M 100%   11.95MB/s    0:00:00 (xfr#29, to-chk=47/88)
+K5LA59U_sample1/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.unthresholded-peaks.txt.gz
+         32.77K   0%  171.12kB/s    0:01:03           10.85M 100%   22.25MB/s    0:00:00 (xfr#30, to-chk=46/88)
+K5LA59U_sample1/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.overlap.bfilt.narrowPeak.bb
+         32.77K   0%   67.09kB/s    0:02:55           11.84M 100%   14.01MB/s    0:00:00 (xfr#31, to-chk=45/88)
+K5LA59U_sample1/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.overlap.bfilt.narrowPeak.gz
+         32.77K   0%   39.51kB/s    0:02:12            5.25M 100%    5.31MB/s    0:00:00 (xfr#32, to-chk=44/88)
+K5LA59U_sample1/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.overlap.bfilt.narrowPeak.hammock.gz
+         32.77K   0%   33.76kB/s    0:03:00            1.90M  30%    1.81MB/s    0:00:02            6.14M 100%    5.29MB/s    0:00:01 (xfr#33, to-chk=43/88)
+K5LA59U_sample1/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.overlap.bfilt.narrowPeak.starch
+         32.77K   0%  285.71kB/s    0:00:13            3.77M 100%   17.22MB/s    0:00:00 (xfr#34, to-chk=42/88)
+K5LA59U_sample1/peak/rep1/
+K5LA59U_sample1/peak/rep1/C2NTUACXX_lane8_4648_CTTGTA_L008_R1.trim.srt.nodup.no_chrM_MT.pval0.01.300K.bfilt.narrowPeak.bb
+         32.77K   0%  149.53kB/s    0:01:16           11.46M 100%   20.77MB/s    0:00:00 (xfr#35, to-chk=41/88)
+K5LA59U_sample1/peak/rep1/C2NTUACXX_lane8_4648_CTTGTA_L008_R1.trim.srt.nodup.no_chrM_MT.pval0.01.300K.bfilt.narrowPeak.gz
+         32.77K   0%   60.49kB/s    0:01:21            4.94M 100%    7.16MB/s    0:00:00 (xfr#36, to-chk=40/88)
+K5LA59U_sample1/peak/rep1/C2NTUACXX_lane8_4648_CTTGTA_L008_R1.trim.srt.nodup.no_chrM_MT.pval0.01.300K.bfilt.narrowPeak.hammock.gz
+         32.77K   0%   48.41kB/s    0:02:32            7.41M 100%    8.30MB/s    0:00:00 (xfr#37, to-chk=39/88)
+K5LA59U_sample1/peak/rep1/C2NTUACXX_lane8_4648_CTTGTA_L008_R1.trim.srt.nodup.no_chrM_MT.pval0.01.300K.bfilt.narrowPeak.starch
+         32.77K   0%   37.47kB/s    0:01:57            4.44M 100%    4.37MB/s    0:00:00 (xfr#38, to-chk=38/88)
+K5LA59U_sample1/peak/rep1/C2NTUACXX_lane8_4648_CTTGTA_L008_R1.trim.srt.nodup.no_chrM_MT.pval0.01.300K.narrowPeak.gz
+         32.77K   0%   32.89kB/s    0:02:29            1.05M  21% 1024.00kB/s    0:00:03            4.95M 100%    4.29MB/s    0:00:01 (xfr#39, to-chk=37/88)
+K5LA59U_sample1/peak/rep1/pseudorep1/
+K5LA59U_sample1/peak/rep1/pseudorep1/C2NTUACXX_lane8_4648_CTTGTA_L008_R1.trim.srt.nodup.no_chrM_MT.pr1.pval0.01.300K.bfilt.narrowPeak.bb
+         32.77K   0%  301.89kB/s    0:00:35           10.81M 100%   25.71MB/s    0:00:00 (xfr#40, to-chk=34/88)
+K5LA59U_sample1/peak/rep1/pseudorep1/C2NTUACXX_lane8_4648_CTTGTA_L008_R1.trim.srt.nodup.no_chrM_MT.pr1.pval0.01.300K.bfilt.narrowPeak.gz
+         32.77K   0%   79.01kB/s    0:00:51            4.08M 100%    7.60MB/s    0:00:00 (xfr#41, to-chk=33/88)
+K5LA59U_sample1/peak/rep1/pseudorep1/C2NTUACXX_lane8_4648_CTTGTA_L008_R1.trim.srt.nodup.no_chrM_MT.pr1.pval0.01.300K.bfilt.narrowPeak.hammock.gz
+         32.77K   0%   61.66kB/s    0:01:46            6.59M 100%    9.11MB/s    0:00:00 (xfr#42, to-chk=32/88)
+K5LA59U_sample1/peak/rep1/pseudorep1/C2NTUACXX_lane8_4648_CTTGTA_L008_R1.trim.srt.nodup.no_chrM_MT.pr1.pval0.01.300K.bfilt.narrowPeak.starch
+         32.77K   0%   46.11kB/s    0:01:21            3.78M 100%    4.55MB/s    0:00:00 (xfr#43, to-chk=31/88)
+K5LA59U_sample1/peak/rep1/pseudorep1/C2NTUACXX_lane8_4648_CTTGTA_L008_R1.trim.srt.nodup.no_chrM_MT.pr1.pval0.01.300K.narrowPeak.gz
+         32.77K   0%   40.15kB/s    0:01:41            4.09M 100%    4.32MB/s    0:00:00 (xfr#44, to-chk=30/88)
+K5LA59U_sample1/peak/rep1/pseudorep2/
+K5LA59U_sample1/peak/rep1/pseudorep2/C2NTUACXX_lane8_4648_CTTGTA_L008_R1.trim.srt.nodup.no_chrM_MT.pr2.pval0.01.300K.bfilt.narrowPeak.bb
+         32.77K   0%   35.13kB/s    0:05:06            3.47M  32%    3.31MB/s    0:00:02           10.81M 100%    8.49MB/s    0:00:01 (xfr#45, to-chk=29/88)
+K5LA59U_sample1/peak/rep1/pseudorep2/C2NTUACXX_lane8_4648_CTTGTA_L008_R1.trim.srt.nodup.no_chrM_MT.pr2.pval0.01.300K.bfilt.narrowPeak.gz
+         32.77K   0%  146.12kB/s    0:00:27            4.08M 100%   11.79MB/s    0:00:00 (xfr#46, to-chk=28/88)
+K5LA59U_sample1/peak/rep1/pseudorep2/C2NTUACXX_lane8_4648_CTTGTA_L008_R1.trim.srt.nodup.no_chrM_MT.pr2.pval0.01.300K.bfilt.narrowPeak.hammock.gz
+         32.77K   0%   96.10kB/s    0:01:08            6.58M 100%   12.38MB/s    0:00:00 (xfr#47, to-chk=27/88)
+K5LA59U_sample1/peak/rep1/pseudorep2/C2NTUACXX_lane8_4648_CTTGTA_L008_R1.trim.srt.nodup.no_chrM_MT.pr2.pval0.01.300K.bfilt.narrowPeak.starch
+         32.77K   0%   62.75kB/s    0:00:59            3.77M 100%    5.90MB/s    0:00:00 (xfr#48, to-chk=26/88)
+K5LA59U_sample1/peak/rep1/pseudorep2/C2NTUACXX_lane8_4648_CTTGTA_L008_R1.trim.srt.nodup.no_chrM_MT.pr2.pval0.01.300K.narrowPeak.gz
+         32.77K   0%   52.12kB/s    0:01:17            4.09M 100%    5.33MB/s    0:00:00 (xfr#49, to-chk=25/88)
+K5LA59U_sample1/qc/
+K5LA59U_sample1/qc/C2NTUACXX_lane8_4648_CTTGTA_L008_R1.trim.srt.no_chrM.samstats.qc.frac_mito.qc
+             79 100%    0.11kB/s    0:00:00               79 100%    0.11kB/s    0:00:00 (xfr#50, to-chk=24/88)
+K5LA59U_sample1/qc/C2NTUACXX_lane8_4648_CTTGTA_L008_R1.trim.srt.nodup.no_chrM_MT.jsd_plot.png
+         26.11K 100%   34.59kB/s    0:00:00           26.11K 100%   34.59kB/s    0:00:00 (xfr#51, to-chk=23/88)
+K5LA59U_sample1/qc/idr.reproducibility.qc
+            173 100%    0.23kB/s    0:00:00              173 100%    0.23kB/s    0:00:00 (xfr#52, to-chk=22/88)
+K5LA59U_sample1/qc/overlap.reproducibility.qc
+            173 100%    0.23kB/s    0:00:00              173 100%    0.23kB/s    0:00:00 (xfr#53, to-chk=21/88)
+K5LA59U_sample1/qc/qc.html
+         32.77K   1%   42.95kB/s    0:00:38            1.68M 100%    1.98MB/s    0:00:00 (xfr#54, to-chk=20/88)
+K5LA59U_sample1/qc/qc.json
+          6.73K 100%    8.09kB/s    0:00:00            6.73K 100%    8.09kB/s    0:00:00 (xfr#55, to-chk=19/88)
+K5LA59U_sample1/qc/rep1-pseudorep1_vs_2/
+K5LA59U_sample1/qc/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.bfilt.frip.qc
+             20 100%    0.02kB/s    0:00:00               20 100%    0.02kB/s    0:00:00 (xfr#56, to-chk=16/88)
+K5LA59U_sample1/qc/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.log
+            213 100%    0.25kB/s    0:00:00              213 100%    0.25kB/s    0:00:00 (xfr#57, to-chk=15/88)
+K5LA59U_sample1/qc/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.unthresholded-peaks.txt.png
+         32.77K   3%   38.93kB/s    0:00:22          898.48K 100% 1023.83kB/s    0:00:00 (xfr#58, to-chk=14/88)
+K5LA59U_sample1/qc/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.overlap.bfilt.frip.qc
+             20 100%    0.02kB/s    0:00:00               20 100%    0.02kB/s    0:00:00 (xfr#59, to-chk=13/88)
+K5LA59U_sample1/qc/rep1/
+K5LA59U_sample1/qc/rep1/C2NTUACXX_lane8_4648_CTTGTA_L008_R1.trim.read_length.txt
+              2 100%    0.00kB/s    0:00:00                2 100%    0.00kB/s    0:00:00 (xfr#60, to-chk=12/88)
+K5LA59U_sample1/qc/rep1/C2NTUACXX_lane8_4648_CTTGTA_L008_R1.trim.srt.dup.qc
+          1.47K 100%    1.66kB/s    0:00:00            1.47K 100%    1.66kB/s    0:00:00 (xfr#61, to-chk=11/88)
+K5LA59U_sample1/qc/rep1/C2NTUACXX_lane8_4648_CTTGTA_L008_R1.trim.srt.lib_complexity.qc
+             63 100%    0.07kB/s    0:00:00               63 100%    0.07kB/s    0:00:00 (xfr#62, to-chk=10/88)
+K5LA59U_sample1/qc/rep1/C2NTUACXX_lane8_4648_CTTGTA_L008_R1.trim.srt.nodup.no_chrM_MT.pval0.01.300K.bfilt.frip.qc
+             19 100%    0.02kB/s    0:00:00               19 100%    0.02kB/s    0:00:00 (xfr#63, to-chk=9/88)
+K5LA59U_sample1/qc/rep1/C2NTUACXX_lane8_4648_CTTGTA_L008_R1.trim.srt.nodup.no_chrM_MT.samstats.qc
+            340 100%    0.38kB/s    0:00:00              340 100%    0.38kB/s    0:00:00 (xfr#64, to-chk=8/88)
+K5LA59U_sample1/qc/rep1/C2NTUACXX_lane8_4648_CTTGTA_L008_R1.trim.srt.samstats.qc
+            349 100%    0.39kB/s    0:00:00              349 100%    0.39kB/s    0:00:00 (xfr#65, to-chk=7/88)
+K5LA59U_sample1/qc/rep1/pseudorep1/
+K5LA59U_sample1/qc/rep1/pseudorep1/C2NTUACXX_lane8_4648_CTTGTA_L008_R1.trim.srt.nodup.no_chrM_MT.pr1.pval0.01.300K.bfilt.frip.qc
+             19 100%    0.02kB/s    0:00:00               19 100%    0.02kB/s    0:00:00 (xfr#66, to-chk=4/88)
+K5LA59U_sample1/qc/rep1/pseudorep2/
+K5LA59U_sample1/qc/rep1/pseudorep2/C2NTUACXX_lane8_4648_CTTGTA_L008_R1.trim.srt.nodup.no_chrM_MT.pr2.pval0.01.300K.bfilt.frip.qc
+             19 100%    0.02kB/s    0:00:00               19 100%    0.02kB/s    0:00:00 (xfr#67, to-chk=3/88)
+K5LA59U_sample1/signal/
+K5LA59U_sample1/signal/rep1/
+K5LA59U_sample1/signal/rep1/C2NTUACXX_lane8_4648_CTTGTA_L008_R1.trim.srt.nodup.no_chrM_MT.fc.signal.bigwig
+         32.77K   0%   36.12kB/s    5:24:21            3.51M   0%    3.34MB/s    0:03:24           36.34M   5%   17.33MB/s    0:00:37           68.94M   9%   21.92MB/s    0:00:28          101.55M  14%   24.22MB/s    0:00:24          133.89M  19%   31.09MB/s    0:00:17          166.33M  23%   31.01MB/s    0:00:16          199.13M  28%   31.05MB/s    0:00:15          232.03M  33%   31.12MB/s    0:00:14          264.90M  37%   31.25MB/s    0:00:13          297.50M  42%   31.28MB/s    0:00:12          330.10M  46%   31.23MB/s    0:00:11          362.74M  51%   31.17MB/s    0:00:10          395.18M  56%   31.07MB/s    0:00:09          426.25M  60%   30.70MB/s    0:00:08          458.52M  65%   30.62MB/s    0:00:07          490.34M  69%   30.43MB/s    0:00:06          522.16M  74%   30.29MB/s    0:00:05          553.94M  78%   30.46MB/s    0:00:04          583.11M  82%   29.73MB/s    0:00:03          612.37M  87%   29.11MB/s    0:00:03          642.06M  91%   28.61MB/s    0:00:02          671.09M  95%   27.94MB/s    0:00:01          702.74M  99%   28.54MB/s    0:00:00          702.93M 100%   29.15MB/s    0:00:22 (xfr#68, to-chk=1/88)
+K5LA59U_sample1/signal/rep1/C2NTUACXX_lane8_4648_CTTGTA_L008_R1.trim.srt.nodup.no_chrM_MT.pval.signal.bigwig
+         32.77K   0%    3.91MB/s    0:02:51           32.54M   4%   31.03MB/s    0:00:20           65.04M   9%   31.02MB/s    0:00:19           97.29M  14%   30.93MB/s    0:00:18          129.40M  18%   30.85MB/s    0:00:17          161.94M  23%   30.86MB/s    0:00:16          194.58M  28%   30.89MB/s    0:00:15          227.44M  33%   31.04MB/s    0:00:14          259.88M  37%   31.12MB/s    0:00:13          292.55M  42%   31.15MB/s    0:00:12          325.26M  47%   31.17MB/s    0:00:11          357.89M  52%   31.11MB/s    0:00:10          389.91M  56%   31.02MB/s    0:00:09          411.63M  59%   28.40MB/s    0:00:09          439.29M  63%   27.20MB/s    0:00:08          460.75M  67%   24.53MB/s    0:00:09          478.74M  69%   21.18MB/s    0:00:09          497.61M  72%   20.50MB/s    0:00:09          509.21M  74%   16.66MB/s    0:00:10          529.53M  77%   16.38MB/s    0:00:09          546.64M  79%   16.17MB/s    0:00:08          570.65M  83%   17.40MB/s    0:00:06          602.18M  87%   22.16MB/s    0:00:03          632.55M  92%   24.57MB/s    0:00:02          663.88M  96%   27.96MB/s    0:00:00          687.49M 100%   26.51MB/s    0:00:24 (xfr#69, to-chk=0/88)
+
+sent 9.55G bytes  received 1.54K bytes  34.92M bytes/sec
+total size is 9.58G  speedup is 1.00
+Rsync completed successfully for K5LA59U_sample1.
+Metadata location: /home/suffi.azizan/scratchspace/outputs/encd-atac-pipe-raw-out/K5LA59U/K5LA59U_sample2/atac/29be7d74-ed8f-48bb-9a2e-a8940471c300/metadata.json
+Sample name: K5LA59U_sample2
+Croo completed successfully on sample K5LA59U_sample2. Proceeding to rsync...
+sending incremental file list
+K5LA59U_sample2/
+K5LA59U_sample2/croo.filetable.29be7d74-ed8f-48bb-9a2e-a8940471c300.tsv
+         14.43K 100%    0.00kB/s    0:00:00           14.43K 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=86/88)
+K5LA59U_sample2/croo.report.29be7d74-ed8f-48bb-9a2e-a8940471c300.html
+         32.77K  55%   31.25MB/s    0:00:00           59.27K 100%   18.84MB/s    0:00:00 (xfr#2, to-chk=85/88)
+K5LA59U_sample2/croo.task_graph.29be7d74-ed8f-48bb-9a2e-a8940471c300.dot
+         16.53K 100%    3.94MB/s    0:00:00           16.53K 100%    3.94MB/s    0:00:00 (xfr#3, to-chk=84/88)
+K5LA59U_sample2/croo.task_graph.29be7d74-ed8f-48bb-9a2e-a8940471c300.svg
+         32.77K  95%    5.21MB/s    0:00:00           34.43K 100%    5.47MB/s    0:00:00 (xfr#4, to-chk=83/88)
+K5LA59U_sample2/align/
+K5LA59U_sample2/align/rep1/
+K5LA59U_sample2/align/rep1/C20BGACXX_lane5_3687_CTTGTA_L005_R1.trim.srt.bam
+         32.77K   0%    2.84MB/s    0:24:33           38.11M   0%   36.34MB/s    0:01:54           77.10M   1%   36.78MB/s    0:01:51          114.59M   2%   36.44MB/s    0:01:51          153.52M   3%   36.61MB/s    0:01:50          192.54M   4%   36.83MB/s    0:01:48          231.01M   5%   36.71MB/s    0:01:47          269.32M   6%   36.90MB/s    0:01:46          308.31M   7%   36.92MB/s    0:01:45          347.37M   8%   36.92MB/s    0:01:44          386.37M   9%   37.05MB/s    0:01:42          425.39M   9%   37.22MB/s    0:01:41          464.42M  10%   37.24MB/s    0:01:40          503.45M  11%   37.22MB/s    0:01:39          542.41M  12%   37.22MB/s    0:01:38          580.94M  13%   37.10MB/s    0:01:37          619.12M  14%   36.90MB/s    0:01:37          658.15M  15%   36.90MB/s    0:01:36          697.14M  16%   36.91MB/s    0:01:34          735.74M  17%   36.92MB/s    0:01:33          774.14M  18%   36.97MB/s    0:01:32          812.68M  18%   36.85MB/s    0:01:32          850.92M  19%   36.67MB/s    0:01:31          889.88M  20%   36.76MB/s    0:01:30          928.81M  21%   36.89MB/s    0:01:28          967.77M  22%   37.00MB/s    0:01:27            1.01G  23%   37.17MB/s    0:01:26            1.05G  24%   37.16MB/s    0:01:25            1.08G  25%   36.84MB/s    0:01:24            1.12G  26%   36.68MB/s    0:01:24            1.16G  27%   36.68MB/s    0:01:23            1.20G  27%   36.66MB/s    0:01:22            1.24G  28%   36.98MB/s    0:01:20            1.28G  29%   37.13MB/s    0:01:19            1.31G  30%   36.86MB/s    0:01:18            1.35G  31%   36.85MB/s    0:01:17            1.39G  32%   36.62MB/s    0:01:17            1.43G  33%   36.63MB/s    0:01:16            1.47G  34%   36.91MB/s    0:01:14            1.51G  35%   36.85MB/s    0:01:13            1.55G  36%   37.07MB/s    0:01:12            1.59G  37%   37.07MB/s    0:01:11            1.62G  37%   37.03MB/s    0:01:10            1.66G  38%   37.08MB/s    0:01:09            1.70G  39%   37.10MB/s    0:01:08            1.74G  40%   36.94MB/s    0:01:07            1.78G  41%   36.85MB/s    0:01:06            1.82G  42%   36.69MB/s    0:01:05            1.86G  43%   36.70MB/s    0:01:04            1.90G  44%   36.85MB/s    0:01:03            1.93G  45%   37.00MB/s    0:01:02            1.97G  45%   36.11MB/s    0:01:02            2.01G  46%   36.14MB/s    0:01:01            2.05G  47%   36.14MB/s    0:01:00            2.09G  48%   36.14MB/s    0:00:59            2.13G  49%   37.20MB/s    0:00:56            2.16G  50%   36.95MB/s    0:00:56            2.20G  51%   36.95MB/s    0:00:55            2.24G  52%   36.74MB/s    0:00:54            2.28G  53%   36.74MB/s    0:00:53            2.32G  54%   36.99MB/s    0:00:51            2.36G  54%   36.99MB/s    0:00:50            2.40G  55%   37.21MB/s    0:00:49            2.43G  56%   37.03MB/s    0:00:48            2.47G  57%   37.03MB/s    0:00:47            2.51G  58%   37.02MB/s    0:00:46            2.55G  59%   37.01MB/s    0:00:45            2.59G  60%   36.97MB/s    0:00:44            2.63G  61%   36.98MB/s    0:00:43            2.67G  62%   36.72MB/s    0:00:43            2.71G  63%   36.72MB/s    0:00:42            2.74G  64%   36.92MB/s    0:00:40            2.78G  64%   36.92MB/s    0:00:39            2.82G  65%   37.17MB/s    0:00:38            2.86G  66%   37.17MB/s    0:00:37            2.90G  67%   37.17MB/s    0:00:36            2.94G  68%   37.18MB/s    0:00:35            2.98G  69%   37.18MB/s    0:00:34            3.02G  70%   37.18MB/s    0:00:33            3.05G  71%   36.98MB/s    0:00:32            3.09G  72%   36.81MB/s    0:00:31            3.13G  73%   36.81MB/s    0:00:30            3.17G  73%   36.81MB/s    0:00:29            3.21G  74%   37.00MB/s    0:00:28            3.25G  75%   36.56MB/s    0:00:27            3.29G  76%   36.56MB/s    0:00:26            3.32G  77%   36.58MB/s    0:00:25            3.36G  78%   36.60MB/s    0:00:24            3.40G  79%   37.13MB/s    0:00:23            3.44G  80%   36.99MB/s    0:00:22            3.48G  81%   36.91MB/s    0:00:21            3.52G  82%   36.81MB/s    0:00:20            3.56G  82%   36.58MB/s    0:00:19            3.59G  83%   36.72MB/s    0:00:18            3.63G  84%   36.79MB/s    0:00:17            3.67G  85%   36.89MB/s    0:00:16            3.71G  86%   37.21MB/s    0:00:15            3.75G  87%   37.22MB/s    0:00:14            3.79G  88%   37.22MB/s    0:00:13            3.83G  89%   37.22MB/s    0:00:12            3.87G  90%   37.16MB/s    0:00:11            3.91G  91%   37.16MB/s    0:00:09            3.95G  92%   37.15MB/s    0:00:08            3.98G  92%   37.17MB/s    0:00:07            4.02G  93%   37.20MB/s    0:00:06            4.06G  94%   37.00MB/s    0:00:05            4.06G  94%   23.33MB/s    0:00:09            4.10G  95%   23.21MB/s    0:00:07            4.14G  96%   23.21MB/s    0:00:06            4.18G  97%   23.21MB/s    0:00:04            4.22G  98%   36.65MB/s    0:00:01            4.26G  99%   36.76MB/s    0:00:00            4.29G 100%   36.32MB/s    0:01:52 (xfr#5, to-chk=77/88)
+K5LA59U_sample2/align/rep1/C20BGACXX_lane5_3687_CTTGTA_L005_R1.trim.srt.nodup.no_chrM_MT.bam
+         32.77K   0%   38.00kB/s   12:17:30            5.80M   0%    5.53MB/s    0:04:55           44.76M   2%   21.34MB/s    0:01:14           83.72M   4%   26.62MB/s    0:00:58          122.68M   7%   29.26MB/s    0:00:52          161.64M   9%   37.17MB/s    0:00:39          200.61M  11%   37.17MB/s    0:00:38          239.60M  14%   37.18MB/s    0:00:37          278.59M  16%   37.19MB/s    0:00:36          316.77M  18%   37.00MB/s    0:00:36          355.53M  21%   36.96MB/s    0:00:35          394.23M  23%   36.89MB/s    0:00:34          432.87M  25%   36.81MB/s    0:00:33          471.60M  28%   36.93MB/s    0:00:31          510.59M  30%   36.99MB/s    0:00:30          548.93M  32%   36.90MB/s    0:00:29          587.63M  34%   36.91MB/s    0:00:28          626.43M  37%   36.93MB/s    0:00:27          665.32M  39%   36.91MB/s    0:00:26          704.32M  41%   37.07MB/s    0:00:25          737.71M  43%   35.80MB/s    0:00:25          776.63M  46%   35.83MB/s    0:00:24          815.63M  48%   35.84MB/s    0:00:23          852.26M  50%   35.29MB/s    0:00:22          891.19M  52%   36.61MB/s    0:00:21          930.12M  55%   36.61MB/s    0:00:20          969.02M  57%   36.60MB/s    0:00:19            1.01G  59%   37.15MB/s    0:00:17            1.05G  62%   37.13MB/s    0:00:16            1.08G  64%   36.77MB/s    0:00:15            1.12G  66%   36.68MB/s    0:00:14            1.16G  69%   36.67MB/s    0:00:13            1.20G  71%   36.31MB/s    0:00:12            1.24G  73%   36.70MB/s    0:00:11            1.28G  75%   36.48MB/s    0:00:10            1.32G  78%   36.49MB/s    0:00:09            1.35G  80%   36.88MB/s    0:00:08            1.39G  82%   36.84MB/s    0:00:07            1.43G  85%   37.16MB/s    0:00:06            1.47G  87%   36.39MB/s    0:00:05            1.51G  89%   36.41MB/s    0:00:04            1.55G  91%   36.42MB/s    0:00:03            1.58G  94%   36.42MB/s    0:00:02            1.62G  96%   37.19MB/s    0:00:01            1.66G  98%   36.20MB/s    0:00:00            1.68G 100%   35.98MB/s    0:00:44 (xfr#6, to-chk=76/88)
+K5LA59U_sample2/align/rep1/C20BGACXX_lane5_3687_CTTGTA_L005_R1.trim.srt.nodup.no_chrM_MT.tagAlign.gz
+         32.77K   0%   52.98kB/s    1:08:01           11.53M   5%   11.00MB/s    0:00:18           43.22M  19%   20.62MB/s    0:00:08           74.91M  34%   23.82MB/s    0:00:05          103.87M  48%   24.77MB/s    0:00:04          137.10M  63%   29.94MB/s    0:00:02          171.31M  79%   30.55MB/s    0:00:01          201.00M  92%   30.07MB/s    0:00:00          216.25M 100%   27.64MB/s    0:00:07 (xfr#7, to-chk=75/88)
+K5LA59U_sample2/align/rep1/pseudorep1/
+K5LA59U_sample2/align/rep1/pseudorep1/C20BGACXX_lane5_3687_CTTGTA_L005_R1.trim.srt.nodup.no_chrM_MT.pr1.tagAlign.gz
+         32.77K   0%   68.38kB/s    0:40:41           20.58M  12%   19.62MB/s    0:00:07           59.34M  35%   28.30MB/s    0:00:03           98.07M  58%   31.19MB/s    0:00:02          136.84M  81%   32.63MB/s    0:00:00          166.98M 100%   33.34MB/s    0:00:04 (xfr#8, to-chk=72/88)
+K5LA59U_sample2/align/rep1/pseudorep2/
+K5LA59U_sample2/align/rep1/pseudorep2/C20BGACXX_lane5_3687_CTTGTA_L005_R1.trim.srt.nodup.no_chrM_MT.pr2.tagAlign.gz
+         32.77K   0%   40.92kB/s    1:07:59            8.49M   5%    8.09MB/s    0:00:19           47.28M  28%   22.55MB/s    0:00:05           84.71M  50%   26.94MB/s    0:00:02          123.01M  73%   29.34MB/s    0:00:01          158.14M  94%   35.69MB/s    0:00:00          166.98M 100%   30.47MB/s    0:00:05 (xfr#9, to-chk=71/88)
+K5LA59U_sample2/peak/
+K5LA59U_sample2/peak/idr_reproducibility/
+K5LA59U_sample2/peak/idr_reproducibility/idr.conservative_peak.narrowPeak.bb
+         32.77K   0%  137.34kB/s    0:00:49            6.83M 100%   15.47MB/s    0:00:00 (xfr#10, to-chk=66/88)
+K5LA59U_sample2/peak/idr_reproducibility/idr.conservative_peak.narrowPeak.gz
+         32.77K   1%   74.42kB/s    0:00:37            2.84M 100%    5.34MB/s    0:00:00 (xfr#11, to-chk=65/88)
+K5LA59U_sample2/peak/idr_reproducibility/idr.conservative_peak.narrowPeak.hammock.gz
+         32.77K   0%   62.75kB/s    0:00:59            3.79M 100%    5.95MB/s    0:00:00 (xfr#12, to-chk=64/88)
+K5LA59U_sample2/peak/idr_reproducibility/idr.conservative_peak.narrowPeak.starch
+         32.77K   1%   52.29kB/s    0:00:43            2.29M 100%    3.26MB/s    0:00:00 (xfr#13, to-chk=63/88)
+K5LA59U_sample2/peak/idr_reproducibility/idr.optimal_peak.narrowPeak.bb
+         32.77K   0%   47.48kB/s    0:02:23            6.83M 100%    7.57MB/s    0:00:00 (xfr#14, to-chk=62/88)
+K5LA59U_sample2/peak/idr_reproducibility/idr.optimal_peak.narrowPeak.gz
+         32.77K   1%   36.87kB/s    0:01:16            2.84M 100%    2.85MB/s    0:00:00 (xfr#15, to-chk=61/88)
+K5LA59U_sample2/peak/idr_reproducibility/idr.optimal_peak.narrowPeak.hammock.gz
+         32.77K   0%   33.58kB/s    0:01:51            1.84M  48%    1.75MB/s    0:00:01            3.79M 100%    3.45MB/s    0:00:01 (xfr#16, to-chk=60/88)
+K5LA59U_sample2/peak/idr_reproducibility/idr.optimal_peak.narrowPeak.starch
+         32.77K   1%  592.59kB/s    0:00:03            2.29M 100%   19.50MB/s    0:00:00 (xfr#17, to-chk=59/88)
+K5LA59U_sample2/peak/overlap_reproducibility/
+K5LA59U_sample2/peak/overlap_reproducibility/overlap.conservative_peak.narrowPeak.bb
+         32.77K   0%  273.50kB/s    0:00:38           10.56M 100%   24.16MB/s    0:00:00 (xfr#18, to-chk=58/88)
+K5LA59U_sample2/peak/overlap_reproducibility/overlap.conservative_peak.narrowPeak.gz
+         32.77K   0%   76.01kB/s    0:01:11            5.49M 100%    9.33MB/s    0:00:00 (xfr#19, to-chk=57/88)
+K5LA59U_sample2/peak/overlap_reproducibility/overlap.conservative_peak.narrowPeak.hammock.gz
+         32.77K   0%   56.74kB/s    0:01:51            6.38M 100%    8.36MB/s    0:00:00 (xfr#20, to-chk=56/88)
+K5LA59U_sample2/peak/overlap_reproducibility/overlap.conservative_peak.narrowPeak.starch
+         32.77K   0%   43.72kB/s    0:01:26            3.83M 100%    4.40MB/s    0:00:00 (xfr#21, to-chk=55/88)
+K5LA59U_sample2/peak/overlap_reproducibility/overlap.optimal_peak.narrowPeak.bb
+         32.77K   0%   38.32kB/s    0:04:34            6.39M  60%    6.09MB/s    0:00:00           10.56M 100%    8.99MB/s    0:00:01 (xfr#22, to-chk=54/88)
+K5LA59U_sample2/peak/overlap_reproducibility/overlap.optimal_peak.narrowPeak.gz
+         32.77K   0%  256.00kB/s    0:00:21            5.49M 100%   19.67MB/s    0:00:00 (xfr#23, to-chk=53/88)
+K5LA59U_sample2/peak/overlap_reproducibility/overlap.optimal_peak.narrowPeak.hammock.gz
+         32.77K   0%  118.52kB/s    0:00:53            6.38M 100%   13.53MB/s    0:00:00 (xfr#24, to-chk=52/88)
+K5LA59U_sample2/peak/overlap_reproducibility/overlap.optimal_peak.narrowPeak.starch
+         32.77K   0%   70.48kB/s    0:00:53            3.83M 100%    6.52MB/s    0:00:00 (xfr#25, to-chk=51/88)
+K5LA59U_sample2/peak/rep1-pseudorep1_vs_2/
+K5LA59U_sample2/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.bfilt.narrowPeak.bb
+         32.77K   0%   56.64kB/s    0:02:00            6.83M 100%    8.62MB/s    0:00:00 (xfr#26, to-chk=50/88)
+K5LA59U_sample2/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.bfilt.narrowPeak.gz
+         32.77K   1%   42.16kB/s    0:01:06            2.84M 100%    3.21MB/s    0:00:00 (xfr#27, to-chk=49/88)
+K5LA59U_sample2/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.bfilt.narrowPeak.hammock.gz
+         32.77K   0%   37.87kB/s    0:01:39            3.79M 100%    3.84MB/s    0:00:00 (xfr#28, to-chk=48/88)
+K5LA59U_sample2/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.bfilt.narrowPeak.starch
+         32.77K   1%   33.79kB/s    0:01:06            2.06M  90%    1.97MB/s    0:00:00            2.29M 100%    2.18MB/s    0:00:01 (xfr#29, to-chk=47/88)
+K5LA59U_sample2/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.unthresholded-peaks.txt.gz
+         32.77K   0%    3.47MB/s    0:00:03           10.90M 100%   35.96MB/s    0:00:00 (xfr#30, to-chk=46/88)
+K5LA59U_sample2/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.overlap.bfilt.narrowPeak.bb
+         32.77K   0%  108.84kB/s    0:01:36           10.56M 100%   17.34MB/s    0:00:00 (xfr#31, to-chk=45/88)
+K5LA59U_sample2/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.overlap.bfilt.narrowPeak.gz
+         32.77K   0%   54.70kB/s    0:01:39            5.49M 100%    7.22MB/s    0:00:00 (xfr#32, to-chk=44/88)
+K5LA59U_sample2/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.overlap.bfilt.narrowPeak.hammock.gz
+         32.77K   0%   43.96kB/s    0:02:24            6.38M 100%    6.83MB/s    0:00:00 (xfr#33, to-chk=43/88)
+K5LA59U_sample2/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.overlap.bfilt.narrowPeak.starch
+         32.77K   0%   35.71kB/s    0:01:46            3.83M 100%    3.67MB/s    0:00:00 (xfr#34, to-chk=42/88)
+K5LA59U_sample2/peak/rep1/
+K5LA59U_sample2/peak/rep1/C20BGACXX_lane5_3687_CTTGTA_L005_R1.trim.srt.nodup.no_chrM_MT.pval0.01.300K.bfilt.narrowPeak.bb
+         32.77K   0%   32.00kB/s    0:06:43           65.54K   0%   64.00kB/s    0:03:21           12.94M 100%    9.11MB/s    0:00:01 (xfr#35, to-chk=41/88)
+K5LA59U_sample2/peak/rep1/C20BGACXX_lane5_3687_CTTGTA_L005_R1.trim.srt.nodup.no_chrM_MT.pval0.01.300K.bfilt.narrowPeak.gz
+         32.77K   0%   89.64kB/s    0:00:56            5.13M 100%    9.64MB/s    0:00:00 (xfr#36, to-chk=40/88)
+K5LA59U_sample2/peak/rep1/C20BGACXX_lane5_3687_CTTGTA_L005_R1.trim.srt.nodup.no_chrM_MT.pval0.01.300K.bfilt.narrowPeak.hammock.gz
+         32.77K   0%   62.62kB/s    0:02:05            7.89M 100%   10.28MB/s    0:00:00 (xfr#37, to-chk=39/88)
+K5LA59U_sample2/peak/rep1/C20BGACXX_lane5_3687_CTTGTA_L005_R1.trim.srt.nodup.no_chrM_MT.pval0.01.300K.bfilt.narrowPeak.starch
+         32.77K   0%   43.48kB/s    0:01:44            4.60M 100%    5.07MB/s    0:00:00 (xfr#38, to-chk=38/88)
+K5LA59U_sample2/peak/rep1/C20BGACXX_lane5_3687_CTTGTA_L005_R1.trim.srt.nodup.no_chrM_MT.pval0.01.300K.narrowPeak.gz
+         32.77K   0%   36.82kB/s    0:02:18            4.69M  91%    4.47MB/s    0:00:00            5.15M 100%    4.82MB/s    0:00:01 (xfr#39, to-chk=37/88)
+K5LA59U_sample2/peak/rep1/pseudorep1/
+K5LA59U_sample2/peak/rep1/pseudorep1/C20BGACXX_lane5_3687_CTTGTA_L005_R1.trim.srt.nodup.no_chrM_MT.pr1.pval0.01.300K.bfilt.narrowPeak.bb
+         32.77K   0%    1.25MB/s    0:00:09           11.65M 100%   32.01MB/s    0:00:00 (xfr#40, to-chk=34/88)
+K5LA59U_sample2/peak/rep1/pseudorep1/C20BGACXX_lane5_3687_CTTGTA_L005_R1.trim.srt.nodup.no_chrM_MT.pr1.pval0.01.300K.bfilt.narrowPeak.gz
+         32.77K   0%   91.17kB/s    0:00:44            4.11M 100%    8.55MB/s    0:00:00 (xfr#41, to-chk=33/88)
+K5LA59U_sample2/peak/rep1/pseudorep1/C20BGACXX_lane5_3687_CTTGTA_L005_R1.trim.srt.nodup.no_chrM_MT.pr1.pval0.01.300K.bfilt.narrowPeak.hammock.gz
+         32.77K   0%   69.26kB/s    0:01:38            6.82M 100%   10.23MB/s    0:00:00 (xfr#42, to-chk=32/88)
+K5LA59U_sample2/peak/rep1/pseudorep1/C20BGACXX_lane5_3687_CTTGTA_L005_R1.trim.srt.nodup.no_chrM_MT.pr1.pval0.01.300K.bfilt.narrowPeak.starch
+         32.77K   0%   50.00kB/s    0:01:16            3.87M 100%    4.99MB/s    0:00:00 (xfr#43, to-chk=31/88)
+K5LA59U_sample2/peak/rep1/pseudorep1/C20BGACXX_lane5_3687_CTTGTA_L005_R1.trim.srt.nodup.no_chrM_MT.pr1.pval0.01.300K.narrowPeak.gz
+         32.77K   0%   43.01kB/s    0:01:34            4.12M 100%    4.61MB/s    0:00:00 (xfr#44, to-chk=30/88)
+K5LA59U_sample2/peak/rep1/pseudorep2/
+K5LA59U_sample2/peak/rep1/pseudorep2/C20BGACXX_lane5_3687_CTTGTA_L005_R1.trim.srt.nodup.no_chrM_MT.pr2.pval0.01.300K.bfilt.narrowPeak.bb
+         32.77K   0%   37.34kB/s    0:05:10            5.57M  47%    5.31MB/s    0:00:01           11.64M 100%    9.44MB/s    0:00:01 (xfr#45, to-chk=29/88)
+K5LA59U_sample2/peak/rep1/pseudorep2/C20BGACXX_lane5_3687_CTTGTA_L005_R1.trim.srt.nodup.no_chrM_MT.pr2.pval0.01.300K.bfilt.narrowPeak.gz
+         32.77K   0%  177.78kB/s    0:00:22            4.11M 100%   13.60MB/s    0:00:00 (xfr#46, to-chk=28/88)
+K5LA59U_sample2/peak/rep1/pseudorep2/C20BGACXX_lane5_3687_CTTGTA_L005_R1.trim.srt.nodup.no_chrM_MT.pr2.pval0.01.300K.bfilt.narrowPeak.hammock.gz
+         32.77K   0%  109.59kB/s    0:01:01            6.83M 100%   13.97MB/s    0:00:00 (xfr#47, to-chk=27/88)
+K5LA59U_sample2/peak/rep1/pseudorep2/C20BGACXX_lane5_3687_CTTGTA_L005_R1.trim.srt.nodup.no_chrM_MT.pr2.pval0.01.300K.bfilt.narrowPeak.starch
+         32.77K   0%   67.94kB/s    0:00:56            3.87M 100%    6.47MB/s    0:00:00 (xfr#48, to-chk=26/88)
+K5LA59U_sample2/peak/rep1/pseudorep2/C20BGACXX_lane5_3687_CTTGTA_L005_R1.trim.srt.nodup.no_chrM_MT.pr2.pval0.01.300K.narrowPeak.gz
+         32.77K   0%   55.75kB/s    0:01:13            4.12M 100%    5.77MB/s    0:00:00 (xfr#49, to-chk=25/88)
+K5LA59U_sample2/qc/
+K5LA59U_sample2/qc/C20BGACXX_lane5_3687_CTTGTA_L005_R1.trim.srt.no_chrM.samstats.qc.frac_mito.qc
+             79 100%    0.11kB/s    0:00:00               79 100%    0.11kB/s    0:00:00 (xfr#50, to-chk=24/88)
+K5LA59U_sample2/qc/C20BGACXX_lane5_3687_CTTGTA_L005_R1.trim.srt.nodup.no_chrM_MT.jsd_plot.png
+         25.28K 100%   35.89kB/s    0:00:00           25.28K 100%   35.89kB/s    0:00:00 (xfr#51, to-chk=23/88)
+K5LA59U_sample2/qc/idr.reproducibility.qc
+            173 100%    0.24kB/s    0:00:00              173 100%    0.24kB/s    0:00:00 (xfr#52, to-chk=22/88)
+K5LA59U_sample2/qc/overlap.reproducibility.qc
+            173 100%    0.24kB/s    0:00:00              173 100%    0.24kB/s    0:00:00 (xfr#53, to-chk=21/88)
+K5LA59U_sample2/qc/qc.html
+         32.77K   1%   45.85kB/s    0:00:35            1.68M 100%    2.07MB/s    0:00:00 (xfr#54, to-chk=20/88)
+K5LA59U_sample2/qc/qc.json
+          6.73K 100%    8.50kB/s    0:00:00            6.73K 100%    8.50kB/s    0:00:00 (xfr#55, to-chk=19/88)
+K5LA59U_sample2/qc/rep1-pseudorep1_vs_2/
+K5LA59U_sample2/qc/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.bfilt.frip.qc
+             19 100%    0.02kB/s    0:00:00               19 100%    0.02kB/s    0:00:00 (xfr#56, to-chk=16/88)
+K5LA59U_sample2/qc/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.log
+            213 100%    0.27kB/s    0:00:00              213 100%    0.27kB/s    0:00:00 (xfr#57, to-chk=15/88)
+K5LA59U_sample2/qc/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.unthresholded-peaks.txt.png
+         32.77K   3%   40.97kB/s    0:00:21          918.80K 100%    1.08MB/s    0:00:00 (xfr#58, to-chk=14/88)
+K5LA59U_sample2/qc/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.overlap.bfilt.frip.qc
+             19 100%    0.02kB/s    0:00:00               19 100%    0.02kB/s    0:00:00 (xfr#59, to-chk=13/88)
+K5LA59U_sample2/qc/rep1/
+K5LA59U_sample2/qc/rep1/C20BGACXX_lane5_3687_CTTGTA_L005_R1.trim.read_length.txt
+              2 100%    0.00kB/s    0:00:00                2 100%    0.00kB/s    0:00:00 (xfr#60, to-chk=12/88)
+K5LA59U_sample2/qc/rep1/C20BGACXX_lane5_3687_CTTGTA_L005_R1.trim.srt.dup.qc
+          1.47K 100%    1.75kB/s    0:00:00            1.47K 100%    1.75kB/s    0:00:00 (xfr#61, to-chk=11/88)
+K5LA59U_sample2/qc/rep1/C20BGACXX_lane5_3687_CTTGTA_L005_R1.trim.srt.lib_complexity.qc
+             63 100%    0.08kB/s    0:00:00               63 100%    0.08kB/s    0:00:00 (xfr#62, to-chk=10/88)
+K5LA59U_sample2/qc/rep1/C20BGACXX_lane5_3687_CTTGTA_L005_R1.trim.srt.nodup.no_chrM_MT.pval0.01.300K.bfilt.frip.qc
+             19 100%    0.02kB/s    0:00:00               19 100%    0.02kB/s    0:00:00 (xfr#63, to-chk=9/88)
+K5LA59U_sample2/qc/rep1/C20BGACXX_lane5_3687_CTTGTA_L005_R1.trim.srt.nodup.no_chrM_MT.samstats.qc
+            340 100%    0.40kB/s    0:00:00              340 100%    0.40kB/s    0:00:00 (xfr#64, to-chk=8/88)
+K5LA59U_sample2/qc/rep1/C20BGACXX_lane5_3687_CTTGTA_L005_R1.trim.srt.samstats.qc
+            348 100%    0.41kB/s    0:00:00              348 100%    0.41kB/s    0:00:00 (xfr#65, to-chk=7/88)
+K5LA59U_sample2/qc/rep1/pseudorep1/
+K5LA59U_sample2/qc/rep1/pseudorep1/C20BGACXX_lane5_3687_CTTGTA_L005_R1.trim.srt.nodup.no_chrM_MT.pr1.pval0.01.300K.bfilt.frip.qc
+             19 100%    0.02kB/s    0:00:00               19 100%    0.02kB/s    0:00:00 (xfr#66, to-chk=4/88)
+K5LA59U_sample2/qc/rep1/pseudorep2/
+K5LA59U_sample2/qc/rep1/pseudorep2/C20BGACXX_lane5_3687_CTTGTA_L005_R1.trim.srt.nodup.no_chrM_MT.pr2.pval0.01.300K.bfilt.frip.qc
+             19 100%    0.02kB/s    0:00:00               19 100%    0.02kB/s    0:00:00 (xfr#67, to-chk=3/88)
+K5LA59U_sample2/signal/
+K5LA59U_sample2/signal/rep1/
+K5LA59U_sample2/signal/rep1/C20BGACXX_lane5_3687_CTTGTA_L005_R1.trim.srt.nodup.no_chrM_MT.fc.signal.bigwig
+         32.77K   0%   38.28kB/s    4:01:46            5.28M   0%    5.03MB/s    0:01:46           37.91M   6%   18.09MB/s    0:00:27           70.35M  12%   22.37MB/s    0:00:21          102.40M  18%   24.42MB/s    0:00:18          135.14M  24%   30.97MB/s    0:00:13          168.07M  30%   31.04MB/s    0:00:12          201.36M  36%   31.24MB/s    0:00:11          234.59M  42%   31.52MB/s    0:00:09          267.75M  48%   31.63MB/s    0:00:08          300.97M  54%   31.70MB/s    0:00:07          332.92M  59%   31.38MB/s    0:00:06          365.95M  65%   31.33MB/s    0:00:05          399.15M  71%   31.34MB/s    0:00:04          432.21M  77%   31.30MB/s    0:00:03          464.75M  83%   31.45MB/s    0:00:02          492.73M  88%   30.24MB/s    0:00:02          521.14M  93%   29.11MB/s    0:00:01          550.01M  99%   28.09MB/s    0:00:00          555.32M 100%   29.17MB/s    0:00:18 (xfr#68, to-chk=1/88)
+K5LA59U_sample2/signal/rep1/C20BGACXX_lane5_3687_CTTGTA_L005_R1.trim.srt.nodup.no_chrM_MT.pval.signal.bigwig
+         32.77K   0%  195.12kB/s    0:45:13           27.85M   5%   26.56MB/s    0:00:18           61.24M  11%   29.20MB/s    0:00:15           94.57M  17%   30.07MB/s    0:00:14          127.83M  24%   30.48MB/s    0:00:12          161.02M  30%   31.76MB/s    0:00:11          194.08M  36%   31.68MB/s    0:00:10          226.72M  42%   31.51MB/s    0:00:09          259.88M  49%   31.49MB/s    0:00:08          292.59M  55%   31.37MB/s    0:00:07          324.76M  61%   31.16MB/s    0:00:06          357.86M  67%   31.27MB/s    0:00:05          390.79M  73%   31.21MB/s    0:00:04          423.79M  80%   31.29MB/s    0:00:03          454.39M  85%   30.91MB/s    0:00:02          485.23M  91%   30.37MB/s    0:00:01          516.29M  97%   29.92MB/s    0:00:00          529.52M 100%   30.78MB/s    0:00:16 (xfr#69, to-chk=0/88)
+
+sent 7.82G bytes  received 1.46K bytes  36.62M bytes/sec
+total size is 7.84G  speedup is 1.00
+Rsync completed successfully for K5LA59U_sample2.
+Metadata location: /home/suffi.azizan/scratchspace/outputs/encd-atac-pipe-raw-out/K5LA59U/K5LA59U_sample3/atac/a7cbc6a6-6eca-4163-98c9-12e9bf237e1d/metadata.json
+Sample name: K5LA59U_sample3
+Croo completed successfully on sample K5LA59U_sample3. Proceeding to rsync...
+sending incremental file list
+K5LA59U_sample3/
+K5LA59U_sample3/croo.filetable.a7cbc6a6-6eca-4163-98c9-12e9bf237e1d.tsv
+         14.43K 100%    0.00kB/s    0:00:00           14.43K 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=86/88)
+K5LA59U_sample3/croo.report.a7cbc6a6-6eca-4163-98c9-12e9bf237e1d.html
+         32.77K  55%   31.25MB/s    0:00:00           59.09K 100%   18.78MB/s    0:00:00 (xfr#2, to-chk=85/88)
+K5LA59U_sample3/croo.task_graph.a7cbc6a6-6eca-4163-98c9-12e9bf237e1d.dot
+         16.53K 100%    3.94MB/s    0:00:00           16.53K 100%    3.94MB/s    0:00:00 (xfr#3, to-chk=84/88)
+K5LA59U_sample3/croo.task_graph.a7cbc6a6-6eca-4163-98c9-12e9bf237e1d.svg
+         32.77K  95%    6.25MB/s    0:00:00           34.25K 100%    5.44MB/s    0:00:00 (xfr#4, to-chk=83/88)
+K5LA59U_sample3/align/
+K5LA59U_sample3/align/rep1/
+K5LA59U_sample3/align/rep1/D1YHUACXX_lane8_3686_CAGATC_L008_R1.trim.srt.bam
+         32.77K   0%    3.12MB/s    0:19:13           38.47M   1%   36.69MB/s    0:01:37           77.50M   2%   36.97MB/s    0:01:35          114.98M   3%   36.58MB/s    0:01:35          153.32M   4%   36.58MB/s    0:01:34          192.32M   5%   36.70MB/s    0:01:33          231.37M   6%   36.71MB/s    0:01:32          269.45M   7%   36.84MB/s    0:01:30          308.35M   8%   36.97MB/s    0:01:29          346.88M   9%   36.87MB/s    0:01:28          385.88M  10%   36.85MB/s    0:01:27          424.87M  11%   37.07MB/s    0:01:26          463.90M  12%   37.10MB/s    0:01:24          502.92M  13%   37.21MB/s    0:01:23          541.88M  14%   37.20MB/s    0:01:22          580.98M  15%   37.23MB/s    0:01:21          617.02M  16%   36.52MB/s    0:01:22          637.86M  17%   32.19MB/s    0:01:32          676.95M  18%   32.21MB/s    0:01:31          716.01M  19%   32.21MB/s    0:01:30          755.04M  20%   32.92MB/s    0:01:27          794.10M  21%   37.27MB/s    0:01:15          831.82M  22%   36.94MB/s    0:01:15          869.43M  23%   36.60MB/s    0:01:15          908.49M  24%   36.60MB/s    0:01:14          947.62M  25%   36.62MB/s    0:01:13          986.68M  26%   36.94MB/s    0:01:11            1.02G  27%   37.08MB/s    0:01:10            1.06G  28%   37.10MB/s    0:01:09            1.10G  29%   36.64MB/s    0:01:09            1.14G  30%   36.53MB/s    0:01:08            1.18G  31%   36.73MB/s    0:01:06            1.22G  32%   36.68MB/s    0:01:05            1.26G  34%   37.05MB/s    0:01:04            1.29G  34%   35.32MB/s    0:01:06            1.33G  35%   35.32MB/s    0:01:05            1.36G  36%   34.42MB/s    0:01:06            1.40G  37%   34.52MB/s    0:01:04            1.44G  39%   36.35MB/s    0:01:00            1.48G  40%   36.19MB/s    0:00:59            1.52G  41%   37.12MB/s    0:00:57            1.55G  41%   34.87MB/s    0:01:00            1.59G  42%   34.87MB/s    0:00:58            1.63G  44%   35.03MB/s    0:00:57            1.66G  45%   34.97MB/s    0:00:56            1.70G  46%   37.21MB/s    0:00:52            1.73G  46%   33.42MB/s    0:00:57            1.77G  47%   33.32MB/s    0:00:56            1.80G  48%   33.28MB/s    0:00:55            1.84G  49%   33.28MB/s    0:00:54            1.88G  50%   37.07MB/s    0:00:47            1.92G  52%   37.19MB/s    0:00:46            1.96G  53%   37.28MB/s    0:00:45            2.00G  54%   37.29MB/s    0:00:44            2.04G  55%   37.29MB/s    0:00:43            2.08G  56%   37.30MB/s    0:00:42            2.12G  57%   37.29MB/s    0:00:41            2.15G  58%   36.91MB/s    0:00:40            2.19G  59%   36.91MB/s    0:00:39            2.23G  60%   36.91MB/s    0:00:38            2.27G  61%   36.91MB/s    0:00:37            2.31G  62%   37.29MB/s    0:00:36            2.35G  63%   37.28MB/s    0:00:35            2.39G  64%   37.26MB/s    0:00:34            2.43G  65%   37.26MB/s    0:00:33            2.47G  66%   37.25MB/s    0:00:32            2.51G  67%   37.25MB/s    0:00:31            2.54G  68%   37.26MB/s    0:00:30            2.58G  69%   37.07MB/s    0:00:29            2.62G  71%   37.08MB/s    0:00:28            2.66G  72%   37.07MB/s    0:00:27            2.70G  73%   37.06MB/s    0:00:26            2.74G  74%   37.24MB/s    0:00:24            2.78G  75%   37.22MB/s    0:00:23            2.82G  76%   36.99MB/s    0:00:23            2.86G  77%   37.01MB/s    0:00:22            2.88G  77%   33.02MB/s    0:00:24            2.92G  78%   32.64MB/s    0:00:23            2.95G  79%   32.49MB/s    0:00:22            2.99G  81%   32.49MB/s    0:00:21            3.03G  82%   36.48MB/s    0:00:17            3.07G  83%   36.86MB/s    0:00:16            3.11G  84%   37.26MB/s    0:00:15            3.15G  85%   37.00MB/s    0:00:14            3.18G  86%   36.75MB/s    0:00:13            3.22G  87%   36.42MB/s    0:00:12            3.26G  88%   36.42MB/s    0:00:11            3.30G  89%   36.64MB/s    0:00:10            3.34G  90%   36.84MB/s    0:00:09            3.38G  91%   37.07MB/s    0:00:08            3.42G  92%   36.95MB/s    0:00:07            3.46G  93%   36.90MB/s    0:00:06            3.49G  94%   36.96MB/s    0:00:05            3.53G  95%   36.94MB/s    0:00:04            3.57G  96%   36.81MB/s    0:00:03            3.61G  97%   36.75MB/s    0:00:02            3.65G  98%   36.71MB/s    0:00:01            3.69G  99%   36.77MB/s    0:00:00            3.69G 100%   36.27MB/s    0:01:37 (xfr#5, to-chk=77/88)
+K5LA59U_sample3/align/rep1/D1YHUACXX_lane8_3686_CAGATC_L008_R1.trim.srt.nodup.no_chrM_MT.bam
+         32.77K   0%  222.22kB/s    1:49:05           33.26M   2%   31.72MB/s    0:00:43           72.16M   4%   34.42MB/s    0:00:39          111.02M   7%   35.32MB/s    0:00:37          149.95M  10%   35.77MB/s    0:00:35          188.91M  12%   37.13MB/s    0:00:33          227.87M  15%   37.14MB/s    0:00:32          257.62M  17%   34.97MB/s    0:00:33          296.58M  20%   34.98MB/s    0:00:32          335.54M  23%   34.98MB/s    0:00:31          374.47M  25%   34.97MB/s    0:00:30          413.37M  28%   37.15MB/s    0:00:27          452.33M  31%   37.15MB/s    0:00:26          491.23M  33%   37.14MB/s    0:00:25          530.22M  36%   37.15MB/s    0:00:24          569.21M  39%   37.17MB/s    0:00:23          607.03M  41%   36.89MB/s    0:00:22          645.40M  44%   36.77MB/s    0:00:21          684.36M  47%   36.76MB/s    0:00:20          723.26M  49%   36.74MB/s    0:00:19          762.09M  52%   36.99MB/s    0:00:18          799.67M  54%   36.79MB/s    0:00:17          838.60M  57%   36.79MB/s    0:00:16          877.59M  60%   36.82MB/s    0:00:15          916.55M  63%   36.85MB/s    0:00:14          955.51M  65%   37.17MB/s    0:00:13          994.51M  68%   37.19MB/s    0:00:12            1.03G  71%   37.18MB/s    0:00:11            1.07G  73%   37.20MB/s    0:00:10            1.11G  76%   37.20MB/s    0:00:09            1.15G  79%   37.19MB/s    0:00:07            1.19G  81%   37.20MB/s    0:00:06            1.23G  84%   37.18MB/s    0:00:05            1.27G  87%   37.03MB/s    0:00:04            1.31G  89%   37.02MB/s    0:00:03            1.34G  92%   37.01MB/s    0:00:02            1.38G  95%   36.99MB/s    0:00:01            1.42G  97%   37.09MB/s    0:00:00            1.45G 100%   36.69MB/s    0:00:37 (xfr#6, to-chk=76/88)
+K5LA59U_sample3/align/rep1/D1YHUACXX_lane8_3686_CAGATC_L008_R1.trim.srt.nodup.no_chrM_MT.tagAlign.gz
+         32.77K   0%   38.23kB/s    1:17:32            4.55M   2%    4.34MB/s    0:00:38           35.65M  20%   17.01MB/s    0:00:08           66.49M  37%   21.14MB/s    0:00:05           97.62M  54%   23.28MB/s    0:00:03          131.89M  74%   30.37MB/s    0:00:01          165.97M  93%   31.08MB/s    0:00:00          177.90M 100%   26.67MB/s    0:00:06 (xfr#7, to-chk=75/88)
+K5LA59U_sample3/align/rep1/pseudorep1/
+K5LA59U_sample3/align/rep1/pseudorep1/D1YHUACXX_lane8_3686_CAGATC_L008_R1.trim.srt.nodup.no_chrM_MT.pr1.tagAlign.gz
+         32.77K   0%   86.49kB/s    0:26:24           24.38M  17%   23.25MB/s    0:00:04           61.60M  44%   29.38MB/s    0:00:02          100.17M  73%   31.85MB/s    0:00:01          137.08M 100%   33.07MB/s    0:00:03 (xfr#8, to-chk=72/88)
+K5LA59U_sample3/align/rep1/pseudorep2/
+K5LA59U_sample3/align/rep1/pseudorep2/D1YHUACXX_lane8_3686_CAGATC_L008_R1.trim.srt.nodup.no_chrM_MT.pr2.tagAlign.gz
+         32.77K   0%   33.33kB/s    1:08:31            1.34M   0%    1.28MB/s    0:01:43           39.98M  29%   19.07MB/s    0:00:04           78.71M  57%   25.03MB/s    0:00:02          117.44M  85%   28.01MB/s    0:00:00          134.45M  98%   17.26MB/s    0:00:00          137.08M 100%   15.51MB/s    0:00:08 (xfr#9, to-chk=71/88)
+K5LA59U_sample3/peak/
+K5LA59U_sample3/peak/idr_reproducibility/
+K5LA59U_sample3/peak/idr_reproducibility/idr.conservative_peak.narrowPeak.bb
+         32.77K   0%  405.06kB/s    0:00:16            6.72M 100%   24.20MB/s    0:00:00 (xfr#10, to-chk=66/88)
+K5LA59U_sample3/peak/idr_reproducibility/idr.conservative_peak.narrowPeak.gz
+         32.77K   1%  118.96kB/s    0:00:22            2.66M 100%    7.56MB/s    0:00:00 (xfr#11, to-chk=65/88)
+K5LA59U_sample3/peak/idr_reproducibility/idr.conservative_peak.narrowPeak.hammock.gz
+         32.77K   0%   93.84kB/s    0:00:38            3.64M 100%    8.01MB/s    0:00:00 (xfr#12, to-chk=64/88)
+K5LA59U_sample3/peak/idr_reproducibility/idr.conservative_peak.narrowPeak.starch
+         32.77K   1%   73.06kB/s    0:00:29            2.18M 100%    4.21MB/s    0:00:00 (xfr#13, to-chk=63/88)
+K5LA59U_sample3/peak/idr_reproducibility/idr.optimal_peak.narrowPeak.bb
+         32.77K   0%   64.26kB/s    0:01:44            6.72M 100%    9.40MB/s    0:00:00 (xfr#14, to-chk=62/88)
+K5LA59U_sample3/peak/idr_reproducibility/idr.optimal_peak.narrowPeak.gz
+         32.77K   1%   46.65kB/s    0:00:56            2.66M 100%    3.37MB/s    0:00:00 (xfr#15, to-chk=61/88)
+K5LA59U_sample3/peak/idr_reproducibility/idr.optimal_peak.narrowPeak.hammock.gz
+         32.77K   0%   42.22kB/s    0:01:25            3.64M 100%    4.08MB/s    0:00:00 (xfr#16, to-chk=60/88)
+K5LA59U_sample3/peak/idr_reproducibility/idr.optimal_peak.narrowPeak.starch
+         32.77K   1%   37.43kB/s    0:00:57            2.18M 100%    2.28MB/s    0:00:00 (xfr#17, to-chk=59/88)
+K5LA59U_sample3/peak/overlap_reproducibility/
+K5LA59U_sample3/peak/overlap_reproducibility/overlap.conservative_peak.narrowPeak.bb
+         32.77K   0%   34.93kB/s    0:05:03            3.21M  30%    3.06MB/s    0:00:02           10.65M 100%    8.39MB/s    0:00:01 (xfr#18, to-chk=58/88)
+K5LA59U_sample3/peak/overlap_reproducibility/overlap.conservative_peak.narrowPeak.gz
+         32.77K   0%  148.84kB/s    0:00:35            5.33M 100%   14.43MB/s    0:00:00 (xfr#19, to-chk=57/88)
+K5LA59U_sample3/peak/overlap_reproducibility/overlap.conservative_peak.narrowPeak.hammock.gz
+         32.77K   0%   89.89kB/s    0:01:08            6.23M 100%   11.49MB/s    0:00:00 (xfr#20, to-chk=56/88)
+K5LA59U_sample3/peak/overlap_reproducibility/overlap.conservative_peak.narrowPeak.starch
+         32.77K   0%   61.30kB/s    0:00:59            3.68M 100%    5.68MB/s    0:00:00 (xfr#21, to-chk=55/88)
+K5LA59U_sample3/peak/overlap_reproducibility/overlap.optimal_peak.narrowPeak.bb
+         32.77K   0%   51.53kB/s    0:03:26           10.65M 100%   11.08MB/s    0:00:00 (xfr#22, to-chk=54/88)
+K5LA59U_sample3/peak/overlap_reproducibility/overlap.optimal_peak.narrowPeak.gz
+         32.77K   0%   34.78kB/s    0:02:32            2.62M  49%    2.50MB/s    0:00:01            5.33M 100%    4.76MB/s    0:00:01 (xfr#23, to-chk=53/88)
+K5LA59U_sample3/peak/overlap_reproducibility/overlap.optimal_peak.narrowPeak.hammock.gz
+         32.77K   0%  438.36kB/s    0:00:14            6.23M 100%   25.59MB/s    0:00:00 (xfr#24, to-chk=52/88)
+K5LA59U_sample3/peak/overlap_reproducibility/overlap.optimal_peak.narrowPeak.starch
+         32.77K   0%  135.59kB/s    0:00:26            3.68M 100%   10.60MB/s    0:00:00 (xfr#25, to-chk=51/88)
+K5LA59U_sample3/peak/rep1-pseudorep1_vs_2/
+K5LA59U_sample3/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.bfilt.narrowPeak.bb
+         32.77K   0%   94.96kB/s    0:01:10            6.72M 100%   12.31MB/s    0:00:00 (xfr#26, to-chk=50/88)
+K5LA59U_sample3/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.bfilt.narrowPeak.gz
+         32.77K   1%   60.95kB/s    0:00:43            2.66M 100%    4.28MB/s    0:00:00 (xfr#27, to-chk=49/88)
+K5LA59U_sample3/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.bfilt.narrowPeak.hammock.gz
+         32.77K   0%   53.60kB/s    0:01:07            3.64M 100%    5.03MB/s    0:00:00 (xfr#28, to-chk=48/88)
+K5LA59U_sample3/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.bfilt.narrowPeak.starch
+         32.77K   1%   46.11kB/s    0:00:46            2.18M 100%    2.77MB/s    0:00:00 (xfr#29, to-chk=47/88)
+K5LA59U_sample3/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.unthresholded-peaks.txt.gz
+         32.77K   0%   42.44kB/s    0:04:07            9.54M  90%    9.09MB/s    0:00:00           10.54M 100%    9.82MB/s    0:00:01 (xfr#30, to-chk=46/88)
+K5LA59U_sample3/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.overlap.bfilt.narrowPeak.bb
+         32.77K   0%    1.04MB/s    0:00:09           10.65M 100%   31.45MB/s    0:00:00 (xfr#31, to-chk=45/88)
+K5LA59U_sample3/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.overlap.bfilt.narrowPeak.gz
+         32.77K   0%   98.16kB/s    0:00:53            5.33M 100%   10.99MB/s    0:00:00 (xfr#32, to-chk=44/88)
+K5LA59U_sample3/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.overlap.bfilt.narrowPeak.hammock.gz
+         32.77K   0%   68.67kB/s    0:01:30            6.23M 100%    9.50MB/s    0:00:00 (xfr#33, to-chk=43/88)
+K5LA59U_sample3/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.overlap.bfilt.narrowPeak.starch
+         32.77K   0%   50.87kB/s    0:01:11            3.68M 100%    4.84MB/s    0:00:00 (xfr#34, to-chk=42/88)
+K5LA59U_sample3/peak/rep1/
+K5LA59U_sample3/peak/rep1/D1YHUACXX_lane8_3686_CAGATC_L008_R1.trim.srt.nodup.no_chrM_MT.pval0.01.300K.bfilt.narrowPeak.bb
+         32.77K   0%   43.90kB/s    0:04:49            9.96M  78%    9.50MB/s    0:00:00           12.73M 100%   11.25MB/s    0:00:01 (xfr#35, to-chk=41/88)
+K5LA59U_sample3/peak/rep1/D1YHUACXX_lane8_3686_CAGATC_L008_R1.trim.srt.nodup.no_chrM_MT.pval0.01.300K.bfilt.narrowPeak.gz
+         32.77K   0%  380.95kB/s    0:00:12            4.87M 100%   22.00MB/s    0:00:00 (xfr#36, to-chk=40/88)
+K5LA59U_sample3/peak/rep1/D1YHUACXX_lane8_3686_CAGATC_L008_R1.trim.srt.nodup.no_chrM_MT.pval0.01.300K.bfilt.narrowPeak.hammock.gz
+         32.77K   0%  148.15kB/s    0:00:50            7.58M 100%   17.63MB/s    0:00:00 (xfr#37, to-chk=39/88)
+K5LA59U_sample3/peak/rep1/D1YHUACXX_lane8_3686_CAGATC_L008_R1.trim.srt.nodup.no_chrM_MT.pval0.01.300K.bfilt.narrowPeak.starch
+         32.77K   0%   77.29kB/s    0:00:56            4.37M 100%    7.89MB/s    0:00:00 (xfr#38, to-chk=38/88)
+K5LA59U_sample3/peak/rep1/D1YHUACXX_lane8_3686_CAGATC_L008_R1.trim.srt.nodup.no_chrM_MT.pval0.01.300K.narrowPeak.gz
+         32.77K   0%   60.15kB/s    0:01:20            4.89M 100%    7.07MB/s    0:00:00 (xfr#39, to-chk=37/88)
+K5LA59U_sample3/peak/rep1/pseudorep1/
+K5LA59U_sample3/peak/rep1/pseudorep1/D1YHUACXX_lane8_3686_CAGATC_L008_R1.trim.srt.nodup.no_chrM_MT.pr1.pval0.01.300K.bfilt.narrowPeak.bb
+         32.77K   0%   48.19kB/s    0:04:07           11.95M 100%   11.44MB/s    0:00:00 (xfr#40, to-chk=34/88)
+K5LA59U_sample3/peak/rep1/pseudorep1/D1YHUACXX_lane8_3686_CAGATC_L008_R1.trim.srt.nodup.no_chrM_MT.pr1.pval0.01.300K.bfilt.narrowPeak.gz
+         32.77K   0%   32.00kB/s    0:02:06           65.54K   1%   64.00kB/s    0:01:02            4.08M 100%    3.52MB/s    0:00:01 (xfr#41, to-chk=33/88)
+K5LA59U_sample3/peak/rep1/pseudorep1/D1YHUACXX_lane8_3686_CAGATC_L008_R1.trim.srt.nodup.no_chrM_MT.pr1.pval0.01.300K.bfilt.narrowPeak.hammock.gz
+         32.77K   0%  293.58kB/s    0:00:23            6.79M 100%   22.90MB/s    0:00:00 (xfr#42, to-chk=32/88)
+K5LA59U_sample3/peak/rep1/pseudorep1/D1YHUACXX_lane8_3686_CAGATC_L008_R1.trim.srt.nodup.no_chrM_MT.pr1.pval0.01.300K.bfilt.narrowPeak.starch
+         32.77K   0%  111.50kB/s    0:00:33            3.76M 100%    9.32MB/s    0:00:00 (xfr#43, to-chk=31/88)
+K5LA59U_sample3/peak/rep1/pseudorep1/D1YHUACXX_lane8_3686_CAGATC_L008_R1.trim.srt.nodup.no_chrM_MT.pr1.pval0.01.300K.narrowPeak.gz
+         32.77K   0%   82.26kB/s    0:00:49            4.10M 100%    7.88MB/s    0:00:00 (xfr#44, to-chk=30/88)
+K5LA59U_sample3/peak/rep1/pseudorep2/
+K5LA59U_sample3/peak/rep1/pseudorep2/D1YHUACXX_lane8_3686_CAGATC_L008_R1.trim.srt.nodup.no_chrM_MT.pr2.pval0.01.300K.bfilt.narrowPeak.bb
+         32.77K   0%   63.87kB/s    0:03:06           11.94M 100%   13.69MB/s    0:00:00 (xfr#45, to-chk=29/88)
+K5LA59U_sample3/peak/rep1/pseudorep2/D1YHUACXX_lane8_3686_CAGATC_L008_R1.trim.srt.nodup.no_chrM_MT.pr2.pval0.01.300K.bfilt.narrowPeak.gz
+         32.77K   0%   38.19kB/s    0:01:46            4.08M 100%    4.12MB/s    0:00:00 (xfr#46, to-chk=28/88)
+K5LA59U_sample3/peak/rep1/pseudorep2/D1YHUACXX_lane8_3686_CAGATC_L008_R1.trim.srt.nodup.no_chrM_MT.pr2.pval0.01.300K.bfilt.narrowPeak.hammock.gz
+         32.77K   0%   33.76kB/s    0:03:20            1.97M  28%    1.88MB/s    0:00:02            6.79M 100%    5.77MB/s    0:00:01 (xfr#47, to-chk=27/88)
+K5LA59U_sample3/peak/rep1/pseudorep2/D1YHUACXX_lane8_3686_CAGATC_L008_R1.trim.srt.nodup.no_chrM_MT.pr2.pval0.01.300K.bfilt.narrowPeak.starch
+         32.77K   0%  250.00kB/s    0:00:14            3.76M 100%   16.00MB/s    0:00:00 (xfr#48, to-chk=26/88)
+K5LA59U_sample3/peak/rep1/pseudorep2/D1YHUACXX_lane8_3686_CAGATC_L008_R1.trim.srt.nodup.no_chrM_MT.pr2.pval0.01.300K.narrowPeak.gz
+         32.77K   0%  140.35kB/s    0:00:28            4.09M 100%   11.65MB/s    0:00:00 (xfr#49, to-chk=25/88)
+K5LA59U_sample3/qc/
+K5LA59U_sample3/qc/D1YHUACXX_lane8_3686_CAGATC_L008_R1.trim.srt.no_chrM.samstats.qc.frac_mito.qc
+             79 100%    0.23kB/s    0:00:00               79 100%    0.23kB/s    0:00:00 (xfr#50, to-chk=24/88)
+K5LA59U_sample3/qc/D1YHUACXX_lane8_3686_CAGATC_L008_R1.trim.srt.nodup.no_chrM_MT.jsd_plot.png
+         25.08K 100%   71.40kB/s    0:00:00           25.08K 100%   71.40kB/s    0:00:00 (xfr#51, to-chk=23/88)
+K5LA59U_sample3/qc/idr.reproducibility.qc
+            173 100%    0.49kB/s    0:00:00              173 100%    0.49kB/s    0:00:00 (xfr#52, to-chk=22/88)
+K5LA59U_sample3/qc/overlap.reproducibility.qc
+            173 100%    0.49kB/s    0:00:00              173 100%    0.49kB/s    0:00:00 (xfr#53, to-chk=21/88)
+K5LA59U_sample3/qc/qc.html
+         32.77K   2%   90.65kB/s    0:00:17            1.63M 100%    3.67MB/s    0:00:00 (xfr#54, to-chk=20/88)
+K5LA59U_sample3/qc/qc.json
+          6.72K 100%   15.38kB/s    0:00:00            6.72K 100%   15.38kB/s    0:00:00 (xfr#55, to-chk=19/88)
+K5LA59U_sample3/qc/rep1-pseudorep1_vs_2/
+K5LA59U_sample3/qc/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.bfilt.frip.qc
+             18 100%    0.04kB/s    0:00:00               18 100%    0.04kB/s    0:00:00 (xfr#56, to-chk=16/88)
+K5LA59U_sample3/qc/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.log
+            213 100%    0.48kB/s    0:00:00              213 100%    0.48kB/s    0:00:00 (xfr#57, to-chk=15/88)
+K5LA59U_sample3/qc/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.unthresholded-peaks.txt.png
+         32.77K   3%   73.39kB/s    0:00:11          897.79K 100%    1.83MB/s    0:00:00 (xfr#58, to-chk=14/88)
+K5LA59U_sample3/qc/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.overlap.bfilt.frip.qc
+             18 100%    0.04kB/s    0:00:00               18 100%    0.04kB/s    0:00:00 (xfr#59, to-chk=13/88)
+K5LA59U_sample3/qc/rep1/
+K5LA59U_sample3/qc/rep1/D1YHUACXX_lane8_3686_CAGATC_L008_R1.trim.read_length.txt
+              2 100%    0.00kB/s    0:00:00                2 100%    0.00kB/s    0:00:00 (xfr#60, to-chk=12/88)
+K5LA59U_sample3/qc/rep1/D1YHUACXX_lane8_3686_CAGATC_L008_R1.trim.srt.dup.qc
+          1.47K 100%    3.02kB/s    0:00:00            1.47K 100%    3.02kB/s    0:00:00 (xfr#61, to-chk=11/88)
+K5LA59U_sample3/qc/rep1/D1YHUACXX_lane8_3686_CAGATC_L008_R1.trim.srt.lib_complexity.qc
+             63 100%    0.13kB/s    0:00:00               63 100%    0.13kB/s    0:00:00 (xfr#62, to-chk=10/88)
+K5LA59U_sample3/qc/rep1/D1YHUACXX_lane8_3686_CAGATC_L008_R1.trim.srt.nodup.no_chrM_MT.pval0.01.300K.bfilt.frip.qc
+             19 100%    0.04kB/s    0:00:00               19 100%    0.04kB/s    0:00:00 (xfr#63, to-chk=9/88)
+K5LA59U_sample3/qc/rep1/D1YHUACXX_lane8_3686_CAGATC_L008_R1.trim.srt.nodup.no_chrM_MT.samstats.qc
+            340 100%    0.69kB/s    0:00:00              340 100%    0.69kB/s    0:00:00 (xfr#64, to-chk=8/88)
+K5LA59U_sample3/qc/rep1/D1YHUACXX_lane8_3686_CAGATC_L008_R1.trim.srt.samstats.qc
+            348 100%    0.70kB/s    0:00:00              348 100%    0.70kB/s    0:00:00 (xfr#65, to-chk=7/88)
+K5LA59U_sample3/qc/rep1/pseudorep1/
+K5LA59U_sample3/qc/rep1/pseudorep1/D1YHUACXX_lane8_3686_CAGATC_L008_R1.trim.srt.nodup.no_chrM_MT.pr1.pval0.01.300K.bfilt.frip.qc
+             18 100%    0.04kB/s    0:00:00               18 100%    0.04kB/s    0:00:00 (xfr#66, to-chk=4/88)
+K5LA59U_sample3/qc/rep1/pseudorep2/
+K5LA59U_sample3/qc/rep1/pseudorep2/D1YHUACXX_lane8_3686_CAGATC_L008_R1.trim.srt.nodup.no_chrM_MT.pr2.pval0.01.300K.bfilt.frip.qc
+             19 100%    0.04kB/s    0:00:00               19 100%    0.04kB/s    0:00:00 (xfr#67, to-chk=3/88)
+K5LA59U_sample3/signal/
+K5LA59U_sample3/signal/rep1/
+K5LA59U_sample3/signal/rep1/D1YHUACXX_lane8_3686_CAGATC_L008_R1.trim.srt.nodup.no_chrM_MT.fc.signal.bigwig
+         32.77K   0%   64.78kB/s    1:53:19           16.12M   3%   15.38MB/s    0:00:26           48.46M  11%   23.12MB/s    0:00:16           81.26M  18%   25.84MB/s    0:00:13          114.39M  25%   27.29MB/s    0:00:11          147.69M  33%   31.38MB/s    0:00:09          180.94M  41%   31.59MB/s    0:00:08          214.11M  48%   31.69MB/s    0:00:06          247.23M  56%   31.69MB/s    0:00:05          280.30M  63%   31.63MB/s    0:00:04          313.52M  71%   31.63MB/s    0:00:03          346.65M  78%   31.61MB/s    0:00:02          378.08M  85%   31.20MB/s    0:00:01          408.32M  92%   30.53MB/s    0:00:01          439.19M  99%   29.97MB/s    0:00:00          440.48M 100%   29.94MB/s    0:00:14 (xfr#68, to-chk=1/88)
+K5LA59U_sample3/signal/rep1/D1YHUACXX_lane8_3686_CAGATC_L008_R1.trim.srt.nodup.no_chrM_MT.pval.signal.bigwig
+         32.77K   0%  744.19kB/s    0:09:06           31.98M   7%   30.50MB/s    0:00:12           65.40M  16%   31.20MB/s    0:00:10           98.83M  24%   31.44MB/s    0:00:09          132.25M  32%   31.55MB/s    0:00:08          163.15M  40%   31.29MB/s    0:00:07          195.56M  48%   31.05MB/s    0:00:06          228.92M  56%   31.03MB/s    0:00:05          262.31M  64%   31.02MB/s    0:00:04          295.73M  72%   31.63MB/s    0:00:03          329.09M  80%   31.85MB/s    0:00:02          361.10M  88%   31.53MB/s    0:00:01          393.54M  96%   31.30MB/s    0:00:00          406.80M 100%   31.26MB/s    0:00:12 (xfr#69, to-chk=0/88)
+
+sent 6.66G bytes  received 1.46K bytes  36.10M bytes/sec
+total size is 6.68G  speedup is 1.00
+Rsync completed successfully for K5LA59U_sample3.
+SUCCESS-on-K5LA59U_sample1 SUCCESS-on-K5LA59U_sample2 SUCCESS-on-K5LA59U_sample3
+Croo post-processing script completed successfully.
+Processed files have been transferred to remote storage Odin.
+Removing sample subdirectories in K5LA59U from the pipeline raw output directory...
+All sample subdirectories have been copied to Odin and removed from Gekko.
+All job runs have finished. Exiting watcher script...
+Workflow is done.

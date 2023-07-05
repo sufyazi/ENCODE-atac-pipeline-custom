@@ -34,7 +34,7 @@ if [[ "$counter" -ne "$max_samp_count" ]]; then
             set +e # Disable the exit on error option so that the script can continue if the croo post-processing script fails
             # Run the croo post-processing script
             echo "Block 1 watcher script"
-            captured_err=$(bash /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/croo_processing_module.sh "${analysis_id}" "${pl_raw_output_root_dir}/${analysis_id}" "${croo_output_root_dir}" | tee "/home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/logs/encd-atac-pl_watcher_${analysis_id}.log" | grep -oE "RSYNC_ERROR|CROO_ERROR")
+            captured_err=$(bash /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/croo_processing_module.sh "${analysis_id}" "${pl_raw_output_root_dir}/${analysis_id}" "${croo_output_root_dir}" | tee -a "/home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/logs/encd-atac-pl_watcher_${analysis_id}.log" | grep -oE "RSYNC_ERROR|CROO_ERROR")
             # check if captured_err array is empty
             if [[ -z "$captured_err" ]]; then
                 echo "Croo post-processing script completed successfully."
@@ -57,7 +57,7 @@ if [[ "$counter" -ne "$max_samp_count" ]]; then
                 # Run the croo post-processing script
                 echo "Block 2 watcher script"
                 echo "Proceeding with croo post-processing script..."
-                captured_err=$(bash /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/croo_processing_module.sh "${analysis_id}" "${pl_raw_output_root_dir}/${analysis_id}" "${croo_output_root_dir}" | tee "/home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/logs/encd-atac-pl_watcher_${analysis_id}.log" | grep -oE "RSYNC_ERROR|CROO_ERROR")
+                captured_err=$(bash /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/croo_processing_module.sh "${analysis_id}" "${pl_raw_output_root_dir}/${analysis_id}" "${croo_output_root_dir}" | tee -a "/home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/logs/encd-atac-pl_watcher_${analysis_id}.log" | grep -oE "RSYNC_ERROR|CROO_ERROR")
                 # check if captured_err array is empty
                 if [[ -z "$captured_err" ]]; then
                     echo "Croo post-processing script completed successfully."
@@ -101,7 +101,7 @@ else
             set +e # Disable the exit on error option so that the script can continue if the croo post-processing script fails
             # Run the croo post-processing script
             echo "Block 3 watcher script"
-            captured_err=$(bash /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/croo_processing_module.sh "${analysis_id}" "${pl_raw_output_root_dir}/${analysis_id}" "${croo_output_root_dir}" | tee "/home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/logs/encd-atac-pl_watcher_${analysis_id}.log" | grep -oE "RSYNC_ERROR|CROO_ERROR")
+            captured_err=$(bash /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/croo_processing_module.sh "${analysis_id}" "${pl_raw_output_root_dir}/${analysis_id}" "${croo_output_root_dir}" | tee -a "/home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/logs/encd-atac-pl_watcher_${analysis_id}.log" | grep -oE "RSYNC_ERROR|CROO_ERROR")
             # check if captured_err array is empty
             if [[ -z "$captured_err" ]]; then
                 echo "Croo post-processing script completed successfully."
@@ -123,7 +123,7 @@ else
                 # Run the croo post-processing script
                 echo "Block 4 watcher script"
                 echo "Proceeding with croo post-processing script..."
-                captured_err=$(bash /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/croo_processing_module.sh "${analysis_id}" "${pl_raw_output_root_dir}/${analysis_id}" "${croo_output_root_dir}" | tee "/home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/logs/encd-atac-pl_watcher_${analysis_id}.log" | grep -oE "RSYNC_ERROR|CROO_ERROR")
+                captured_err=$(bash /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/croo_processing_module.sh "${analysis_id}" "${pl_raw_output_root_dir}/${analysis_id}" "${croo_output_root_dir}" | tee -a "/home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/logs/encd-atac-pl_watcher_${analysis_id}.log" | grep -oE "RSYNC_ERROR|CROO_ERROR")
                 # check if captured_err array is empty
                 if [[ -z "$captured_err" ]]; then
                     echo "Croo post-processing script completed successfully."
