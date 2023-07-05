@@ -128,6 +128,7 @@ EOF
         caper hpc submit /home/suffi.azizan/installs/atac-seq-pipeline/atac.wdl -i "${json}" -s "${analysis_id}" --conda --pbs-queue "${CLUSTER_QUEUE}" --leader-job-name "${analysis_id}_${sample_id}" --local-out-dir "${local_output_dir}" --cromwell-stdout "/home/suffi.azizan/logs/cromwell_out/cromwell.${analysis_id}_${sample_id}.out"
         # Increment the counter
         counter=$((counter+1))
+        echo "Submitted job number ${sample_count}: ${json} in outer elif block."
         echo "All samples have been submitted for processing."
         echo "Current count is ${counter}"
         echo "Current sample count is ${sample_count}"

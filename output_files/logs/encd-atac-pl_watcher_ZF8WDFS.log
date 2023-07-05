@@ -1,70 +1,849 @@
-WARNING: LD_LIBRARY_PATH_modshare exists ( /usr/local/graphviz-5.0.1/lib:1:/usr/local/jdk-11.0.12/lib:1 ), but LD_LIBRARY_PATH doesn't. Environment is corrupted.
-Max sample count has not been reached. Proceeding...
-None of the currently running jobs has finished. Will check again in 1 hour.
-job 16999 at Tue Jul  4 19:44:00 2023
-WARNING: LD_LIBRARY_PATH_modshare exists ( /usr/local/graphviz-5.0.1/lib:1:/usr/local/jdk-11.0.12/lib:1 ), but LD_LIBRARY_PATH doesn't. Environment is corrupted.
-Max sample count has not been reached. Proceeding...
-None of the currently running jobs has finished. Will check again in 1 hour.
-job 17000 at Tue Jul  4 20:44:00 2023
-WARNING: LD_LIBRARY_PATH_modshare exists ( /usr/local/graphviz-5.0.1/lib:1:/usr/local/jdk-11.0.12/lib:1 ), but LD_LIBRARY_PATH doesn't. Environment is corrupted.
-Max sample count has not been reached. Proceeding...
-None of the currently running jobs has finished. Will check again in 1 hour.
-job 17001 at Tue Jul  4 21:44:00 2023
-WARNING: LD_LIBRARY_PATH_modshare exists ( /usr/local/graphviz-5.0.1/lib:1:/usr/local/jdk-11.0.12/lib:1 ), but LD_LIBRARY_PATH doesn't. Environment is corrupted.
-Max sample count has not been reached. Proceeding...
-None of the currently running jobs has finished. Will check again in 1 hour.
-job 17002 at Tue Jul  4 22:44:00 2023
-WARNING: LD_LIBRARY_PATH_modshare exists ( /usr/local/graphviz-5.0.1/lib:1:/usr/local/jdk-11.0.12/lib:1 ), but LD_LIBRARY_PATH doesn't. Environment is corrupted.
-Max sample count has not been reached. Proceeding...
-None of the currently running jobs has finished. Will check again in 1 hour.
-job 17003 at Tue Jul  4 23:44:00 2023
-WARNING: LD_LIBRARY_PATH_modshare exists ( /usr/local/graphviz-5.0.1/lib:1:/usr/local/jdk-11.0.12/lib:1 ), but LD_LIBRARY_PATH doesn't. Environment is corrupted.
-Max sample count has not been reached. Proceeding...
-None of the currently running jobs has finished. Will check again in 1 hour.
-job 17004 at Wed Jul  5 00:44:00 2023
-WARNING: LD_LIBRARY_PATH_modshare exists ( /usr/local/graphviz-5.0.1/lib:1:/usr/local/jdk-11.0.12/lib:1 ), but LD_LIBRARY_PATH doesn't. Environment is corrupted.
-Max sample count has not been reached. Proceeding...
-None of the currently running jobs has finished. Will check again in 1 hour.
-job 17005 at Wed Jul  5 01:44:00 2023
-WARNING: LD_LIBRARY_PATH_modshare exists ( /usr/local/graphviz-5.0.1/lib:1:/usr/local/jdk-11.0.12/lib:1 ), but LD_LIBRARY_PATH doesn't. Environment is corrupted.
-Max sample count has not been reached. Proceeding...
-None of the currently running jobs has finished. Will check again in 1 hour.
-job 17006 at Wed Jul  5 02:44:00 2023
-WARNING: LD_LIBRARY_PATH_modshare exists ( /usr/local/graphviz-5.0.1/lib:1:/usr/local/jdk-11.0.12/lib:1 ), but LD_LIBRARY_PATH doesn't. Environment is corrupted.
-Max sample count has not been reached. Proceeding...
-None of the currently running jobs has finished. Will check again in 1 hour.
-job 17007 at Wed Jul  5 03:44:00 2023
-WARNING: LD_LIBRARY_PATH_modshare exists ( /usr/local/graphviz-5.0.1/lib:1:/usr/local/jdk-11.0.12/lib:1 ), but LD_LIBRARY_PATH doesn't. Environment is corrupted.
-Max sample count has not been reached. Proceeding...
-None of the currently running jobs has finished. Will check again in 1 hour.
-job 17008 at Wed Jul  5 04:44:00 2023
-WARNING: LD_LIBRARY_PATH_modshare exists ( /usr/local/graphviz-5.0.1/lib:1:/usr/local/jdk-11.0.12/lib:1 ), but LD_LIBRARY_PATH doesn't. Environment is corrupted.
-Max sample count has not been reached. Proceeding...
-None of the currently running jobs has finished. Will check again in 1 hour.
-job 17009 at Wed Jul  5 05:44:00 2023
-WARNING: LD_LIBRARY_PATH_modshare exists ( /usr/local/graphviz-5.0.1/lib:1:/usr/local/jdk-11.0.12/lib:1 ), but LD_LIBRARY_PATH doesn't. Environment is corrupted.
-Max sample count has not been reached. Proceeding...
-None of the currently running jobs has finished. Will check again in 1 hour.
-job 17010 at Wed Jul  5 06:44:00 2023
-WARNING: LD_LIBRARY_PATH_modshare exists ( /usr/local/graphviz-5.0.1/lib:1:/usr/local/jdk-11.0.12/lib:1 ), but LD_LIBRARY_PATH doesn't. Environment is corrupted.
-Max sample count has not been reached. Proceeding...
-None of the currently running jobs has finished. Will check again in 1 hour.
-job 17011 at Wed Jul  5 07:44:00 2023
-WARNING: LD_LIBRARY_PATH_modshare exists ( /usr/local/graphviz-5.0.1/lib:1:/usr/local/jdk-11.0.12/lib:1 ), but LD_LIBRARY_PATH doesn't. Environment is corrupted.
-Max sample count has not been reached. Proceeding...
-None of the currently running jobs has finished. Will check again in 1 hour.
-job 17012 at Wed Jul  5 08:44:00 2023
-WARNING: LD_LIBRARY_PATH_modshare exists ( /usr/local/graphviz-5.0.1/lib:1:/usr/local/jdk-11.0.12/lib:1 ), but LD_LIBRARY_PATH doesn't. Environment is corrupted.
-Max sample count has not been reached. Proceeding...
-None of the currently running jobs has finished. Will check again in 1 hour.
-job 17013 at Wed Jul  5 09:44:00 2023
-WARNING: LD_LIBRARY_PATH_modshare exists ( /usr/local/graphviz-5.0.1/lib:1:/usr/local/jdk-11.0.12/lib:1 ), but LD_LIBRARY_PATH doesn't. Environment is corrupted.
-Max sample count has not been reached. Proceeding...
-None of the currently running jobs has finished. Will check again in 1 hour.
-job 17014 at Wed Jul  5 10:44:00 2023
-WARNING: LD_LIBRARY_PATH_modshare exists ( /usr/local/graphviz-5.0.1/lib:1:/usr/local/jdk-11.0.12/lib:1 ), but LD_LIBRARY_PATH doesn't. Environment is corrupted.
-Max sample count has not been reached. Proceeding...
-Number of metadata.json files indicating finished jobs: 1
-The current batch of submitted jobs are still running. Will check again in 1 hour.
-Number of metadata.json files indicating finished jobs: 1
-job 17015 at Wed Jul  5 11:44:00 2023
+Metadata location: /home/suffi.azizan/scratchspace/outputs/encd-atac-pipe-raw-out/ZF8WDFS/ZF8WDFS_sample1/atac/cb7bd173-7640-4ac2-b948-03056ac59681/metadata.json
+Sample name: ZF8WDFS_sample1
+Croo completed successfully on sample ZF8WDFS_sample1. Proceeding to rsync...
+sending incremental file list
+created directory /home/msazizan/cargospace/encd-atac-pl/expo/atac_croo_out/ZF8WDFS
+ZF8WDFS_sample1/
+ZF8WDFS_sample1/croo.filetable.cb7bd173-7640-4ac2-b948-03056ac59681.tsv
+         14.59K 100%    0.00kB/s    0:00:00           14.59K 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=86/88)
+ZF8WDFS_sample1/croo.report.cb7bd173-7640-4ac2-b948-03056ac59681.html
+         32.77K  53%   31.25MB/s    0:00:00           60.97K 100%   19.38MB/s    0:00:00 (xfr#2, to-chk=85/88)
+ZF8WDFS_sample1/croo.task_graph.cb7bd173-7640-4ac2-b948-03056ac59681.dot
+         17.07K 100%    4.07MB/s    0:00:00           17.07K 100%    4.07MB/s    0:00:00 (xfr#3, to-chk=84/88)
+ZF8WDFS_sample1/croo.task_graph.cb7bd173-7640-4ac2-b948-03056ac59681.svg
+         32.77K  91%    5.21MB/s    0:00:00           35.96K 100%    5.72MB/s    0:00:00 (xfr#4, to-chk=83/88)
+ZF8WDFS_sample1/align/
+ZF8WDFS_sample1/align/rep1/
+ZF8WDFS_sample1/align/rep1/HF5T2BGXX_lane1_8121_TAAGGCGA_L001_R1.trim.srt.bam
+         32.77K   0%    3.12MB/s    0:25:51           37.16M   0%   35.44MB/s    0:02:15           75.73M   1%   36.11MB/s    0:02:12          114.20M   2%   36.31MB/s    0:02:10          153.09M   3%   36.51MB/s    0:02:08          191.56M   3%   36.82MB/s    0:02:06          230.42M   4%   36.89MB/s    0:02:05          267.49M   5%   36.57MB/s    0:02:05          306.28M   6%   36.54MB/s    0:02:04          345.11M   6%   36.63MB/s    0:02:03          383.94M   7%   36.62MB/s    0:02:02          422.74M   8%   37.03MB/s    0:01:59          461.54M   9%   37.03MB/s    0:01:58          500.27M  10%   37.01MB/s    0:01:57          538.64M  10%   36.90MB/s    0:01:57          577.04M  11%   36.81MB/s    0:01:56          615.84M  12%   36.81MB/s    0:01:55          654.64M  13%   36.82MB/s    0:01:54          693.47M  13%   36.93MB/s    0:01:52          732.30M  14%   37.03MB/s    0:01:51          771.13M  15%   37.04MB/s    0:01:50          809.89M  16%   37.03MB/s    0:01:49          847.48M  17%   36.73MB/s    0:01:49          885.72M  17%   36.59MB/s    0:01:48          924.52M  18%   36.59MB/s    0:01:47          963.18M  19%   36.57MB/s    0:01:46            1.00G  20%   36.88MB/s    0:01:44            1.04G  20%   36.99MB/s    0:01:43            1.08G  21%   36.75MB/s    0:01:43            1.12G  22%   36.67MB/s    0:01:42            1.16G  23%   36.66MB/s    0:01:41            1.19G  24%   36.68MB/s    0:01:40            1.23G  24%   36.92MB/s    0:01:38            1.27G  25%   37.03MB/s    0:01:37            1.31G  26%   37.03MB/s    0:01:36            1.35G  27%   37.03MB/s    0:01:35            1.39G  27%   37.02MB/s    0:01:34            1.43G  28%   37.02MB/s    0:01:33            1.47G  29%   36.98MB/s    0:01:32            1.50G  30%   36.94MB/s    0:01:31            1.54G  31%   36.93MB/s    0:01:30            1.58G  31%   36.81MB/s    0:01:29            1.62G  32%   36.86MB/s    0:01:28            1.66G  33%   36.90MB/s    0:01:27            1.70G  34%   36.92MB/s    0:01:26            1.74G  34%   37.03MB/s    0:01:25            1.78G  35%   37.03MB/s    0:01:24            1.81G  36%   37.05MB/s    0:01:23            1.85G  37%   37.06MB/s    0:01:22            1.89G  38%   37.07MB/s    0:01:20            1.93G  38%   37.07MB/s    0:01:19            1.97G  39%   37.07MB/s    0:01:18            2.01G  40%   36.39MB/s    0:01:19            2.04G  41%   35.88MB/s    0:01:19            2.08G  41%   35.86MB/s    0:01:18            2.12G  42%   35.85MB/s    0:01:17            2.16G  43%   36.16MB/s    0:01:15            2.20G  44%   36.49MB/s    0:01:14            2.23G  45%   36.52MB/s    0:01:13            2.27G  45%   36.42MB/s    0:01:12            2.31G  46%   36.70MB/s    0:01:10            2.35G  47%   36.85MB/s    0:01:09            2.39G  48%   36.84MB/s    0:01:08            2.43G  48%   36.92MB/s    0:01:07            2.47G  49%   37.00MB/s    0:01:05            2.51G  50%   37.03MB/s    0:01:04            2.54G  51%   37.02MB/s    0:01:03            2.58G  52%   37.02MB/s    0:01:02            2.62G  52%   37.03MB/s    0:01:01            2.66G  53%   37.03MB/s    0:01:00            2.70G  54%   37.02MB/s    0:00:59            2.74G  55%   37.03MB/s    0:00:58            2.77G  55%   36.38MB/s    0:00:58            2.81G  56%   36.10MB/s    0:00:58            2.85G  57%   35.61MB/s    0:00:58            2.89G  58%   35.54MB/s    0:00:57            2.93G  58%   36.08MB/s    0:00:55            2.96G  59%   36.31MB/s    0:00:53            3.00G  60%   36.37MB/s    0:00:52            3.04G  61%   36.42MB/s    0:00:51            3.08G  62%   36.49MB/s    0:00:50            3.12G  62%   36.44MB/s    0:00:49            3.16G  63%   36.86MB/s    0:00:47            3.19G  64%   36.85MB/s    0:00:46            3.23G  65%   36.63MB/s    0:00:46            3.27G  65%   36.53MB/s    0:00:45            3.31G  66%   36.44MB/s    0:00:44            3.35G  67%   36.44MB/s    0:00:43            3.39G  68%   36.70MB/s    0:00:42            3.43G  68%   36.93MB/s    0:00:40            3.46G  69%   37.03MB/s    0:00:39            3.50G  70%   37.05MB/s    0:00:38            3.54G  71%   37.05MB/s    0:00:37            3.58G  72%   37.05MB/s    0:00:36            3.62G  72%   37.05MB/s    0:00:35            3.66G  73%   37.06MB/s    0:00:34            3.70G  74%   37.03MB/s    0:00:33            3.74G  75%   37.03MB/s    0:00:32            3.77G  76%   37.02MB/s    0:00:31            3.81G  76%   36.97MB/s    0:00:30            3.85G  77%   36.97MB/s    0:00:29            3.89G  78%   36.97MB/s    0:00:28            3.93G  79%   36.98MB/s    0:00:27            3.97G  79%   37.01MB/s    0:00:26            4.01G  80%   36.71MB/s    0:00:25            4.04G  81%   36.72MB/s    0:00:24            4.08G  82%   36.72MB/s    0:00:23            4.12G  83%   36.73MB/s    0:00:22            4.16G  83%   37.03MB/s    0:00:21            4.20G  84%   37.04MB/s    0:00:20            4.24G  85%   37.02MB/s    0:00:19            4.28G  86%   37.02MB/s    0:00:18            4.32G  86%   36.76MB/s    0:00:17            4.35G  87%   36.64MB/s    0:00:16            4.39G  88%   36.66MB/s    0:00:15            4.43G  89%   36.66MB/s    0:00:14            4.47G  90%   36.96MB/s    0:00:13            4.51G  90%   37.08MB/s    0:00:12            4.55G  91%   37.10MB/s    0:00:10            4.59G  92%   37.10MB/s    0:00:09            4.63G  93%   37.10MB/s    0:00:08            4.66G  93%   36.78MB/s    0:00:08            4.70G  94%   36.48MB/s    0:00:07            4.74G  95%   36.04MB/s    0:00:06            4.77G  96%   35.61MB/s    0:00:05            4.81G  96%   35.52MB/s    0:00:04            4.85G  97%   35.39MB/s    0:00:03            4.89G  98%   35.49MB/s    0:00:02            4.93G  99%   35.88MB/s    0:00:01            4.96G  99%   36.22MB/s    0:00:00            4.97G 100%   36.72MB/s    0:02:08 (xfr#5, to-chk=77/88)
+ZF8WDFS_sample1/align/rep1/HF5T2BGXX_lane1_8121_TAAGGCGA_L001_R1.trim.srt.nodup.no_chrM_MT.bam
+         32.77K   0%  615.38kB/s    0:50:26           36.60M   1%   34.91MB/s    0:00:51           75.20M   4%   35.86MB/s    0:00:48          113.84M   6%   36.19MB/s    0:00:47          152.50M   8%   36.37MB/s    0:00:45          191.14M  10%   36.85MB/s    0:00:44          229.77M  12%   36.86MB/s    0:00:43          268.40M  14%   36.87MB/s    0:00:42          307.00M  16%   36.85MB/s    0:00:41          345.60M  18%   36.85MB/s    0:00:40          384.14M  20%   36.82MB/s    0:00:39          420.61M  22%   36.31MB/s    0:00:38          459.21M  24%   36.31MB/s    0:00:37          497.81M  26%   36.31MB/s    0:00:36          536.38M  28%   36.32MB/s    0:00:35          574.98M  30%   36.82MB/s    0:00:34          613.52M  32%   36.81MB/s    0:00:33          651.69M  34%   36.71MB/s    0:00:32          690.19M  37%   36.69MB/s    0:00:31          728.86M  39%   36.71MB/s    0:00:30          767.49M  41%   36.72MB/s    0:00:29          806.16M  43%   36.84MB/s    0:00:28          844.79M  45%   36.87MB/s    0:00:26          883.46M  47%   36.88MB/s    0:00:25          922.06M  49%   36.87MB/s    0:00:24          960.72M  51%   36.87MB/s    0:00:23          999.33M  53%   36.86MB/s    0:00:22            1.04G  55%   36.85MB/s    0:00:21            1.08G  57%   36.86MB/s    0:00:20            1.11G  59%   36.76MB/s    0:00:19            1.15G  61%   36.67MB/s    0:00:18            1.19G  63%   36.67MB/s    0:00:17            1.23G  66%   36.59MB/s    0:00:16            1.27G  68%   36.59MB/s    0:00:15            1.31G  70%   36.68MB/s    0:00:14            1.35G  72%   36.68MB/s    0:00:13            1.38G  74%   36.74MB/s    0:00:12            1.42G  76%   36.84MB/s    0:00:11            1.46G  78%   36.82MB/s    0:00:10            1.50G  80%   36.24MB/s    0:00:09            1.54G  82%   36.21MB/s    0:00:08            1.57G  84%   36.08MB/s    0:00:07            1.61G  86%   36.10MB/s    0:00:06            1.65G  88%   36.69MB/s    0:00:05            1.69G  90%   36.58MB/s    0:00:04            1.72G  92%   35.81MB/s    0:00:03            1.76G  94%   35.71MB/s    0:00:02            1.80G  96%   35.61MB/s    0:00:01            1.84G  98%   35.57MB/s    0:00:00            1.86G 100%   36.55MB/s    0:00:48 (xfr#6, to-chk=76/88)
+ZF8WDFS_sample1/align/rep1/HF5T2BGXX_lane1_8121_TAAGGCGA_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.tagAlign.gz
+         32.77K   0%   50.63kB/s    2:04:13           14.06M   3%   13.41MB/s    0:00:26           52.30M  13%   24.95MB/s    0:00:12           90.54M  23%   28.79MB/s    0:00:09          128.75M  34%   30.71MB/s    0:00:07          166.99M  44%   36.48MB/s    0:00:05          205.23M  54%   36.47MB/s    0:00:04          242.68M  64%   36.29MB/s    0:00:03          280.92M  74%   36.30MB/s    0:00:02          319.16M  84%   36.29MB/s    0:00:01          357.43M  94%   36.31MB/s    0:00:00          377.43M 100%   34.23MB/s    0:00:10 (xfr#7, to-chk=75/88)
+ZF8WDFS_sample1/align/rep1/pseudorep1/
+ZF8WDFS_sample1/align/rep1/pseudorep1/HF5T2BGXX_lane1_8121_TAAGGCGA_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pr1.tagAlign.gz
+         32.77K   0%   60.84kB/s    0:51:41           18.09M   9%   17.25MB/s    0:00:09           56.33M  29%   26.87MB/s    0:00:04           94.57M  50%   30.08MB/s    0:00:03          132.81M  70%   31.69MB/s    0:00:01          171.05M  90%   36.50MB/s    0:00:00          188.72M 100%   32.98MB/s    0:00:05 (xfr#8, to-chk=72/88)
+ZF8WDFS_sample1/align/rep1/pseudorep2/
+ZF8WDFS_sample1/align/rep1/pseudorep2/HF5T2BGXX_lane1_8121_TAAGGCGA_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pr2.tagAlign.gz
+         32.77K   0%   68.23kB/s    0:46:05           20.28M  10%   19.34MB/s    0:00:08           58.43M  30%   27.87MB/s    0:00:04           96.67M  51%   30.74MB/s    0:00:02          133.56M  70%   31.86MB/s    0:00:01          171.44M  90%   36.06MB/s    0:00:00          188.71M 100%   33.03MB/s    0:00:05 (xfr#9, to-chk=71/88)
+ZF8WDFS_sample1/peak/
+ZF8WDFS_sample1/peak/idr_reproducibility/
+ZF8WDFS_sample1/peak/idr_reproducibility/idr.conservative_peak.narrowPeak.bb
+         32.77K   0%   70.33kB/s    0:00:50            3.56M 100%    6.15MB/s    0:00:00 (xfr#10, to-chk=66/88)
+ZF8WDFS_sample1/peak/idr_reproducibility/idr.conservative_peak.narrowPeak.gz
+         32.77K   2%   57.45kB/s    0:00:22            1.33M 100%    2.14MB/s    0:00:00 (xfr#11, to-chk=65/88)
+ZF8WDFS_sample1/peak/idr_reproducibility/idr.conservative_peak.narrowPeak.hammock.gz
+         32.77K   2%   53.78kB/s    0:00:29            1.60M 100%    2.40MB/s    0:00:00 (xfr#12, to-chk=64/88)
+ZF8WDFS_sample1/peak/idr_reproducibility/idr.conservative_peak.narrowPeak.starch
+         32.77K   3%   50.00kB/s    0:00:20            1.07M 100%    1.54MB/s    0:00:00 (xfr#13, to-chk=63/88)
+ZF8WDFS_sample1/peak/idr_reproducibility/idr.optimal_peak.narrowPeak.bb
+         32.77K   0%   47.62kB/s    0:01:14            3.56M 100%    4.41MB/s    0:00:00 (xfr#14, to-chk=62/88)
+ZF8WDFS_sample1/peak/idr_reproducibility/idr.optimal_peak.narrowPeak.gz
+         32.77K   2%   41.34kB/s    0:00:31            1.33M 100%    1.57MB/s    0:00:00 (xfr#15, to-chk=61/88)
+ZF8WDFS_sample1/peak/idr_reproducibility/idr.optimal_peak.narrowPeak.hammock.gz
+         32.77K   2%   39.46kB/s    0:00:39            1.60M 100%    1.79MB/s    0:00:00 (xfr#16, to-chk=60/88)
+ZF8WDFS_sample1/peak/idr_reproducibility/idr.optimal_peak.narrowPeak.starch
+         32.77K   3%   37.38kB/s    0:00:27            1.07M 100%    1.16MB/s    0:00:00 (xfr#17, to-chk=59/88)
+ZF8WDFS_sample1/peak/overlap_reproducibility/
+ZF8WDFS_sample1/peak/overlap_reproducibility/overlap.conservative_peak.narrowPeak.bb
+         32.77K   0%   36.04kB/s    0:02:53            4.19M  66%    4.00MB/s    0:00:00            6.28M 100%    5.66MB/s    0:00:01 (xfr#18, to-chk=58/88)
+ZF8WDFS_sample1/peak/overlap_reproducibility/overlap.conservative_peak.narrowPeak.gz
+         32.77K   1%  507.94kB/s    0:00:05            2.95M 100%   20.38MB/s    0:00:00 (xfr#19, to-chk=57/88)
+ZF8WDFS_sample1/peak/overlap_reproducibility/overlap.conservative_peak.narrowPeak.hammock.gz
+         32.77K   0%  225.35kB/s    0:00:15            3.47M 100%   14.33MB/s    0:00:00 (xfr#20, to-chk=56/88)
+ZF8WDFS_sample1/peak/overlap_reproducibility/overlap.conservative_peak.narrowPeak.starch
+         32.77K   1%  136.17kB/s    0:00:15            2.14M 100%    7.07MB/s    0:00:00 (xfr#21, to-chk=55/88)
+ZF8WDFS_sample1/peak/overlap_reproducibility/overlap.optimal_peak.narrowPeak.bb
+         32.77K   0%  108.84kB/s    0:00:57            6.28M 100%   12.85MB/s    0:00:00 (xfr#22, to-chk=54/88)
+ZF8WDFS_sample1/peak/overlap_reproducibility/overlap.optimal_peak.narrowPeak.gz
+         32.77K   1%   68.09kB/s    0:00:42            2.95M 100%    5.16MB/s    0:00:00 (xfr#23, to-chk=53/88)
+ZF8WDFS_sample1/peak/overlap_reproducibility/overlap.optimal_peak.narrowPeak.hammock.gz
+         32.77K   0%   58.29kB/s    0:00:58            3.47M 100%    5.19MB/s    0:00:00 (xfr#24, to-chk=52/88)
+ZF8WDFS_sample1/peak/overlap_reproducibility/overlap.optimal_peak.narrowPeak.starch
+         32.77K   1%   49.92kB/s    0:00:42            2.14M 100%    2.93MB/s    0:00:00 (xfr#25, to-chk=51/88)
+ZF8WDFS_sample1/peak/rep1-pseudorep1_vs_2/
+ZF8WDFS_sample1/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.bfilt.narrowPeak.bb
+         32.77K   0%   45.52kB/s    0:01:17            3.56M 100%    4.24MB/s    0:00:00 (xfr#26, to-chk=50/88)
+ZF8WDFS_sample1/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.bfilt.narrowPeak.gz
+         32.77K   2%   39.80kB/s    0:00:32            1.33M 100%    1.51MB/s    0:00:00 (xfr#27, to-chk=49/88)
+ZF8WDFS_sample1/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.bfilt.narrowPeak.hammock.gz
+         32.77K   2%   38.05kB/s    0:00:41            1.60M 100%    1.73MB/s    0:00:00 (xfr#28, to-chk=48/88)
+ZF8WDFS_sample1/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.bfilt.narrowPeak.starch
+         32.77K   3%   36.12kB/s    0:00:28            1.07M 100%    1.12MB/s    0:00:00 (xfr#29, to-chk=47/88)
+ZF8WDFS_sample1/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.unthresholded-peaks.txt.gz
+         32.77K   0%   34.90kB/s    0:02:56            3.24M  52%    3.09MB/s    0:00:00            6.20M 100%    5.50MB/s    0:00:01 (xfr#30, to-chk=46/88)
+ZF8WDFS_sample1/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.overlap.bfilt.narrowPeak.bb
+         32.77K   0%  400.00kB/s    0:00:15            6.28M 100%   23.85MB/s    0:00:00 (xfr#31, to-chk=45/88)
+ZF8WDFS_sample1/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.overlap.bfilt.narrowPeak.gz
+         32.77K   1%  125.49kB/s    0:00:23            2.95M 100%    8.52MB/s    0:00:00 (xfr#32, to-chk=44/88)
+ZF8WDFS_sample1/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.overlap.bfilt.narrowPeak.hammock.gz
+         32.77K   0%   95.81kB/s    0:00:35            3.47M 100%    7.82MB/s    0:00:00 (xfr#33, to-chk=43/88)
+ZF8WDFS_sample1/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.overlap.bfilt.narrowPeak.starch
+         32.77K   1%   74.94kB/s    0:00:28            2.14M 100%    4.24MB/s    0:00:00 (xfr#34, to-chk=42/88)
+ZF8WDFS_sample1/peak/rep1/
+ZF8WDFS_sample1/peak/rep1/HF5T2BGXX_lane1_8121_TAAGGCGA_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.bb
+         32.77K   0%   65.44kB/s    0:03:17           12.97M 100%   14.59MB/s    0:00:00 (xfr#35, to-chk=41/88)
+ZF8WDFS_sample1/peak/rep1/HF5T2BGXX_lane1_8121_TAAGGCGA_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.gz
+         32.77K   0%   37.56kB/s    0:02:03            4.65M 100%    4.56MB/s    0:00:00 (xfr#36, to-chk=40/88)
+ZF8WDFS_sample1/peak/rep1/HF5T2BGXX_lane1_8121_TAAGGCGA_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.hammock.gz
+         32.77K   0%   32.72kB/s    0:03:43          851.97K  11%  832.00kB/s    0:00:07            7.34M 100%    6.00MB/s    0:00:01 (xfr#37, to-chk=39/88)
+ZF8WDFS_sample1/peak/rep1/HF5T2BGXX_lane1_8121_TAAGGCGA_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.starch
+         32.77K   0%  188.24kB/s    0:00:20            3.92M 100%   13.81MB/s    0:00:00 (xfr#38, to-chk=38/88)
+ZF8WDFS_sample1/peak/rep1/HF5T2BGXX_lane1_8121_TAAGGCGA_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.narrowPeak.gz
+         32.77K   0%  116.36kB/s    0:00:39            4.68M 100%   11.22MB/s    0:00:00 (xfr#39, to-chk=37/88)
+ZF8WDFS_sample1/peak/rep1/pseudorep1/
+ZF8WDFS_sample1/peak/rep1/pseudorep1/HF5T2BGXX_lane1_8121_TAAGGCGA_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pr1.pval0.01.300K.bfilt.narrowPeak.bb
+         32.77K   0%   79.21kB/s    0:02:21           11.26M 100%   15.04MB/s    0:00:00 (xfr#40, to-chk=34/88)
+ZF8WDFS_sample1/peak/rep1/pseudorep1/HF5T2BGXX_lane1_8121_TAAGGCGA_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pr1.pval0.01.300K.bfilt.narrowPeak.gz
+         32.77K   0%   44.63kB/s    0:01:43            4.65M 100%    5.28MB/s    0:00:00 (xfr#41, to-chk=33/88)
+ZF8WDFS_sample1/peak/rep1/pseudorep1/HF5T2BGXX_lane1_8121_TAAGGCGA_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pr1.pval0.01.300K.bfilt.narrowPeak.hammock.gz
+         32.77K   0%   37.87kB/s    0:03:12            5.93M  81%    5.66MB/s    0:00:00            7.31M 100%    6.74MB/s    0:00:01 (xfr#42, to-chk=32/88)
+ZF8WDFS_sample1/peak/rep1/pseudorep1/HF5T2BGXX_lane1_8121_TAAGGCGA_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pr1.pval0.01.300K.bfilt.narrowPeak.starch
+         32.77K   0%  820.51kB/s    0:00:04            3.59M 100%   25.97MB/s    0:00:00 (xfr#43, to-chk=31/88)
+ZF8WDFS_sample1/peak/rep1/pseudorep1/HF5T2BGXX_lane1_8121_TAAGGCGA_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pr1.pval0.01.300K.narrowPeak.gz
+         32.77K   0%  235.29kB/s    0:00:19            4.67M 100%   17.14MB/s    0:00:00 (xfr#44, to-chk=30/88)
+ZF8WDFS_sample1/peak/rep1/pseudorep2/
+ZF8WDFS_sample1/peak/rep1/pseudorep2/HF5T2BGXX_lane1_8121_TAAGGCGA_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pr2.pval0.01.300K.bfilt.narrowPeak.bb
+         32.77K   0%  120.75kB/s    0:01:33           11.27M 100%   18.75MB/s    0:00:00 (xfr#45, to-chk=29/88)
+ZF8WDFS_sample1/peak/rep1/pseudorep2/HF5T2BGXX_lane1_8121_TAAGGCGA_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pr2.pval0.01.300K.bfilt.narrowPeak.gz
+         32.77K   0%   55.46kB/s    0:01:23            4.65M 100%    6.33MB/s    0:00:00 (xfr#46, to-chk=28/88)
+ZF8WDFS_sample1/peak/rep1/pseudorep2/HF5T2BGXX_lane1_8121_TAAGGCGA_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pr2.pval0.01.300K.bfilt.narrowPeak.hammock.gz
+         32.77K   0%   45.33kB/s    0:02:40            7.30M 100%    7.78MB/s    0:00:00 (xfr#47, to-chk=27/88)
+ZF8WDFS_sample1/peak/rep1/pseudorep2/HF5T2BGXX_lane1_8121_TAAGGCGA_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pr2.pval0.01.300K.bfilt.narrowPeak.starch
+         32.77K   0%   35.60kB/s    0:01:39            3.59M 100%    3.45MB/s    0:00:00 (xfr#48, to-chk=26/88)
+ZF8WDFS_sample1/peak/rep1/pseudorep2/HF5T2BGXX_lane1_8121_TAAGGCGA_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pr2.pval0.01.300K.narrowPeak.gz
+         32.77K   0%   32.13kB/s    0:02:24          196.61K   4%  192.00kB/s    0:00:23            4.67M 100%    3.98MB/s    0:00:01 (xfr#49, to-chk=25/88)
+ZF8WDFS_sample1/qc/
+ZF8WDFS_sample1/qc/HF5T2BGXX_lane1_8121_TAAGGCGA_L001_R1.trim.srt.no_chrM.samstats.qc.frac_mito.qc
+             78 100%    0.62kB/s    0:00:00               78 100%    0.62kB/s    0:00:00 (xfr#50, to-chk=24/88)
+ZF8WDFS_sample1/qc/HF5T2BGXX_lane1_8121_TAAGGCGA_L001_R1.trim.srt.nodup.no_chrM_MT.jsd_plot.png
+         26.84K 100%  207.98kB/s    0:00:00           26.84K 100%  207.98kB/s    0:00:00 (xfr#51, to-chk=23/88)
+ZF8WDFS_sample1/qc/idr.reproducibility.qc
+            170 100%    1.30kB/s    0:00:00              170 100%    1.30kB/s    0:00:00 (xfr#52, to-chk=22/88)
+ZF8WDFS_sample1/qc/overlap.reproducibility.qc
+            173 100%    1.30kB/s    0:00:00              173 100%    1.30kB/s    0:00:00 (xfr#53, to-chk=21/88)
+ZF8WDFS_sample1/qc/qc.html
+         32.77K   2%  237.04kB/s    0:00:06            1.57M 100%    7.59MB/s    0:00:00 (xfr#54, to-chk=20/88)
+ZF8WDFS_sample1/qc/qc.json
+          7.39K 100%   36.28kB/s    0:00:00            7.39K 100%   36.28kB/s    0:00:00 (xfr#55, to-chk=19/88)
+ZF8WDFS_sample1/qc/rep1-pseudorep1_vs_2/
+ZF8WDFS_sample1/qc/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.bfilt.frip.qc
+             20 100%    0.10kB/s    0:00:00               20 100%    0.10kB/s    0:00:00 (xfr#56, to-chk=16/88)
+ZF8WDFS_sample1/qc/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.log
+            212 100%    1.02kB/s    0:00:00              212 100%    1.02kB/s    0:00:00 (xfr#57, to-chk=15/88)
+ZF8WDFS_sample1/qc/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.unthresholded-peaks.txt.png
+         32.77K   4%  154.59kB/s    0:00:05          810.94K 100%    3.35MB/s    0:00:00 (xfr#58, to-chk=14/88)
+ZF8WDFS_sample1/qc/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.overlap.bfilt.frip.qc
+             20 100%    0.08kB/s    0:00:00               20 100%    0.08kB/s    0:00:00 (xfr#59, to-chk=13/88)
+ZF8WDFS_sample1/qc/rep1/
+ZF8WDFS_sample1/qc/rep1/HF5T2BGXX_lane1_8121_TAAGGCGA_L001_R1.trim.read_length.txt
+              2 100%    0.01kB/s    0:00:00                2 100%    0.01kB/s    0:00:00 (xfr#60, to-chk=12/88)
+ZF8WDFS_sample1/qc/rep1/HF5T2BGXX_lane1_8121_TAAGGCGA_L001_R1.trim.srt.dup.qc
+          6.31K 100%   25.69kB/s    0:00:00            6.31K 100%   25.69kB/s    0:00:00 (xfr#61, to-chk=11/88)
+ZF8WDFS_sample1/qc/rep1/HF5T2BGXX_lane1_8121_TAAGGCGA_L001_R1.trim.srt.dupmark.lib_complexity.qc
+             62 100%    0.25kB/s    0:00:00               62 100%    0.25kB/s    0:00:00 (xfr#62, to-chk=10/88)
+ZF8WDFS_sample1/qc/rep1/HF5T2BGXX_lane1_8121_TAAGGCGA_L001_R1.trim.srt.nodup.no_chrM_MT.samstats.qc
+            375 100%    1.50kB/s    0:00:00              375 100%    1.50kB/s    0:00:00 (xfr#63, to-chk=9/88)
+ZF8WDFS_sample1/qc/rep1/HF5T2BGXX_lane1_8121_TAAGGCGA_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.frip.qc
+             20 100%    0.08kB/s    0:00:00               20 100%    0.08kB/s    0:00:00 (xfr#64, to-chk=8/88)
+ZF8WDFS_sample1/qc/rep1/HF5T2BGXX_lane1_8121_TAAGGCGA_L001_R1.trim.srt.samstats.qc
+            403 100%    1.59kB/s    0:00:00              403 100%    1.59kB/s    0:00:00 (xfr#65, to-chk=7/88)
+ZF8WDFS_sample1/qc/rep1/pseudorep1/
+ZF8WDFS_sample1/qc/rep1/pseudorep1/HF5T2BGXX_lane1_8121_TAAGGCGA_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pr1.pval0.01.300K.bfilt.frip.qc
+             19 100%    0.07kB/s    0:00:00               19 100%    0.07kB/s    0:00:00 (xfr#66, to-chk=4/88)
+ZF8WDFS_sample1/qc/rep1/pseudorep2/
+ZF8WDFS_sample1/qc/rep1/pseudorep2/HF5T2BGXX_lane1_8121_TAAGGCGA_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pr2.pval0.01.300K.bfilt.frip.qc
+             20 100%    0.08kB/s    0:00:00               20 100%    0.08kB/s    0:00:00 (xfr#67, to-chk=3/88)
+ZF8WDFS_sample1/signal/
+ZF8WDFS_sample1/signal/rep1/
+ZF8WDFS_sample1/signal/rep1/HF5T2BGXX_lane1_8121_TAAGGCGA_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.fc.signal.bigwig
+         32.77K   0%  123.55kB/s    1:27:04           23.30M   3%   22.22MB/s    0:00:27           55.08M   8%   26.27MB/s    0:00:21           86.87M  13%   27.61MB/s    0:00:19          118.49M  18%   28.26MB/s    0:00:18          149.72M  23%   30.15MB/s    0:00:16          181.50M  28%   30.15MB/s    0:00:15          213.35M  33%   30.17MB/s    0:00:13          245.33M  38%   30.26MB/s    0:00:12          276.79M  42%   30.31MB/s    0:00:11          308.58M  47%   30.31MB/s    0:00:10          340.13M  52%   30.24MB/s    0:00:09          371.00M  57%   29.98MB/s    0:00:08          402.39M  62%   29.96MB/s    0:00:07          433.88M  67%   29.88MB/s    0:00:06          465.53M  72%   29.91MB/s    0:00:05          496.93M  76%   30.03MB/s    0:00:04          526.02M  81%   29.48MB/s    0:00:03          557.45M  86%   29.47MB/s    0:00:02          588.58M  91%   29.34MB/s    0:00:01          619.64M  95%   29.27MB/s    0:00:00          645.55M 100%   29.56MB/s    0:00:20 (xfr#68, to-chk=1/88)
+ZF8WDFS_sample1/signal/rep1/HF5T2BGXX_lane1_8121_TAAGGCGA_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pval.signal.bigwig
+         32.77K   0%   37.91kB/s    3:37:06            4.72M   0%    4.50MB/s    0:01:46           36.54M   7%   17.43MB/s    0:00:25           68.19M  13%   21.69MB/s    0:00:19           99.78M  20%   23.80MB/s    0:00:16          131.40M  26%   30.22MB/s    0:00:11          163.22M  33%   30.22MB/s    0:00:10          194.25M  39%   30.07MB/s    0:00:09          225.48M  45%   29.98MB/s    0:00:08          257.13M  52%   29.98MB/s    0:00:07          288.36M  58%   29.84MB/s    0:00:06          320.05M  64%   30.00MB/s    0:00:05          351.67M  71%   30.09MB/s    0:00:04          382.04M  77%   29.79MB/s    0:00:03          410.22M  83%   29.06MB/s    0:00:02          440.73M  89%   28.78MB/s    0:00:01          470.75M  95%   28.40MB/s    0:00:00          493.93M 100%   28.18MB/s    0:00:16 (xfr#69, to-chk=0/88)
+
+sent 8.87G bytes  received 1.55K bytes  36.88M bytes/sec
+total size is 8.90G  speedup is 1.00
+Rsync completed successfully for ZF8WDFS_sample1.
+Metadata location: /home/suffi.azizan/scratchspace/outputs/encd-atac-pipe-raw-out/ZF8WDFS/ZF8WDFS_sample2/atac/9aa2d885-77cf-4c5a-83d7-9135fa8100b4/metadata.json
+Sample name: ZF8WDFS_sample2
+Croo completed successfully on sample ZF8WDFS_sample2. Proceeding to rsync...
+sending incremental file list
+ZF8WDFS_sample2/
+ZF8WDFS_sample2/croo.filetable.9aa2d885-77cf-4c5a-83d7-9135fa8100b4.tsv
+         14.59K 100%    0.00kB/s    0:00:00           14.59K 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=86/88)
+ZF8WDFS_sample2/croo.report.9aa2d885-77cf-4c5a-83d7-9135fa8100b4.html
+         32.77K  53%   31.25MB/s    0:00:00           60.88K 100%   19.35MB/s    0:00:00 (xfr#2, to-chk=85/88)
+ZF8WDFS_sample2/croo.task_graph.9aa2d885-77cf-4c5a-83d7-9135fa8100b4.dot
+         17.04K 100%    4.06MB/s    0:00:00           17.04K 100%    4.06MB/s    0:00:00 (xfr#3, to-chk=84/88)
+ZF8WDFS_sample2/croo.task_graph.9aa2d885-77cf-4c5a-83d7-9135fa8100b4.svg
+         32.77K  91%    5.21MB/s    0:00:00           35.88K 100%    5.70MB/s    0:00:00 (xfr#4, to-chk=83/88)
+ZF8WDFS_sample2/align/
+ZF8WDFS_sample2/align/rep1/
+ZF8WDFS_sample2/align/rep1/HF5T2BGXX_lane1_8122_TAGGCATG_L001_R1.trim.srt.bam
+         32.77K   0%    2.60MB/s    0:28:55           37.52M   0%   35.78MB/s    0:02:05           75.99M   1%   36.25MB/s    0:02:02          114.49M   2%   36.41MB/s    0:02:01          152.96M   3%   36.49MB/s    0:01:59          191.33M   4%   36.69MB/s    0:01:58          229.97M   4%   36.73MB/s    0:01:56          268.53M   5%   36.74MB/s    0:01:55          306.94M   6%   36.73MB/s    0:01:54          345.77M   7%   36.84MB/s    0:01:53          384.57M   8%   36.88MB/s    0:01:52          423.30M   9%   36.91MB/s    0:01:51          462.09M   9%   37.01MB/s    0:01:49          500.86M  10%   37.00MB/s    0:01:48          539.66M  11%   37.00MB/s    0:01:47          578.42M  12%   37.01MB/s    0:01:46          617.25M  13%   37.01MB/s    0:01:45          656.05M  14%   37.02MB/s    0:01:44          694.45M  15%   36.92MB/s    0:01:44          732.20M  15%   36.67MB/s    0:01:43          771.00M  16%   36.67MB/s    0:01:42          809.80M  17%   36.67MB/s    0:01:41          848.56M  18%   36.76MB/s    0:01:40          887.23M  19%   36.98MB/s    0:01:38          926.02M  20%   36.98MB/s    0:01:37          964.79M  20%   36.98MB/s    0:01:36            1.00G  21%   36.99MB/s    0:01:35            1.04G  22%   37.02MB/s    0:01:34            1.08G  23%   36.42MB/s    0:01:35            1.12G  24%   36.25MB/s    0:01:34            1.15G  24%   36.09MB/s    0:01:34            1.19G  25%   35.88MB/s    0:01:33            1.23G  26%   36.32MB/s    0:01:31            1.27G  27%   36.50MB/s    0:01:29            1.31G  28%   36.64MB/s    0:01:28            1.35G  29%   36.84MB/s    0:01:27            1.39G  29%   36.89MB/s    0:01:25            1.42G  30%   36.81MB/s    0:01:25            1.46G  31%   36.73MB/s    0:01:24            1.50G  32%   36.68MB/s    0:01:23            1.54G  33%   36.76MB/s    0:01:22            1.58G  34%   36.84MB/s    0:01:20            1.62G  34%   36.92MB/s    0:01:19            1.66G  35%   36.95MB/s    0:01:18            1.69G  36%   36.95MB/s    0:01:17            1.73G  37%   36.97MB/s    0:01:16            1.77G  38%   36.92MB/s    0:01:15            1.81G  39%   36.95MB/s    0:01:14            1.85G  39%   36.97MB/s    0:01:13            1.89G  40%   36.95MB/s    0:01:12            1.93G  41%   37.01MB/s    0:01:11            1.96G  42%   36.76MB/s    0:01:10            2.00G  43%   36.30MB/s    0:01:10            2.04G  44%   36.32MB/s    0:01:09            2.08G  44%   36.31MB/s    0:01:08            2.12G  45%   36.53MB/s    0:01:07            2.16G  46%   36.54MB/s    0:01:06            2.19G  47%   36.43MB/s    0:01:05            2.23G  48%   36.41MB/s    0:01:04            2.27G  49%   36.40MB/s    0:01:03            2.31G  49%   36.86MB/s    0:01:01            2.35G  50%   36.94MB/s    0:01:00            2.39G  51%   36.95MB/s    0:00:59            2.43G  52%   36.97MB/s    0:00:58            2.46G  53%   37.00MB/s    0:00:57            2.50G  54%   36.97MB/s    0:00:56            2.54G  54%   36.98MB/s    0:00:55            2.58G  55%   36.96MB/s    0:00:54            2.62G  56%   36.89MB/s    0:00:53            2.66G  57%   36.94MB/s    0:00:52            2.70G  58%   36.86MB/s    0:00:51            2.73G  59%   36.76MB/s    0:00:50            2.77G  59%   36.82MB/s    0:00:49            2.81G  60%   36.83MB/s    0:00:48            2.85G  61%   36.89MB/s    0:00:47            2.89G  62%   37.01MB/s    0:00:45            2.93G  63%   37.00MB/s    0:00:44            2.97G  64%   37.00MB/s    0:00:43            3.01G  64%   37.00MB/s    0:00:42            3.05G  65%   37.00MB/s    0:00:41            3.08G  66%   36.99MB/s    0:00:40            3.12G  67%   36.96MB/s    0:00:39            3.16G  68%   36.97MB/s    0:00:38            3.20G  69%   36.97MB/s    0:00:37            3.24G  69%   36.70MB/s    0:00:37            3.28G  70%   36.63MB/s    0:00:36            3.32G  71%   36.63MB/s    0:00:35            3.35G  72%   36.63MB/s    0:00:34            3.39G  73%   36.92MB/s    0:00:32            3.43G  74%   37.00MB/s    0:00:31            3.47G  74%   37.00MB/s    0:00:30            3.51G  75%   37.02MB/s    0:00:29            3.55G  76%   37.00MB/s    0:00:28            3.59G  77%   37.01MB/s    0:00:27            3.63G  78%   37.00MB/s    0:00:26            3.66G  79%   36.74MB/s    0:00:25            3.70G  79%   36.75MB/s    0:00:24            3.74G  80%   36.75MB/s    0:00:23            3.78G  81%   36.79MB/s    0:00:22            3.82G  82%   37.04MB/s    0:00:21            3.86G  83%   37.06MB/s    0:00:20            3.90G  84%   37.08MB/s    0:00:19            3.93G  84%   37.06MB/s    0:00:18            3.97G  85%   37.05MB/s    0:00:17            4.01G  86%   37.02MB/s    0:00:16            4.05G  87%   37.00MB/s    0:00:15            4.09G  88%   36.99MB/s    0:00:14            4.13G  89%   36.99MB/s    0:00:13            4.17G  90%   37.03MB/s    0:00:12            4.21G  90%   37.03MB/s    0:00:11            4.25G  91%   37.04MB/s    0:00:10            4.28G  92%   37.03MB/s    0:00:09            4.32G  93%   36.77MB/s    0:00:08            4.36G  94%   36.67MB/s    0:00:07            4.40G  95%   36.61MB/s    0:00:06            4.44G  95%   36.52MB/s    0:00:05            4.48G  96%   36.74MB/s    0:00:04            4.51G  97%   36.81MB/s    0:00:03            4.55G  98%   36.85MB/s    0:00:02            4.59G  99%   36.90MB/s    0:00:00            4.63G 100%   36.82MB/s    0:01:59 (xfr#5, to-chk=77/88)
+ZF8WDFS_sample2/align/rep1/HF5T2BGXX_lane1_8122_TAGGCATG_L001_R1.trim.srt.nodup.no_chrM_MT.bam
+         32.77K   0%   32.42kB/s   13:03:55          524.29K   0%  512.00kB/s    0:49:37           39.06M   2%   18.62MB/s    0:01:17           77.63M   5%   24.69MB/s    0:00:57          116.13M   7%   27.69MB/s    0:00:49          154.70M  10%   36.77MB/s    0:00:36          193.20M  12%   36.77MB/s    0:00:35          231.70M  15%   36.75MB/s    0:00:34          270.24M  17%   36.77MB/s    0:00:33          308.35M  20%   36.66MB/s    0:00:32          346.36M  22%   36.53MB/s    0:00:31          384.89M  25%   36.54MB/s    0:00:30          423.46M  27%   36.55MB/s    0:00:29          462.00M  30%   36.66MB/s    0:00:28          500.56M  32%   36.79MB/s    0:00:27          539.10M  35%   36.78MB/s    0:00:26          577.67M  37%   36.78MB/s    0:00:25          616.20M  40%   36.78MB/s    0:00:24          654.80M  42%   36.78MB/s    0:00:23          693.44M  45%   36.82MB/s    0:00:22          730.73M  47%   36.51MB/s    0:00:21          768.05M  50%   36.21MB/s    0:00:20          806.49M  52%   36.17MB/s    0:00:19          845.02M  55%   36.15MB/s    0:00:18          883.56M  57%   36.45MB/s    0:00:17          922.09M  60%   36.74MB/s    0:00:16          960.63M  62%   36.77MB/s    0:00:14          999.16M  65%   36.78MB/s    0:00:13            1.04G  68%   36.78MB/s    0:00:12            1.08G  70%   36.78MB/s    0:00:11            1.11G  73%   36.79MB/s    0:00:10            1.15G  75%   36.78MB/s    0:00:09            1.19G  78%   36.78MB/s    0:00:08            1.23G  80%   36.78MB/s    0:00:07            1.27G  83%   36.68MB/s    0:00:06            1.31G  85%   36.64MB/s    0:00:05            1.35G  88%   36.65MB/s    0:00:04            1.38G  90%   36.67MB/s    0:00:03            1.42G  93%   36.78MB/s    0:00:02            1.46G  95%   36.84MB/s    0:00:01            1.50G  98%   36.84MB/s    0:00:00            1.53G 100%   35.80MB/s    0:00:40 (xfr#6, to-chk=76/88)
+ZF8WDFS_sample2/align/rep1/HF5T2BGXX_lane1_8122_TAGGCATG_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.tagAlign.gz
+         32.77K   0%   48.85kB/s    1:45:55           13.17M   4%   12.56MB/s    0:00:23           51.38M  16%   24.50MB/s    0:00:10           89.52M  28%   28.47MB/s    0:00:07          127.70M  41%   30.46MB/s    0:00:05          165.87M  53%   36.42MB/s    0:00:03          204.08M  65%   36.42MB/s    0:00:02          242.25M  78%   36.42MB/s    0:00:01          279.31M  89%   36.16MB/s    0:00:00          310.52M 100%   33.52MB/s    0:00:08 (xfr#7, to-chk=75/88)
+ZF8WDFS_sample2/align/rep1/pseudorep1/
+ZF8WDFS_sample2/align/rep1/pseudorep1/HF5T2BGXX_lane1_8122_TAGGCATG_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pr1.tagAlign.gz
+         32.77K   0%   37.87kB/s    1:08:18            5.93M   3%    5.66MB/s    0:00:25           44.04M  28%   21.01MB/s    0:00:05           82.12M  52%   26.11MB/s    0:00:02          120.32M  77%   28.70MB/s    0:00:01          155.26M 100%   29.80MB/s    0:00:04 (xfr#8, to-chk=72/88)
+ZF8WDFS_sample2/align/rep1/pseudorep2/
+ZF8WDFS_sample2/align/rep1/pseudorep2/HF5T2BGXX_lane1_8122_TAGGCATG_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pr2.tagAlign.gz
+         32.77K   0%   32.82kB/s    1:18:49          491.52K   0%  480.00kB/s    0:05:22           36.57M  23%   17.44MB/s    0:00:06           73.66M  47%   23.42MB/s    0:00:03          111.80M  72%   26.66MB/s    0:00:01          149.98M  96%   35.66MB/s    0:00:00          155.26M 100%   28.83MB/s    0:00:05 (xfr#9, to-chk=71/88)
+ZF8WDFS_sample2/peak/
+ZF8WDFS_sample2/peak/idr_reproducibility/
+ZF8WDFS_sample2/peak/idr_reproducibility/idr.conservative_peak.narrowPeak.bb
+         32.77K   1%  223.78kB/s    0:00:09            2.09M 100%   10.07MB/s    0:00:00 (xfr#10, to-chk=66/88)
+ZF8WDFS_sample2/peak/idr_reproducibility/idr.conservative_peak.narrowPeak.gz
+         32.77K   3%  157.64kB/s    0:00:05          868.68K 100%    3.70MB/s    0:00:00 (xfr#11, to-chk=65/88)
+ZF8WDFS_sample2/peak/idr_reproducibility/idr.conservative_peak.narrowPeak.hammock.gz
+         32.77K   3%  140.35kB/s    0:00:07            1.04M 100%    3.89MB/s    0:00:00 (xfr#12, to-chk=64/88)
+ZF8WDFS_sample2/peak/idr_reproducibility/idr.conservative_peak.narrowPeak.starch
+         32.77K   4%  124.03kB/s    0:00:05          703.86K 100%    2.43MB/s    0:00:00 (xfr#13, to-chk=63/88)
+ZF8WDFS_sample2/peak/idr_reproducibility/idr.optimal_peak.narrowPeak.bb
+         32.77K   1%  114.29kB/s    0:00:18            2.09M 100%    5.95MB/s    0:00:00 (xfr#14, to-chk=62/88)
+ZF8WDFS_sample2/peak/idr_reproducibility/idr.optimal_peak.narrowPeak.gz
+         32.77K   3%   94.40kB/s    0:00:08          868.68K 100%    2.29MB/s    0:00:00 (xfr#15, to-chk=61/88)
+ZF8WDFS_sample2/peak/idr_reproducibility/idr.optimal_peak.narrowPeak.hammock.gz
+         32.77K   3%   87.67kB/s    0:00:11            1.04M 100%    2.53MB/s    0:00:00 (xfr#16, to-chk=60/88)
+ZF8WDFS_sample2/peak/idr_reproducibility/idr.optimal_peak.narrowPeak.starch
+         32.77K   4%   80.81kB/s    0:00:08          703.86K 100%    1.62MB/s    0:00:00 (xfr#17, to-chk=59/88)
+ZF8WDFS_sample2/peak/overlap_reproducibility/
+ZF8WDFS_sample2/peak/overlap_reproducibility/overlap.conservative_peak.narrowPeak.bb
+         32.77K   0%   76.37kB/s    0:01:03            4.92M 100%    8.48MB/s    0:00:00 (xfr#18, to-chk=58/88)
+ZF8WDFS_sample2/peak/overlap_reproducibility/overlap.conservative_peak.narrowPeak.gz
+         32.77K   1%   57.45kB/s    0:00:37            2.18M 100%    3.40MB/s    0:00:00 (xfr#19, to-chk=57/88)
+ZF8WDFS_sample2/peak/overlap_reproducibility/overlap.conservative_peak.narrowPeak.hammock.gz
+         32.77K   1%   51.95kB/s    0:00:48            2.57M 100%    3.59MB/s    0:00:00 (xfr#20, to-chk=56/88)
+ZF8WDFS_sample2/peak/overlap_reproducibility/overlap.conservative_peak.narrowPeak.starch
+         32.77K   2%   46.58kB/s    0:00:33            1.60M 100%    2.09MB/s    0:00:00 (xfr#21, to-chk=55/88)
+ZF8WDFS_sample2/peak/overlap_reproducibility/overlap.optimal_peak.narrowPeak.bb
+         32.77K   0%   43.72kB/s    0:01:51            4.92M 100%    5.42MB/s    0:00:00 (xfr#22, to-chk=54/88)
+ZF8WDFS_sample2/peak/overlap_reproducibility/overlap.optimal_peak.narrowPeak.gz
+         32.77K   1%   36.78kB/s    0:00:58            2.18M 100%    2.24MB/s    0:00:00 (xfr#23, to-chk=53/88)
+ZF8WDFS_sample2/peak/overlap_reproducibility/overlap.optimal_peak.narrowPeak.hammock.gz
+         32.77K   1%   34.41kB/s    0:01:13            2.57M 100%    2.46MB/s    0:00:00 (xfr#24, to-chk=52/88)
+ZF8WDFS_sample2/peak/overlap_reproducibility/overlap.optimal_peak.narrowPeak.starch
+         32.77K   2%   32.00kB/s    0:00:48           65.54K   4%   64.00kB/s    0:00:23            1.60M 100%    1.47MB/s    0:00:01 (xfr#25, to-chk=51/88)
+ZF8WDFS_sample2/peak/rep1-pseudorep1_vs_2/
+ZF8WDFS_sample2/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.bfilt.narrowPeak.bb
+         32.77K   1%  727.27kB/s    0:00:02            2.09M 100%   19.94MB/s    0:00:00 (xfr#26, to-chk=50/88)
+ZF8WDFS_sample2/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.bfilt.narrowPeak.gz
+         32.77K   3%  307.69kB/s    0:00:02          868.68K 100%    6.57MB/s    0:00:00 (xfr#27, to-chk=49/88)
+ZF8WDFS_sample2/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.bfilt.narrowPeak.hammock.gz
+         32.77K   3%  246.15kB/s    0:00:04            1.04M 100%    6.34MB/s    0:00:00 (xfr#28, to-chk=48/88)
+ZF8WDFS_sample2/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.bfilt.narrowPeak.starch
+         32.77K   4%  200.00kB/s    0:00:03          703.86K 100%    3.79MB/s    0:00:00 (xfr#29, to-chk=47/88)
+ZF8WDFS_sample2/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.unthresholded-peaks.txt.gz
+         32.77K   0%  176.80kB/s    0:00:25            4.51M 100%   14.50MB/s    0:00:00 (xfr#30, to-chk=46/88)
+ZF8WDFS_sample2/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.overlap.bfilt.narrowPeak.bb
+         32.77K   0%  105.96kB/s    0:00:46            4.92M 100%   10.73MB/s    0:00:00 (xfr#31, to-chk=45/88)
+ZF8WDFS_sample2/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.overlap.bfilt.narrowPeak.gz
+         32.77K   1%   72.40kB/s    0:00:29            2.18M 100%    4.13MB/s    0:00:00 (xfr#32, to-chk=44/88)
+ZF8WDFS_sample2/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.overlap.bfilt.narrowPeak.hammock.gz
+         32.77K   1%   63.12kB/s    0:00:40            2.57M 100%    4.27MB/s    0:00:00 (xfr#33, to-chk=43/88)
+ZF8WDFS_sample2/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.overlap.bfilt.narrowPeak.starch
+         32.77K   2%   55.46kB/s    0:00:28            1.60M 100%    2.47MB/s    0:00:00 (xfr#34, to-chk=42/88)
+ZF8WDFS_sample2/peak/rep1/
+ZF8WDFS_sample2/peak/rep1/HF5T2BGXX_lane1_8122_TAGGCATG_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.bb
+         32.77K   0%   51.36kB/s    0:03:29           10.80M 100%   10.64MB/s    0:00:00 (xfr#35, to-chk=41/88)
+ZF8WDFS_sample2/peak/rep1/HF5T2BGXX_lane1_8122_TAGGCATG_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.gz
+         32.77K   0%   32.89kB/s    0:02:18          753.66K  16%  736.00kB/s    0:00:05            4.57M 100%    3.95MB/s    0:00:01 (xfr#36, to-chk=40/88)
+ZF8WDFS_sample2/peak/rep1/HF5T2BGXX_lane1_8122_TAGGCATG_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.hammock.gz
+         32.77K   0%  293.58kB/s    0:00:24            7.18M 100%   22.24MB/s    0:00:00 (xfr#37, to-chk=39/88)
+ZF8WDFS_sample2/peak/rep1/HF5T2BGXX_lane1_8122_TAGGCATG_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.starch
+         32.77K   0%  102.24kB/s    0:00:35            3.65M 100%    8.48MB/s    0:00:00 (xfr#38, to-chk=38/88)
+ZF8WDFS_sample2/peak/rep1/HF5T2BGXX_lane1_8122_TAGGCATG_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.narrowPeak.gz
+         32.77K   0%   77.11kB/s    0:00:59            4.60M 100%    8.05MB/s    0:00:00 (xfr#39, to-chk=37/88)
+ZF8WDFS_sample2/peak/rep1/pseudorep1/
+ZF8WDFS_sample2/peak/rep1/pseudorep1/HF5T2BGXX_lane1_8122_TAGGCATG_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pr1.pval0.01.300K.bfilt.narrowPeak.bb
+         32.77K   0%   58.18kB/s    0:02:46            9.69M 100%   11.21MB/s    0:00:00 (xfr#40, to-chk=34/88)
+ZF8WDFS_sample2/peak/rep1/pseudorep1/HF5T2BGXX_lane1_8122_TAGGCATG_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pr1.pval0.01.300K.bfilt.narrowPeak.gz
+         32.77K   0%   38.55kB/s    0:01:38            3.82M 100%    3.86MB/s    0:00:00 (xfr#41, to-chk=33/88)
+ZF8WDFS_sample2/peak/rep1/pseudorep1/HF5T2BGXX_lane1_8122_TAGGCATG_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pr1.pval0.01.300K.bfilt.narrowPeak.hammock.gz
+         32.77K   0%   33.83kB/s    0:02:58            2.06M  34%    1.97MB/s    0:00:01            6.07M 100%    5.24MB/s    0:00:01 (xfr#42, to-chk=32/88)
+ZF8WDFS_sample2/peak/rep1/pseudorep1/HF5T2BGXX_lane1_8122_TAGGCATG_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pr1.pval0.01.300K.bfilt.narrowPeak.starch
+         32.77K   1%  293.58kB/s    0:00:09            2.90M 100%   14.62MB/s    0:00:00 (xfr#43, to-chk=31/88)
+ZF8WDFS_sample2/peak/rep1/pseudorep1/HF5T2BGXX_lane1_8122_TAGGCATG_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pr1.pval0.01.300K.narrowPeak.gz
+         32.77K   0%  165.80kB/s    0:00:22            3.84M 100%   12.24MB/s    0:00:00 (xfr#44, to-chk=30/88)
+ZF8WDFS_sample2/peak/rep1/pseudorep2/
+ZF8WDFS_sample2/peak/rep1/pseudorep2/HF5T2BGXX_lane1_8122_TAGGCATG_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pr2.pval0.01.300K.bfilt.narrowPeak.bb
+         32.77K   0%  105.26kB/s    0:01:31            9.69M 100%   15.82MB/s    0:00:00 (xfr#45, to-chk=29/88)
+ZF8WDFS_sample2/peak/rep1/pseudorep2/HF5T2BGXX_lane1_8122_TAGGCATG_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pr2.pval0.01.300K.bfilt.narrowPeak.gz
+         32.77K   0%   54.42kB/s    0:01:09            3.81M 100%    5.28MB/s    0:00:00 (xfr#46, to-chk=28/88)
+ZF8WDFS_sample2/peak/rep1/pseudorep2/HF5T2BGXX_lane1_8122_TAGGCATG_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pr2.pval0.01.300K.bfilt.narrowPeak.hammock.gz
+         32.77K   0%   46.18kB/s    0:02:10            6.07M 100%    6.81MB/s    0:00:00 (xfr#47, to-chk=27/88)
+ZF8WDFS_sample2/peak/rep1/pseudorep2/HF5T2BGXX_lane1_8122_TAGGCATG_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pr2.pval0.01.300K.bfilt.narrowPeak.starch
+         32.77K   1%   37.47kB/s    0:01:16            2.90M 100%    2.97MB/s    0:00:00 (xfr#48, to-chk=26/88)
+ZF8WDFS_sample2/peak/rep1/pseudorep2/HF5T2BGXX_lane1_8122_TAGGCATG_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pr2.pval0.01.300K.narrowPeak.gz
+         32.77K   0%   34.30kB/s    0:01:50            2.56M  66%    2.44MB/s    0:00:00            3.84M 100%    3.54MB/s    0:00:01 (xfr#49, to-chk=25/88)
+ZF8WDFS_sample2/qc/
+ZF8WDFS_sample2/qc/HF5T2BGXX_lane1_8122_TAGGCATG_L001_R1.trim.srt.no_chrM.samstats.qc.frac_mito.qc
+             78 100%    1.95kB/s    0:00:00               78 100%    1.95kB/s    0:00:00 (xfr#50, to-chk=24/88)
+ZF8WDFS_sample2/qc/HF5T2BGXX_lane1_8122_TAGGCATG_L001_R1.trim.srt.nodup.no_chrM_MT.jsd_plot.png
+         26.77K 100%  580.99kB/s    0:00:00           26.77K 100%  580.99kB/s    0:00:00 (xfr#51, to-chk=23/88)
+ZF8WDFS_sample2/qc/idr.reproducibility.qc
+            170 100%    3.53kB/s    0:00:00              170 100%    3.53kB/s    0:00:00 (xfr#52, to-chk=22/88)
+ZF8WDFS_sample2/qc/overlap.reproducibility.qc
+            170 100%    3.39kB/s    0:00:00              170 100%    3.39kB/s    0:00:00 (xfr#53, to-chk=21/88)
+ZF8WDFS_sample2/qc/qc.html
+         32.77K   2%  581.82kB/s    0:00:02            1.53M 100%   11.94MB/s    0:00:00 (xfr#54, to-chk=20/88)
+ZF8WDFS_sample2/qc/qc.json
+          7.38K 100%   58.14kB/s    0:00:00            7.38K 100%   58.14kB/s    0:00:00 (xfr#55, to-chk=19/88)
+ZF8WDFS_sample2/qc/rep1-pseudorep1_vs_2/
+ZF8WDFS_sample2/qc/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.bfilt.frip.qc
+             20 100%    0.15kB/s    0:00:00               20 100%    0.15kB/s    0:00:00 (xfr#56, to-chk=16/88)
+ZF8WDFS_sample2/qc/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.log
+            209 100%    1.59kB/s    0:00:00              209 100%    1.59kB/s    0:00:00 (xfr#57, to-chk=15/88)
+ZF8WDFS_sample2/qc/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.unthresholded-peaks.txt.png
+         32.77K   4%  242.42kB/s    0:00:03          799.02K 100%    4.79MB/s    0:00:00 (xfr#58, to-chk=14/88)
+ZF8WDFS_sample2/qc/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.overlap.bfilt.frip.qc
+             19 100%    0.12kB/s    0:00:00               19 100%    0.12kB/s    0:00:00 (xfr#59, to-chk=13/88)
+ZF8WDFS_sample2/qc/rep1/
+ZF8WDFS_sample2/qc/rep1/HF5T2BGXX_lane1_8122_TAGGCATG_L001_R1.trim.read_length.txt
+              2 100%    0.01kB/s    0:00:00                2 100%    0.01kB/s    0:00:00 (xfr#60, to-chk=12/88)
+ZF8WDFS_sample2/qc/rep1/HF5T2BGXX_lane1_8122_TAGGCATG_L001_R1.trim.srt.dup.qc
+          6.62K 100%   38.74kB/s    0:00:00            6.62K 100%   38.74kB/s    0:00:00 (xfr#61, to-chk=11/88)
+ZF8WDFS_sample2/qc/rep1/HF5T2BGXX_lane1_8122_TAGGCATG_L001_R1.trim.srt.dupmark.lib_complexity.qc
+             62 100%    0.36kB/s    0:00:00               62 100%    0.36kB/s    0:00:00 (xfr#62, to-chk=10/88)
+ZF8WDFS_sample2/qc/rep1/HF5T2BGXX_lane1_8122_TAGGCATG_L001_R1.trim.srt.nodup.no_chrM_MT.samstats.qc
+            375 100%    2.15kB/s    0:00:00              375 100%    2.15kB/s    0:00:00 (xfr#63, to-chk=9/88)
+ZF8WDFS_sample2/qc/rep1/HF5T2BGXX_lane1_8122_TAGGCATG_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.frip.qc
+             18 100%    0.10kB/s    0:00:00               18 100%    0.10kB/s    0:00:00 (xfr#64, to-chk=8/88)
+ZF8WDFS_sample2/qc/rep1/HF5T2BGXX_lane1_8122_TAGGCATG_L001_R1.trim.srt.samstats.qc
+            403 100%    2.26kB/s    0:00:00              403 100%    2.26kB/s    0:00:00 (xfr#65, to-chk=7/88)
+ZF8WDFS_sample2/qc/rep1/pseudorep1/
+ZF8WDFS_sample2/qc/rep1/pseudorep1/HF5T2BGXX_lane1_8122_TAGGCATG_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pr1.pval0.01.300K.bfilt.frip.qc
+             19 100%    0.10kB/s    0:00:00               19 100%    0.10kB/s    0:00:00 (xfr#66, to-chk=4/88)
+ZF8WDFS_sample2/qc/rep1/pseudorep2/
+ZF8WDFS_sample2/qc/rep1/pseudorep2/HF5T2BGXX_lane1_8122_TAGGCATG_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pr2.pval0.01.300K.bfilt.frip.qc
+             20 100%    0.11kB/s    0:00:00               20 100%    0.11kB/s    0:00:00 (xfr#67, to-chk=3/88)
+ZF8WDFS_sample2/signal/
+ZF8WDFS_sample2/signal/rep1/
+ZF8WDFS_sample2/signal/rep1/HF5T2BGXX_lane1_8122_TAGGCATG_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.fc.signal.bigwig
+         32.77K   0%  172.97kB/s    0:49:56           25.62M   4%   24.44MB/s    0:00:19           57.15M  11%   27.25MB/s    0:00:16           88.47M  17%   28.13MB/s    0:00:14          119.64M  23%   28.53MB/s    0:00:13          150.44M  29%   29.77MB/s    0:00:12          182.06M  35%   29.80MB/s    0:00:11          213.58M  41%   29.84MB/s    0:00:09          245.14M  47%   29.94MB/s    0:00:08          276.07M  53%   29.97MB/s    0:00:07          305.86M  59%   29.52MB/s    0:00:07          336.92M  64%   29.41MB/s    0:00:06          368.41M  71%   29.40MB/s    0:00:04          399.57M  77%   29.45MB/s    0:00:03          428.28M  82%   29.19MB/s    0:00:03          457.54M  88%   28.76MB/s    0:00:02          486.93M  93%   28.26MB/s    0:00:01          517.47M  99%   28.12MB/s    0:00:00          518.36M 100%   29.05MB/s    0:00:17 (xfr#68, to-chk=1/88)
+ZF8WDFS_sample2/signal/rep1/HF5T2BGXX_lane1_8122_TAGGCATG_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pval.signal.bigwig
+         32.77K   0%    1.01MB/s    0:08:37           29.79M   5%   28.41MB/s    0:00:17           55.74M  10%   26.59MB/s    0:00:17           86.02M  16%   27.36MB/s    0:00:15          116.23M  21%   27.72MB/s    0:00:14          147.78M  27%   28.15MB/s    0:00:13          179.60M  33%   29.55MB/s    0:00:11          210.44M  39%   29.67MB/s    0:00:10          242.02M  45%   30.00MB/s    0:00:09          268.93M  50%   28.89MB/s    0:00:08          298.71M  55%   28.41MB/s    0:00:08          330.07M  61%   28.54MB/s    0:00:06          353.60M  66%   26.62MB/s    0:00:06          380.31M  71%   26.57MB/s    0:00:05          403.14M  75%   24.90MB/s    0:00:05          426.28M  79%   22.94MB/s    0:00:04          446.99M  83%   22.27MB/s    0:00:03          468.09M  87%   20.93MB/s    0:00:03          490.67M  91%   20.87MB/s    0:00:02          513.28M  96%   20.75MB/s    0:00:00          533.81M 100%   25.68MB/s    0:00:19 (xfr#69, to-chk=0/88)
+
+sent 7.94G bytes  received 1.46K bytes  36.51M bytes/sec
+total size is 7.97G  speedup is 1.00
+Rsync completed successfully for ZF8WDFS_sample2.
+Metadata location: /home/suffi.azizan/scratchspace/outputs/encd-atac-pipe-raw-out/ZF8WDFS/ZF8WDFS_sample3/atac/5b46e3c2-84fc-4b63-95dd-68b24eaed4da/metadata.json
+Sample name: ZF8WDFS_sample3
+Croo completed successfully on sample ZF8WDFS_sample3. Proceeding to rsync...
+sending incremental file list
+ZF8WDFS_sample3/
+ZF8WDFS_sample3/croo.filetable.5b46e3c2-84fc-4b63-95dd-68b24eaed4da.tsv
+         14.59K 100%    0.00kB/s    0:00:00           14.59K 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=86/88)
+ZF8WDFS_sample3/croo.report.5b46e3c2-84fc-4b63-95dd-68b24eaed4da.html
+         32.77K  53%   31.25MB/s    0:00:00           60.86K 100%   58.04MB/s    0:00:00 (xfr#2, to-chk=85/88)
+ZF8WDFS_sample3/croo.task_graph.5b46e3c2-84fc-4b63-95dd-68b24eaed4da.dot
+         17.06K 100%    8.13MB/s    0:00:00           17.06K 100%    8.13MB/s    0:00:00 (xfr#3, to-chk=84/88)
+ZF8WDFS_sample3/croo.task_graph.5b46e3c2-84fc-4b63-95dd-68b24eaed4da.svg
+         32.77K  91%   10.42MB/s    0:00:00           35.86K 100%   11.40MB/s    0:00:00 (xfr#4, to-chk=83/88)
+ZF8WDFS_sample3/align/
+ZF8WDFS_sample3/align/rep1/
+ZF8WDFS_sample3/align/rep1/HF5T2BGXX_lane1_8123_GGACTCCT_L001_R1.trim.srt.bam
+         32.77K   0%    2.40MB/s    0:15:01           31.69M   1%   30.22MB/s    0:01:10           61.41M   2%   29.28MB/s    0:01:11           93.91M   4%   29.86MB/s    0:01:09          125.27M   5%   29.88MB/s    0:01:08          156.99M   7%   29.89MB/s    0:01:07          187.11M   8%   29.98MB/s    0:01:06          218.89M   9%   29.81MB/s    0:01:05          248.94M  11%   29.50MB/s    0:01:05          278.20M  12%   28.91MB/s    0:01:05          305.46M  13%   28.22MB/s    0:01:06          331.78M  14%   26.91MB/s    0:01:08          359.14M  16%   26.27MB/s    0:01:09          386.70M  17%   25.87MB/s    0:01:09          414.38M  18%   25.98MB/s    0:01:07          442.11M  19%   26.31MB/s    0:01:05          471.96M  21%   26.91MB/s    0:01:03          503.22M  22%   27.79MB/s    0:01:00          532.38M  23%   28.15MB/s    0:00:58          559.09M  25%   27.90MB/s    0:00:58          589.43M  26%   28.02MB/s    0:00:56          621.18M  27%   28.15MB/s    0:00:55          650.67M  29%   28.22MB/s    0:00:54          678.56M  30%   28.50MB/s    0:00:52          707.79M  31%   28.23MB/s    0:00:52          736.13M  33%   27.41MB/s    0:00:52          766.74M  34%   27.68MB/s    0:00:51          798.13M  35%   28.51MB/s    0:00:48          826.80M  37%   28.39MB/s    0:00:47          856.39M  38%   28.68MB/s    0:00:46          886.54M  39%   28.56MB/s    0:00:45          917.27M  41%   28.41MB/s    0:00:44          953.12M  42%   30.12MB/s    0:00:41          991.92M  44%   32.32MB/s    0:00:37            1.03G  46%   34.42MB/s    0:00:33            1.07G  48%   36.35MB/s    0:00:30            1.11G  49%   36.60MB/s    0:00:29            1.14G  51%   36.32MB/s    0:00:28            1.18G  53%   36.30MB/s    0:00:27            1.22G  55%   36.28MB/s    0:00:26            1.26G  56%   36.62MB/s    0:00:25            1.30G  58%   36.92MB/s    0:00:24            1.34G  60%   36.92MB/s    0:00:23            1.38G  62%   36.96MB/s    0:00:22            1.41G  63%   36.89MB/s    0:00:21            1.45G  65%   36.82MB/s    0:00:20            1.49G  67%   36.73MB/s    0:00:19            1.53G  68%   36.65MB/s    0:00:18            1.57G  70%   36.85MB/s    0:00:17            1.61G  72%   36.73MB/s    0:00:16            1.65G  74%   36.82MB/s    0:00:15            1.68G  75%   36.89MB/s    0:00:14            1.72G  77%   36.88MB/s    0:00:13            1.76G  79%   37.09MB/s    0:00:12            1.80G  81%   37.09MB/s    0:00:10            1.84G  82%   37.10MB/s    0:00:09            1.88G  84%   37.12MB/s    0:00:08            1.92G  86%   37.10MB/s    0:00:07            1.96G  88%   37.11MB/s    0:00:06            2.00G  89%   37.08MB/s    0:00:05            2.03G  91%   37.08MB/s    0:00:04            2.07G  93%   37.09MB/s    0:00:03            2.11G  95%   37.06MB/s    0:00:02            2.15G  96%   36.77MB/s    0:00:01            2.19G  98%   36.55MB/s    0:00:00            2.22G 100%   32.67MB/s    0:01:04 (xfr#5, to-chk=77/88)
+ZF8WDFS_sample3/align/rep1/HF5T2BGXX_lane1_8123_GGACTCCT_L001_R1.trim.srt.nodup.no_chrM_MT.bam
+         32.77K   0%   39.46kB/s    5:59:53            7.01M   0%    6.69MB/s    0:02:03           45.61M   5%   21.76MB/s    0:00:36           84.12M   9%   26.75MB/s    0:00:28          122.62M  14%   29.25MB/s    0:00:24          160.37M  18%   36.58MB/s    0:00:18          198.48M  23%   36.46MB/s    0:00:17          237.04M  27%   36.49MB/s    0:00:16          270.43M  31%   35.27MB/s    0:00:16          308.84M  36%   35.42MB/s    0:00:14          347.34M  40%   35.51MB/s    0:00:13          385.94M  45%   35.51MB/s    0:00:12          424.54M  49%   36.75MB/s    0:00:11          463.11M  54%   36.79MB/s    0:00:10          501.45M  58%   36.75MB/s    0:00:09          539.98M  63%   36.74MB/s    0:00:08          578.55M  67%   36.74MB/s    0:00:07          617.09M  72%   36.73MB/s    0:00:06          655.62M  76%   36.78MB/s    0:00:05          694.19M  81%   36.78MB/s    0:00:04          732.82M  86%   36.79MB/s    0:00:03          771.39M  90%   36.81MB/s    0:00:02          809.53M  95%   36.71MB/s    0:00:01          847.97M  99%   36.67MB/s    0:00:00          852.05M 100%   35.19MB/s    0:00:23 (xfr#6, to-chk=76/88)
+ZF8WDFS_sample3/align/rep1/HF5T2BGXX_lane1_8123_GGACTCCT_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.tagAlign.gz
+         32.77K   0%  293.58kB/s    0:09:29           33.55M  20%   32.00MB/s    0:00:04           70.98M  42%   33.86MB/s    0:00:02          109.18M  65%   34.72MB/s    0:00:01          146.28M  87%   34.89MB/s    0:00:00          167.10M 100%   35.01MB/s    0:00:04 (xfr#7, to-chk=75/88)
+ZF8WDFS_sample3/align/rep1/pseudorep1/
+ZF8WDFS_sample3/align/rep1/pseudorep1/HF5T2BGXX_lane1_8123_GGACTCCT_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pr1.tagAlign.gz
+         32.77K   0%   57.04kB/s    0:24:24           16.32M  19%   15.56MB/s    0:00:04           54.07M  64%   25.79MB/s    0:00:01           83.55M 100%   28.76MB/s    0:00:02 (xfr#8, to-chk=72/88)
+ZF8WDFS_sample3/align/rep1/pseudorep2/
+ZF8WDFS_sample3/align/rep1/pseudorep2/HF5T2BGXX_lane1_8123_GGACTCCT_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pr2.tagAlign.gz
+         32.77K   0%   41.08kB/s    0:33:53            8.45M  10%    8.06MB/s    0:00:09           46.63M  55%   22.25MB/s    0:00:01           83.55M 100%   26.86MB/s    0:00:02 (xfr#9, to-chk=71/88)
+ZF8WDFS_sample3/peak/
+ZF8WDFS_sample3/peak/idr_reproducibility/
+ZF8WDFS_sample3/peak/idr_reproducibility/idr.conservative_peak.narrowPeak.bb
+         32.77K   1%   32.89kB/s    0:01:01          819.20K  39%  800.00kB/s    0:00:01            2.06M 100%    1.90MB/s    0:00:01 (xfr#10, to-chk=66/88)
+ZF8WDFS_sample3/peak/idr_reproducibility/idr.conservative_peak.narrowPeak.gz
+         32.77K   4%  842.11kB/s    0:00:00          795.44K 100%   13.31MB/s    0:00:00 (xfr#11, to-chk=65/88)
+ZF8WDFS_sample3/peak/idr_reproducibility/idr.conservative_peak.narrowPeak.hammock.gz
+         32.77K   3%  524.59kB/s    0:00:01          999.17K 100%   11.08MB/s    0:00:00 (xfr#12, to-chk=64/88)
+ZF8WDFS_sample3/peak/idr_reproducibility/idr.conservative_peak.narrowPeak.starch
+         32.77K   4%  355.56kB/s    0:00:01          686.22K 100%    6.12MB/s    0:00:00 (xfr#13, to-chk=63/88)
+ZF8WDFS_sample3/peak/idr_reproducibility/idr.optimal_peak.narrowPeak.bb
+         32.77K   1%  280.70kB/s    0:00:07            2.06M 100%   11.64MB/s    0:00:00 (xfr#14, to-chk=62/88)
+ZF8WDFS_sample3/peak/idr_reproducibility/idr.optimal_peak.narrowPeak.gz
+         32.77K   4%  184.97kB/s    0:00:04          795.44K 100%    3.93MB/s    0:00:00 (xfr#15, to-chk=61/88)
+ZF8WDFS_sample3/peak/idr_reproducibility/idr.optimal_peak.narrowPeak.hammock.gz
+         32.77K   3%  162.44kB/s    0:00:05          999.17K 100%    4.29MB/s    0:00:00 (xfr#16, to-chk=60/88)
+ZF8WDFS_sample3/peak/idr_reproducibility/idr.optimal_peak.narrowPeak.starch
+         32.77K   4%  140.97kB/s    0:00:04          686.22K 100%    2.69MB/s    0:00:00 (xfr#17, to-chk=59/88)
+ZF8WDFS_sample3/peak/overlap_reproducibility/
+ZF8WDFS_sample3/peak/overlap_reproducibility/overlap.conservative_peak.narrowPeak.bb
+         32.77K   0%  129.03kB/s    0:00:31            4.13M 100%   10.90MB/s    0:00:00 (xfr#18, to-chk=58/88)
+ZF8WDFS_sample3/peak/overlap_reproducibility/overlap.conservative_peak.narrowPeak.gz
+         32.77K   1%   87.67kB/s    0:00:20            1.83M 100%    4.24MB/s    0:00:00 (xfr#19, to-chk=57/88)
+ZF8WDFS_sample3/peak/overlap_reproducibility/overlap.conservative_peak.narrowPeak.hammock.gz
+         32.77K   1%   76.92kB/s    0:00:27            2.15M 100%    4.36MB/s    0:00:00 (xfr#20, to-chk=56/88)
+ZF8WDFS_sample3/peak/overlap_reproducibility/overlap.conservative_peak.narrowPeak.starch
+         32.77K   2%   67.37kB/s    0:00:19            1.36M 100%    2.55MB/s    0:00:00 (xfr#21, to-chk=55/88)
+ZF8WDFS_sample3/peak/overlap_reproducibility/overlap.optimal_peak.narrowPeak.bb
+         32.77K   0%   62.38kB/s    0:01:05            4.13M 100%    6.30MB/s    0:00:00 (xfr#22, to-chk=54/88)
+ZF8WDFS_sample3/peak/overlap_reproducibility/overlap.optimal_peak.narrowPeak.gz
+         32.77K   1%   50.87kB/s    0:00:35            1.83M 100%    2.59MB/s    0:00:00 (xfr#23, to-chk=53/88)
+ZF8WDFS_sample3/peak/overlap_reproducibility/overlap.optimal_peak.narrowPeak.hammock.gz
+         32.77K   1%   47.13kB/s    0:00:44            2.15M 100%    2.79MB/s    0:00:00 (xfr#24, to-chk=52/88)
+ZF8WDFS_sample3/peak/overlap_reproducibility/overlap.optimal_peak.narrowPeak.starch
+         32.77K   2%   43.36kB/s    0:00:30            1.36M 100%    1.68MB/s    0:00:00 (xfr#25, to-chk=51/88)
+ZF8WDFS_sample3/peak/rep1-pseudorep1_vs_2/
+ZF8WDFS_sample3/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.bfilt.narrowPeak.bb
+         32.77K   1%   41.18kB/s    0:00:49            2.06M 100%    2.36MB/s    0:00:00 (xfr#26, to-chk=50/88)
+ZF8WDFS_sample3/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.bfilt.narrowPeak.gz
+         32.77K   4%   38.28kB/s    0:00:19          795.44K 100%  908.53kB/s    0:00:00 (xfr#27, to-chk=49/88)
+ZF8WDFS_sample3/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.bfilt.narrowPeak.hammock.gz
+         32.77K   3%   37.21kB/s    0:00:25          999.17K 100%    1.08MB/s    0:00:00 (xfr#28, to-chk=48/88)
+ZF8WDFS_sample3/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.bfilt.narrowPeak.starch
+         32.77K   4%   36.00kB/s    0:00:18          686.27K 100%  739.72kB/s    0:00:00 (xfr#29, to-chk=47/88)
+ZF8WDFS_sample3/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.unthresholded-peaks.txt.gz
+         32.77K   0%   35.16kB/s    0:01:45            3.54M  94%    3.38MB/s    0:00:00            3.74M 100%    3.55MB/s    0:00:01 (xfr#30, to-chk=46/88)
+ZF8WDFS_sample3/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.overlap.bfilt.narrowPeak.bb
+         32.77K   0%    3.12MB/s    0:00:01            4.13M 100%   32.26MB/s    0:00:00 (xfr#31, to-chk=45/88)
+ZF8WDFS_sample3/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.overlap.bfilt.narrowPeak.gz
+         32.77K   1%  253.97kB/s    0:00:07            1.83M 100%   10.16MB/s    0:00:00 (xfr#32, to-chk=44/88)
+ZF8WDFS_sample3/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.overlap.bfilt.narrowPeak.hammock.gz
+         32.77K   1%  178.77kB/s    0:00:11            2.15M 100%    8.79MB/s    0:00:00 (xfr#33, to-chk=43/88)
+ZF8WDFS_sample3/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.overlap.bfilt.narrowPeak.starch
+         32.77K   2%  134.45kB/s    0:00:09            1.36M 100%    4.77MB/s    0:00:00 (xfr#34, to-chk=42/88)
+ZF8WDFS_sample3/peak/rep1/
+ZF8WDFS_sample3/peak/rep1/HF5T2BGXX_lane1_8123_GGACTCCT_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.bb
+         32.77K   0%  115.52kB/s    0:01:26            9.98M 100%   16.96MB/s    0:00:00 (xfr#35, to-chk=41/88)
+ZF8WDFS_sample3/peak/rep1/HF5T2BGXX_lane1_8123_GGACTCCT_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.gz
+         32.77K   0%   56.54kB/s    0:01:11            4.06M 100%    5.75MB/s    0:00:00 (xfr#36, to-chk=40/88)
+ZF8WDFS_sample3/peak/rep1/HF5T2BGXX_lane1_8123_GGACTCCT_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.hammock.gz
+         32.77K   0%   47.27kB/s    0:02:14            6.38M 100%    7.23MB/s    0:00:00 (xfr#37, to-chk=39/88)
+ZF8WDFS_sample3/peak/rep1/HF5T2BGXX_lane1_8123_GGACTCCT_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.starch
+         32.77K   1%   37.87kB/s    0:01:22            3.15M 100%    3.25MB/s    0:00:00 (xfr#38, to-chk=38/88)
+ZF8WDFS_sample3/peak/rep1/HF5T2BGXX_lane1_8123_GGACTCCT_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.narrowPeak.gz
+         32.77K   0%   34.37kB/s    0:01:57            2.65M  65%    2.53MB/s    0:00:00            4.08M 100%    3.75MB/s    0:00:01 (xfr#39, to-chk=37/88)
+ZF8WDFS_sample3/peak/rep1/pseudorep1/
+ZF8WDFS_sample3/peak/rep1/pseudorep1/HF5T2BGXX_lane1_8123_GGACTCCT_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pr1.pval0.01.300K.bfilt.narrowPeak.bb
+         32.77K   0%  744.19kB/s    0:00:08            6.63M 100%   28.72MB/s    0:00:00 (xfr#40, to-chk=34/88)
+ZF8WDFS_sample3/peak/rep1/pseudorep1/HF5T2BGXX_lane1_8123_GGACTCCT_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pr1.pval0.01.300K.bfilt.narrowPeak.gz
+         32.77K   1%  142.86kB/s    0:00:22            3.24M 100%    9.99MB/s    0:00:00 (xfr#41, to-chk=33/88)
+ZF8WDFS_sample3/peak/rep1/pseudorep1/HF5T2BGXX_lane1_8123_GGACTCCT_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pr1.pval0.01.300K.bfilt.narrowPeak.hammock.gz
+         32.77K   0%  102.24kB/s    0:00:50            5.16M 100%   10.99MB/s    0:00:00 (xfr#42, to-chk=32/88)
+ZF8WDFS_sample3/peak/rep1/pseudorep1/HF5T2BGXX_lane1_8123_GGACTCCT_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pr1.pval0.01.300K.bfilt.narrowPeak.starch
+         32.77K   1%   70.80kB/s    0:00:33            2.43M 100%    4.50MB/s    0:00:00 (xfr#43, to-chk=31/88)
+ZF8WDFS_sample3/peak/rep1/pseudorep1/HF5T2BGXX_lane1_8123_GGACTCCT_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pr1.pval0.01.300K.narrowPeak.gz
+         32.77K   1%   61.66kB/s    0:00:52            3.25M 100%    5.13MB/s    0:00:00 (xfr#44, to-chk=30/88)
+ZF8WDFS_sample3/peak/rep1/pseudorep2/
+ZF8WDFS_sample3/peak/rep1/pseudorep2/HF5T2BGXX_lane1_8123_GGACTCCT_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pr2.pval0.01.300K.bfilt.narrowPeak.bb
+         32.77K   0%   52.37kB/s    0:02:05            6.61M 100%    7.93MB/s    0:00:00 (xfr#45, to-chk=29/88)
+ZF8WDFS_sample3/peak/rep1/pseudorep2/HF5T2BGXX_lane1_8123_GGACTCCT_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pr2.pval0.01.300K.bfilt.narrowPeak.gz
+         32.77K   1%   40.05kB/s    0:01:19            3.23M 100%    3.48MB/s    0:00:00 (xfr#46, to-chk=28/88)
+ZF8WDFS_sample3/peak/rep1/pseudorep2/HF5T2BGXX_lane1_8123_GGACTCCT_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pr2.pval0.01.300K.bfilt.narrowPeak.hammock.gz
+         32.77K   0%   36.08kB/s    0:02:21            4.36M  84%    4.16MB/s    0:00:00            5.15M 100%    4.82MB/s    0:00:01 (xfr#47, to-chk=27/88)
+ZF8WDFS_sample3/peak/rep1/pseudorep2/HF5T2BGXX_lane1_8123_GGACTCCT_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pr2.pval0.01.300K.bfilt.narrowPeak.starch
+         32.77K   1%    1.30MB/s    0:00:01            2.42M 100%   26.87MB/s    0:00:00 (xfr#48, to-chk=26/88)
+ZF8WDFS_sample3/peak/rep1/pseudorep2/HF5T2BGXX_lane1_8123_GGACTCCT_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pr2.pval0.01.300K.narrowPeak.gz
+         32.77K   1%  351.65kB/s    0:00:09            3.24M 100%   17.57MB/s    0:00:00 (xfr#49, to-chk=25/88)
+ZF8WDFS_sample3/qc/
+ZF8WDFS_sample3/qc/HF5T2BGXX_lane1_8123_GGACTCCT_L001_R1.trim.srt.no_chrM.samstats.qc.frac_mito.qc
+             79 100%    0.43kB/s    0:00:00               79 100%    0.43kB/s    0:00:00 (xfr#50, to-chk=24/88)
+ZF8WDFS_sample3/qc/HF5T2BGXX_lane1_8123_GGACTCCT_L001_R1.trim.srt.nodup.no_chrM_MT.jsd_plot.png
+         26.17K 100%  140.44kB/s    0:00:00           26.17K 100%  140.44kB/s    0:00:00 (xfr#51, to-chk=23/88)
+ZF8WDFS_sample3/qc/idr.reproducibility.qc
+            170 100%    0.90kB/s    0:00:00              170 100%    0.90kB/s    0:00:00 (xfr#52, to-chk=22/88)
+ZF8WDFS_sample3/qc/overlap.reproducibility.qc
+            170 100%    0.89kB/s    0:00:00              170 100%    0.89kB/s    0:00:00 (xfr#53, to-chk=21/88)
+ZF8WDFS_sample3/qc/qc.html
+         32.77K   2%  167.54kB/s    0:00:08            1.47M 100%    5.63MB/s    0:00:00 (xfr#54, to-chk=20/88)
+ZF8WDFS_sample3/qc/qc.json
+          7.38K 100%   28.61kB/s    0:00:00            7.38K 100%   28.61kB/s    0:00:00 (xfr#55, to-chk=19/88)
+ZF8WDFS_sample3/qc/rep1-pseudorep1_vs_2/
+ZF8WDFS_sample3/qc/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.bfilt.frip.qc
+             20 100%    0.08kB/s    0:00:00               20 100%    0.08kB/s    0:00:00 (xfr#56, to-chk=16/88)
+ZF8WDFS_sample3/qc/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.log
+            209 100%    0.80kB/s    0:00:00              209 100%    0.80kB/s    0:00:00 (xfr#57, to-chk=15/88)
+ZF8WDFS_sample3/qc/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.unthresholded-peaks.txt.png
+         32.77K   4%  122.14kB/s    0:00:06          780.28K 100%    2.54MB/s    0:00:00 (xfr#58, to-chk=14/88)
+ZF8WDFS_sample3/qc/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.overlap.bfilt.frip.qc
+             20 100%    0.07kB/s    0:00:00               20 100%    0.07kB/s    0:00:00 (xfr#59, to-chk=13/88)
+ZF8WDFS_sample3/qc/rep1/
+ZF8WDFS_sample3/qc/rep1/HF5T2BGXX_lane1_8123_GGACTCCT_L001_R1.trim.read_length.txt
+              2 100%    0.01kB/s    0:00:00                2 100%    0.01kB/s    0:00:00 (xfr#60, to-chk=12/88)
+ZF8WDFS_sample3/qc/rep1/HF5T2BGXX_lane1_8123_GGACTCCT_L001_R1.trim.srt.dup.qc
+          5.19K 100%   16.84kB/s    0:00:00            5.19K 100%   16.84kB/s    0:00:00 (xfr#61, to-chk=11/88)
+ZF8WDFS_sample3/qc/rep1/HF5T2BGXX_lane1_8123_GGACTCCT_L001_R1.trim.srt.dupmark.lib_complexity.qc
+             60 100%    0.19kB/s    0:00:00               60 100%    0.19kB/s    0:00:00 (xfr#62, to-chk=10/88)
+ZF8WDFS_sample3/qc/rep1/HF5T2BGXX_lane1_8123_GGACTCCT_L001_R1.trim.srt.nodup.no_chrM_MT.samstats.qc
+            373 100%    1.19kB/s    0:00:00              373 100%    1.19kB/s    0:00:00 (xfr#63, to-chk=9/88)
+ZF8WDFS_sample3/qc/rep1/HF5T2BGXX_lane1_8123_GGACTCCT_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.frip.qc
+             20 100%    0.06kB/s    0:00:00               20 100%    0.06kB/s    0:00:00 (xfr#64, to-chk=8/88)
+ZF8WDFS_sample3/qc/rep1/HF5T2BGXX_lane1_8123_GGACTCCT_L001_R1.trim.srt.samstats.qc
+            402 100%    1.27kB/s    0:00:00              402 100%    1.27kB/s    0:00:00 (xfr#65, to-chk=7/88)
+ZF8WDFS_sample3/qc/rep1/pseudorep1/
+ZF8WDFS_sample3/qc/rep1/pseudorep1/HF5T2BGXX_lane1_8123_GGACTCCT_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pr1.pval0.01.300K.bfilt.frip.qc
+             18 100%    0.06kB/s    0:00:00               18 100%    0.06kB/s    0:00:00 (xfr#66, to-chk=4/88)
+ZF8WDFS_sample3/qc/rep1/pseudorep2/
+ZF8WDFS_sample3/qc/rep1/pseudorep2/HF5T2BGXX_lane1_8123_GGACTCCT_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pr2.pval0.01.300K.bfilt.frip.qc
+             19 100%    0.06kB/s    0:00:00               19 100%    0.06kB/s    0:00:00 (xfr#67, to-chk=3/88)
+ZF8WDFS_sample3/signal/
+ZF8WDFS_sample3/signal/rep1/
+ZF8WDFS_sample3/signal/rep1/HF5T2BGXX_lane1_8123_GGACTCCT_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.fc.signal.bigwig
+         32.77K   0%   99.38kB/s    0:45:55           21.20M   7%   20.22MB/s    0:00:12           52.89M  19%   25.23MB/s    0:00:08           84.54M  30%   26.88MB/s    0:00:06          116.36M  42%   27.76MB/s    0:00:05          147.49M  53%   30.12MB/s    0:00:04          178.65M  65%   29.98MB/s    0:00:03          210.04M  76%   29.93MB/s    0:00:02          239.47M  87%   29.36MB/s    0:00:01          269.84M  98%   29.19MB/s    0:00:00          273.85M 100%   28.64MB/s    0:00:09 (xfr#68, to-chk=1/88)
+ZF8WDFS_sample3/signal/rep1/HF5T2BGXX_lane1_8123_GGACTCCT_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pval.signal.bigwig
+         32.77K   0%  251.97kB/s    0:16:28           28.02M  11%   26.72MB/s    0:00:08           59.97M  24%   28.59MB/s    0:00:06           92.24M  37%   29.33MB/s    0:00:05          124.26M  49%   29.64MB/s    0:00:04          156.01M  62%   30.53MB/s    0:00:02          187.99M  75%   30.54MB/s    0:00:01          217.97M  87%   29.99MB/s    0:00:01          248.22M  99%   29.56MB/s    0:00:00          249.22M 100%   29.62MB/s    0:00:08 (xfr#69, to-chk=0/88)
+
+sent 4.03G bytes  received 1.46K bytes  34.62M bytes/sec
+total size is 4.05G  speedup is 1.00
+Rsync completed successfully for ZF8WDFS_sample3.
+Metadata location: /home/suffi.azizan/scratchspace/outputs/encd-atac-pipe-raw-out/ZF8WDFS/ZF8WDFS_sample4/atac/57f67da8-8290-4b2b-b179-822a420b6f9f/metadata.json
+Sample name: ZF8WDFS_sample4
+Croo completed successfully on sample ZF8WDFS_sample4. Proceeding to rsync...
+sending incremental file list
+ZF8WDFS_sample4/
+ZF8WDFS_sample4/croo.filetable.57f67da8-8290-4b2b-b179-822a420b6f9f.tsv
+         14.59K 100%    0.00kB/s    0:00:00           14.59K 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=86/88)
+ZF8WDFS_sample4/croo.report.57f67da8-8290-4b2b-b179-822a420b6f9f.html
+         32.77K  53%   31.25MB/s    0:00:00           60.93K 100%   19.37MB/s    0:00:00 (xfr#2, to-chk=85/88)
+ZF8WDFS_sample4/croo.task_graph.57f67da8-8290-4b2b-b179-822a420b6f9f.dot
+         17.07K 100%    4.07MB/s    0:00:00           17.07K 100%    4.07MB/s    0:00:00 (xfr#3, to-chk=84/88)
+ZF8WDFS_sample4/croo.task_graph.57f67da8-8290-4b2b-b179-822a420b6f9f.svg
+         32.77K  91%    5.21MB/s    0:00:00           35.93K 100%    5.71MB/s    0:00:00 (xfr#4, to-chk=83/88)
+ZF8WDFS_sample4/align/
+ZF8WDFS_sample4/align/rep1/
+ZF8WDFS_sample4/align/rep1/HNFWNBGXX_lane1_9851_TAAGGCGA_L001_R1.trim.srt.bam
+         32.77K   0%    2.60MB/s    0:21:18           34.73M   1%   33.12MB/s    0:01:39           72.48M   2%   34.58MB/s    0:01:34          110.26M   3%   35.06MB/s    0:01:31          147.42M   4%   35.16MB/s    0:01:30          184.09M   5%   35.63MB/s    0:01:28          221.61M   6%   35.57MB/s    0:01:27          258.87M   7%   35.46MB/s    0:01:26          297.44M   8%   35.78MB/s    0:01:24          336.00M   9%   36.24MB/s    0:01:22          374.57M  10%   36.49MB/s    0:01:21          413.11M  12%   36.79MB/s    0:01:19          451.54M  13%   36.76MB/s    0:01:18          490.08M  14%   36.74MB/s    0:01:17          528.61M  15%   36.74MB/s    0:01:16          567.25M  16%   36.76MB/s    0:01:15          605.26M  17%   36.67MB/s    0:01:14          643.73M  18%   36.64MB/s    0:01:13          681.21M  19%   36.40MB/s    0:01:13          719.59M  21%   36.33MB/s    0:01:12          758.15M  22%   36.46MB/s    0:01:11          794.82M  23%   36.04MB/s    0:01:10          832.96M  24%   36.20MB/s    0:01:09          871.20M  25%   36.17MB/s    0:01:08          909.54M  26%   36.11MB/s    0:01:07          947.68M  27%   36.46MB/s    0:01:05          985.86M  28%   36.46MB/s    0:01:04            1.02G  30%   36.36MB/s    0:01:04            1.06G  31%   36.34MB/s    0:01:03            1.10G  32%   35.86MB/s    0:01:02            1.14G  33%   35.78MB/s    0:01:02            1.17G  34%   35.96MB/s    0:01:00            1.21G  35%   36.06MB/s    0:00:59            1.25G  36%   36.63MB/s    0:00:57            1.29G  37%   36.81MB/s    0:00:56            1.33G  38%   36.82MB/s    0:00:55            1.37G  40%   36.78MB/s    0:00:54            1.41G  41%   36.82MB/s    0:00:53            1.44G  42%   36.82MB/s    0:00:52            1.48G  43%   36.82MB/s    0:00:51            1.52G  44%   36.83MB/s    0:00:50            1.56G  45%   36.83MB/s    0:00:49            1.60G  46%   36.82MB/s    0:00:48            1.64G  48%   36.83MB/s    0:00:47            1.68G  49%   36.85MB/s    0:00:45            1.71G  50%   36.85MB/s    0:00:44            1.75G  51%   36.88MB/s    0:00:43            1.79G  52%   36.89MB/s    0:00:42            1.83G  53%   36.71MB/s    0:00:42            1.87G  54%   36.67MB/s    0:00:41            1.91G  55%   36.56MB/s    0:00:40            1.95G  57%   36.54MB/s    0:00:39            1.98G  58%   36.68MB/s    0:00:37            2.02G  59%   36.72MB/s    0:00:36            2.06G  60%   36.83MB/s    0:00:35            2.10G  61%   36.85MB/s    0:00:34            2.14G  62%   36.85MB/s    0:00:33            2.17G  63%   36.08MB/s    0:00:33            2.21G  64%   35.87MB/s    0:00:32            2.25G  65%   35.65MB/s    0:00:31            2.29G  67%   35.66MB/s    0:00:30            2.33G  68%   36.44MB/s    0:00:29            2.37G  69%   36.64MB/s    0:00:27            2.40G  70%   36.87MB/s    0:00:26            2.44G  71%   36.75MB/s    0:00:25            2.48G  72%   36.77MB/s    0:00:24            2.52G  73%   36.24MB/s    0:00:24            2.56G  74%   36.21MB/s    0:00:23            2.59G  76%   36.31MB/s    0:00:21            2.63G  77%   36.22MB/s    0:00:20            2.67G  78%   36.61MB/s    0:00:19            2.71G  79%   36.51MB/s    0:00:18            2.75G  80%   36.39MB/s    0:00:17            2.78G  81%   35.62MB/s    0:00:17            2.82G  82%   35.77MB/s    0:00:16            2.86G  83%   35.88MB/s    0:00:15            2.90G  84%   36.02MB/s    0:00:13            2.94G  86%   36.89MB/s    0:00:12            2.97G  87%   36.81MB/s    0:00:11            3.01G  88%   36.76MB/s    0:00:10            3.05G  89%   36.65MB/s    0:00:09            3.09G  90%   36.55MB/s    0:00:08            3.13G  91%   36.53MB/s    0:00:07            3.17G  92%   36.48MB/s    0:00:06            3.20G  93%   36.49MB/s    0:00:05            3.24G  95%   36.10MB/s    0:00:04            3.28G  96%   36.14MB/s    0:00:03            3.32G  97%   36.17MB/s    0:00:02            3.36G  98%   36.21MB/s    0:00:01            3.39G  99%   36.67MB/s    0:00:00            3.41G 100%   36.40MB/s    0:01:29 (xfr#5, to-chk=77/88)
+ZF8WDFS_sample4/align/rep1/HNFWNBGXX_lane1_9851_TAAGGCGA_L001_R1.trim.srt.nodup.no_chrM_MT.bam
+         32.77K   0%   76.56kB/s    3:19:00           21.66M   2%   20.66MB/s    0:00:42           59.15M   6%   28.22MB/s    0:00:29           97.32M  10%   30.95MB/s    0:00:25          135.46M  14%   32.31MB/s    0:00:23          173.28M  18%   36.17MB/s    0:00:20          211.39M  23%   36.32MB/s    0:00:18          249.59M  27%   36.33MB/s    0:00:17          287.80M  31%   36.34MB/s    0:00:16          325.94M  35%   36.42MB/s    0:00:15          364.12M  39%   36.42MB/s    0:00:14          402.39M  44%   36.44MB/s    0:00:13          440.60M  48%   36.45MB/s    0:00:12          478.77M  52%   36.46MB/s    0:00:11          517.01M  56%   36.47MB/s    0:00:10          555.16M  60%   36.44MB/s    0:00:09          593.33M  64%   36.43MB/s    0:00:08          631.47M  69%   36.42MB/s    0:00:07          669.65M  73%   36.41MB/s    0:00:06          707.82M  77%   36.42MB/s    0:00:05          746.03M  81%   36.42MB/s    0:00:04          784.20M  85%   36.43MB/s    0:00:03          822.28M  89%   36.41MB/s    0:00:02          860.49M  94%   36.42MB/s    0:00:01          897.65M  98%   36.17MB/s    0:00:00          914.16M 100%   35.69MB/s    0:00:24 (xfr#6, to-chk=76/88)
+ZF8WDFS_sample4/align/rep1/HNFWNBGXX_lane1_9851_TAAGGCGA_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.tagAlign.gz
+         32.77K   0%   71.59kB/s    0:49:16           21.07M   9%   20.09MB/s    0:00:09           59.21M  27%   28.25MB/s    0:00:05           97.39M  46%   30.97MB/s    0:00:03          135.50M  64%   32.32MB/s    0:00:02          173.60M  82%   36.39MB/s    0:00:01          211.65M 100%   33.68MB/s    0:00:05 (xfr#7, to-chk=75/88)
+ZF8WDFS_sample4/align/rep1/pseudorep1/
+ZF8WDFS_sample4/align/rep1/pseudorep1/HNFWNBGXX_lane1_9851_TAAGGCGA_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pr1.tagAlign.gz
+         32.77K   0%   31.97kB/s    0:55:09           65.54K   0%   63.94kB/s    0:27:34           38.14M  36%   18.18MB/s    0:00:03           76.32M  72%   24.26MB/s    0:00:01          105.83M 100%   26.74MB/s    0:00:03 (xfr#8, to-chk=72/88)
+ZF8WDFS_sample4/align/rep1/pseudorep2/
+ZF8WDFS_sample4/align/rep1/pseudorep2/HNFWNBGXX_lane1_9851_TAAGGCGA_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pr2.tagAlign.gz
+         32.77K   0%   41.13kB/s    0:42:51            8.49M   8%    8.09MB/s    0:00:11           46.66M  44%   22.26MB/s    0:00:02           84.28M  79%   26.80MB/s    0:00:00          105.82M 100%   28.32MB/s    0:00:03 (xfr#9, to-chk=71/88)
+ZF8WDFS_sample4/peak/
+ZF8WDFS_sample4/peak/idr_reproducibility/
+ZF8WDFS_sample4/peak/idr_reproducibility/idr.conservative_peak.narrowPeak.bb
+         32.77K   1%   56.14kB/s    0:00:49            2.82M 100%    4.10MB/s    0:00:00 (xfr#10, to-chk=66/88)
+ZF8WDFS_sample4/peak/idr_reproducibility/idr.conservative_peak.narrowPeak.gz
+         32.77K   2%   48.48kB/s    0:00:24            1.21M 100%    1.68MB/s    0:00:00 (xfr#11, to-chk=65/88)
+ZF8WDFS_sample4/peak/idr_reproducibility/idr.conservative_peak.narrowPeak.hammock.gz
+         32.77K   2%   45.98kB/s    0:00:30            1.45M 100%    1.87MB/s    0:00:00 (xfr#12, to-chk=64/88)
+ZF8WDFS_sample4/peak/idr_reproducibility/idr.conservative_peak.narrowPeak.starch
+         32.77K   3%   43.07kB/s    0:00:21          940.72K 100%    1.17MB/s    0:00:00 (xfr#13, to-chk=63/88)
+ZF8WDFS_sample4/peak/idr_reproducibility/idr.optimal_peak.narrowPeak.bb
+         32.77K   1%   41.56kB/s    0:01:07            2.82M 100%    3.18MB/s    0:00:00 (xfr#14, to-chk=62/88)
+ZF8WDFS_sample4/peak/idr_reproducibility/idr.optimal_peak.narrowPeak.gz
+         32.77K   2%   37.60kB/s    0:00:31            1.21M 100%    1.31MB/s    0:00:00 (xfr#15, to-chk=61/88)
+ZF8WDFS_sample4/peak/idr_reproducibility/idr.optimal_peak.narrowPeak.hammock.gz
+         32.77K   2%   36.16kB/s    0:00:39            1.45M 100%    1.50MB/s    0:00:00 (xfr#16, to-chk=60/88)
+ZF8WDFS_sample4/peak/idr_reproducibility/idr.optimal_peak.narrowPeak.starch
+         32.77K   3%   34.56kB/s    0:00:26          940.72K 100%  968.04kB/s    0:00:00 (xfr#17, to-chk=59/88)
+ZF8WDFS_sample4/peak/overlap_reproducibility/
+ZF8WDFS_sample4/peak/overlap_reproducibility/overlap.conservative_peak.narrowPeak.bb
+         32.77K   0%   33.54kB/s    0:02:27            1.80M  36%    1.72MB/s    0:00:01            4.98M 100%    4.36MB/s    0:00:01 (xfr#18, to-chk=58/88)
+ZF8WDFS_sample4/peak/overlap_reproducibility/overlap.conservative_peak.narrowPeak.gz
+         32.77K   1%  344.09kB/s    0:00:06            2.34M 100%   14.56MB/s    0:00:00 (xfr#19, to-chk=57/88)
+ZF8WDFS_sample4/peak/overlap_reproducibility/overlap.conservative_peak.narrowPeak.hammock.gz
+         32.77K   1%  205.13kB/s    0:00:13            2.74M 100%   11.52MB/s    0:00:00 (xfr#20, to-chk=56/88)
+ZF8WDFS_sample4/peak/overlap_reproducibility/overlap.conservative_peak.narrowPeak.starch
+         32.77K   1%  138.53kB/s    0:00:12            1.72M 100%    5.97MB/s    0:00:00 (xfr#21, to-chk=55/88)
+ZF8WDFS_sample4/peak/overlap_reproducibility/overlap.optimal_peak.narrowPeak.bb
+         32.77K   0%  114.70kB/s    0:00:43            4.98M 100%   11.45MB/s    0:00:00 (xfr#22, to-chk=54/88)
+ZF8WDFS_sample4/peak/overlap_reproducibility/overlap.optimal_peak.narrowPeak.gz
+         32.77K   1%   76.37kB/s    0:00:30            2.34M 100%    4.65MB/s    0:00:00 (xfr#23, to-chk=53/88)
+ZF8WDFS_sample4/peak/overlap_reproducibility/overlap.optimal_peak.narrowPeak.hammock.gz
+         32.77K   1%   66.25kB/s    0:00:40            2.74M 100%    4.73MB/s    0:00:00 (xfr#24, to-chk=52/88)
+ZF8WDFS_sample4/peak/overlap_reproducibility/overlap.optimal_peak.narrowPeak.starch
+         32.77K   1%   57.45kB/s    0:00:29            1.72M 100%    2.73MB/s    0:00:00 (xfr#25, to-chk=51/88)
+ZF8WDFS_sample4/peak/rep1-pseudorep1_vs_2/
+ZF8WDFS_sample4/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.bfilt.narrowPeak.bb
+         32.77K   1%   52.72kB/s    0:00:52            2.82M 100%    3.94MB/s    0:00:00 (xfr#26, to-chk=50/88)
+ZF8WDFS_sample4/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.bfilt.narrowPeak.gz
+         32.77K   2%   46.58kB/s    0:00:25            1.21M 100%    1.62MB/s    0:00:00 (xfr#27, to-chk=49/88)
+ZF8WDFS_sample4/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.bfilt.narrowPeak.hammock.gz
+         32.77K   2%   44.38kB/s    0:00:31            1.45M 100%    1.82MB/s    0:00:00 (xfr#28, to-chk=48/88)
+ZF8WDFS_sample4/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.bfilt.narrowPeak.starch
+         32.77K   3%   41.99kB/s    0:00:21          940.72K 100%    1.14MB/s    0:00:00 (xfr#29, to-chk=47/88)
+ZF8WDFS_sample4/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.unthresholded-peaks.txt.gz
+         32.77K   0%   40.51kB/s    0:01:55            4.71M 100%    4.93MB/s    0:00:00 (xfr#30, to-chk=46/88)
+ZF8WDFS_sample4/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.overlap.bfilt.narrowPeak.bb
+         32.77K   0%   34.97kB/s    0:02:21            3.18M  63%    3.03MB/s    0:00:00            4.98M 100%    4.52MB/s    0:00:01 (xfr#31, to-chk=45/88)
+ZF8WDFS_sample4/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.overlap.bfilt.narrowPeak.gz
+         32.77K   1%  551.72kB/s    0:00:04            2.34M 100%   17.54MB/s    0:00:00 (xfr#32, to-chk=44/88)
+ZF8WDFS_sample4/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.overlap.bfilt.narrowPeak.hammock.gz
+         32.77K   1%  246.15kB/s    0:00:11            2.74M 100%   13.08MB/s    0:00:00 (xfr#33, to-chk=43/88)
+ZF8WDFS_sample4/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.overlap.bfilt.narrowPeak.starch
+         32.77K   1%  156.86kB/s    0:00:10            1.72M 100%    6.62MB/s    0:00:00 (xfr#34, to-chk=42/88)
+ZF8WDFS_sample4/peak/rep1/
+ZF8WDFS_sample4/peak/rep1/HNFWNBGXX_lane1_9851_TAAGGCGA_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.bb
+         32.77K   0%  126.48kB/s    0:00:56            7.19M 100%   15.23MB/s    0:00:00 (xfr#35, to-chk=41/88)
+ZF8WDFS_sample4/peak/rep1/HNFWNBGXX_lane1_9851_TAAGGCGA_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.gz
+         32.77K   1%   70.48kB/s    0:00:38            2.74M 100%    4.98MB/s    0:00:00 (xfr#36, to-chk=40/88)
+ZF8WDFS_sample4/peak/rep1/HNFWNBGXX_lane1_9851_TAAGGCGA_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.hammock.gz
+         32.77K   0%   60.38kB/s    0:01:04            3.92M 100%    5.93MB/s    0:00:00 (xfr#37, to-chk=39/88)
+ZF8WDFS_sample4/peak/rep1/HNFWNBGXX_lane1_9851_TAAGGCGA_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.starch
+         32.77K   1%   50.47kB/s    0:00:44            2.29M 100%    3.16MB/s    0:00:00 (xfr#38, to-chk=38/88)
+ZF8WDFS_sample4/peak/rep1/HNFWNBGXX_lane1_9851_TAAGGCGA_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.narrowPeak.gz
+         32.77K   1%   45.91kB/s    0:00:59            2.78M 100%    3.41MB/s    0:00:00 (xfr#39, to-chk=37/88)
+ZF8WDFS_sample4/peak/rep1/pseudorep1/
+ZF8WDFS_sample4/peak/rep1/pseudorep1/HNFWNBGXX_lane1_9851_TAAGGCGA_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pr1.pval0.01.300K.bfilt.narrowPeak.bb
+         32.77K   0%   40.97kB/s    0:02:46            6.85M 100%    6.76MB/s    0:00:00 (xfr#40, to-chk=34/88)
+ZF8WDFS_sample4/peak/rep1/pseudorep1/HNFWNBGXX_lane1_9851_TAAGGCGA_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pr1.pval0.01.300K.bfilt.narrowPeak.gz
+         32.77K   1%   32.96kB/s    0:01:26            1.11M  38%    1.06MB/s    0:00:01            2.88M 100%    2.63MB/s    0:00:01 (xfr#41, to-chk=33/88)
+ZF8WDFS_sample4/peak/rep1/pseudorep1/HNFWNBGXX_lane1_9851_TAAGGCGA_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pr1.pval0.01.300K.bfilt.narrowPeak.hammock.gz
+         32.77K   0%  640.00kB/s    0:00:06            4.27M 100%   25.46MB/s    0:00:00 (xfr#42, to-chk=32/88)
+ZF8WDFS_sample4/peak/rep1/pseudorep1/HNFWNBGXX_lane1_9851_TAAGGCGA_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pr1.pval0.01.300K.bfilt.narrowPeak.starch
+         32.77K   1%  195.12kB/s    0:00:11            2.32M 100%    9.92MB/s    0:00:00 (xfr#43, to-chk=31/88)
+ZF8WDFS_sample4/peak/rep1/pseudorep1/HNFWNBGXX_lane1_9851_TAAGGCGA_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pr1.pval0.01.300K.narrowPeak.gz
+         32.77K   1%  140.97kB/s    0:00:20            2.90M 100%    9.13MB/s    0:00:00 (xfr#44, to-chk=30/88)
+ZF8WDFS_sample4/peak/rep1/pseudorep2/
+ZF8WDFS_sample4/peak/rep1/pseudorep2/HNFWNBGXX_lane1_9851_TAAGGCGA_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pr2.pval0.01.300K.bfilt.narrowPeak.bb
+         32.77K   0%  103.23kB/s    0:01:06            6.85M 100%   12.93MB/s    0:00:00 (xfr#45, to-chk=29/88)
+ZF8WDFS_sample4/peak/rep1/pseudorep2/HNFWNBGXX_lane1_9851_TAAGGCGA_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pr2.pval0.01.300K.bfilt.narrowPeak.gz
+         32.77K   1%   62.87kB/s    0:00:45            2.89M 100%    4.70MB/s    0:00:00 (xfr#46, to-chk=28/88)
+ZF8WDFS_sample4/peak/rep1/pseudorep2/HNFWNBGXX_lane1_9851_TAAGGCGA_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pr2.pval0.01.300K.bfilt.narrowPeak.hammock.gz
+         32.77K   0%   54.33kB/s    0:01:18            4.27M 100%    5.83MB/s    0:00:00 (xfr#47, to-chk=27/88)
+ZF8WDFS_sample4/peak/rep1/pseudorep2/HNFWNBGXX_lane1_9851_TAAGGCGA_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pr2.pval0.01.300K.bfilt.narrowPeak.starch
+         32.77K   1%   45.52kB/s    0:00:50            2.32M 100%    2.90MB/s    0:00:00 (xfr#48, to-chk=26/88)
+ZF8WDFS_sample4/peak/rep1/pseudorep2/HNFWNBGXX_lane1_9851_TAAGGCGA_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pr2.pval0.01.300K.narrowPeak.gz
+         32.77K   1%   41.78kB/s    0:01:08            2.91M 100%    3.29MB/s    0:00:00 (xfr#49, to-chk=25/88)
+ZF8WDFS_sample4/qc/
+ZF8WDFS_sample4/qc/HNFWNBGXX_lane1_9851_TAAGGCGA_L001_R1.trim.srt.no_chrM.samstats.qc.frac_mito.qc
+             79 100%    0.09kB/s    0:00:00               79 100%    0.09kB/s    0:00:00 (xfr#50, to-chk=24/88)
+ZF8WDFS_sample4/qc/HNFWNBGXX_lane1_9851_TAAGGCGA_L001_R1.trim.srt.nodup.no_chrM_MT.jsd_plot.png
+         25.07K 100%   28.83kB/s    0:00:00           25.07K 100%   28.83kB/s    0:00:00 (xfr#51, to-chk=23/88)
+ZF8WDFS_sample4/qc/idr.reproducibility.qc
+            170 100%    0.20kB/s    0:00:00              170 100%    0.20kB/s    0:00:00 (xfr#52, to-chk=22/88)
+ZF8WDFS_sample4/qc/overlap.reproducibility.qc
+            170 100%    0.19kB/s    0:00:00              170 100%    0.19kB/s    0:00:00 (xfr#53, to-chk=21/88)
+ZF8WDFS_sample4/qc/qc.html
+         32.77K   2%   37.34kB/s    0:00:39            1.49M 100%    1.55MB/s    0:00:00 (xfr#54, to-chk=20/88)
+ZF8WDFS_sample4/qc/qc.json
+          7.36K 100%    7.82kB/s    0:00:00            7.36K 100%    7.82kB/s    0:00:00 (xfr#55, to-chk=19/88)
+ZF8WDFS_sample4/qc/rep1-pseudorep1_vs_2/
+ZF8WDFS_sample4/qc/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.bfilt.frip.qc
+             19 100%    0.02kB/s    0:00:00               19 100%    0.02kB/s    0:00:00 (xfr#56, to-chk=16/88)
+ZF8WDFS_sample4/qc/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.log
+            209 100%    0.22kB/s    0:00:00              209 100%    0.22kB/s    0:00:00 (xfr#57, to-chk=15/88)
+ZF8WDFS_sample4/qc/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.unthresholded-peaks.txt.png
+         32.77K   4%   34.45kB/s    0:00:21          783.63K 100%  796.32kB/s    0:00:00 (xfr#58, to-chk=14/88)
+ZF8WDFS_sample4/qc/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.overlap.bfilt.frip.qc
+             19 100%    0.02kB/s    0:00:00               19 100%    0.02kB/s    0:00:00 (xfr#59, to-chk=13/88)
+ZF8WDFS_sample4/qc/rep1/
+ZF8WDFS_sample4/qc/rep1/HNFWNBGXX_lane1_9851_TAAGGCGA_L001_R1.trim.read_length.txt
+              2 100%    0.00kB/s    0:00:00                2 100%    0.00kB/s    0:00:00 (xfr#60, to-chk=12/88)
+ZF8WDFS_sample4/qc/rep1/HNFWNBGXX_lane1_9851_TAAGGCGA_L001_R1.trim.srt.dup.qc
+         11.73K 100%   11.84kB/s    0:00:00           11.73K 100%   11.84kB/s    0:00:00 (xfr#61, to-chk=11/88)
+ZF8WDFS_sample4/qc/rep1/HNFWNBGXX_lane1_9851_TAAGGCGA_L001_R1.trim.srt.dupmark.lib_complexity.qc
+             61 100%    0.06kB/s    0:00:00               61 100%    0.06kB/s    0:00:00 (xfr#62, to-chk=10/88)
+ZF8WDFS_sample4/qc/rep1/HNFWNBGXX_lane1_9851_TAAGGCGA_L001_R1.trim.srt.nodup.no_chrM_MT.samstats.qc
+            375 100%    0.38kB/s    0:00:00              375 100%    0.38kB/s    0:00:00 (xfr#63, to-chk=9/88)
+ZF8WDFS_sample4/qc/rep1/HNFWNBGXX_lane1_9851_TAAGGCGA_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.frip.qc
+             19 100%    0.02kB/s    0:00:00               19 100%    0.02kB/s    0:00:00 (xfr#64, to-chk=8/88)
+ZF8WDFS_sample4/qc/rep1/HNFWNBGXX_lane1_9851_TAAGGCGA_L001_R1.trim.srt.samstats.qc
+            403 100%    0.40kB/s    0:00:00              403 100%    0.40kB/s    0:00:00 (xfr#65, to-chk=7/88)
+ZF8WDFS_sample4/qc/rep1/pseudorep1/
+ZF8WDFS_sample4/qc/rep1/pseudorep1/HNFWNBGXX_lane1_9851_TAAGGCGA_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pr1.pval0.01.300K.bfilt.frip.qc
+             19 100%    0.02kB/s    0:00:00               19 100%    0.02kB/s    0:00:00 (xfr#66, to-chk=4/88)
+ZF8WDFS_sample4/qc/rep1/pseudorep2/
+ZF8WDFS_sample4/qc/rep1/pseudorep2/HNFWNBGXX_lane1_9851_TAAGGCGA_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pr2.pval0.01.300K.bfilt.frip.qc
+             19 100%    0.02kB/s    0:00:00               19 100%    0.02kB/s    0:00:00 (xfr#67, to-chk=3/88)
+ZF8WDFS_sample4/signal/
+ZF8WDFS_sample4/signal/rep1/
+ZF8WDFS_sample4/signal/rep1/HNFWNBGXX_lane1_9851_TAAGGCGA_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.fc.signal.bigwig
+         32.77K   0%   32.42kB/s    2:20:05          327.68K   0%  320.00kB/s    0:14:10           32.87M  12%   15.67MB/s    0:00:14           65.18M  23%   20.73MB/s    0:00:09           97.98M  35%   23.37MB/s    0:00:07          130.58M  47%   31.06MB/s    0:00:04          162.63M  59%   30.95MB/s    0:00:03          194.81M  71%   30.92MB/s    0:00:02          226.20M  82%   30.58MB/s    0:00:01          254.74M  93%   29.62MB/s    0:00:00          272.56M 100%   27.10MB/s    0:00:09 (xfr#68, to-chk=1/88)
+ZF8WDFS_sample4/signal/rep1/HNFWNBGXX_lane1_9851_TAAGGCGA_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pval.signal.bigwig
+         32.77K   0%   53.24kB/s    1:04:17           13.27M   6%   12.66MB/s    0:00:14           46.24M  22%   22.05MB/s    0:00:07           79.43M  38%   25.26MB/s    0:00:04          112.49M  54%   26.83MB/s    0:00:03          145.29M  70%   31.49MB/s    0:00:01          177.05M  86%   31.19MB/s    0:00:00          205.43M 100%   28.27MB/s    0:00:06 (xfr#69, to-chk=0/88)
+
+sent 5.34G bytes  received 1.46K bytes  37.19M bytes/sec
+total size is 5.35G  speedup is 1.00
+Rsync completed successfully for ZF8WDFS_sample4.
+Metadata location: /home/suffi.azizan/scratchspace/outputs/encd-atac-pipe-raw-out/ZF8WDFS/ZF8WDFS_sample5/atac/9047431a-1e20-4c13-818b-648cfbaf5241/metadata.json
+Sample name: ZF8WDFS_sample5
+Croo completed successfully on sample ZF8WDFS_sample5. Proceeding to rsync...
+sending incremental file list
+ZF8WDFS_sample5/
+ZF8WDFS_sample5/croo.filetable.9047431a-1e20-4c13-818b-648cfbaf5241.tsv
+         14.59K 100%    0.00kB/s    0:00:00           14.59K 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=86/88)
+ZF8WDFS_sample5/croo.report.9047431a-1e20-4c13-818b-648cfbaf5241.html
+         32.77K  53%   31.25MB/s    0:00:00           60.86K 100%   19.35MB/s    0:00:00 (xfr#2, to-chk=85/88)
+ZF8WDFS_sample5/croo.task_graph.9047431a-1e20-4c13-818b-648cfbaf5241.dot
+         17.06K 100%    4.07MB/s    0:00:00           17.06K 100%    4.07MB/s    0:00:00 (xfr#3, to-chk=84/88)
+ZF8WDFS_sample5/croo.task_graph.9047431a-1e20-4c13-818b-648cfbaf5241.svg
+         32.77K  91%    5.21MB/s    0:00:00           35.85K 100%    5.70MB/s    0:00:00 (xfr#4, to-chk=83/88)
+ZF8WDFS_sample5/align/
+ZF8WDFS_sample5/align/rep1/
+ZF8WDFS_sample5/align/rep1/HNFWNBGXX_lane1_9852_CGTACTAG_L001_R1.trim.srt.bam
+         32.77K   0%    3.12MB/s    0:17:06           36.14M   1%   34.47MB/s    0:01:32           73.33M   2%   34.99MB/s    0:01:29          111.08M   3%   35.32MB/s    0:01:27          148.64M   4%   35.46MB/s    0:01:26          187.47M   5%   36.10MB/s    0:01:23          226.16M   6%   36.46MB/s    0:01:21          264.99M   8%   36.70MB/s    0:01:20          303.82M   9%   37.01MB/s    0:01:18          342.62M  10%   37.01MB/s    0:01:17          380.63M  11%   36.84MB/s    0:01:16          418.74M  12%   36.67MB/s    0:01:16          457.57M  13%   36.67MB/s    0:01:15          496.34M  15%   36.66MB/s    0:01:14          535.13M  16%   36.85MB/s    0:01:12          573.96M  17%   37.02MB/s    0:01:11          612.83M  18%   37.03MB/s    0:01:10          651.26M  19%   36.95MB/s    0:01:09          690.00M  21%   36.94MB/s    0:01:08          728.76M  22%   36.92MB/s    0:01:07          767.59M  23%   36.92MB/s    0:01:06          806.39M  24%   37.01MB/s    0:01:05          845.22M  25%   37.03MB/s    0:01:04          884.02M  26%   37.03MB/s    0:01:03          922.71M  28%   37.00MB/s    0:01:02          960.95M  29%   36.86MB/s    0:01:01          999.19M  30%   36.73MB/s    0:01:00            1.04G  31%   36.57MB/s    0:01:00            1.07G  32%   36.13MB/s    0:00:59            1.11G  33%   36.15MB/s    0:00:58            1.15G  35%   36.30MB/s    0:00:57            1.19G  36%   36.45MB/s    0:00:56            1.23G  37%   36.92MB/s    0:00:54            1.27G  38%   37.03MB/s    0:00:53            1.31G  39%   37.02MB/s    0:00:52            1.35G  40%   37.04MB/s    0:00:51            1.38G  42%   37.04MB/s    0:00:50            1.42G  43%   37.04MB/s    0:00:49            1.46G  44%   37.07MB/s    0:00:48            1.50G  45%   37.07MB/s    0:00:46            1.54G  46%   37.07MB/s    0:00:45            1.58G  48%   37.06MB/s    0:00:44            1.62G  49%   37.04MB/s    0:00:43            1.66G  50%   37.05MB/s    0:00:42            1.69G  51%   37.05MB/s    0:00:41            1.73G  52%   37.07MB/s    0:00:40            1.77G  53%   36.74MB/s    0:00:40            1.80G  54%   35.47MB/s    0:00:40            1.84G  56%   35.46MB/s    0:00:39            1.88G  57%   35.46MB/s    0:00:38            1.92G  58%   35.76MB/s    0:00:37            1.96G  59%   37.03MB/s    0:00:34            2.00G  60%   37.04MB/s    0:00:33            2.04G  62%   37.05MB/s    0:00:32            2.08G  63%   37.06MB/s    0:00:31            2.12G  64%   37.04MB/s    0:00:30            2.15G  65%   36.71MB/s    0:00:30            2.19G  66%   36.71MB/s    0:00:29            2.23G  67%   36.59MB/s    0:00:28            2.27G  69%   36.61MB/s    0:00:27            2.31G  70%   36.92MB/s    0:00:25            2.35G  71%   36.92MB/s    0:00:24            2.39G  72%   37.03MB/s    0:00:23            2.42G  73%   36.97MB/s    0:00:22            2.46G  74%   36.95MB/s    0:00:21            2.50G  76%   36.87MB/s    0:00:20            2.54G  77%   36.15MB/s    0:00:20            2.58G  78%   36.21MB/s    0:00:19            2.61G  79%   36.25MB/s    0:00:18            2.65G  80%   36.33MB/s    0:00:16            2.69G  81%   37.06MB/s    0:00:15            2.73G  83%   37.03MB/s    0:00:14            2.77G  84%   36.96MB/s    0:00:13            2.81G  85%   36.97MB/s    0:00:12            2.85G  86%   36.97MB/s    0:00:11            2.89G  87%   37.01MB/s    0:00:10            2.92G  89%   37.05MB/s    0:00:09            2.96G  90%   37.00MB/s    0:00:08            3.00G  91%   36.93MB/s    0:00:07            3.04G  92%   36.82MB/s    0:00:06            3.08G  93%   36.72MB/s    0:00:05            3.12G  94%   36.67MB/s    0:00:04            3.16G  96%   36.65MB/s    0:00:03            3.19G  97%   36.68MB/s    0:00:02            3.23G  98%   36.53MB/s    0:00:01            3.27G  99%   36.60MB/s    0:00:00            3.28G 100%   36.72MB/s    0:01:25 (xfr#5, to-chk=77/88)
+ZF8WDFS_sample5/align/rep1/HNFWNBGXX_lane1_9852_CGTACTAG_L001_R1.trim.srt.nodup.no_chrM_MT.bam
+         32.77K   0%   87.43kB/s    3:23:28           24.38M   2%   23.25MB/s    0:00:43           62.85M   5%   29.97MB/s    0:00:32          100.27M   9%   31.89MB/s    0:00:29          138.77M  13%   33.10MB/s    0:00:27          177.27M  16%   36.47MB/s    0:00:23          215.61M  20%   36.44MB/s    0:00:22          254.08M  23%   36.69MB/s    0:00:21          292.59M  27%   36.69MB/s    0:00:20          331.12M  31%   36.70MB/s    0:00:19          369.62M  34%   36.74MB/s    0:00:18          408.16M  38%   36.75MB/s    0:00:17          446.69M  41%   36.75MB/s    0:00:16          485.23M  45%   36.75MB/s    0:00:15          523.80M  49%   36.77MB/s    0:00:14          562.27M  52%   36.75MB/s    0:00:13          600.90M  56%   36.77MB/s    0:00:12          639.40M  59%   36.77MB/s    0:00:11          677.97M  63%   36.78MB/s    0:00:10          716.47M  67%   36.78MB/s    0:00:09          754.97M  70%   36.75MB/s    0:00:08          793.44M  74%   36.74MB/s    0:00:07          832.01M  77%   36.74MB/s    0:00:06          870.55M  81%   36.75MB/s    0:00:05          909.15M  85%   36.78MB/s    0:00:04          947.72M  88%   36.80MB/s    0:00:03          986.28M  92%   36.80MB/s    0:00:02            1.02G  95%   36.38MB/s    0:00:01            1.06G  99%   36.35MB/s    0:00:00            1.07G 100%   36.18MB/s    0:00:28 (xfr#6, to-chk=76/88)
+ZF8WDFS_sample5/align/rep1/HNFWNBGXX_lane1_9852_CGTACTAG_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.tagAlign.gz
+         32.77K   0%  205.13kB/s    0:19:16           32.34M  13%   30.84MB/s    0:00:06           70.58M  29%   33.67MB/s    0:00:04          108.92M  45%   34.65MB/s    0:00:03          147.16M  62%   35.10MB/s    0:00:02          185.43M  78%   36.51MB/s    0:00:01          223.67M  94%   36.51MB/s    0:00:00          237.18M 100%   35.63MB/s    0:00:06 (xfr#7, to-chk=75/88)
+ZF8WDFS_sample5/align/rep1/pseudorep1/
+ZF8WDFS_sample5/align/rep1/pseudorep1/HNFWNBGXX_lane1_9852_CGTACTAG_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pr1.tagAlign.gz
+         32.77K   0%   89.39kB/s    0:22:06           24.64M  20%   23.50MB/s    0:00:03           62.82M  52%   29.97MB/s    0:00:01          101.12M  85%   32.17MB/s    0:00:00          118.59M 100%   32.73MB/s    0:00:03 (xfr#8, to-chk=72/88)
+ZF8WDFS_sample5/align/rep1/pseudorep2/
+ZF8WDFS_sample5/align/rep1/pseudorep2/HNFWNBGXX_lane1_9852_CGTACTAG_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pr2.tagAlign.gz
+         32.77K   0%   69.26kB/s    0:28:31           20.58M  17%   19.62MB/s    0:00:04           58.52M  49%   27.92MB/s    0:00:02           96.83M  81%   30.79MB/s    0:00:00          118.60M 100%   31.71MB/s    0:00:03 (xfr#9, to-chk=71/88)
+ZF8WDFS_sample5/peak/
+ZF8WDFS_sample5/peak/idr_reproducibility/
+ZF8WDFS_sample5/peak/idr_reproducibility/idr.conservative_peak.narrowPeak.bb
+         32.77K   0%   55.75kB/s    0:01:08            3.86M 100%    5.43MB/s    0:00:00 (xfr#10, to-chk=66/88)
+ZF8WDFS_sample5/peak/idr_reproducibility/idr.conservative_peak.narrowPeak.gz
+         32.77K   1%   46.85kB/s    0:00:34            1.66M 100%    2.18MB/s    0:00:00 (xfr#11, to-chk=65/88)
+ZF8WDFS_sample5/peak/idr_reproducibility/idr.conservative_peak.narrowPeak.hammock.gz
+         32.77K   1%   43.84kB/s    0:00:45            2.04M 100%    2.49MB/s    0:00:00 (xfr#12, to-chk=64/88)
+ZF8WDFS_sample5/peak/idr_reproducibility/idr.conservative_peak.narrowPeak.starch
+         32.77K   2%   40.76kB/s    0:00:31            1.32M 100%    1.54MB/s    0:00:00 (xfr#13, to-chk=63/88)
+ZF8WDFS_sample5/peak/idr_reproducibility/idr.optimal_peak.narrowPeak.bb
+         32.77K   0%   38.88kB/s    0:01:38            3.86M 100%    3.97MB/s    0:00:00 (xfr#14, to-chk=62/88)
+ZF8WDFS_sample5/peak/idr_reproducibility/idr.optimal_peak.narrowPeak.gz
+         32.77K   1%   34.37kB/s    0:00:47            1.66M 100%    1.63MB/s    0:00:00 (xfr#15, to-chk=61/88)
+ZF8WDFS_sample5/peak/idr_reproducibility/idr.optimal_peak.narrowPeak.hammock.gz
+         32.77K   1%   32.72kB/s    0:01:01          884.74K  43%  864.00kB/s    0:00:01            2.04M 100%    1.89MB/s    0:00:01 (xfr#16, to-chk=60/88)
+ZF8WDFS_sample5/peak/idr_reproducibility/idr.optimal_peak.narrowPeak.starch
+         32.77K   2%  969.70kB/s    0:00:01            1.32M 100%   18.80MB/s    0:00:00 (xfr#17, to-chk=59/88)
+ZF8WDFS_sample5/peak/overlap_reproducibility/
+ZF8WDFS_sample5/peak/overlap_reproducibility/overlap.conservative_peak.narrowPeak.bb
+         32.77K   0%  444.44kB/s    0:00:15            6.89M 100%   24.90MB/s    0:00:00 (xfr#18, to-chk=58/88)
+ZF8WDFS_sample5/peak/overlap_reproducibility/overlap.conservative_peak.narrowPeak.gz
+         32.77K   0%  119.40kB/s    0:00:27            3.31M 100%    8.99MB/s    0:00:00 (xfr#19, to-chk=57/88)
+ZF8WDFS_sample5/peak/overlap_reproducibility/overlap.conservative_peak.narrowPeak.hammock.gz
+         32.77K   0%   89.89kB/s    0:00:42            3.88M 100%    8.14MB/s    0:00:00 (xfr#20, to-chk=56/88)
+ZF8WDFS_sample5/peak/overlap_reproducibility/overlap.conservative_peak.narrowPeak.starch
+         32.77K   1%   69.72kB/s    0:00:33            2.39M 100%    4.38MB/s    0:00:00 (xfr#21, to-chk=55/88)
+ZF8WDFS_sample5/peak/overlap_reproducibility/overlap.optimal_peak.narrowPeak.bb
+         32.77K   0%   61.07kB/s    0:01:52            6.89M 100%    9.24MB/s    0:00:00 (xfr#22, to-chk=54/88)
+ZF8WDFS_sample5/peak/overlap_reproducibility/overlap.optimal_peak.narrowPeak.gz
+         32.77K   0%   44.69kB/s    0:01:13            3.31M 100%    3.94MB/s    0:00:00 (xfr#23, to-chk=53/88)
+ZF8WDFS_sample5/peak/overlap_reproducibility/overlap.optimal_peak.narrowPeak.hammock.gz
+         32.77K   0%   39.80kB/s    0:01:36            3.88M 100%    4.10MB/s    0:00:00 (xfr#24, to-chk=52/88)
+ZF8WDFS_sample5/peak/overlap_reproducibility/overlap.optimal_peak.narrowPeak.starch
+         32.77K   1%   35.24kB/s    0:01:06            2.39M 100%    2.35MB/s    0:00:00 (xfr#25, to-chk=51/88)
+ZF8WDFS_sample5/peak/rep1-pseudorep1_vs_2/
+ZF8WDFS_sample5/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.bfilt.narrowPeak.bb
+         32.77K   0%   32.82kB/s    0:01:56          983.04K  25%  960.00kB/s    0:00:03            3.86M 100%    3.41MB/s    0:00:01 (xfr#26, to-chk=50/88)
+ZF8WDFS_sample5/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.bfilt.narrowPeak.gz
+         32.77K   1%  385.54kB/s    0:00:04            1.66M 100%   12.56MB/s    0:00:00 (xfr#27, to-chk=49/88)
+ZF8WDFS_sample5/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.bfilt.narrowPeak.hammock.gz
+         32.77K   1%  246.15kB/s    0:00:08            2.04M 100%   10.70MB/s    0:00:00 (xfr#28, to-chk=48/88)
+ZF8WDFS_sample5/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.bfilt.narrowPeak.starch
+         32.77K   2%  171.12kB/s    0:00:07            1.32M 100%    5.73MB/s    0:00:00 (xfr#29, to-chk=47/88)
+ZF8WDFS_sample5/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.unthresholded-peaks.txt.gz
+         32.77K   0%  142.86kB/s    0:00:46            6.73M 100%   16.20MB/s    0:00:00 (xfr#30, to-chk=46/88)
+ZF8WDFS_sample5/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.overlap.bfilt.narrowPeak.bb
+         32.77K   0%   79.80kB/s    0:01:25            6.89M 100%   11.14MB/s    0:00:00 (xfr#31, to-chk=45/88)
+ZF8WDFS_sample5/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.overlap.bfilt.narrowPeak.gz
+         32.77K   0%   53.87kB/s    0:01:00            3.31M 100%    4.65MB/s    0:00:00 (xfr#32, to-chk=44/88)
+ZF8WDFS_sample5/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.overlap.bfilt.narrowPeak.hammock.gz
+         32.77K   0%   46.72kB/s    0:01:22            3.88M 100%    4.72MB/s    0:00:00 (xfr#33, to-chk=43/88)
+ZF8WDFS_sample5/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.overlap.bfilt.narrowPeak.starch
+         32.77K   1%   40.56kB/s    0:00:58            2.39M 100%    2.68MB/s    0:00:00 (xfr#34, to-chk=42/88)
+ZF8WDFS_sample5/peak/rep1/
+ZF8WDFS_sample5/peak/rep1/HNFWNBGXX_lane1_9852_CGTACTAG_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.bb
+         32.77K   0%   37.43kB/s    0:04:47            5.60M  51%    5.34MB/s    0:00:00           10.80M 100%    8.94MB/s    0:00:01 (xfr#35, to-chk=41/88)
+ZF8WDFS_sample5/peak/rep1/HNFWNBGXX_lane1_9852_CGTACTAG_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.gz
+         32.77K   0%  202.53kB/s    0:00:19            4.06M 100%   14.49MB/s    0:00:00 (xfr#36, to-chk=40/88)
+ZF8WDFS_sample5/peak/rep1/HNFWNBGXX_lane1_9852_CGTACTAG_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.hammock.gz
+         32.77K   0%  118.08kB/s    0:00:51            6.08M 100%   13.55MB/s    0:00:00 (xfr#37, to-chk=39/88)
+ZF8WDFS_sample5/peak/rep1/HNFWNBGXX_lane1_9852_CGTACTAG_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.starch
+         32.77K   0%   74.07kB/s    0:00:45            3.43M 100%    6.28MB/s    0:00:00 (xfr#38, to-chk=38/88)
+ZF8WDFS_sample5/peak/rep1/HNFWNBGXX_lane1_9852_CGTACTAG_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.narrowPeak.gz
+         32.77K   0%   60.95kB/s    0:01:06            4.09M 100%    6.18MB/s    0:00:00 (xfr#39, to-chk=37/88)
+ZF8WDFS_sample5/peak/rep1/pseudorep1/
+ZF8WDFS_sample5/peak/rep1/pseudorep1/HNFWNBGXX_lane1_9852_CGTACTAG_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pr1.pval0.01.300K.bfilt.narrowPeak.bb
+         32.77K   0%   50.24kB/s    0:03:12            9.73M 100%   10.19MB/s    0:00:00 (xfr#40, to-chk=34/88)
+ZF8WDFS_sample5/peak/rep1/pseudorep1/HNFWNBGXX_lane1_9852_CGTACTAG_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pr1.pval0.01.300K.bfilt.narrowPeak.gz
+         32.77K   0%   35.01kB/s    0:01:56            3.28M  79%    3.12MB/s    0:00:00            4.10M 100%    3.83MB/s    0:00:01 (xfr#41, to-chk=33/88)
+ZF8WDFS_sample5/peak/rep1/pseudorep1/HNFWNBGXX_lane1_9852_CGTACTAG_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pr1.pval0.01.300K.bfilt.narrowPeak.hammock.gz
+         32.77K   0%    1.20MB/s    0:00:05            6.33M 100%   31.92MB/s    0:00:00 (xfr#42, to-chk=32/88)
+ZF8WDFS_sample5/peak/rep1/pseudorep1/HNFWNBGXX_lane1_9852_CGTACTAG_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pr1.pval0.01.300K.bfilt.narrowPeak.starch
+         32.77K   0%  164.95kB/s    0:00:19            3.31M 100%   11.30MB/s    0:00:00 (xfr#43, to-chk=31/88)
+ZF8WDFS_sample5/peak/rep1/pseudorep1/HNFWNBGXX_lane1_9852_CGTACTAG_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pr1.pval0.01.300K.narrowPeak.gz
+         32.77K   0%  113.48kB/s    0:00:36            4.12M 100%   10.05MB/s    0:00:00 (xfr#44, to-chk=30/88)
+ZF8WDFS_sample5/peak/rep1/pseudorep2/
+ZF8WDFS_sample5/peak/rep1/pseudorep2/HNFWNBGXX_lane1_9852_CGTACTAG_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pr2.pval0.01.300K.bfilt.narrowPeak.bb
+         32.77K   0%   80.40kB/s    0:02:00            9.69M 100%   13.77MB/s    0:00:00 (xfr#45, to-chk=29/88)
+ZF8WDFS_sample5/peak/rep1/pseudorep2/HNFWNBGXX_lane1_9852_CGTACTAG_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pr2.pval0.01.300K.bfilt.narrowPeak.gz
+         32.77K   0%   47.27kB/s    0:01:25            4.09M 100%    4.92MB/s    0:00:00 (xfr#46, to-chk=28/88)
+ZF8WDFS_sample5/peak/rep1/pseudorep2/HNFWNBGXX_lane1_9852_CGTACTAG_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pr2.pval0.01.300K.bfilt.narrowPeak.hammock.gz
+         32.77K   0%   40.20kB/s    0:02:35            6.30M 100%    6.27MB/s    0:00:00 (xfr#47, to-chk=27/88)
+ZF8WDFS_sample5/peak/rep1/pseudorep2/HNFWNBGXX_lane1_9852_CGTACTAG_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pr2.pval0.01.300K.bfilt.narrowPeak.starch
+         32.77K   0%   33.23kB/s    0:01:38            1.44M  43%    1.38MB/s    0:00:01            3.29M 100%    3.00MB/s    0:00:01 (xfr#48, to-chk=26/88)
+ZF8WDFS_sample5/peak/rep1/pseudorep2/HNFWNBGXX_lane1_9852_CGTACTAG_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pr2.pval0.01.300K.narrowPeak.gz
+         32.77K   0%  627.45kB/s    0:00:06            4.11M 100%   24.32MB/s    0:00:00 (xfr#49, to-chk=25/88)
+ZF8WDFS_sample5/qc/
+ZF8WDFS_sample5/qc/HNFWNBGXX_lane1_9852_CGTACTAG_L001_R1.trim.srt.no_chrM.samstats.qc.frac_mito.qc
+             79 100%    0.47kB/s    0:00:00               79 100%    0.47kB/s    0:00:00 (xfr#50, to-chk=24/88)
+ZF8WDFS_sample5/qc/HNFWNBGXX_lane1_9852_CGTACTAG_L001_R1.trim.srt.nodup.no_chrM_MT.jsd_plot.png
+         25.64K 100%  148.17kB/s    0:00:00           25.64K 100%  148.17kB/s    0:00:00 (xfr#51, to-chk=23/88)
+ZF8WDFS_sample5/qc/idr.reproducibility.qc
+            170 100%    0.97kB/s    0:00:00              170 100%    0.97kB/s    0:00:00 (xfr#52, to-chk=22/88)
+ZF8WDFS_sample5/qc/overlap.reproducibility.qc
+            173 100%    0.98kB/s    0:00:00              173 100%    0.98kB/s    0:00:00 (xfr#53, to-chk=21/88)
+ZF8WDFS_sample5/qc/qc.html
+         32.77K   2%  178.77kB/s    0:00:08            1.55M 100%    5.96MB/s    0:00:00 (xfr#54, to-chk=20/88)
+ZF8WDFS_sample5/qc/qc.json
+          7.37K 100%   28.77kB/s    0:00:00            7.37K 100%   28.77kB/s    0:00:00 (xfr#55, to-chk=19/88)
+ZF8WDFS_sample5/qc/rep1-pseudorep1_vs_2/
+ZF8WDFS_sample5/qc/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.bfilt.frip.qc
+             20 100%    0.08kB/s    0:00:00               20 100%    0.08kB/s    0:00:00 (xfr#56, to-chk=16/88)
+ZF8WDFS_sample5/qc/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.log
+            212 100%    0.82kB/s    0:00:00              212 100%    0.82kB/s    0:00:00 (xfr#57, to-chk=15/88)
+ZF8WDFS_sample5/qc/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.unthresholded-peaks.txt.png
+         32.77K   3%  123.55kB/s    0:00:06          821.56K 100%    2.75MB/s    0:00:00 (xfr#58, to-chk=14/88)
+ZF8WDFS_sample5/qc/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.overlap.bfilt.frip.qc
+             19 100%    0.06kB/s    0:00:00               19 100%    0.06kB/s    0:00:00 (xfr#59, to-chk=13/88)
+ZF8WDFS_sample5/qc/rep1/
+ZF8WDFS_sample5/qc/rep1/HNFWNBGXX_lane1_9852_CGTACTAG_L001_R1.trim.read_length.txt
+              2 100%    0.01kB/s    0:00:00                2 100%    0.01kB/s    0:00:00 (xfr#60, to-chk=12/88)
+ZF8WDFS_sample5/qc/rep1/HNFWNBGXX_lane1_9852_CGTACTAG_L001_R1.trim.srt.dup.qc
+          9.55K 100%   31.96kB/s    0:00:00            9.55K 100%   31.96kB/s    0:00:00 (xfr#61, to-chk=11/88)
+ZF8WDFS_sample5/qc/rep1/HNFWNBGXX_lane1_9852_CGTACTAG_L001_R1.trim.srt.dupmark.lib_complexity.qc
+             62 100%    0.21kB/s    0:00:00               62 100%    0.21kB/s    0:00:00 (xfr#62, to-chk=10/88)
+ZF8WDFS_sample5/qc/rep1/HNFWNBGXX_lane1_9852_CGTACTAG_L001_R1.trim.srt.nodup.no_chrM_MT.samstats.qc
+            375 100%    1.23kB/s    0:00:00              375 100%    1.23kB/s    0:00:00 (xfr#63, to-chk=9/88)
+ZF8WDFS_sample5/qc/rep1/HNFWNBGXX_lane1_9852_CGTACTAG_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.frip.qc
+             19 100%    0.06kB/s    0:00:00               19 100%    0.06kB/s    0:00:00 (xfr#64, to-chk=8/88)
+ZF8WDFS_sample5/qc/rep1/HNFWNBGXX_lane1_9852_CGTACTAG_L001_R1.trim.srt.samstats.qc
+            403 100%    1.31kB/s    0:00:00              403 100%    1.31kB/s    0:00:00 (xfr#65, to-chk=7/88)
+ZF8WDFS_sample5/qc/rep1/pseudorep1/
+ZF8WDFS_sample5/qc/rep1/pseudorep1/HNFWNBGXX_lane1_9852_CGTACTAG_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pr1.pval0.01.300K.bfilt.frip.qc
+             19 100%    0.06kB/s    0:00:00               19 100%    0.06kB/s    0:00:00 (xfr#66, to-chk=4/88)
+ZF8WDFS_sample5/qc/rep1/pseudorep2/
+ZF8WDFS_sample5/qc/rep1/pseudorep2/HNFWNBGXX_lane1_9852_CGTACTAG_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pr2.pval0.01.300K.bfilt.frip.qc
+             20 100%    0.06kB/s    0:00:00               20 100%    0.06kB/s    0:00:00 (xfr#67, to-chk=3/88)
+ZF8WDFS_sample5/signal/
+ZF8WDFS_sample5/signal/rep1/
+ZF8WDFS_sample5/signal/rep1/HNFWNBGXX_lane1_9852_CGTACTAG_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.fc.signal.bigwig
+         32.77K   0%  103.23kB/s    0:57:13           21.56M   6%   20.56MB/s    0:00:15           53.90M  15%   25.72MB/s    0:00:11           86.21M  24%   27.42MB/s    0:00:09          119.05M  33%   28.39MB/s    0:00:08          151.58M  42%   31.01MB/s    0:00:06          184.22M  51%   31.08MB/s    0:00:05          215.61M  60%   30.86MB/s    0:00:04          248.09M  70%   30.78MB/s    0:00:03          280.23M  79%   30.69MB/s    0:00:02          309.26M  87%   29.83MB/s    0:00:01          337.94M  95%   29.18MB/s    0:00:00          354.41M 100%   29.34MB/s    0:00:11 (xfr#68, to-chk=1/88)
+ZF8WDFS_sample5/signal/rep1/HNFWNBGXX_lane1_9852_CGTACTAG_L001_R1.trim.srt.nodup.no_chrM_MT.tn5.pval.signal.bigwig
+         32.77K   0%   60.49kB/s    1:29:53           15.56M   4%   14.84MB/s    0:00:20           46.76M  14%   22.31MB/s    0:00:12           79.50M  24%   25.28MB/s    0:00:09          112.39M  34%   26.81MB/s    0:00:07          145.23M  44%   30.93MB/s    0:00:05          178.03M  54%   31.31MB/s    0:00:04          210.57M  64%   31.27MB/s    0:00:03          243.30M  74%   31.23MB/s    0:00:02          274.60M  84%   30.85MB/s    0:00:01          304.48M  93%   30.16MB/s    0:00:00          326.29M 100%   29.08MB/s    0:00:10 (xfr#69, to-chk=0/88)
+
+sent 5.66G bytes  received 1.46K bytes  37.13M bytes/sec
+total size is 5.68G  speedup is 1.00
+Rsync completed successfully for ZF8WDFS_sample5.
+SUCCESS-on-ZF8WDFS_sample1 SUCCESS-on-ZF8WDFS_sample2 SUCCESS-on-ZF8WDFS_sample3 SUCCESS-on-ZF8WDFS_sample4 SUCCESS-on-ZF8WDFS_sample5
+Croo post-processing script completed successfully.
+Processed files have been transferred to remote storage Odin.
+WARNING: Removing sample subdirectories in ZF8WDFS from the pipeline raw output directory...
+All sample subdirectories have been copied to Odin and removed from Gekko.
+Submitting the next batch of jobs...
+Dataset json directory exists. Proceeding...
+Dataset-specific output directory exists. Proceeding...
+Number of json files in the target directory: 7
+Sample ID: sample6
+Local output directory: /home/suffi.azizan/scratchspace/outputs/encd-atac-pipe-raw-out/ZF8WDFS/ZF8WDFS_sample6
+2023-07-05 13:00:13,521|caper.hpc|INFO| Running shell command: qsub -P sbs_liyh -m bea -M suffi.azizan@ntu.edu.sg -l select=1:ncpus=16:mpiprocs=16:mem=32GB -l walltime=18:00:00 -q q128 -V -N CAPER_ZF8WDFS_sample6 /home/suffi.azizan/0aqpgo0x.sh
+1602075.hpc-mn1
+Submitted job number 6: /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/output_files/json/ZF8WDFS_2708/ZF8WDFS_2708_sample6.json in elif-block 1
+Sample ID: sample7
+Local output directory: /home/suffi.azizan/scratchspace/outputs/encd-atac-pipe-raw-out/ZF8WDFS/ZF8WDFS_sample7
+2023-07-05 13:00:16,820|caper.hpc|INFO| Running shell command: qsub -P sbs_liyh -m bea -M suffi.azizan@ntu.edu.sg -l select=1:ncpus=16:mpiprocs=16:mem=32GB -l walltime=18:00:00 -q q128 -V -N CAPER_ZF8WDFS_sample7 /home/suffi.azizan/ep2befsg.sh
+1602076.hpc-mn1
+All samples have been submitted for processing.
+Current count is 7
+Current sample count is 7
+job 17017 at Wed Jul  5 14:00:00 2023
+Watcher script has been scheduled to run in 1 hour.
