@@ -1,0 +1,5 @@
+DONOR_ID,LIBRARY_LAYOUT,DISEASE,TISSUE_TYPE,FILE,SAMPLE,READ,REP
+TCGA-3X-AAVA,PAIRED,Cholangiocarcinoma,Liver_and_intrahepatic_bile_ducts,6c2feb54-c815-4b53-94d7-18893c5ee8ea_atacseq_gdc_realn.bam,1,N/A,0
+TCGA-ZH-A8Y5,PAIRED,Cholangiocarcinoma,Liver_and_intrahepatic_bile_ducts,0521d084-2970-478a-864f-bfdd570a8c57_atacseq_gdc_realn.bam,2,N/A,0
+TCGA-ZH-A8Y7,PAIRED,Cholangiocarcinoma,Liver_and_intrahepatic_bile_ducts,8734e059-2672-4b5c-b86b-874aa50f7b41_atacseq_gdc_realn.bam,3,N/A,0
+TCGA-W6-AA0T,PAIRED,Cholangiocarcinoma,Liver_and_intrahepatic_bile_ducts,cc271327-0421-47cc-9af7-6a347760d60e_atacseq_gdc_realn.bam,4,N/A,0

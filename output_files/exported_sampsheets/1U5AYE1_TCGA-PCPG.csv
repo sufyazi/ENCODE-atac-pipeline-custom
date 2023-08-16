@@ -1,0 +1,9 @@
+DONOR_ID,LIBRARY_LAYOUT,DISEASE,TISSUE_TYPE,FILE,SAMPLE,READ,REP
+TCGA-WB-A818,PAIRED,Pheochromocytoma_and_Paraganglioma,Adrenal_gland,6da8bbda-a758-4b61-9f85-3826e8c17f3f_atacseq_gdc_realn.bam,1,N/A,0
+TCGA-TT-A6YP,PAIRED,Pheochromocytoma_and_Paraganglioma,Adrenal_gland,1542be76-3746-4fbf-a127-64cf57f169d0_atacseq_gdc_realn.bam,2,N/A,0
+TCGA-RW-A8AZ,PAIRED,Pheochromocytoma_and_Paraganglioma,Adrenal_gland,b6c10a44-978e-411d-980e-fe0313629450_atacseq_gdc_realn.bam,3,N/A,0
+TCGA-QT-A5XM,PAIRED,Pheochromocytoma_and_Paraganglioma,Adrenal_gland,1455b694-b3ee-4001-9615-6f7dcb4bea2a_atacseq_gdc_realn.bam,4,N/A,0
+TCGA-QT-A5XJ,PAIRED,Pheochromocytoma_and_Paraganglioma,Adrenal_gland,9d10a8ae-6471-4ca9-adb1-9d7357c4aa83_atacseq_gdc_realn.bam,5,N/A,0
+TCGA-QT-A5XN,PAIRED,Pheochromocytoma_and_Paraganglioma,Adrenal_gland,93118853-bd84-4982-88fc-26bcc37385d8_atacseq_gdc_realn.bam,6,N/A,0
+TCGA-QT-A69Q,PAIRED,Pheochromocytoma_and_Paraganglioma,Adrenal_gland,01a439d2-f4ba-4c1f-9a13-4d8872058b08_atacseq_gdc_realn.bam,7,N/A,0
+TCGA-RT-A6YA,PAIRED,Pheochromocytoma_and_Paraganglioma,Adrenal_gland,6d1b49d0-8c80-4905-b9a4-d6f9f059deb3_atacseq_gdc_realn.bam,8,N/A,0

@@ -1,0 +1,11 @@
+DONOR_ID,LIBRARY_LAYOUT,DISEASE,TISSUE_TYPE,FILE,SAMPLE,READ,REP
+TCGA-CF-A3MI,PAIRED,Bladder_Urothelial_Carcinoma,Bladder,63d8bb06-2665-46a3-9471-0158e8b3bf63_atacseq_gdc_realn.bam,1,N/A,0
+TCGA-H4-A2HO,PAIRED,Bladder_Urothelial_Carcinoma,Bladder,64b9167f-52b1-4490-ab1a-a8baf3dd4f2f_atacseq_gdc_realn.bam,2,N/A,0
+TCGA-DK-A1AD,PAIRED,Bladder_Urothelial_Carcinoma,Bladder,b66adb81-c21f-4ece-9a03-85d568fbd1f1_atacseq_gdc_realn.bam,3,N/A,0
+TCGA-FD-A3SR,PAIRED,Bladder_Urothelial_Carcinoma,Bladder,586817e6-9e2c-4204-9124-666cd8cf2238_atacseq_gdc_realn.bam,4,N/A,0
+TCGA-GV-A3JW,PAIRED,Bladder_Urothelial_Carcinoma,Bladder,9e62c728-f5d9-40ae-b472-80b937240697_atacseq_gdc_realn.bam,5,N/A,0
+TCGA-CF-A1HR,PAIRED,Bladder_Urothelial_Carcinoma,Bladder,25f29fe7-2a4b-4748-84f8-85fe44807937_atacseq_gdc_realn.bam,6,N/A,0
+TCGA-BL-A13J,PAIRED,Bladder_Urothelial_Carcinoma,Bladder,8e14e214-9e44-4ae5-a2ec-3374ec8f02a9_atacseq_gdc_realn.bam,7,N/A,0
+TCGA-GD-A3OQ,PAIRED,Bladder_Urothelial_Carcinoma,Bladder,571e6337-d2a7-4880-a093-c33d7c995168_atacseq_gdc_realn.bam,8,N/A,0
+TCGA-CU-A3YL,PAIRED,Bladder_Urothelial_Carcinoma,Bladder,7ecba084-4547-4ef4-9613-752a8628a12d_atacseq_gdc_realn.bam,9,N/A,0
+TCGA-BL-A3JM,PAIRED,Bladder_Urothelial_Carcinoma,Bladder,67471e99-2497-4ffe-b0fa-4a540abb4abd_atacseq_gdc_realn.bam,10,N/A,0

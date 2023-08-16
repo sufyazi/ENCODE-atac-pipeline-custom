@@ -1,0 +1,4 @@
+DONOR_ID,LIBRARY_LAYOUT,DISEASE,TISSUE_TYPE,FILE,SAMPLE,READ,REP
+TCGA-KU-A6H7,PAIRED,Head_and_Neck_Squamous_Cell_Carcinoma,Tonsil,e466ebae-200b-481e-b3cc-975de0c3dfac_atacseq_gdc_realn.bam,1,N/A,0
+TCGA-BA-A4IH,PAIRED,Head_and_Neck_Squamous_Cell_Carcinoma,Tonsil,d5b6c344-e295-40cb-8020-0033855c3b23_atacseq_gdc_realn.bam,2,N/A,0
+TCGA-H7-A76A,PAIRED,Head_and_Neck_Squamous_Cell_Carcinoma,Tonsil,1018e53a-1b68-455c-9a9e-f3d134980914_atacseq_gdc_realn.bam,3,N/A,0

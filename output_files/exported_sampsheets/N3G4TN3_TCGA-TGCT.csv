@@ -1,0 +1,10 @@
+DONOR_ID,LIBRARY_LAYOUT,DISEASE,TISSUE_TYPE,FILE,SAMPLE,READ,REP
+TCGA-2G-AAH8,PAIRED,Testicular_Germ_Cell_Tumors,Testis,36c4922e-7324-49af-8738-afb209d07785_atacseq_gdc_realn.bam,1,N/A,0
+TCGA-2G-AAFM,PAIRED,Testicular_Germ_Cell_Tumors,Testis,30f60911-4ea8-4e85-bb0d-50b7831dd786_atacseq_gdc_realn.bam,2,N/A,0
+TCGA-2G-AAGS,PAIRED,Testicular_Germ_Cell_Tumors,Testis,b9a5d1be-21da-4446-9939-afb602061c4d_atacseq_gdc_realn.bam,3,N/A,0
+TCGA-XE-AANI,PAIRED,Testicular_Germ_Cell_Tumors,Testis,eb466595-5c70-4ef8-a9ec-489938541694_atacseq_gdc_realn.bam,4,N/A,0
+TCGA-2G-AAKG,PAIRED,Testicular_Germ_Cell_Tumors,Testis,8a373562-7419-4e99-8ce5-956a544a01ae_atacseq_gdc_realn.bam,5,N/A,0
+TCGA-2G-AAFO,PAIRED,Testicular_Germ_Cell_Tumors,Testis,919734ab-79da-4aff-9bcb-29cfbf81d473_atacseq_gdc_realn.bam,6,N/A,0
+TCGA-4K-AA1I,PAIRED,Testicular_Germ_Cell_Tumors,Testis,29bc876c-1d43-46a6-bf83-13d1a841f850_atacseq_gdc_realn.bam,7,N/A,0
+TCGA-XE-AAOD,PAIRED,Testicular_Germ_Cell_Tumors,Testis,42b1172a-53b7-4020-afe7-555bf79a21cd_atacseq_gdc_realn.bam,8,N/A,0
+TCGA-XE-AAOF,PAIRED,Testicular_Germ_Cell_Tumors,Testis,883f533b-77c4-489d-90cf-ad1418a84952_atacseq_gdc_realn.bam,9,N/A,0

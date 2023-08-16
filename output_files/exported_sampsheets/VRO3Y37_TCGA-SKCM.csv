@@ -1,0 +1,14 @@
+DONOR_ID,LIBRARY_LAYOUT,DISEASE,TISSUE_TYPE,FILE,SAMPLE,READ,REP
+TCGA-D9-A1JW,PAIRED,Skin_Cutaneous_Melanoma,Skin,3f1e020f-9bdf-495a-a9d8-5f3a14786968_atacseq_gdc_realn.bam,1,N/A,0
+TCGA-D3-A8GP,PAIRED,Skin_Cutaneous_Melanoma,Skin,c9b6d8df-15cb-421b-8cd2-802563b74a79_atacseq_gdc_realn.bam,2,N/A,0
+TCGA-D9-A6EA,PAIRED,Skin_Cutaneous_Melanoma,Skin,e40a911f-8b1d-4cb4-940c-bc8bbee1b902_atacseq_gdc_realn.bam,3,N/A,0
+TCGA-EB-A3Y6,PAIRED,Skin_Cutaneous_Melanoma,Skin,ec5c4109-b5d9-4881-931e-22576a6d9bf8_atacseq_gdc_realn.bam,4,N/A,0
+TCGA-EB-A5SH,PAIRED,Skin_Cutaneous_Melanoma,Skin,fc9a595e-2077-49d8-a8a5-f026f8a7345e_atacseq_gdc_realn.bam,5,N/A,0
+TCGA-XV-AAZY,PAIRED,Skin_Cutaneous_Melanoma,Skin,a665a0d6-84b1-4047-9200-1409e0b10b98_atacseq_gdc_realn.bam,6,N/A,0
+TCGA-D9-A6EC,PAIRED,Skin_Cutaneous_Melanoma,Skin,0020e896-eb44-4d34-b3fc-bf55df812733_atacseq_gdc_realn.bam,7,N/A,0
+TCGA-EB-A5KH,PAIRED,Skin_Cutaneous_Melanoma,Skin,d7b856f2-a7a4-4268-b79f-443f549d0de0_atacseq_gdc_realn.bam,8,N/A,0
+TCGA-EB-A3XF,PAIRED,Skin_Cutaneous_Melanoma,Skin,cd2678af-4368-491d-9779-4ec617371d4a_atacseq_gdc_realn.bam,9,N/A,0
+TCGA-D3-A8GM,PAIRED,Skin_Cutaneous_Melanoma,Skin,8a47ce54-0f9f-4822-9b56-2202382b22ce_atacseq_gdc_realn.bam,10,N/A,0
+TCGA-DA-A95Y,PAIRED,Skin_Cutaneous_Melanoma,Skin,9f9c9e80-7058-4917-a04f-4f4b6eee6c1e_atacseq_gdc_realn.bam,11,N/A,0
+TCGA-EB-A24C,PAIRED,Skin_Cutaneous_Melanoma,Skin,82ba5b94-1a17-41f3-82c3-0fa1fee71e29_atacseq_gdc_realn.bam,12,N/A,0
+TCGA-DA-A95W,PAIRED,Skin_Cutaneous_Melanoma,Skin,04ce1e3f-0509-403a-bd43-3bc4d09ada3c_atacseq_gdc_realn.bam,13,N/A,0

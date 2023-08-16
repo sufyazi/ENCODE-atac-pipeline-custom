@@ -1,0 +1,15 @@
+DONOR_ID,LIBRARY_LAYOUT,DISEASE,TISSUE_TYPE,FILE,SAMPLE,READ,REP
+TCGA-CE-A13K,PAIRED,Thyroid_Cancer,Thyroid,873191f5-f417-4e94-a62a-c49503a8f6be_atacseq_gdc_realn.bam,1,N/A,0
+TCGA-DJ-A13M,PAIRED,Thyroid_Cancer,Thyroid,44ed27d4-e136-437c-bae2-1e2717b7f30b_atacseq_gdc_realn.bam,2,N/A,0
+TCGA-BJ-A192,PAIRED,Thyroid_Cancer,Thyroid,3633f0d0-0fb2-4a57-bb56-40d8d12d9044_atacseq_gdc_realn.bam,3,N/A,0
+TCGA-4C-A93U,PAIRED,Thyroid_Cancer,Thyroid,6d932b20-ae9d-4f76-9e49-9bcc4704c046_atacseq_gdc_realn.bam,4,N/A,0
+TCGA-BJ-A0Z2,PAIRED,Thyroid_Cancer,Thyroid,71dc650d-16c7-46ac-a199-9fad29548e5c_atacseq_gdc_realn.bam,5,N/A,0
+TCGA-BJ-A0Z5,PAIRED,Thyroid_Cancer,Thyroid,b89606dd-f360-49d9-9f27-bb2efa185bd2_atacseq_gdc_realn.bam,6,N/A,0
+TCGA-DJ-A13V,PAIRED,Thyroid_Cancer,Thyroid,5d1b2c4a-84d1-4559-b3a6-48c44e7a1a5d_atacseq_gdc_realn.bam,7,N/A,0
+TCGA-BJ-A0Z0,PAIRED,Thyroid_Cancer,Thyroid,2c2aa126-c9fb-45b4-b9a6-06113fe4652d_atacseq_gdc_realn.bam,8,N/A,0
+TCGA-BJ-A0Z3,PAIRED,Thyroid_Cancer,Thyroid,ff883a34-10d4-4320-b37c-16fcdd637dbc_atacseq_gdc_realn.bam,9,N/A,0
+TCGA-DJ-A13X,PAIRED,Thyroid_Cancer,Thyroid,ee21ec60-9ee2-44ce-a713-14d893762d81_atacseq_gdc_realn.bam,10,N/A,0
+TCGA-BJ-A290,PAIRED,Thyroid_Cancer,Thyroid,dca3c8e9-941f-4a1c-b5ac-b32c8c12ad74_atacseq_gdc_realn.bam,11,N/A,0
+TCGA-BJ-A0ZA,PAIRED,Thyroid_Cancer,Thyroid,67f8ccbc-fe98-4648-af8f-84bb3fdd8c6a_atacseq_gdc_realn.bam,12,N/A,0
+TCGA-BJ-A3PU,PAIRED,Thyroid_Cancer,Thyroid,2d6f8b2b-2fe3-44f4-9fbf-a89200b579ba_atacseq_gdc_realn.bam,13,N/A,0
+TCGA-BJ-A0ZC,PAIRED,Thyroid_Cancer,Thyroid,a908353f-9756-4502-bc4b-7427604ec70c_atacseq_gdc_realn.bam,14,N/A,0

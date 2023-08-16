@@ -45,7 +45,7 @@ with open(datasets, 'r') as f:
 excel_file = pd.ExcelFile(excel_filepath, engine='openpyxl')
 
 # Define list of columns to extract
-columns_to_extract = ["DONOR_ID", "SAMPLE_ID", "LIBRARY_LAYOUT", "DISEASE", "TISSUE_TYPE", "FILE"]
+columns_to_extract = ["DONOR_ID", "LIBRARY_LAYOUT", "DISEASE", "TISSUE_TYPE", "FILE"]
 
 # Check if the analysis_id_list.txt file exists and create it if it doesn't exist
 if not path.exists(analysis_id_list):
@@ -89,31 +89,39 @@ for sheet_name in dataset_ids:
     
     # Extract the specified columns that exist in the target sheet and preserve the order
     extracted_cols = []
+    
     for col in columns_to_extract:
         if col in df.columns:
             extracted_cols.append(col)
         else:
-            print(f"Error: {col} column not found in {sheet_name} sheet")
-            break
-    extracted_cols = df[extracted_cols]
+            print(f"ERROR: {col} column not found in {sheet_name} sheet: Please check the sheet and try again.")
+            sys.exit(1)
+    
+    # Subset the current sheet to only include the extracted columns
+    extracted_df = df[extracted_cols]
     
     # Append the extracted columns to the output DataFrame
-    output_df = pd.concat([output_df, extracted_cols], axis=1, ignore_index=False)
+    output_df = pd.concat([output_df, extracted_df], axis=1, ignore_index=False)
     output_df.fillna('None', inplace=True)
     
     # Collapse the SAMPLE_ID column values into unique categories and assign them to a new column called SAMPLE
-    if output_df['SAMPLE_ID'].isna().any():
-        # If there are NA values in SAMPLE_ID, fallback to DONOR_ID
-        output_df['SAMPLE'] = pd.factorize(output_df['DONOR_ID'])[0] + 1
+    if output_df['DONOR_ID'].isna().any():
+        print(f"WARNING: {sheet_name} contains missing values in the DONOR_ID column. Please check the sheet and try again.")
+        continue
     else:
-        output_df['SAMPLE'] = pd.factorize(output_df['SAMPLE_ID'])[0] + 1
+        output_df['SAMPLE'] = pd.factorize(output_df['DONOR_ID'])[0] + 1
     
     # Check the LIBRARY_LAYOUT column for the presence of paired-end reads: 
     # this checks if all the rows in the column contains ONLY the value 'PAIRED'
     if np.array_equal(output_df['LIBRARY_LAYOUT'].unique(), ['PAIRED']):
         
-        # Extract the read ID from the FILE column and assign it to a new column called READ
-        output_df['READ'] = output_df['FILE'].str.extract('(R[12])', expand=False).astype(str)
+        # Check if the FILE column contains the substring '.bam.'
+        if output_df['FILE'].str.contains('.bam').any():
+            # create a new column called READ and assign the value 'N/A' to it
+            output_df['READ'] = 'N/A'
+        else:
+            # Extract the read ID from the FILE column and assign it to a new column called READ
+            output_df['READ'] = output_df['FILE'].str.extract('(R[12])', expand=False).astype(str)
         
         #Run replicate counting function
         counts = count_reps(output_df)

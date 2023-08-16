@@ -1,0 +1,8 @@
+DONOR_ID,LIBRARY_LAYOUT,DISEASE,TISSUE_TYPE,FILE,SAMPLE,READ,REP
+TCGA-MQ-A4KX,PAIRED,Mesothelioma,Heart_mediastinum_and_pleura,05853051-b649-4104-a067-464d1adb8dc0_atacseq_gdc_realn.bam,1,N/A,0
+TCGA-LK-A4NY,PAIRED,Mesothelioma,Heart_mediastinum_and_pleura,d246aa04-5453-4ce5-b4a9-0c2ebc08b268_atacseq_gdc_realn.bam,2,N/A,0
+TCGA-LK-A4O6,PAIRED,Mesothelioma,Heart_mediastinum_and_pleura,7788a31e-9731-4c8d-ad23-5bb433184e60_atacseq_gdc_realn.bam,3,N/A,0
+TCGA-3U-A98I,PAIRED,Mesothelioma,Heart_mediastinum_and_pleura,1179efb3-38d0-4632-9226-7352caa340c6_atacseq_gdc_realn.bam,4,N/A,0
+TCGA-SH-A9CU,PAIRED,Mesothelioma,Heart_mediastinum_and_pleura,8b2b6260-83d7-4564-8f97-3f8b7c2f5b7e_atacseq_gdc_realn.bam,5,N/A,0
+TCGA-3U-A98E,PAIRED,Mesothelioma,Heart_mediastinum_and_pleura,742606e3-5613-4ffb-9c92-853f738452cf_atacseq_gdc_realn.bam,6,N/A,0
+TCGA-LK-A4NW,PAIRED,Mesothelioma,Heart_mediastinum_and_pleura,6637653d-b7a0-4b77-be02-8b7a712f2d84_atacseq_gdc_realn.bam,7,N/A,0
