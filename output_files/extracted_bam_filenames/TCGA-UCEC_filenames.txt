@@ -1,0 +1,14 @@
+DATASET_ID	FILE
+TCGA-UCEC	0338ad51-21c2-4607-a60e-099fbe0693ba_atacseq_gdc_realn.bam
+TCGA-UCEC	a7a70789-32eb-4d7e-8bdb-3a58a3203b87_atacseq_gdc_realn.bam
+TCGA-UCEC	69d05764-cca9-452f-a6b7-da3696a61f2c_atacseq_gdc_realn.bam
+TCGA-UCEC	99ffdefa-d1b5-4cca-b71d-f7063065857e_atacseq_gdc_realn.bam
+TCGA-UCEC	bdf15601-aa46-407f-8705-f115dc9ddc3d_atacseq_gdc_realn.bam
+TCGA-UCEC	d664d1a2-e2e5-47f7-8847-7333c2ed2092_atacseq_gdc_realn.bam
+TCGA-UCEC	80cfa5cb-86bd-4c06-9af1-385ef248eee9_atacseq_gdc_realn.bam
+TCGA-UCEC	a0098640-40c0-46b8-98e1-68d97dac69d6_atacseq_gdc_realn.bam
+TCGA-UCEC	34613a6a-baf2-4a57-94d2-c1422064777a_atacseq_gdc_realn.bam
+TCGA-UCEC	96a04d2a-c7f4-4331-a6c7-8d741c73335c_atacseq_gdc_realn.bam
+TCGA-UCEC	8cc8e658-55b2-441e-8853-61c88d44ede6_atacseq_gdc_realn.bam
+TCGA-UCEC	69cfa2e8-ec1f-497c-ac7f-732613f78ba9_atacseq_gdc_realn.bam
+TCGA-UCEC	29ea6c2b-7186-4bfb-979b-bc2b2b2e6449_atacseq_gdc_realn.bam

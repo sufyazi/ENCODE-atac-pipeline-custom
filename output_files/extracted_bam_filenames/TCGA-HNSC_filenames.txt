@@ -1,0 +1,4 @@
+DATASET_ID	FILE
+TCGA-HNSC	e466ebae-200b-481e-b3cc-975de0c3dfac_atacseq_gdc_realn.bam
+TCGA-HNSC	d5b6c344-e295-40cb-8020-0033855c3b23_atacseq_gdc_realn.bam
+TCGA-HNSC	1018e53a-1b68-455c-9a9e-f3d134980914_atacseq_gdc_realn.bam
