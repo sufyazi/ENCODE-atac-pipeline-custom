@@ -41,14 +41,12 @@ for dataset_id in dataset_ids:
         # read in the sample sheet
         df = pd.read_csv(os.path.join(input_dir, sample_sheet))
 
-        # add a new column with the dataset ID
-        df["DATASET_ID"] = dataset_id[1]
-
-        # subset only the column FILE and the new column DATASET_ID
-        df = df[["DATASET_ID", "FILE"]]
+        # subset only the column FILE
+        df = df["FILE"]
+        
         # write the dataframe to a new file
         output_file = dataset_id[1] + "_filenames.txt"
-        df.to_csv(os.path.join(output_dir, output_file), sep="\t", index=False)
+        df.to_csv(os.path.join(output_dir, output_file), sep="\t", index=False, header=False)
         
         print("Moving on to the next dataset...")
         

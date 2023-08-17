@@ -1,0 +1,16 @@
+25408a36-3d9e-45c6-b686-dda37ff4aff5_atacseq_gdc_realn.bam
+7fb14c97-3e2a-4e40-a76d-028ecc6476a6_atacseq_gdc_realn.bam
+41c8094c-6365-4b53-9d43-6b2f61ac7427_atacseq_gdc_realn.bam
+04d4d62a-1602-4d99-91ec-3a26239b40e6_atacseq_gdc_realn.bam
+9d94c609-0c2a-47c2-9ce5-3a05dd0dc87d_atacseq_gdc_realn.bam
+b47ecc02-8a99-4718-bd4f-411bb6a0bcda_atacseq_gdc_realn.bam
+3694ca87-eaa2-48cd-80e2-8790b514fd23_atacseq_gdc_realn.bam
+9c9cf401-ca1b-4aae-ad79-95548393cb24_atacseq_gdc_realn.bam
+b3ab9db2-746f-4eaf-a14e-0f0f952ebd0c_atacseq_gdc_realn.bam
+5ef5359e-63e7-4706-938c-52b6195ba97d_atacseq_gdc_realn.bam
+77db79df-0120-4d7d-be08-d12051d23fd2_atacseq_gdc_realn.bam
+0aab6a96-1e38-4edb-828a-9f445fe2146e_atacseq_gdc_realn.bam
+5f27926e-359c-4288-be8d-5db582c8d031_atacseq_gdc_realn.bam
+55f733a0-8f71-4e68-a25c-4573962637cf_atacseq_gdc_realn.bam
+d2416469-0357-4075-aa7e-4b1a3d5e61e5_atacseq_gdc_realn.bam
+76428b32-cdc5-47a1-b6a3-636f7eba6dd9_atacseq_gdc_realn.bam

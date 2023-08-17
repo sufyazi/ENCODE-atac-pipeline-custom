@@ -1,0 +1,8 @@
+6da8bbda-a758-4b61-9f85-3826e8c17f3f_atacseq_gdc_realn.bam
+1542be76-3746-4fbf-a127-64cf57f169d0_atacseq_gdc_realn.bam
+b6c10a44-978e-411d-980e-fe0313629450_atacseq_gdc_realn.bam
+1455b694-b3ee-4001-9615-6f7dcb4bea2a_atacseq_gdc_realn.bam
+9d10a8ae-6471-4ca9-adb1-9d7357c4aa83_atacseq_gdc_realn.bam
+93118853-bd84-4982-88fc-26bcc37385d8_atacseq_gdc_realn.bam
+01a439d2-f4ba-4c1f-9a13-4d8872058b08_atacseq_gdc_realn.bam
+6d1b49d0-8c80-4905-b9a4-d6f9f059deb3_atacseq_gdc_realn.bam

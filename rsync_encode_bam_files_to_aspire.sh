@@ -1,9 +1,11 @@
 #!/usr/bin/env bash
 
+################## ONLY RUN THIS SCRIPT ON THE SERVER WHERE THE SOURCE_DIR IS LOCATED ##################
+
 # Check if the correct number of arguments were provided
 if [[ "$#" -ne 3 ]]
 then
-  echo -e "Usage: $0 [--dry-run|--live-run] <filenames_txt_directory> <analysis_id_transfer_list.txt>"
+  echo -e "Usage: $0 [--dry-run|--live-run] <filenames_txt_directory> <dataset_id_to_import.txt>"
   exit 1
 fi
 
@@ -26,11 +28,11 @@ else
   echo -e "Running in live mode\n"
 fi
 
-# Set the directory where csv samplesheets are stored
+# Set the directory where filename text files are stored
 FILENAME_DIR="$2"
 
-# Process the analysis_id_transfer_list.txt file
-DATALIST="$3" 
+# Process the dataset_id_to_import.txt file
+IMPORT_LIST="$3"
 
 
 # Initialize counters
@@ -39,11 +41,35 @@ COUNTER_DIR=0
 # Loop through the data IDs in the file
 while read -r DATA_ID
 do
+    # find the text file matching the DATA_ID in its name
+    DATA_FILE=$(find "$FILENAME_DIR" -name "$DATA_ID*" -type f)
+
+    # check if DATA_FILE is empty
+    if [[ -z "$DATA_FILE" ]]; then
+        echo "No file found for $DATA_ID"
+        continue
+    else
+        echo "Found file $DATA_FILE"
+        # map the content of matched file to an array
+        mapfile -t DATA_ARRAY < "$DATA_FILE"
+        echo "Filenames in $DATA_FILE: " "${DATA_ARRAY[@]}"
+    fi
+     
+    # Loop through the filenames in the array and search for them in the SOURCE_DIR
+    for FILENAME in "${DATA_ARRAY[@]}"; do
+      BAM_PATH=$(find "$SOURCE_DIR" -name "$FILENAME" -type f)
+      if [[ -z "$BAM_PATH" ]]; then
+        echo "No file found for $FILENAME"
+        continue
+      else
+        echo "Found file $BAM_PATH"
+        FILE_BASENAME="${BAM_PATH%%.bam}"
+        echo "Finding the corresponding .bai file for $FILE_BASENAME"
+        BAI_PATH=$(find "$SOURCE_DIR" -name "$FILE_BASENAME.bai" -type f)
+      fi
+
   # Increment the counter
   ((COUNTER_DIR++))
-  
-  # Find subdirectories in the current subdirectory
-  mapfile -t SUBSUBDIR < <(find "$SOURCE_DIR/$SUBDIR" -maxdepth 1 -mindepth 1 -type d)
   
   # Loop through the subdirectories found in the current subdirectory
   for SAMPLE in "${SUBSUBDIR[@]}"
