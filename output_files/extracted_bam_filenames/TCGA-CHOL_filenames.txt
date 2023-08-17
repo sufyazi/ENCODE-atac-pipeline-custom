@@ -1,5 +1,0 @@
-DATASET_ID	FILE
-TCGA-CHOL	6c2feb54-c815-4b53-94d7-18893c5ee8ea_atacseq_gdc_realn.bam
-TCGA-CHOL	0521d084-2970-478a-864f-bfdd570a8c57_atacseq_gdc_realn.bam
-TCGA-CHOL	8734e059-2672-4b5c-b86b-874aa50f7b41_atacseq_gdc_realn.bam
-TCGA-CHOL	cc271327-0421-47cc-9af7-6a347760d60e_atacseq_gdc_realn.bam
