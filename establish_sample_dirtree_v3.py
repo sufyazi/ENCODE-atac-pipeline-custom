@@ -72,9 +72,9 @@ for i in dataset_id:
                 file = row[1]['FILE']
                 sample = row[1]['SAMPLE']
                 rep = row[1]['REP']
-                #get the path of the fasta files to move
+                #get the path of the fasta/bam files to move
                 file_path = find_file(dataset_dir, file)
-                print(file_path)
+                #print(file_path)
                 if file_path is None:
                     sys.stdout.write(f'Error: Could not find file {file} in {dataset_dir}')
                     continue

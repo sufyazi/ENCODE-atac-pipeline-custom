@@ -53,19 +53,22 @@ do
         mapfile -t DATA_ARRAY < "$DATA_FILE"
         echo "Filenames in $DATA_FILE: " "${DATA_ARRAY[@]}"
     fi
-     
+    
+    echo -e "\nSearching for files in $SOURCE_DIR...\n"
+
     # Loop through the filenames in the array and search for them in the SOURCE_DIR
     for FILENAME in "${DATA_ARRAY[@]}"; do
-      BAM_PATH=$(find "$SOURCE_DIR" -name "$FILENAME" -type f)
+      BAM_PATH=$(find "$SOURCE_DIR"/ -name "${FILENAME}" -type f)
       if [[ -z "$BAM_PATH" ]]; then
         echo "No file found for $FILENAME"
         continue
       else
         ((COUNTER++))
         echo "Found file $BAM_PATH" "[File number $COUNTER]"
-        FILE_BASENAME="${BAM_PATH%%.bam}"
-        echo "Finding the corresponding .bai file for $FILE_BASENAME"
-        BAI_PATH=$(find "$SOURCE_DIR" -name "$FILE_BASENAME.bai" -type f)
+        FILE_BASENAME=$(basename "${BAM_PATH%%.bam}")
+        BAI_NAME="${FILE_BASENAME}.bai"
+        echo "Finding the corresponding .bai file: ${BAI_NAME}"
+        BAI_PATH=$(find "$SOURCE_DIR"/ -name "${BAI_NAME}" -type f)
         # Check if the .bai file exists
         if [[ -n $BAI_PATH ]]; then
           echo "Found file $BAI_PATH"
@@ -73,10 +76,10 @@ do
           if [[ "$RUN" == "--dry-run" ]]
           then
             echo -e "Rsyncing $BAM_PATH and its index file to $REMOTE_SERVER... [DRY-RUN]\n"
-            rsync -aPvHXz --dry-run "$BAM_PATH" "$BAI_PATH" "${REMOTE_SERVER}":"${REMOTE_PATH}"/"$DATA_ID"/
+            rsync -aPvhXz --dry-run -e"ssh -i ~/.ssh/nscc_id_rsa" "$BAM_PATH" "$BAI_PATH" "${REMOTE_SERVER}":"${REMOTE_PATH}"/"$DATA_ID"/
           else
             echo -e "Rsyncing $BAM_PATH and its index file to $REMOTE_SERVER... [LIVE]\n"
-            rsync -aPvHXz "$BAM_PATH" "$BAI_PATH" "${REMOTE_SERVER}":"${REMOTE_PATH}"/"$DATA_ID"/
+            rsync -aPvhXz -e"ssh -i ~/.ssh/nscc_id_rsa" "$BAM_PATH" "$BAI_PATH" "${REMOTE_SERVER}":"${REMOTE_PATH}"/"$DATA_ID"/
           fi
         else
           echo "No .bai file found for $FILE_BASENAME"
@@ -84,10 +87,10 @@ do
           if [[ "$RUN" == "--dry-run" ]]
           then
             echo -e "Rsyncing $BAM_PATH without index file to $REMOTE_SERVER... [DRY-RUN]\n"
-            rsync -aPvHXz --dry-run "$BAM_PATH" "${REMOTE_SERVER}":"${REMOTE_PATH}"/"$DATA_ID"/
+            rsync -aPvhXz --dry-run -e"ssh -i ~/.ssh/nscc_id_rsa" "$BAM_PATH" "${REMOTE_SERVER}":"${REMOTE_PATH}"/"$DATA_ID"/
           else
             echo -e "Rsyncing $BAM_PATH without index file to $REMOTE_SERVER... [LIVE]\n"
-            rsync -aPvHXz "$BAM_PATH" "${REMOTE_SERVER}":"${REMOTE_PATH}"/"$DATA_ID"/
+            rsync -aPvhXz -e"ssh -i ~/.ssh/nscc_id_rsa" "$BAM_PATH" "${REMOTE_SERVER}":"${REMOTE_PATH}"/"$DATA_ID"/
           fi
         fi 
       fi
