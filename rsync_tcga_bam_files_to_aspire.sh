@@ -72,6 +72,8 @@ do
         # Check if the .bai file exists
         if [[ -n $BAI_PATH ]]; then
           echo "Found file $BAI_PATH"
+          eval "$(ssh-agent -s)"
+          ssh-add ~/.ssh/nscc_id_rsa
           # Check if the --dry-run option is provided
           if [[ "$RUN" == "--dry-run" ]]
           then
@@ -83,6 +85,8 @@ do
           fi
         else
           echo "No .bai file found for $FILE_BASENAME"
+          eval "$(ssh-agent -s)"
+          ssh-add ~/.ssh/nscc_id_rsa
           # Check if the --dry-run option is provided
           if [[ "$RUN" == "--dry-run" ]]
           then
