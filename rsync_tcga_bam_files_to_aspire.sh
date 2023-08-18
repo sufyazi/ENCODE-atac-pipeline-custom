@@ -76,10 +76,10 @@ do
           if [[ "$RUN" == "--dry-run" ]]
           then
             echo -e "Rsyncing $BAM_PATH and its index file to $REMOTE_SERVER... [DRY-RUN]\n"
-            rsync -aPvhXz --dry-run -e"ssh -i ~/.ssh/nscc_id_rsa" "$BAM_PATH" "$BAI_PATH" "${REMOTE_SERVER}":"${REMOTE_PATH}"/"$DATA_ID"/
+            rsync -aPvhXz --dry-run "$BAM_PATH" "$BAI_PATH" "${REMOTE_SERVER}":"${REMOTE_PATH}"/"$DATA_ID"/
           else
             echo -e "Rsyncing $BAM_PATH and its index file to $REMOTE_SERVER... [LIVE]\n"
-            rsync -aPvhXz -e"ssh -i ~/.ssh/nscc_id_rsa" "$BAM_PATH" "$BAI_PATH" "${REMOTE_SERVER}":"${REMOTE_PATH}"/"$DATA_ID"/
+            rsync -aPvhXz "$BAM_PATH" "$BAI_PATH" "${REMOTE_SERVER}":"${REMOTE_PATH}"/"$DATA_ID"/
           fi
         else
           echo "No .bai file found for $FILE_BASENAME"
@@ -87,10 +87,10 @@ do
           if [[ "$RUN" == "--dry-run" ]]
           then
             echo -e "Rsyncing $BAM_PATH without index file to $REMOTE_SERVER... [DRY-RUN]\n"
-            rsync -aPvhXz --dry-run -e"ssh -i ~/.ssh/nscc_id_rsa" "$BAM_PATH" "${REMOTE_SERVER}":"${REMOTE_PATH}"/"$DATA_ID"/
+            rsync -aPvhXz --dry-run "$BAM_PATH" "${REMOTE_SERVER}":"${REMOTE_PATH}"/"$DATA_ID"/
           else
             echo -e "Rsyncing $BAM_PATH without index file to $REMOTE_SERVER... [LIVE]\n"
-            rsync -aPvhXz -e"ssh -i ~/.ssh/nscc_id_rsa" "$BAM_PATH" "${REMOTE_SERVER}":"${REMOTE_PATH}"/"$DATA_ID"/
+            rsync -aPvhXz "$BAM_PATH" "${REMOTE_SERVER}":"${REMOTE_PATH}"/"$DATA_ID"/
           fi
         fi 
       fi
