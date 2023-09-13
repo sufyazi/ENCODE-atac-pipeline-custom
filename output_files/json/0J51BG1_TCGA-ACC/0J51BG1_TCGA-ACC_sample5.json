@@ -1,0 +1,14 @@
+{
+    "atac.title": "0J51BG1_TCGA-ACC",
+    "atac.description": "0J51BG1_TCGA-ACC tcga atac-seq",
+    "atac.pipeline_type": "atac",
+    "atac.align_only": false,
+    "atac.true_rep_only": false,
+    "atac.genome_tsv": "https://storage.googleapis.com/encode-pipeline-genome-data/genome_tsv/v4/hg38.tsv",
+    "atac.paired_end": true,
+    "atac.auto_detect_adapter": true,
+    "atac.align_cpu": 32,
+    "atac.bams": [
+        "/home/users/ntu/suffiazi/scratch/inputs/atac-seq-pipeline-raw-input/TCGA-ACC/sample_5/rep_0/c4b37610-da95-42f8-914b-3f2b665370ab_atacseq_gdc_realn.bam"
+    ]
+}

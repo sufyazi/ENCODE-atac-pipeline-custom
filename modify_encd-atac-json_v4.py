@@ -153,7 +153,7 @@ def modify_atacseq_json():
     
     # Loop over all subdirectories in the working directory and check if the name is in the correct format
     if len(wd) != sample_number:
-        print(f"Error: The number of sample directories in {working_directory} does not match the number of samples specified by the --sample-number parameter. Aborting...")
+        print(f"Error: The number of sample directories in {working_directory} does not match the number of samples in the CSV sheet provided. Aborting process...please check the source CSV file.")
         sys.exit(1)    
 
 ### Main actions ############################################################
