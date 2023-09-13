@@ -7,7 +7,7 @@
     "atac.genome_tsv": "https://storage.googleapis.com/encode-pipeline-genome-data/genome_tsv/v4/hg38.tsv",
     "atac.paired_end": true,
     "atac.auto_detect_adapter": true,
-    "atac.align_cpu": 32,
+    "atac.align_cpu": 24,
     "atac.bams": [
         "/home/users/ntu/suffiazi/scratch/inputs/atac-seq-pipeline-raw-input/TCGA-ACC/sample_8/rep_0/ffb8a92c-4f13-4b72-abee-d6f5c5d8f66f_atacseq_gdc_realn.bam"
     ]
