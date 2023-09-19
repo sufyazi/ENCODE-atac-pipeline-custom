@@ -1,0 +1,14 @@
+{
+    "atac.title": "X4RG73R_TCGA-LIHC",
+    "atac.description": "X4RG73R_TCGA-LIHC tcga atac-seq",
+    "atac.pipeline_type": "atac",
+    "atac.align_only": false,
+    "atac.true_rep_only": false,
+    "atac.genome_tsv": "https://storage.googleapis.com/encode-pipeline-genome-data/genome_tsv/v4/hg38.tsv",
+    "atac.paired_end": true,
+    "atac.auto_detect_adapter": true,
+    "atac.align_cpu": 24,
+    "atac.bams": [
+        "/home/users/ntu/suffiazi/scratch/inputs/atac-seq-pipeline-raw-input/TCGA-LIHC/sample_8/rep_0/fa47df40-1616-454f-a926-29a0b3be68a1_atacseq_gdc_realn.bam"
+    ]
+}
