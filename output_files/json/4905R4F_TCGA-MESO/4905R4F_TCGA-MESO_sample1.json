@@ -1,0 +1,14 @@
+{
+    "atac.title": "4905R4F_TCGA-MESO",
+    "atac.description": "4905R4F_TCGA-MESO tcga atac-seq",
+    "atac.pipeline_type": "atac",
+    "atac.align_only": false,
+    "atac.true_rep_only": false,
+    "atac.genome_tsv": "https://storage.googleapis.com/encode-pipeline-genome-data/genome_tsv/v4/hg38.tsv",
+    "atac.paired_end": true,
+    "atac.auto_detect_adapter": true,
+    "atac.align_cpu": 16,
+    "atac.bams": [
+        "/home/suffi.azizan/scratchspace/inputs/fastq/tcga-atac/TCGA-MESO/sample_1/rep_0/05853051-b649-4104-a067-464d1adb8dc0_atacseq_gdc_realn.bam"
+    ]
+}

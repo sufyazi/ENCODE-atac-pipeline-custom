@@ -12,7 +12,7 @@ module load jdk/11.0.12
 module load graphviz/5.0.1
 
 # Set the number of jobs to submit at a time; this number should be unchanged for now so I will hardcode it
-declare -i MAX_JOBS=5
+declare -i MAX_JOBS=2
 
 # Assign the arguments to variables
 analysis_id=$1
