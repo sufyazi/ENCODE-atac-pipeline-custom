@@ -4,8 +4,6 @@ set -eo noclobber
 set -eo pipefail
 
 # Clean up module environment and set up job-specific environment
-module purge
-module load singularity
 
 # Set the number of jobs to submit at a time; this number should be unchanged for now so I will hardcode it
 declare -i MAX_JOBS=5

@@ -11,6 +11,7 @@ module purge
 # module load jdk/11.0.12
 # module load graphviz/5.0.1
 module load singularity
+module load java/11.0.15-openjdk
 module load miniconda3/py38_4.8.3
 
 conda activate /home/users/ntu/suffiazi/apps/mambaforge/envs/xonsh-cli
