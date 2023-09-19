@@ -4,7 +4,6 @@ set -eo noclobber
 set -eo pipefail
 
 # Clean up module environment and set up job-specific environment
-module purge
 # eval "$(conda shell.bash hook)"
 # conda activate encd-atac
 
@@ -14,8 +13,6 @@ module load singularity
 module load java/11.0.15-openjdk
 module load miniconda3/py38_4.8.3
 
-conda activate /home/users/ntu/suffiazi/apps/mambaforge/envs/xonsh-cli
-
 # Check if the correct number of arguments were provided
 if [[ $# -ne 5 ]]; then
     echo "Usage: encd-atac-pl_submitter-v3.sh <analysis_id> <dataset_json_directory_abs_path> <pipeline_raw_output_root_dir_abs_path> <croo_output_root_dir_abs_path> <counter>"
@@ -24,7 +21,7 @@ if [[ $# -ne 5 ]]; then
 fi
 
 # Set the number of jobs to submit at a time; this number should be unchanged for now so I will hardcode it
-declare -i MAX_JOBS=5
+declare -i MAX_JOBS=10
 
 # # Set the cluster queue to use (-r: read-only)
 # declare -r CLUSTER_QUEUE="q128"
