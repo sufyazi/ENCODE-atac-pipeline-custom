@@ -1,2 +1,158 @@
 /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/encd-atac-pl_watcher-v3-ASPIRE.sh: line 7: module: command not found
 /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/encd-atac-pl_watcher-v3-ASPIRE.sh: line 7: module: command not found
+Max sample count has been reached. Checking to see if all jobs have finished...
+Number of metadata.json files indicating finished jobs: 5
+The current batch of submitted jobs are still running. Will check again in 1 hour.
+Number of metadata.json files indicating finished jobs: 5
+warning: commands will be executed using /bin/sh
+job 7 at Tue Sep 19 12:28:00 2023
+Max sample count has been reached. Checking to see if all jobs have finished...
+Number of metadata.json files indicating finished jobs: 5
+The current batch of submitted jobs are still running. Will check again in 1 hour.
+Number of metadata.json files indicating finished jobs: 5
+warning: commands will be executed using /bin/sh
+job 8 at Tue Sep 19 13:28:00 2023
+Max sample count has been reached. Checking to see if all jobs have finished...
+Number of metadata.json files indicating finished jobs: 5
+The current batch of submitted jobs are still running. Will check again in 1 hour.
+Number of metadata.json files indicating finished jobs: 5
+warning: commands will be executed using /bin/sh
+job 9 at Tue Sep 19 14:28:00 2023
+Max sample count has been reached. Checking to see if all jobs have finished...
+Number of metadata.json files indicating finished jobs: 5
+The current batch of submitted jobs are still running. Will check again in 1 hour.
+Number of metadata.json files indicating finished jobs: 5
+warning: commands will be executed using /bin/sh
+job 10 at Tue Sep 19 15:28:00 2023
+Max sample count has been reached. Checking to see if all jobs have finished...
+Number of metadata.json files indicating finished jobs: 5
+The current batch of submitted jobs are still running. Will check again in 1 hour.
+Number of metadata.json files indicating finished jobs: 5
+warning: commands will be executed using /bin/sh
+job 11 at Tue Sep 19 16:28:00 2023
+Max sample count has been reached. Checking to see if all jobs have finished...
+Number of metadata.json files indicating finished jobs: 6
+The current batch of submitted jobs are still running. Will check again in 1 hour.
+Number of metadata.json files indicating finished jobs: 6
+warning: commands will be executed using /bin/sh
+job 12 at Tue Sep 19 17:28:00 2023
+Max sample count has been reached. Checking to see if all jobs have finished...
+Number of metadata.json files indicating finished jobs: 7
+The current batch of submitted jobs are still running. Will check again in 1 hour.
+Number of metadata.json files indicating finished jobs: 7
+warning: commands will be executed using /bin/sh
+job 13 at Tue Sep 19 18:28:00 2023
+Max sample count has been reached. Checking to see if all jobs have finished...
+Number of metadata.json files indicating finished jobs: 9
+Something is wrong with the current pipeline jobs...
+Listing successful jobs...
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/0J51BG1/0J51BG1_sample4/atac/939a969f-be43-449c-8d49-7cb83141201c/metadata.json
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/0J51BG1/0J51BG1_sample7/atac/84f0cf5b-5aa2-4be5-9758-2e755032e618/metadata.json
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/0J51BG1/0J51BG1_sample5/atac/b9a92671-96d9-4755-9601-09d1c0b57f2a/metadata.json
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/0J51BG1/0J51BG1_sample3/atac/fc464ff6-821e-426f-925a-2cf8d84a4a78/metadata.json
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/0J51BG1/0J51BG1_sample6/atac/92e4e18e-3564-48aa-948f-93e0aece1972/metadata.json
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/0J51BG1/0J51BG1_sample2/atac/a497693f-b9d3-4ffa-badb-026b8adc30e4/metadata.json
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/0J51BG1/0J51BG1_sample8/atac/7582abdd-dc41-47bf-bf13-5582a7bba33b/metadata.json
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/0J51BG1/0J51BG1_sample9/atac/1a51b84d-aca3-4a94-ab62-ef88264f03e4/metadata.json
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/0J51BG1/0J51BG1_sample1/atac/0e49fb75-f3d8-409d-a8a1-8780d0cc5403/metadata.json
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/0J51BG1/0J51BG1_sample1/atac/0e49fb75-f3d8-409d-a8a1-8780d0cc5403/metadata.json
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/0J51BG1/0J51BG1_sample2/atac/a497693f-b9d3-4ffa-badb-026b8adc30e4/metadata.json
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/0J51BG1/0J51BG1_sample3/atac/fc464ff6-821e-426f-925a-2cf8d84a4a78/metadata.json
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/0J51BG1/0J51BG1_sample4/atac/939a969f-be43-449c-8d49-7cb83141201c/metadata.json
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/0J51BG1/0J51BG1_sample5/atac/b9a92671-96d9-4755-9601-09d1c0b57f2a/metadata.json
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/0J51BG1/0J51BG1_sample6/atac/92e4e18e-3564-48aa-948f-93e0aece1972/metadata.json
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/0J51BG1/0J51BG1_sample7/atac/84f0cf5b-5aa2-4be5-9758-2e755032e618/metadata.json
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/0J51BG1/0J51BG1_sample8/atac/7582abdd-dc41-47bf-bf13-5582a7bba33b/metadata.json
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/0J51BG1/0J51BG1_sample9/atac/1a51b84d-aca3-4a94-ab62-ef88264f03e4/metadata.json
+Block 4 watcher script
+Proceeding with croo post-processing script...
+/home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/croo_processing_module-ASPIRE.sh: line 3: module: command not found
+usage: conda [-h] [--no-plugins] [-V] COMMAND ...
+conda: error: argument COMMAND: invalid choice: 'activate' (choose from 'clean', 'compare', 'config', 'create', 'info', 'init', 'install', 'list', 'notices', 'package', 'remove', 'uninstall', 'rename', 'run', 'search', 'update', 'upgrade', 'doctor', 'env')
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/0J51BG1/0J51BG1_sample4/atac/939a969f-be43-449c-8d49-7cb83141201c/metadata.json
+Sample name: 0J51BG1_sample4
+Warning: darkgrey is not a known color.
+2023-09-19 18:28:39,573|autouri.autouri|INFO| cp: (b6c1a56b) started. src=/tmp/tmpbuhzpz_v/croo.report.939a969f-be43-449c-8d49-7cb83141201c.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/0J51BG1/0J51BG1_sample4/croo.report.939a969f-be43-449c-8d49-7cb83141201c.html
+2023-09-19 18:28:39,581|autouri.autouri|INFO| cp: (b6c1a56b) done.
+Croo completed successfully on sample 0J51BG1_sample4.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/0J51BG1/0J51BG1_sample7/atac/88c4ac1f-0669-477a-bd50-b888c7b8c015/metadata.json
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/0J51BG1/0J51BG1_sample7/atac/84f0cf5b-5aa2-4be5-9758-2e755032e618/metadata.json
+Sample name: 0J51BG1_sample7
+Traceback (most recent call last):
+  File "/home/users/ntu/suffiazi/apps/mambaforge/bin/croo", line 13, in <module>
+    main()
+  File "/home/users/ntu/suffiazi/apps/mambaforge/lib/python3.10/site-packages/croo/cli.py", line 229, in main
+    co = Croo(
+  File "/home/users/ntu/suffiazi/apps/mambaforge/lib/python3.10/site-packages/croo/croo.py", line 56, in __init__
+    with open(f, 'r') as fp:
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/0J51BG1/0J51BG1_sample7/atac/88c4ac1f-0669-477a-bd50-b888c7b8c015/metadata.json\n/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/0J51BG1/0J51BG1_sample7/atac/84f0cf5b-5aa2-4be5-9758-2e755032e618/metadata.json'
+Croo simply failed on 0J51BG1_sample7 for some reason.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/0J51BG1/0J51BG1_sample5/atac/b9a92671-96d9-4755-9601-09d1c0b57f2a/metadata.json
+Sample name: 0J51BG1_sample5
+Warning: darkgrey is not a known color.
+2023-09-19 18:28:45,122|autouri.autouri|INFO| cp: (2bc2f2af) started. src=/tmp/tmpnunf4uv_/croo.report.b9a92671-96d9-4755-9601-09d1c0b57f2a.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/0J51BG1/0J51BG1_sample5/croo.report.b9a92671-96d9-4755-9601-09d1c0b57f2a.html
+2023-09-19 18:28:45,125|autouri.autouri|INFO| cp: (2bc2f2af) done.
+Croo completed successfully on sample 0J51BG1_sample5.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/0J51BG1/0J51BG1_sample3/atac/fc464ff6-821e-426f-925a-2cf8d84a4a78/metadata.json
+Sample name: 0J51BG1_sample3
+Warning: darkgrey is not a known color.
+2023-09-19 18:28:48,500|autouri.autouri|INFO| cp: (6f97e403) started. src=/tmp/tmpd6cpw7s6/croo.report.fc464ff6-821e-426f-925a-2cf8d84a4a78.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/0J51BG1/0J51BG1_sample3/croo.report.fc464ff6-821e-426f-925a-2cf8d84a4a78.html
+2023-09-19 18:28:48,507|autouri.autouri|INFO| cp: (6f97e403) done.
+Croo completed successfully on sample 0J51BG1_sample3.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/0J51BG1/0J51BG1_sample6/atac/3c0704b7-9dbf-4111-8f0c-8443e36c1810/metadata.json
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/0J51BG1/0J51BG1_sample6/atac/92e4e18e-3564-48aa-948f-93e0aece1972/metadata.json
+Sample name: 0J51BG1_sample6
+Traceback (most recent call last):
+  File "/home/users/ntu/suffiazi/apps/mambaforge/bin/croo", line 13, in <module>
+    main()
+  File "/home/users/ntu/suffiazi/apps/mambaforge/lib/python3.10/site-packages/croo/cli.py", line 229, in main
+    co = Croo(
+  File "/home/users/ntu/suffiazi/apps/mambaforge/lib/python3.10/site-packages/croo/croo.py", line 56, in __init__
+    with open(f, 'r') as fp:
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/0J51BG1/0J51BG1_sample6/atac/3c0704b7-9dbf-4111-8f0c-8443e36c1810/metadata.json\n/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/0J51BG1/0J51BG1_sample6/atac/92e4e18e-3564-48aa-948f-93e0aece1972/metadata.json'
+Croo simply failed on 0J51BG1_sample6 for some reason.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/0J51BG1/0J51BG1_sample2/atac/edc68bea-c059-4c90-b7ff-764c76203e88/metadata.json
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/0J51BG1/0J51BG1_sample2/atac/a497693f-b9d3-4ffa-badb-026b8adc30e4/metadata.json
+Sample name: 0J51BG1_sample2
+Traceback (most recent call last):
+  File "/home/users/ntu/suffiazi/apps/mambaforge/bin/croo", line 13, in <module>
+    main()
+  File "/home/users/ntu/suffiazi/apps/mambaforge/lib/python3.10/site-packages/croo/cli.py", line 229, in main
+    co = Croo(
+  File "/home/users/ntu/suffiazi/apps/mambaforge/lib/python3.10/site-packages/croo/croo.py", line 56, in __init__
+    with open(f, 'r') as fp:
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/0J51BG1/0J51BG1_sample2/atac/edc68bea-c059-4c90-b7ff-764c76203e88/metadata.json\n/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/0J51BG1/0J51BG1_sample2/atac/a497693f-b9d3-4ffa-badb-026b8adc30e4/metadata.json'
+Croo simply failed on 0J51BG1_sample2 for some reason.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/0J51BG1/0J51BG1_sample8/atac/7582abdd-dc41-47bf-bf13-5582a7bba33b/metadata.json
+Sample name: 0J51BG1_sample8
+Warning: darkgrey is not a known color.
+2023-09-19 18:28:56,048|autouri.autouri|INFO| cp: (864a2b59) started. src=/tmp/tmpcxelgc2o/croo.report.7582abdd-dc41-47bf-bf13-5582a7bba33b.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/0J51BG1/0J51BG1_sample8/croo.report.7582abdd-dc41-47bf-bf13-5582a7bba33b.html
+2023-09-19 18:28:56,053|autouri.autouri|INFO| cp: (864a2b59) done.
+Croo completed successfully on sample 0J51BG1_sample8.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/0J51BG1/0J51BG1_sample9/atac/1a51b84d-aca3-4a94-ab62-ef88264f03e4/metadata.json
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/0J51BG1/0J51BG1_sample9/atac/7bfa7f33-3ee2-401e-9f75-95a3f047a663/metadata.json
+Sample name: 0J51BG1_sample9
+Traceback (most recent call last):
+  File "/home/users/ntu/suffiazi/apps/mambaforge/bin/croo", line 13, in <module>
+    main()
+  File "/home/users/ntu/suffiazi/apps/mambaforge/lib/python3.10/site-packages/croo/cli.py", line 229, in main
+    co = Croo(
+  File "/home/users/ntu/suffiazi/apps/mambaforge/lib/python3.10/site-packages/croo/croo.py", line 56, in __init__
+    with open(f, 'r') as fp:
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/0J51BG1/0J51BG1_sample9/atac/1a51b84d-aca3-4a94-ab62-ef88264f03e4/metadata.json\n/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/0J51BG1/0J51BG1_sample9/atac/7bfa7f33-3ee2-401e-9f75-95a3f047a663/metadata.json'
+Croo simply failed on 0J51BG1_sample9 for some reason.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/0J51BG1/0J51BG1_sample1/atac/5adb0f9d-3221-4d69-97c1-22473ad3d6c3/metadata.json
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/0J51BG1/0J51BG1_sample1/atac/0e49fb75-f3d8-409d-a8a1-8780d0cc5403/metadata.json
+Sample name: 0J51BG1_sample1
+Traceback (most recent call last):
+  File "/home/users/ntu/suffiazi/apps/mambaforge/bin/croo", line 13, in <module>
+    main()
+  File "/home/users/ntu/suffiazi/apps/mambaforge/lib/python3.10/site-packages/croo/cli.py", line 229, in main
+    co = Croo(
+  File "/home/users/ntu/suffiazi/apps/mambaforge/lib/python3.10/site-packages/croo/croo.py", line 56, in __init__
+    with open(f, 'r') as fp:
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/0J51BG1/0J51BG1_sample1/atac/5adb0f9d-3221-4d69-97c1-22473ad3d6c3/metadata.json\n/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/0J51BG1/0J51BG1_sample1/atac/0e49fb75-f3d8-409d-a8a1-8780d0cc5403/metadata.json'
+Croo simply failed on 0J51BG1_sample1 for some reason.
+CROO_ERROR-on-0J51BG1_sample7 CROO_ERROR-on-0J51BG1_sample6 CROO_ERROR-on-0J51BG1_sample2 CROO_ERROR-on-0J51BG1_sample9 CROO_ERROR-on-0J51BG1_sample1
+Croo post-processing script failed for this batch of jobs. Please check the log file for more details.
+No jobs are running now. Exiting watcher script...

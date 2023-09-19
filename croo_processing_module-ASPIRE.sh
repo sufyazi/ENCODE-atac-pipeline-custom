@@ -1,9 +1,5 @@
 #!/usr/bin/env bash
 
-module load miniconda3/py38_4.8.3
-
-conda activate /home/users/ntu/suffiazi/apps/mambaforge/envs/xonsh-cli
-
 # set variables
 analysis_id="$1"
 caper_dataset_dir="$2"
