@@ -809,3 +809,7 @@ Current count is 6
 Current sample count is 6
 job 17064 at Wed Sep 20 15:44:00 2023
 Watcher script has been scheduled to run in 1 hour.
+WARNING: LD_LIBRARY_PATH_modshare exists ( /usr/local/graphviz-5.0.1/lib:1:/usr/local/jdk-11.0.12/lib:1 ), but LD_LIBRARY_PATH doesn't. Environment is corrupted.
+Max sample count has not been reached. Proceeding...
+None of the currently running jobs has finished. Will check again in 1 hour.
+job 17065 at Wed Sep 20 16:44:00 2023
