@@ -133,7 +133,7 @@ EOF
         echo "Submitted job number ${sample_count}: ${json} in outer elif block."
         echo "All samples have been submitted for processing."
         echo "Current count is ${counter}"
-        echo "Current sample count is ${sample_count}"
+        echo "Max sample count is ${json_files_len}"
         at now + 1 hour <<EOF
 /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/encd-atac-pl_watcher-v3-ASPIRE.sh "${analysis_id}" "${dataset_json_dir}" "${pl_raw_output_root_dir}" "${croo_output_root_dir}" "${counter}" "${json_files_len}" >> "/home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/logs/encd-atac-pl_watcher_${analysis_id}.log" 2>&1
 EOF
