@@ -175,3 +175,49 @@ No jobs are running now. Exiting watcher script...
 
 _________
 
+
+
+Dataset json directory exists. Proceeding...
+Dataset-specific output directory exists. Proceeding...
+Number of json files in the target directory: 17
+Sample ID: sample6
+Local output directory: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample6
+2023-09-20 12:06:23,087|caper.hpc|INFO| Running shell command: qsub -P 12003580 -l select=1:ncpus=4:mpiprocs=4:mem=200GB -l walltime=20:00:00 -V -N CAPER_X4RG73R_sample6 /home/users/ntu/suffiazi/fh6yhf34.sh
+2929592.pbs101
+Submitted job number 11: /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/json/X4RG73R_TCGA-LIHC/X4RG73R_TCGA-LIHC_sample6.json in elif-block 1
+Sample ID: sample1
+Local output directory: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample1
+2023-09-20 12:06:26,148|caper.hpc|INFO| Running shell command: qsub -P 12003580 -l select=1:ncpus=4:mpiprocs=4:mem=200GB -l walltime=20:00:00 -V -N CAPER_X4RG73R_sample1 /home/users/ntu/suffiazi/njujasrl.sh
+2929593.pbs101
+Submitted job number 12: /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/json/X4RG73R_TCGA-LIHC/X4RG73R_TCGA-LIHC_sample1.json in elif-block 1
+Sample ID: sample3
+Local output directory: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample3
+2023-09-20 12:06:29,710|caper.hpc|INFO| Running shell command: qsub -P 12003580 -l select=1:ncpus=4:mpiprocs=4:mem=200GB -l walltime=20:00:00 -V -N CAPER_X4RG73R_sample3 /home/users/ntu/suffiazi/cxx7lvrl.sh
+2929594.pbs101
+Submitted job number 13: /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/json/X4RG73R_TCGA-LIHC/X4RG73R_TCGA-LIHC_sample3.json in elif-block 1
+Sample ID: sample7
+Local output directory: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample7
+2023-09-20 12:06:32,732|caper.hpc|INFO| Running shell command: qsub -P 12003580 -l select=1:ncpus=4:mpiprocs=4:mem=200GB -l walltime=20:00:00 -V -N CAPER_X4RG73R_sample7 /home/users/ntu/suffiazi/rdslwua8.sh
+2929595.pbs101
+Submitted job number 14: /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/json/X4RG73R_TCGA-LIHC/X4RG73R_TCGA-LIHC_sample7.json in elif-block 1
+Sample ID: sample10
+Local output directory: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample10
+2023-09-20 12:06:35,882|caper.hpc|INFO| Running shell command: qsub -P 12003580 -l select=1:ncpus=4:mpiprocs=4:mem=200GB -l walltime=20:00:00 -V -N CAPER_X4RG73R_sample10 /home/users/ntu/suffiazi/9r2qrnty.sh
+2929596.pbs101
+Submitted job number 15: /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/json/X4RG73R_TCGA-LIHC/X4RG73R_TCGA-LIHC_sample10.json in elif-block 1
+Sample ID: sample11
+Local output directory: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample11
+2023-09-20 12:06:39,145|caper.hpc|INFO| Running shell command: qsub -P 12003580 -l select=1:ncpus=4:mpiprocs=4:mem=200GB -l walltime=20:00:00 -V -N CAPER_X4RG73R_sample11 /home/users/ntu/suffiazi/cnpxiyrs.sh
+2929597.pbs101
+Submitted job number 16: /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/json/X4RG73R_TCGA-LIHC/X4RG73R_TCGA-LIHC_sample11.json in elif-block 1
+Sample ID: sample17
+Local output directory: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample17
+2023-09-20 12:06:42,887|caper.hpc|INFO| Running shell command: qsub -P 12003580 -l select=1:ncpus=4:mpiprocs=4:mem=200GB -l walltime=20:00:00 -V -N CAPER_X4RG73R_sample17 /home/users/ntu/suffiazi/61gc1zyh.sh
+2929598.pbs101
+Submitted job number 17: /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/json/X4RG73R_TCGA-LIHC/X4RG73R_TCGA-LIHC_sample17.json in outer elif block.
+All samples have been submitted for processing.
+Current count is 17
+Current sample count is 17
+warning: commands will be executed using /bin/sh
+job 14 at Wed Sep 20 13:06:00 2023
+Watcher script has been scheduled to run in 1 hour.
