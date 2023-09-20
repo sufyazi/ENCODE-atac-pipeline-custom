@@ -1,0 +1,177 @@
+Max sample count has not been reached. Proceeding...
+None of the currently running jobs has finished. Will check again in 1 hour.
+warning: commands will be executed using /bin/sh
+job 2 at Tue Sep 19 21:29:00 2023
+Max sample count has not been reached. Proceeding...
+None of the currently running jobs has finished. Will check again in 1 hour.
+warning: commands will be executed using /bin/sh
+job 3 at Tue Sep 19 22:29:00 2023
+Max sample count has not been reached. Proceeding...
+None of the currently running jobs has finished. Will check again in 1 hour.
+warning: commands will be executed using /bin/sh
+job 4 at Tue Sep 19 23:29:00 2023
+Max sample count has not been reached. Proceeding...
+None of the currently running jobs has finished. Will check again in 1 hour.
+warning: commands will be executed using /bin/sh
+job 5 at Wed Sep 20 00:29:00 2023
+Max sample count has not been reached. Proceeding...
+Number of metadata.json files indicating finished jobs: 1
+The current batch of submitted jobs are still running. Will check again in 1 hour.
+Number of metadata.json files indicating finished jobs: 1
+warning: commands will be executed using /bin/sh
+job 6 at Wed Sep 20 01:29:00 2023
+Max sample count has not been reached. Proceeding...
+Number of metadata.json files indicating finished jobs: 4
+The current batch of submitted jobs are still running. Will check again in 1 hour.
+Number of metadata.json files indicating finished jobs: 4
+warning: commands will be executed using /bin/sh
+job 7 at Wed Sep 20 02:29:00 2023
+Max sample count has not been reached. Proceeding...
+Number of metadata.json files indicating finished jobs: 5
+The current batch of submitted jobs are still running. Will check again in 1 hour.
+Number of metadata.json files indicating finished jobs: 5
+warning: commands will be executed using /bin/sh
+job 8 at Wed Sep 20 03:29:00 2023
+Max sample count has not been reached. Proceeding...
+Number of metadata.json files indicating finished jobs: 7
+The current batch of submitted jobs are still running. Will check again in 1 hour.
+Number of metadata.json files indicating finished jobs: 7
+warning: commands will be executed using /bin/sh
+job 9 at Wed Sep 20 04:29:00 2023
+Max sample count has not been reached. Proceeding...
+Number of metadata.json files indicating finished jobs: 7
+The current batch of submitted jobs are still running. Will check again in 1 hour.
+Number of metadata.json files indicating finished jobs: 7
+warning: commands will be executed using /bin/sh
+job 10 at Wed Sep 20 05:29:00 2023
+Max sample count has not been reached. Proceeding...
+Number of metadata.json files indicating finished jobs: 8
+The current batch of submitted jobs are still running. Will check again in 1 hour.
+Number of metadata.json files indicating finished jobs: 8
+warning: commands will be executed using /bin/sh
+job 11 at Wed Sep 20 06:29:00 2023
+Max sample count has not been reached. Proceeding...
+Number of metadata.json files indicating finished jobs: 8
+The current batch of submitted jobs are still running. Will check again in 1 hour.
+Number of metadata.json files indicating finished jobs: 8
+warning: commands will be executed using /bin/sh
+job 12 at Wed Sep 20 07:29:00 2023
+Max sample count has not been reached. Proceeding...
+Number of metadata.json files indicating finished jobs: 9
+The current batch of submitted jobs are still running. Will check again in 1 hour.
+Number of metadata.json files indicating finished jobs: 9
+warning: commands will be executed using /bin/sh
+job 13 at Wed Sep 20 08:29:00 2023
+Max sample count has not been reached. Proceeding...
+Number of metadata.json files indicating finished jobs: 9
+The current batch of submitted jobs are still running. Will check again in 1 hour.
+Number of metadata.json files indicating finished jobs: 9
+warning: commands will be executed using /bin/sh
+job 14 at Wed Sep 20 09:29:00 2023
+Max sample count has not been reached. Proceeding...
+Number of metadata.json files indicating finished jobs: 9
+The current batch of submitted jobs are still running. Will check again in 1 hour.
+Number of metadata.json files indicating finished jobs: 9
+warning: commands will be executed using /bin/sh
+job 15 at Wed Sep 20 10:29:00 2023
+Max sample count has not been reached. Proceeding...
+Number of metadata.json files indicating finished jobs: 9
+The current batch of submitted jobs are still running. Will check again in 1 hour.
+Number of metadata.json files indicating finished jobs: 9
+warning: commands will be executed using /bin/sh
+job 16 at Wed Sep 20 11:29:00 2023
+Max sample count has not been reached. Proceeding...
+Number of metadata.json files indicating finished jobs: 9
+Something is wrong with the current pipeline jobs...
+Listing successful jobs...
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample8/atac/34423a9e-090f-43be-a1c0-d67721686cda/metadata.json
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample12/atac/a35a5543-d4b7-4bbc-b328-bcf9930872ee/metadata.json
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample5/atac/6db54b4f-f131-4ea7-bb19-cc257629a2be/metadata.json
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample15/atac/c76524dc-031e-4904-81ad-d84426f887f8/metadata.json
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample2/atac/a670cb69-dd9e-431a-b086-ad349933f695/metadata.json
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample13/atac/1956f3cd-51d2-437c-a1ac-b33330376b39/metadata.json
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample4/atac/85a8ea50-4b07-442f-bc25-8dc3b2f87d0f/metadata.json
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample9/atac/1a630fb6-3407-4b67-a2e5-e64fd67896dc/metadata.json
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample16/atac/a187a861-9297-44b0-96c7-49de136dd578/metadata.json
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample12/atac/a35a5543-d4b7-4bbc-b328-bcf9930872ee/metadata.json
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample13/atac/1956f3cd-51d2-437c-a1ac-b33330376b39/metadata.json
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample15/atac/c76524dc-031e-4904-81ad-d84426f887f8/metadata.json
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample16/atac/a187a861-9297-44b0-96c7-49de136dd578/metadata.json
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample2/atac/a670cb69-dd9e-431a-b086-ad349933f695/metadata.json
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample4/atac/85a8ea50-4b07-442f-bc25-8dc3b2f87d0f/metadata.json
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample5/atac/6db54b4f-f131-4ea7-bb19-cc257629a2be/metadata.json
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample8/atac/34423a9e-090f-43be-a1c0-d67721686cda/metadata.json
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample9/atac/1a630fb6-3407-4b67-a2e5-e64fd67896dc/metadata.json
+Block 2 watcher script
+Proceeding with croo post-processing script...
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample8/atac/34423a9e-090f-43be-a1c0-d67721686cda/metadata.json
+Sample name: X4RG73R_sample8
+Warning: darkgrey is not a known color.
+2023-09-20 11:29:28,884|autouri.autouri|INFO| cp: (c9fed7bf) started. src=/tmp/tmpihdjahhd/croo.report.34423a9e-090f-43be-a1c0-d67721686cda.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample8/croo.report.34423a9e-090f-43be-a1c0-d67721686cda.html
+2023-09-20 11:29:28,887|autouri.autouri|INFO| cp: (c9fed7bf) done.
+Croo completed successfully on sample X4RG73R_sample8.
+Metadata location: 
+Sample name: X4RG73R_sample14
+Traceback (most recent call last):
+  File "/home/users/ntu/suffiazi/apps/mambaforge/bin/croo", line 13, in <module>
+    main()
+  File "/home/users/ntu/suffiazi/apps/mambaforge/lib/python3.10/site-packages/croo/cli.py", line 229, in main
+    co = Croo(
+  File "/home/users/ntu/suffiazi/apps/mambaforge/lib/python3.10/site-packages/croo/croo.py", line 56, in __init__
+    with open(f, 'r') as fp:
+FileNotFoundError: [Errno 2] No such file or directory: ''
+Croo simply failed on X4RG73R_sample14 for some reason.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample12/atac/a35a5543-d4b7-4bbc-b328-bcf9930872ee/metadata.json
+Sample name: X4RG73R_sample12
+Warning: darkgrey is not a known color.
+2023-09-20 11:29:33,536|autouri.autouri|INFO| cp: (9fffb723) started. src=/tmp/tmpcze_m4s5/croo.report.a35a5543-d4b7-4bbc-b328-bcf9930872ee.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample12/croo.report.a35a5543-d4b7-4bbc-b328-bcf9930872ee.html
+2023-09-20 11:29:33,542|autouri.autouri|INFO| cp: (9fffb723) done.
+Croo completed successfully on sample X4RG73R_sample12.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample5/atac/6db54b4f-f131-4ea7-bb19-cc257629a2be/metadata.json
+Sample name: X4RG73R_sample5
+Warning: darkgrey is not a known color.
+2023-09-20 11:29:36,360|autouri.autouri|INFO| cp: (08cf814a) started. src=/tmp/tmpbu5g_8d3/croo.report.6db54b4f-f131-4ea7-bb19-cc257629a2be.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample5/croo.report.6db54b4f-f131-4ea7-bb19-cc257629a2be.html
+2023-09-20 11:29:36,364|autouri.autouri|INFO| cp: (08cf814a) done.
+Croo completed successfully on sample X4RG73R_sample5.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample15/atac/c76524dc-031e-4904-81ad-d84426f887f8/metadata.json
+Sample name: X4RG73R_sample15
+Warning: darkgrey is not a known color.
+2023-09-20 11:29:39,273|autouri.autouri|INFO| cp: (1b88c130) started. src=/tmp/tmp__5b64m6/croo.report.c76524dc-031e-4904-81ad-d84426f887f8.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample15/croo.report.c76524dc-031e-4904-81ad-d84426f887f8.html
+2023-09-20 11:29:39,277|autouri.autouri|INFO| cp: (1b88c130) done.
+Croo completed successfully on sample X4RG73R_sample15.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample2/atac/a670cb69-dd9e-431a-b086-ad349933f695/metadata.json
+Sample name: X4RG73R_sample2
+Warning: darkgrey is not a known color.
+2023-09-20 11:29:42,317|autouri.autouri|INFO| cp: (dab9c08e) started. src=/tmp/tmp44td8sp7/croo.report.a670cb69-dd9e-431a-b086-ad349933f695.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample2/croo.report.a670cb69-dd9e-431a-b086-ad349933f695.html
+2023-09-20 11:29:42,320|autouri.autouri|INFO| cp: (dab9c08e) done.
+Croo completed successfully on sample X4RG73R_sample2.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample13/atac/1956f3cd-51d2-437c-a1ac-b33330376b39/metadata.json
+Sample name: X4RG73R_sample13
+Warning: darkgrey is not a known color.
+2023-09-20 11:29:45,247|autouri.autouri|INFO| cp: (88359eaa) started. src=/tmp/tmplmmsiqra/croo.report.1956f3cd-51d2-437c-a1ac-b33330376b39.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample13/croo.report.1956f3cd-51d2-437c-a1ac-b33330376b39.html
+2023-09-20 11:29:45,250|autouri.autouri|INFO| cp: (88359eaa) done.
+Croo completed successfully on sample X4RG73R_sample13.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample4/atac/85a8ea50-4b07-442f-bc25-8dc3b2f87d0f/metadata.json
+Sample name: X4RG73R_sample4
+Warning: darkgrey is not a known color.
+2023-09-20 11:29:48,258|autouri.autouri|INFO| cp: (5493a2e9) started. src=/tmp/tmp48ghko9b/croo.report.85a8ea50-4b07-442f-bc25-8dc3b2f87d0f.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample4/croo.report.85a8ea50-4b07-442f-bc25-8dc3b2f87d0f.html
+2023-09-20 11:29:48,261|autouri.autouri|INFO| cp: (5493a2e9) done.
+Croo completed successfully on sample X4RG73R_sample4.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample9/atac/1a630fb6-3407-4b67-a2e5-e64fd67896dc/metadata.json
+Sample name: X4RG73R_sample9
+Warning: darkgrey is not a known color.
+2023-09-20 11:29:51,046|autouri.autouri|INFO| cp: (6ce4c0fc) started. src=/tmp/tmp2kyqvr0l/croo.report.1a630fb6-3407-4b67-a2e5-e64fd67896dc.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample9/croo.report.1a630fb6-3407-4b67-a2e5-e64fd67896dc.html
+2023-09-20 11:29:51,049|autouri.autouri|INFO| cp: (6ce4c0fc) done.
+Croo completed successfully on sample X4RG73R_sample9.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample16/atac/a187a861-9297-44b0-96c7-49de136dd578/metadata.json
+Sample name: X4RG73R_sample16
+Warning: darkgrey is not a known color.
+2023-09-20 11:29:53,982|autouri.autouri|INFO| cp: (4f2e38c0) started. src=/tmp/tmpc1_58xch/croo.report.a187a861-9297-44b0-96c7-49de136dd578.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample16/croo.report.a187a861-9297-44b0-96c7-49de136dd578.html
+2023-09-20 11:29:53,985|autouri.autouri|INFO| cp: (4f2e38c0) done.
+Croo completed successfully on sample X4RG73R_sample16.
+CROO_ERROR-on-X4RG73R_sample14
+Croo post-processing script failed for this batch of jobs. Please check the log file for more details.
+No jobs are running now. Exiting watcher script...
+
+_________
+

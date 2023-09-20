@@ -46,7 +46,7 @@ if [[ "$counter" -ne "$max_samp_count" ]]; then
             echo "Something is wrong with the current pipeline jobs..."
             set +e # Disable the exit on error option so that the script can continue if the croo post-processing script fails
             echo "Listing successful jobs..."
-            if find "${pl_raw_output_root_dir}/${analysis_id}" -type f -name "metadata.json" -print0 | xargs -0 grep -l "Succeeded"; then
+            if find "${pl_raw_output_root_dir}/${analysis_id}" -type f -name "metadata.json" -print0 | xargs -0 grep -l "Succeeded" >/dev/null; then
                 find "${pl_raw_output_root_dir}/${analysis_id}" -type f -name "metadata.json" -print0 | xargs -0 grep -l "Succeeded" | sort -u
                 # Run the croo post-processing script
                 echo "Block 2 watcher script"
@@ -112,7 +112,7 @@ else
         elif (( finish_counts != remainder )) && [[ $(qstat -u suffiazi | grep -c "CAPER_${analysis_id:0:3}") -eq 0 ]]; then
             echo "Something is wrong with the current pipeline jobs..."
             echo "Listing successful jobs..."
-            if find "${pl_raw_output_root_dir}/${analysis_id}" -type f -name "metadata.json" -print0 | xargs -0 grep -l "Succeeded"; then
+            if find "${pl_raw_output_root_dir}/${analysis_id}" -type f -name "metadata.json" -print0 | xargs -0 grep -l "Succeeded" >/dev/null; then
                 find "${pl_raw_output_root_dir}/${analysis_id}" -type f -name "metadata.json" -print0 | xargs -0 grep -l "Succeeded" | sort -u
                 # Run the croo post-processing script
                 echo "Block 4 watcher script"

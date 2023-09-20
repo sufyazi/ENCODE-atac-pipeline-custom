@@ -8,7 +8,7 @@ croo_output_root_dir="$3"
 # find all directories just within the top level of the caper output directory and map them to the dir_path array 
 # then map their names only to the dir_names array
 readarray -t dir_path < <(find "$caper_dataset_dir" -mindepth 1 -maxdepth 1 -type d)
-
+echo "${dir_path[@]}"
 # set up an array to store error messages
 error_msg=()
 
