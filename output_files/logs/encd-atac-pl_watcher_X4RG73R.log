@@ -221,3 +221,27 @@ Current sample count is 17
 warning: commands will be executed using /bin/sh
 job 14 at Wed Sep 20 13:06:00 2023
 Watcher script has been scheduled to run in 1 hour.
+Max sample count has been reached. Checking to see if all jobs have finished...
+Number of metadata.json files indicating finished jobs: 9
+The current batch of submitted jobs are still running. Will check again in 1 hour.
+Number of metadata.json files indicating finished jobs: 9
+warning: commands will be executed using /bin/sh
+job 15 at Wed Sep 20 14:06:00 2023
+Max sample count has been reached. Checking to see if all jobs have finished...
+Number of metadata.json files indicating finished jobs: 9
+The current batch of submitted jobs are still running. Will check again in 1 hour.
+Number of metadata.json files indicating finished jobs: 9
+warning: commands will be executed using /bin/sh
+job 16 at Wed Sep 20 15:06:00 2023
+Max sample count has been reached. Checking to see if all jobs have finished...
+Number of metadata.json files indicating finished jobs: 9
+The current batch of submitted jobs are still running. Will check again in 1 hour.
+Number of metadata.json files indicating finished jobs: 9
+warning: commands will be executed using /bin/sh
+job 17 at Wed Sep 20 16:06:00 2023
+Max sample count has been reached. Checking to see if all jobs have finished...
+Number of metadata.json files indicating finished jobs: 9
+The current batch of submitted jobs are still running. Will check again in 1 hour.
+Number of metadata.json files indicating finished jobs: 9
+warning: commands will be executed using /bin/sh
+job 18 at Wed Sep 20 17:06:00 2023
