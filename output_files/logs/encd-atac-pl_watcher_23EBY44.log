@@ -1,0 +1,24 @@
+Dataset json directory exists. Proceeding...
+Pipeline output directory for 23EBY44 did not exist so it has been created. Proceeding...
+Number of json files in the target directory: 3
+Sample ID: sample2
+Local output directory: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/23EBY44/23EBY44_sample2
+2023-09-21 19:06:41,280|caper.hpc|INFO| Running shell command: qsub -P 12003580 -l select=1:ncpus=4:mpiprocs=4:mem=200GB -l walltime=20:00:00 -V -N CAPER_23EBY44_sample2 /home/users/ntu/suffiazi/jxaxitmh.sh
+2938048.pbs101
+Submitted job number 1: /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/json/23EBY44_TCGA-HNSC/23EBY44_TCGA-HNSC_sample2.json in if-block 0
+Sample ID: sample3
+Local output directory: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/23EBY44/23EBY44_sample3
+2023-09-21 19:06:44,978|caper.hpc|INFO| Running shell command: qsub -P 12003580 -l select=1:ncpus=4:mpiprocs=4:mem=200GB -l walltime=20:00:00 -V -N CAPER_23EBY44_sample3 /home/users/ntu/suffiazi/qqd87u0l.sh
+2938050.pbs101
+Submitted job number 2: /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/json/23EBY44_TCGA-HNSC/23EBY44_TCGA-HNSC_sample3.json in elif-block 1
+Sample ID: sample1
+Local output directory: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/23EBY44/23EBY44_sample1
+2023-09-21 19:06:48,348|caper.hpc|INFO| Running shell command: qsub -P 12003580 -l select=1:ncpus=4:mpiprocs=4:mem=200GB -l walltime=20:00:00 -V -N CAPER_23EBY44_sample1 /home/users/ntu/suffiazi/sj8b1z90.sh
+2938051.pbs101
+Submitted job number 3: /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/json/23EBY44_TCGA-HNSC/23EBY44_TCGA-HNSC_sample1.json in outer elif block.
+All samples have been submitted for processing.
+Current count is 3
+Max sample count is 3
+warning: commands will be executed using /bin/sh
+job 33 at Thu Sep 21 20:06:00 2023
+Watcher script has been scheduled to run in 1 hour.

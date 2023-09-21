@@ -1,0 +1,14 @@
+{
+    "atac.title": "23EBY44_TCGA-HNSC",
+    "atac.description": "23EBY44_TCGA-HNSC tcga atac-seq",
+    "atac.pipeline_type": "atac",
+    "atac.align_only": false,
+    "atac.true_rep_only": false,
+    "atac.genome_tsv": "https://storage.googleapis.com/encode-pipeline-genome-data/genome_tsv/v4/hg38.tsv",
+    "atac.paired_end": true,
+    "atac.auto_detect_adapter": true,
+    "atac.align_cpu": 24,
+    "atac.bams": [
+        "/home/users/ntu/suffiazi/scratch/inputs/atac-seq-pipeline-raw-input/TCGA-HNSC/sample_1/rep_0/e466ebae-200b-481e-b3cc-975de0c3dfac_atacseq_gdc_realn.bam"
+    ]
+}
