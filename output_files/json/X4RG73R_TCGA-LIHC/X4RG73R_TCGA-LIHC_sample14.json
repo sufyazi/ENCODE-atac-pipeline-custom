@@ -8,6 +8,7 @@
     "atac.paired_end": true,
     "atac.auto_detect_adapter": true,
     "atac.align_cpu": 24,
+    "atac.subsample_reads":  10000000,
     "atac.bams": [
         "/home/users/ntu/suffiazi/scratch/inputs/atac-seq-pipeline-raw-input/TCGA-LIHC/sample_14/rep_0/8ff9ecd0-eb23-431a-b4cf-6eb0c19daa0f_atacseq_gdc_realn.bam"
     ]
