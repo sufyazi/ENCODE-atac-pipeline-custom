@@ -24,51 +24,21 @@ if [[ "$counter" -ne "$max_samp_count" ]]; then
         echo "Number of metadata.json files indicating finished jobs: $finish_counts"
         if (( finish_counts == MAX_JOBS )); then
             echo "All currently running jobs have finished."
-            echo "Running croo post-processing script..."
-            set +e # Disable the exit on error option so that the script can continue if the croo post-processing script fails
-            # Run the croo post-processing script
             echo "Block 1 watcher script"
-            captured_err=$(bash /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/croo_processing_module-ASPIRE.sh "${analysis_id}" "${pl_raw_output_root_dir}/${analysis_id}" "${croo_output_root_dir}" | tee -a "/home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/logs/encd-atac-pl_watcher_${analysis_id}.log" | grep -oE "RSYNC_ERROR|CROO_ERROR")
-            # check if captured_err array is empty
-            if [[ -z "$captured_err" ]]; then
-                echo "Croo post-processing script completed successfully."
-                echo "Processed files have been transferred to remote storage Odin."
-                # Remove the sample directory in the dataset-specific directory to save space
-                # echo "WARNING: Removing sample subdirectories in ${analysis_id} from the pipeline raw output directory..."
-                # find "${pl_raw_output_root_dir}/${analysis_id}" -maxdepth 1 -mindepth 1 -type d -exec rm -rf {} \;
-                echo "All sample subdirectories have been copied to Odin and removed from NSCC Aspire."
-                echo "Submitting the next batch of jobs..."
-                source /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/encd-atac-pl_submitter-v3-ASPIRE.sh "${analysis_id}" "${dataset_json_dir}" "${pl_raw_output_root_dir}" "${croo_output_root_dir}" "${counter}"
-            else
-                echo "Croo post-processing script failed for this batch of jobs. Please check the log file for more details."
-            fi
+            echo "Submitting the next batch of jobs..."
+            source /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/encd-atac-pl_submitter-v3-ASPIRE.sh "${analysis_id}" "${dataset_json_dir}" "${pl_raw_output_root_dir}" "${croo_output_root_dir}" "${counter}"
         elif (( finish_counts != MAX_JOBS )) && [[ $(qstat -u suffiazi | grep -c "CAPER_${analysis_id:0:3}") -eq 0 ]]; then
             echo "Something is wrong with the current pipeline jobs..."
-            set +e # Disable the exit on error option so that the script can continue if the croo post-processing script fails
-            echo "Listing successful jobs..."
-            if find "${pl_raw_output_root_dir}/${analysis_id}" -type f -name "metadata.json" -print0 | xargs -0 grep -l "Succeeded" >/dev/null; then
-                find "${pl_raw_output_root_dir}/${analysis_id}" -type f -name "metadata.json" -print0 | xargs -0 grep -l "Succeeded" | sort -u
+            echo "Listing errored jobs..."
+            if find "${pl_raw_output_root_dir}/${analysis_id}" -type f -name "metadata.json" -print0 | xargs -0 grep -q "Workflow failed"; then
+                find "${pl_raw_output_root_dir}/${analysis_id}" -type f -name "metadata.json" -print0 | xargs -0 grep -l "Workflow failed" | sort -u
                 # Run the croo post-processing script
                 echo "Block 2 watcher script"
-                echo "Proceeding with croo post-processing script..."
-                captured_err=$(bash /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/croo_processing_module-ASPIRE.sh "${analysis_id}" "${pl_raw_output_root_dir}/${analysis_id}" "${croo_output_root_dir}" | tee -a "/home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/logs/encd-atac-pl_watcher_${analysis_id}.log" | grep -oE "RSYNC_ERROR|CROO_ERROR")
-                # check if captured_err array is empty
-                if [[ -z "$captured_err" ]]; then
-                    echo "Croo post-processing script completed successfully."
-                    echo "Files successfully processed have been transferred to remote storage Odin."
-                    # Remove the sample directory in the dataset-specific directory to save space
-                    # echo "Removing sample subdirectories in ${analysis_id} from the pipeline raw output directory..."
-                    # find "${pl_raw_output_root_dir}/${analysis_id}" -maxdepth 1 -mindepth 1 -type d -exec rm -rf {} \;
-                    echo "All processed subdirectories have been copied to Odin and removed from Aspire."
-                    echo "Submitting the next batch of jobs..."
-                    source /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/encd-atac-pl_submitter-v3-ASPIRE.sh "${analysis_id}" "${dataset_json_dir}" "${pl_raw_output_root_dir}" "${croo_output_root_dir}" "${counter}"
-                else
-                    echo "Croo post-processing script failed for this batch of jobs. Please check the log file for more details."
-                fi
+                echo "Ignoring errored jobs. Submitting the next batch of jobs..."
+                source /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/encd-atac-pl_submitter-v3-ASPIRE.sh "${analysis_id}" "${dataset_json_dir}" "${pl_raw_output_root_dir}" "${croo_output_root_dir}" "${counter}"
             else
-                echo "No successful jobs found."
+                echo "Could not find failed jobs. Exiting watcher script. Please diagnose the problem manually."
             fi
-            echo "No jobs are running now. Exiting watcher script..."
         elif (( finish_counts != MAX_JOBS )) && [[ $(qstat -u suffiazi | grep -c "CAPER_${analysis_id:0:3}") -ne 0 ]]; then
             echo "The current batch of submitted jobs are still running. Will check again in 1 hour."
             echo "Number of metadata.json files indicating finished jobs: $finish_counts"
@@ -86,53 +56,36 @@ EOF
 else
     echo "Max sample count has been reached. Checking to see if all jobs have finished..."
     remainder=$((counter % MAX_JOBS))
+    echo "Listing successful jobs..."
     if find "${pl_raw_output_root_dir}/${analysis_id}" -type f -name "metadata.json" -print0 | xargs -0 grep -q "Succeeded"; then
+        find "${pl_raw_output_root_dir}/${analysis_id}" -type f -name "metadata.json" -print0 | xargs -0 grep "Succeeded" | sort -u
         finish_counts=$(find "${pl_raw_output_root_dir}/${analysis_id}" -type f -name "metadata.json" -print0 | xargs -0 grep "Succeeded" | sort -u | wc -l)
         echo "Number of metadata.json files indicating finished jobs: $finish_counts"
         if (( finish_counts == remainder )); then
             echo "All currently running jobs have finished."
+            echo "Block 3 watcher script"
             echo "Running croo post-processing script..."
             set +e # Disable the exit on error option so that the script can continue if the croo post-processing script fails
             # Run the croo post-processing script
-            echo "Block 3 watcher script"
             captured_err=$(bash /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/croo_processing_module-ASPIRE.sh "${analysis_id}" "${pl_raw_output_root_dir}/${analysis_id}" "${croo_output_root_dir}" | tee -a "/home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/logs/encd-atac-pl_watcher_${analysis_id}.log" | grep -oE "RSYNC_ERROR|CROO_ERROR")
             # check if captured_err array is empty
             if [[ -z "$captured_err" ]]; then
                 echo "Croo post-processing script completed successfully."
-                echo "Processed files have been transferred to remote storage Odin."
-                # Remove the sample directory in the dataset-specific directory to save space
-                # echo "Removing sample subdirectories in ${analysis_id} from the pipeline raw output directory..."
-                # find "${pl_raw_output_root_dir}/${analysis_id}" -maxdepth 1 -mindepth 1 -type d -exec rm -rf {} \;
-                echo "All sample subdirectories have been copied to Odin and removed from NSCC."
+                echo "All job runs have finished. Exiting watcher script..."
+                echo "Workflow is done."
             else
                 echo "Croo post-processing script failed for this batch of jobs. Please check the log file for more details."
             fi
-            echo "All job runs have finished. Exiting watcher script..."
-            echo "Workflow is done."
         elif (( finish_counts != remainder )) && [[ $(qstat -u suffiazi | grep -c "CAPER_${analysis_id:0:3}") -eq 0 ]]; then
             echo "Something is wrong with the current pipeline jobs..."
-            echo "Listing successful jobs..."
-            if find "${pl_raw_output_root_dir}/${analysis_id}" -type f -name "metadata.json" -print0 | xargs -0 grep -l "Succeeded" >/dev/null; then
-                find "${pl_raw_output_root_dir}/${analysis_id}" -type f -name "metadata.json" -print0 | xargs -0 grep -l "Succeeded" | sort -u
-                # Run the croo post-processing script
+            echo "Listing failed jobs..."
+            if find "${pl_raw_output_root_dir}/${analysis_id}" -type f -name "metadata.json" -print0 | xargs -0 grep -q "Workflow failed"; then
+                find "${pl_raw_output_root_dir}/${analysis_id}" -type f -name "metadata.json" -print0 | xargs -0 grep -l "Workflow failed" | sort -u
                 echo "Block 4 watcher script"
-                echo "Proceeding with croo post-processing script..."
-                captured_err=$(bash /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/croo_processing_module-ASPIRE.sh "${analysis_id}" "${pl_raw_output_root_dir}/${analysis_id}" "${croo_output_root_dir}" | tee -a "/home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/logs/encd-atac-pl_watcher_${analysis_id}.log" | grep -oE "RSYNC_ERROR|CROO_ERROR")
-                # check if captured_err array is empty
-                if [[ -z "$captured_err" ]]; then
-                    echo "Croo post-processing script completed successfully."
-                    echo "Files successfully processed have been transferred to remote storage Odin."
-                    # Remove the sample directory in the dataset-specific directory to save space
-                    # echo "Removing sample subdirectories in ${analysis_id} from the pipeline raw output directory..."
-                    # find "${pl_raw_output_root_dir}/${analysis_id}" -maxdepth 1 -mindepth 1 -type d -exec rm -rf {} \;
-                    echo "All processed subdirectories have been copied to Odin and removed from NSCC."
-                else
-                    echo "Croo post-processing script failed for this batch of jobs. Please check the log file for more details."
-                fi
+                echo "Ending workflow prematurely. Please diagnose the problem manually."
             else
-                echo "No successful jobs found."
+                echo "No errored jobs found. Exiting watcher script. Please diagnose the problem manually."
             fi
-            echo "No jobs are running now. Exiting watcher script..."
         elif (( finish_counts != remainder )) && [[ $(qstat -u suffiazi | grep -c "CAPER_${analysis_id:0:3}") -ne 0 ]]; then
             echo "The current batch of submitted jobs are still running. Will check again in 1 hour."
             echo "Number of metadata.json files indicating finished jobs: $finish_counts"

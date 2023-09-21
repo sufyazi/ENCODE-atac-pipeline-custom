@@ -1,0 +1,219 @@
+Dataset json directory exists. Proceeding...
+Pipeline output directory for D50CS8B did not exist so it has been created. Proceeding...
+Number of json files in the target directory: 14
+Sample ID: sample1
+Local output directory: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/D50CS8B/D50CS8B_sample1
+2023-09-20 19:06:24,130|caper.hpc|INFO| Running shell command: qsub -P 12003580 -l select=1:ncpus=4:mpiprocs=4:mem=200GB -l walltime=20:00:00 -V -N CAPER_D50CS8B_sample1 /home/users/ntu/suffiazi/8ly1xm1d.sh
+2932285.pbs101
+Submitted job number 11: /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/json/D50CS8B_TCGA-THCA/D50CS8B_TCGA-THCA_sample1.json in elif-block 1
+Sample ID: sample5
+Local output directory: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/D50CS8B/D50CS8B_sample5
+2023-09-20 19:06:27,650|caper.hpc|INFO| Running shell command: qsub -P 12003580 -l select=1:ncpus=4:mpiprocs=4:mem=200GB -l walltime=20:00:00 -V -N CAPER_D50CS8B_sample5 /home/users/ntu/suffiazi/xff83fec.sh
+2932286.pbs101
+Submitted job number 12: /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/json/D50CS8B_TCGA-THCA/D50CS8B_TCGA-THCA_sample5.json in elif-block 1
+Sample ID: sample14
+Local output directory: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/D50CS8B/D50CS8B_sample14
+2023-09-20 19:06:30,746|caper.hpc|INFO| Running shell command: qsub -P 12003580 -l select=1:ncpus=4:mpiprocs=4:mem=200GB -l walltime=20:00:00 -V -N CAPER_D50CS8B_sample14 /home/users/ntu/suffiazi/1pfaiqhj.sh
+2932288.pbs101
+Submitted job number 13: /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/json/D50CS8B_TCGA-THCA/D50CS8B_TCGA-THCA_sample14.json in elif-block 1
+Sample ID: sample11
+Local output directory: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/D50CS8B/D50CS8B_sample11
+2023-09-20 19:06:33,965|caper.hpc|INFO| Running shell command: qsub -P 12003580 -l select=1:ncpus=4:mpiprocs=4:mem=200GB -l walltime=20:00:00 -V -N CAPER_D50CS8B_sample11 /home/users/ntu/suffiazi/c3qqa8e_.sh
+2932289.pbs101
+Submitted job number 14: /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/json/D50CS8B_TCGA-THCA/D50CS8B_TCGA-THCA_sample11.json in outer elif block.
+All samples have been submitted for processing.
+Current count is 14
+Max sample count is 14
+warning: commands will be executed using /bin/sh
+job 22 at Wed Sep 20 20:06:00 2023
+Watcher script has been scheduled to run in 1 hour.
+
+--------------
+
+Dataset json directory exists. Proceeding...
+Pipeline output directory for D50CS8B did not exist so it has been created. Proceeding...
+Number of json files in the target directory: 14
+Sample ID: sample8
+Local output directory: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/D50CS8B/D50CS8B_sample8
+2023-09-20 19:13:34,517|caper.hpc|INFO| Running shell command: qsub -P 12003580 -l select=1:ncpus=4:mpiprocs=4:mem=200GB -l walltime=20:00:00 -V -N CAPER_D50CS8B_sample8 /home/users/ntu/suffiazi/vsoeo3_q.sh
+2932354.pbs101
+Submitted job number 1: /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/json/D50CS8B_TCGA-THCA/D50CS8B_TCGA-THCA_sample8.json in if-block 0
+Sample ID: sample12
+Local output directory: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/D50CS8B/D50CS8B_sample12
+2023-09-20 19:13:37,544|caper.hpc|INFO| Running shell command: qsub -P 12003580 -l select=1:ncpus=4:mpiprocs=4:mem=200GB -l walltime=20:00:00 -V -N CAPER_D50CS8B_sample12 /home/users/ntu/suffiazi/_oem4z9k.sh
+2932355.pbs101
+Submitted job number 2: /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/json/D50CS8B_TCGA-THCA/D50CS8B_TCGA-THCA_sample12.json in elif-block 1
+Sample ID: sample13
+Local output directory: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/D50CS8B/D50CS8B_sample13
+2023-09-20 19:13:40,542|caper.hpc|INFO| Running shell command: qsub -P 12003580 -l select=1:ncpus=4:mpiprocs=4:mem=200GB -l walltime=20:00:00 -V -N CAPER_D50CS8B_sample13 /home/users/ntu/suffiazi/jjgt5dlz.sh
+2932357.pbs101
+Submitted job number 3: /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/json/D50CS8B_TCGA-THCA/D50CS8B_TCGA-THCA_sample13.json in elif-block 1
+Sample ID: sample6
+Local output directory: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/D50CS8B/D50CS8B_sample6
+2023-09-20 19:13:43,737|caper.hpc|INFO| Running shell command: qsub -P 12003580 -l select=1:ncpus=4:mpiprocs=4:mem=200GB -l walltime=20:00:00 -V -N CAPER_D50CS8B_sample6 /home/users/ntu/suffiazi/zqaggx_0.sh
+2932358.pbs101
+Submitted job number 4: /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/json/D50CS8B_TCGA-THCA/D50CS8B_TCGA-THCA_sample6.json in elif-block 1
+Sample ID: sample10
+Local output directory: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/D50CS8B/D50CS8B_sample10
+2023-09-20 19:13:46,947|caper.hpc|INFO| Running shell command: qsub -P 12003580 -l select=1:ncpus=4:mpiprocs=4:mem=200GB -l walltime=20:00:00 -V -N CAPER_D50CS8B_sample10 /home/users/ntu/suffiazi/0qx9814p.sh
+2932360.pbs101
+Submitted job number 5: /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/json/D50CS8B_TCGA-THCA/D50CS8B_TCGA-THCA_sample10.json in elif-block 1
+Sample ID: sample3
+Local output directory: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/D50CS8B/D50CS8B_sample3
+2023-09-20 19:13:49,945|caper.hpc|INFO| Running shell command: qsub -P 12003580 -l select=1:ncpus=4:mpiprocs=4:mem=200GB -l walltime=20:00:00 -V -N CAPER_D50CS8B_sample3 /home/users/ntu/suffiazi/9ob3mwma.sh
+2932361.pbs101
+Submitted job number 6: /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/json/D50CS8B_TCGA-THCA/D50CS8B_TCGA-THCA_sample3.json in elif-block 1
+Sample ID: sample2
+Local output directory: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/D50CS8B/D50CS8B_sample2
+2023-09-20 19:13:53,464|caper.hpc|INFO| Running shell command: qsub -P 12003580 -l select=1:ncpus=4:mpiprocs=4:mem=200GB -l walltime=20:00:00 -V -N CAPER_D50CS8B_sample2 /home/users/ntu/suffiazi/c7jzlple.sh
+2932362.pbs101
+Submitted job number 7: /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/json/D50CS8B_TCGA-THCA/D50CS8B_TCGA-THCA_sample2.json in elif-block 1
+Sample ID: sample9
+Local output directory: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/D50CS8B/D50CS8B_sample9
+2023-09-20 19:13:56,628|caper.hpc|INFO| Running shell command: qsub -P 12003580 -l select=1:ncpus=4:mpiprocs=4:mem=200GB -l walltime=20:00:00 -V -N CAPER_D50CS8B_sample9 /home/users/ntu/suffiazi/m41a7ios.sh
+2932363.pbs101
+Submitted job number 8: /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/json/D50CS8B_TCGA-THCA/D50CS8B_TCGA-THCA_sample9.json in elif-block 1
+Sample ID: sample4
+Local output directory: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/D50CS8B/D50CS8B_sample4
+2023-09-20 19:13:59,753|caper.hpc|INFO| Running shell command: qsub -P 12003580 -l select=1:ncpus=4:mpiprocs=4:mem=200GB -l walltime=20:00:00 -V -N CAPER_D50CS8B_sample4 /home/users/ntu/suffiazi/g2bnd3kf.sh
+2932364.pbs101
+Submitted job number 9: /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/json/D50CS8B_TCGA-THCA/D50CS8B_TCGA-THCA_sample4.json in elif-block 1
+Sample ID: sample7
+Local output directory: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/D50CS8B/D50CS8B_sample7
+2023-09-20 19:14:03,051|caper.hpc|INFO| Running shell command: qsub -P 12003580 -l select=1:ncpus=4:mpiprocs=4:mem=200GB -l walltime=20:00:00 -V -N CAPER_D50CS8B_sample7 /home/users/ntu/suffiazi/a6r5_ooy.sh
+2932365.pbs101
+Submitted job number 10: /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/json/D50CS8B_TCGA-THCA/D50CS8B_TCGA-THCA_sample7.json in elif-block 2
+Max jobs at a time have been submitted.
+Current count is 10
+Current sample count is 10
+warning: commands will be executed using /bin/sh
+job 23 at Wed Sep 20 20:14:00 2023
+Watcher script has been scheduled to run in 1 hour.
+Max sample count has not been reached. Proceeding...
+None of the currently running jobs has finished. Will check again in 1 hour.
+warning: commands will be executed using /bin/sh
+job 25 at Wed Sep 20 21:14:00 2023
+Max sample count has not been reached. Proceeding...
+None of the currently running jobs has finished. Will check again in 1 hour.
+warning: commands will be executed using /bin/sh
+job 27 at Wed Sep 20 22:14:00 2023
+Max sample count has not been reached. Proceeding...
+None of the currently running jobs has finished. Will check again in 1 hour.
+warning: commands will be executed using /bin/sh
+job 29 at Wed Sep 20 23:14:00 2023
+Max sample count has not been reached. Proceeding...
+None of the currently running jobs has finished. Will check again in 1 hour.
+warning: commands will be executed using /bin/sh
+job 31 at Thu Sep 21 00:14:00 2023
+Max sample count has not been reached. Proceeding...
+None of the currently running jobs has finished. Will check again in 1 hour.
+warning: commands will be executed using /bin/sh
+job 33 at Thu Sep 21 01:14:00 2023
+Max sample count has not been reached. Proceeding...
+Number of metadata.json files indicating finished jobs: 4
+The current batch of submitted jobs are still running. Will check again in 1 hour.
+Number of metadata.json files indicating finished jobs: 4
+warning: commands will be executed using /bin/sh
+job 35 at Thu Sep 21 02:14:00 2023
+Max sample count has not been reached. Proceeding...
+Number of metadata.json files indicating finished jobs: 9
+The current batch of submitted jobs are still running. Will check again in 1 hour.
+Number of metadata.json files indicating finished jobs: 9
+warning: commands will be executed using /bin/sh
+job 37 at Thu Sep 21 03:14:00 2023
+Max sample count has not been reached. Proceeding...
+Number of metadata.json files indicating finished jobs: 9
+The current batch of submitted jobs are still running. Will check again in 1 hour.
+Number of metadata.json files indicating finished jobs: 9
+warning: commands will be executed using /bin/sh
+job 39 at Thu Sep 21 04:14:00 2023
+Max sample count has not been reached. Proceeding...
+Number of metadata.json files indicating finished jobs: 9
+The current batch of submitted jobs are still running. Will check again in 1 hour.
+Number of metadata.json files indicating finished jobs: 9
+warning: commands will be executed using /bin/sh
+job 41 at Thu Sep 21 05:14:00 2023
+Max sample count has not been reached. Proceeding...
+Number of metadata.json files indicating finished jobs: 9
+The current batch of submitted jobs are still running. Will check again in 1 hour.
+Number of metadata.json files indicating finished jobs: 9
+warning: commands will be executed using /bin/sh
+job 43 at Thu Sep 21 06:14:00 2023
+Max sample count has not been reached. Proceeding...
+Number of metadata.json files indicating finished jobs: 9
+The current batch of submitted jobs are still running. Will check again in 1 hour.
+Number of metadata.json files indicating finished jobs: 9
+warning: commands will be executed using /bin/sh
+job 45 at Thu Sep 21 07:14:00 2023
+Max sample count has not been reached. Proceeding...
+Number of metadata.json files indicating finished jobs: 10
+All currently running jobs have finished.
+Running croo post-processing script...
+Block 1 watcher script
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/D50CS8B/D50CS8B_sample2 /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/D50CS8B/D50CS8B_sample6 /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/D50CS8B/D50CS8B_sample9 /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/D50CS8B/D50CS8B_sample12 /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/D50CS8B/D50CS8B_sample13 /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/D50CS8B/D50CS8B_sample8 /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/D50CS8B/D50CS8B_sample7 /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/D50CS8B/D50CS8B_sample3 /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/D50CS8B/D50CS8B_sample4 /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/D50CS8B/D50CS8B_sample10
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/D50CS8B/D50CS8B_sample2/atac/56a7fc5e-90da-47ee-876d-0e62d3225294/metadata.json
+Sample name: D50CS8B_sample2
+Warning: darkgrey is not a known color.
+2023-09-21 07:14:11,083|autouri.autouri|INFO| cp: (6c78de50) started. src=/tmp/tmp2p5ucn70/croo.report.56a7fc5e-90da-47ee-876d-0e62d3225294.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/D50CS8B/D50CS8B_sample2/croo.report.56a7fc5e-90da-47ee-876d-0e62d3225294.html
+2023-09-21 07:14:11,086|autouri.autouri|INFO| cp: (6c78de50) done.
+Croo completed successfully on sample D50CS8B_sample2.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/D50CS8B/D50CS8B_sample6/atac/49312e6b-bbc9-4a35-827b-930a941d9398/metadata.json
+Sample name: D50CS8B_sample6
+Warning: darkgrey is not a known color.
+2023-09-21 07:14:13,937|autouri.autouri|INFO| cp: (69b0ea50) started. src=/tmp/tmp99b_nwt9/croo.report.49312e6b-bbc9-4a35-827b-930a941d9398.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/D50CS8B/D50CS8B_sample6/croo.report.49312e6b-bbc9-4a35-827b-930a941d9398.html
+2023-09-21 07:14:13,940|autouri.autouri|INFO| cp: (69b0ea50) done.
+Croo completed successfully on sample D50CS8B_sample6.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/D50CS8B/D50CS8B_sample9/atac/3482b045-abe1-46e6-999c-af3224a376cb/metadata.json
+Sample name: D50CS8B_sample9
+Warning: darkgrey is not a known color.
+2023-09-21 07:14:16,790|autouri.autouri|INFO| cp: (f4398019) started. src=/tmp/tmpdy87g9nr/croo.report.3482b045-abe1-46e6-999c-af3224a376cb.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/D50CS8B/D50CS8B_sample9/croo.report.3482b045-abe1-46e6-999c-af3224a376cb.html
+2023-09-21 07:14:16,793|autouri.autouri|INFO| cp: (f4398019) done.
+Croo completed successfully on sample D50CS8B_sample9.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/D50CS8B/D50CS8B_sample12/atac/e2151bfa-fca7-4ba1-95f3-1fba68ede6d8/metadata.json
+Sample name: D50CS8B_sample12
+Warning: darkgrey is not a known color.
+2023-09-21 07:14:19,775|autouri.autouri|INFO| cp: (7f4d7e76) started. src=/tmp/tmp1l1isru0/croo.report.e2151bfa-fca7-4ba1-95f3-1fba68ede6d8.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/D50CS8B/D50CS8B_sample12/croo.report.e2151bfa-fca7-4ba1-95f3-1fba68ede6d8.html
+2023-09-21 07:14:19,779|autouri.autouri|INFO| cp: (7f4d7e76) done.
+Croo completed successfully on sample D50CS8B_sample12.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/D50CS8B/D50CS8B_sample13/atac/197b2008-601f-4779-95ab-b933e52d7e50/metadata.json
+Sample name: D50CS8B_sample13
+Warning: darkgrey is not a known color.
+2023-09-21 07:14:22,617|autouri.autouri|INFO| cp: (e3d6e45e) started. src=/tmp/tmpemk3hxa3/croo.report.197b2008-601f-4779-95ab-b933e52d7e50.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/D50CS8B/D50CS8B_sample13/croo.report.197b2008-601f-4779-95ab-b933e52d7e50.html
+2023-09-21 07:14:22,620|autouri.autouri|INFO| cp: (e3d6e45e) done.
+Croo completed successfully on sample D50CS8B_sample13.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/D50CS8B/D50CS8B_sample8/atac/b4d6df20-db8e-4295-abf8-5f063b6472f5/metadata.json
+Sample name: D50CS8B_sample8
+Warning: darkgrey is not a known color.
+2023-09-21 07:14:25,480|autouri.autouri|INFO| cp: (99c60bb6) started. src=/tmp/tmppyb_02ux/croo.report.b4d6df20-db8e-4295-abf8-5f063b6472f5.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/D50CS8B/D50CS8B_sample8/croo.report.b4d6df20-db8e-4295-abf8-5f063b6472f5.html
+2023-09-21 07:14:25,483|autouri.autouri|INFO| cp: (99c60bb6) done.
+Croo completed successfully on sample D50CS8B_sample8.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/D50CS8B/D50CS8B_sample7/atac/54764ff1-e3c3-4d3c-b985-570b73139b85/metadata.json
+Sample name: D50CS8B_sample7
+Warning: darkgrey is not a known color.
+2023-09-21 07:14:28,340|autouri.autouri|INFO| cp: (65378f5b) started. src=/tmp/tmptc8obzrf/croo.report.54764ff1-e3c3-4d3c-b985-570b73139b85.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/D50CS8B/D50CS8B_sample7/croo.report.54764ff1-e3c3-4d3c-b985-570b73139b85.html
+2023-09-21 07:14:28,343|autouri.autouri|INFO| cp: (65378f5b) done.
+Croo completed successfully on sample D50CS8B_sample7.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/D50CS8B/D50CS8B_sample3/atac/6dc17a83-6975-46df-a5f2-51f57eaacb6b/metadata.json
+Sample name: D50CS8B_sample3
+Warning: darkgrey is not a known color.
+2023-09-21 07:14:31,318|autouri.autouri|INFO| cp: (ec02fdfe) started. src=/tmp/tmpgbnarcz0/croo.report.6dc17a83-6975-46df-a5f2-51f57eaacb6b.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/D50CS8B/D50CS8B_sample3/croo.report.6dc17a83-6975-46df-a5f2-51f57eaacb6b.html
+2023-09-21 07:14:31,321|autouri.autouri|INFO| cp: (ec02fdfe) done.
+Croo completed successfully on sample D50CS8B_sample3.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/D50CS8B/D50CS8B_sample4/atac/6ac7a1c6-55ef-4779-bdd9-321b4d0e20e5/metadata.json
+Sample name: D50CS8B_sample4
+Warning: darkgrey is not a known color.
+2023-09-21 07:14:34,145|autouri.autouri|INFO| cp: (0bf05708) started. src=/tmp/tmpjaqzvlei/croo.report.6ac7a1c6-55ef-4779-bdd9-321b4d0e20e5.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/D50CS8B/D50CS8B_sample4/croo.report.6ac7a1c6-55ef-4779-bdd9-321b4d0e20e5.html
+2023-09-21 07:14:34,148|autouri.autouri|INFO| cp: (0bf05708) done.
+Croo completed successfully on sample D50CS8B_sample4.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/D50CS8B/D50CS8B_sample10/atac/dd7bdf58-2854-46f4-ab5d-c69e6e0b62df/metadata.json
+Sample name: D50CS8B_sample10
+Warning: darkgrey is not a known color.
+2023-09-21 07:14:36,967|autouri.autouri|INFO| cp: (5031866e) started. src=/tmp/tmptzywtvf1/croo.report.dd7bdf58-2854-46f4-ab5d-c69e6e0b62df.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/D50CS8B/D50CS8B_sample10/croo.report.dd7bdf58-2854-46f4-ab5d-c69e6e0b62df.html
+2023-09-21 07:14:36,970|autouri.autouri|INFO| cp: (5031866e) done.
+Croo completed successfully on sample D50CS8B_sample10.
+
+Croo post-processing script completed successfully.
+Processed files have been transferred to remote storage Odin.
+All sample subdirectories have been copied to Odin and removed from NSCC Aspire.
+Submitting the next batch of jobs...
+/home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/encd-atac-pl_submitter-v3-ASPIRE.sh: line 12: module: command not found

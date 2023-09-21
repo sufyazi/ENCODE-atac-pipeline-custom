@@ -245,3 +245,275 @@ The current batch of submitted jobs are still running. Will check again in 1 hou
 Number of metadata.json files indicating finished jobs: 9
 warning: commands will be executed using /bin/sh
 job 18 at Wed Sep 20 17:06:00 2023
+Max sample count has been reached. Checking to see if all jobs have finished...
+Number of metadata.json files indicating finished jobs: 9
+The current batch of submitted jobs are still running. Will check again in 1 hour.
+Number of metadata.json files indicating finished jobs: 9
+warning: commands will be executed using /bin/sh
+job 19 at Wed Sep 20 18:06:00 2023
+Max sample count has been reached. Checking to see if all jobs have finished...
+Number of metadata.json files indicating finished jobs: 11
+The current batch of submitted jobs are still running. Will check again in 1 hour.
+Number of metadata.json files indicating finished jobs: 11
+warning: commands will be executed using /bin/sh
+job 20 at Wed Sep 20 19:06:00 2023
+Max sample count has been reached. Checking to see if all jobs have finished...
+Number of metadata.json files indicating finished jobs: 14
+The current batch of submitted jobs are still running. Will check again in 1 hour.
+Number of metadata.json files indicating finished jobs: 14
+warning: commands will be executed using /bin/sh
+job 21 at Wed Sep 20 20:06:00 2023
+Max sample count has been reached. Checking to see if all jobs have finished...
+Number of metadata.json files indicating finished jobs: 16
+The current batch of submitted jobs are still running. Will check again in 1 hour.
+Number of metadata.json files indicating finished jobs: 16
+warning: commands will be executed using /bin/sh
+job 24 at Wed Sep 20 21:06:00 2023
+Max sample count has been reached. Checking to see if all jobs have finished...
+Number of metadata.json files indicating finished jobs: 16
+The current batch of submitted jobs are still running. Will check again in 1 hour.
+Number of metadata.json files indicating finished jobs: 16
+warning: commands will be executed using /bin/sh
+job 26 at Wed Sep 20 22:06:00 2023
+Max sample count has been reached. Checking to see if all jobs have finished...
+Number of metadata.json files indicating finished jobs: 16
+The current batch of submitted jobs are still running. Will check again in 1 hour.
+Number of metadata.json files indicating finished jobs: 16
+warning: commands will be executed using /bin/sh
+job 28 at Wed Sep 20 23:06:00 2023
+Max sample count has been reached. Checking to see if all jobs have finished...
+Number of metadata.json files indicating finished jobs: 16
+The current batch of submitted jobs are still running. Will check again in 1 hour.
+Number of metadata.json files indicating finished jobs: 16
+warning: commands will be executed using /bin/sh
+job 30 at Thu Sep 21 00:06:00 2023
+Max sample count has been reached. Checking to see if all jobs have finished...
+Number of metadata.json files indicating finished jobs: 16
+The current batch of submitted jobs are still running. Will check again in 1 hour.
+Number of metadata.json files indicating finished jobs: 16
+warning: commands will be executed using /bin/sh
+job 32 at Thu Sep 21 01:06:00 2023
+Max sample count has been reached. Checking to see if all jobs have finished...
+Number of metadata.json files indicating finished jobs: 16
+The current batch of submitted jobs are still running. Will check again in 1 hour.
+Number of metadata.json files indicating finished jobs: 16
+warning: commands will be executed using /bin/sh
+job 34 at Thu Sep 21 02:06:00 2023
+Max sample count has been reached. Checking to see if all jobs have finished...
+Number of metadata.json files indicating finished jobs: 16
+The current batch of submitted jobs are still running. Will check again in 1 hour.
+Number of metadata.json files indicating finished jobs: 16
+warning: commands will be executed using /bin/sh
+job 36 at Thu Sep 21 03:06:00 2023
+Max sample count has been reached. Checking to see if all jobs have finished...
+Number of metadata.json files indicating finished jobs: 16
+The current batch of submitted jobs are still running. Will check again in 1 hour.
+Number of metadata.json files indicating finished jobs: 16
+warning: commands will be executed using /bin/sh
+job 38 at Thu Sep 21 04:06:00 2023
+Max sample count has been reached. Checking to see if all jobs have finished...
+Number of metadata.json files indicating finished jobs: 16
+The current batch of submitted jobs are still running. Will check again in 1 hour.
+Number of metadata.json files indicating finished jobs: 16
+warning: commands will be executed using /bin/sh
+job 40 at Thu Sep 21 05:06:00 2023
+Max sample count has been reached. Checking to see if all jobs have finished...
+Number of metadata.json files indicating finished jobs: 16
+The current batch of submitted jobs are still running. Will check again in 1 hour.
+Number of metadata.json files indicating finished jobs: 16
+warning: commands will be executed using /bin/sh
+job 42 at Thu Sep 21 06:06:00 2023
+Max sample count has been reached. Checking to see if all jobs have finished...
+Number of metadata.json files indicating finished jobs: 16
+The current batch of submitted jobs are still running. Will check again in 1 hour.
+Number of metadata.json files indicating finished jobs: 16
+warning: commands will be executed using /bin/sh
+job 44 at Thu Sep 21 07:06:00 2023
+Max sample count has been reached. Checking to see if all jobs have finished...
+Number of metadata.json files indicating finished jobs: 16
+Something is wrong with the current pipeline jobs...
+Listing successful jobs...
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample10/atac/643c593b-3d9e-4b0d-a066-d4a15c47ac03/metadata.json
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample11/atac/0d298562-83e6-4592-a9a4-d20a76ca490e/metadata.json
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample12/atac/a35a5543-d4b7-4bbc-b328-bcf9930872ee/metadata.json
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample13/atac/1956f3cd-51d2-437c-a1ac-b33330376b39/metadata.json
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample15/atac/c76524dc-031e-4904-81ad-d84426f887f8/metadata.json
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample16/atac/a187a861-9297-44b0-96c7-49de136dd578/metadata.json
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample17/atac/93c0ca7c-5a32-4ef3-801b-8eade1ae43c9/metadata.json
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample1/atac/5afb383f-6736-4e5f-901d-d75bd4912bac/metadata.json
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample2/atac/a670cb69-dd9e-431a-b086-ad349933f695/metadata.json
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample3/atac/3c84f2c4-87c0-43e2-bec4-872545124d18/metadata.json
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample4/atac/85a8ea50-4b07-442f-bc25-8dc3b2f87d0f/metadata.json
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample5/atac/6db54b4f-f131-4ea7-bb19-cc257629a2be/metadata.json
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample6/atac/14a619e7-c114-4a23-a570-31aefce7da74/metadata.json
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample7/atac/4a0a9b89-9e11-4373-a4d6-8534aa561968/metadata.json
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample8/atac/34423a9e-090f-43be-a1c0-d67721686cda/metadata.json
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample9/atac/1a630fb6-3407-4b67-a2e5-e64fd67896dc/metadata.json
+Block 4 watcher script
+Proceeding with croo post-processing script...
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample10 /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample8 /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample14 /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample6 /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample17 /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample12 /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample1 /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample5 /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample15 /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample3 /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample7 /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample11 /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample2 /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample13 /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample4 /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample9 /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample16
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample10/atac/643c593b-3d9e-4b0d-a066-d4a15c47ac03/metadata.json
+Sample name: X4RG73R_sample10
+Warning: darkgrey is not a known color.
+2023-09-21 07:06:21,414|autouri.autouri|INFO| cp: (59d0a1bb) started. src=/tmp/tmp7bchbv7f/croo.report.643c593b-3d9e-4b0d-a066-d4a15c47ac03.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample10/croo.report.643c593b-3d9e-4b0d-a066-d4a15c47ac03.html
+2023-09-21 07:06:21,418|autouri.autouri|INFO| cp: (59d0a1bb) done.
+Croo completed successfully on sample X4RG73R_sample10.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample8/atac/34423a9e-090f-43be-a1c0-d67721686cda/metadata.json
+Sample name: X4RG73R_sample8
+Warning: darkgrey is not a known color.
+2023-09-21 07:06:24,259|autouri.autouri|INFO| cp: (a3f3d33f) started. src=/tmp/tmpzio3nih3/croo.report.34423a9e-090f-43be-a1c0-d67721686cda.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample8/croo.report.34423a9e-090f-43be-a1c0-d67721686cda.html
+2023-09-21 07:06:24,263|autouri.autouri|INFO| cp: (a3f3d33f) done.
+Croo completed successfully on sample X4RG73R_sample8.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample14/atac/5e3679e8-5ace-4a19-8ef6-74d51202c229/metadata.json
+Sample name: X4RG73R_sample14
+Warning: darkgrey is not a known color.
+2023-09-21 07:06:27,116|autouri.autouri|INFO| cp: (6fcc37a4) started. src=/tmp/tmp2dt0u307/croo.report.5e3679e8-5ace-4a19-8ef6-74d51202c229.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample14/croo.report.5e3679e8-5ace-4a19-8ef6-74d51202c229.html
+2023-09-21 07:06:27,120|autouri.autouri|INFO| cp: (6fcc37a4) done.
+Croo completed successfully on sample X4RG73R_sample14.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample6/atac/14a619e7-c114-4a23-a570-31aefce7da74/metadata.json
+Sample name: X4RG73R_sample6
+Warning: darkgrey is not a known color.
+2023-09-21 07:06:29,938|autouri.autouri|INFO| cp: (2c98edb4) started. src=/tmp/tmpq36tqbgv/croo.report.14a619e7-c114-4a23-a570-31aefce7da74.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample6/croo.report.14a619e7-c114-4a23-a570-31aefce7da74.html
+2023-09-21 07:06:29,941|autouri.autouri|INFO| cp: (2c98edb4) done.
+Croo completed successfully on sample X4RG73R_sample6.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample17/atac/93c0ca7c-5a32-4ef3-801b-8eade1ae43c9/metadata.json
+Sample name: X4RG73R_sample17
+Warning: darkgrey is not a known color.
+2023-09-21 07:06:32,966|autouri.autouri|INFO| cp: (b6d9f46a) started. src=/tmp/tmpypdd8p9u/croo.report.93c0ca7c-5a32-4ef3-801b-8eade1ae43c9.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample17/croo.report.93c0ca7c-5a32-4ef3-801b-8eade1ae43c9.html
+2023-09-21 07:06:32,969|autouri.autouri|INFO| cp: (b6d9f46a) done.
+Croo completed successfully on sample X4RG73R_sample17.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample12/atac/a35a5543-d4b7-4bbc-b328-bcf9930872ee/metadata.json
+Sample name: X4RG73R_sample12
+Warning: darkgrey is not a known color.
+2023-09-21 07:06:35,759|autouri.autouri|INFO| cp: (7463397d) started. src=/tmp/tmpkq032o_h/croo.report.a35a5543-d4b7-4bbc-b328-bcf9930872ee.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample12/croo.report.a35a5543-d4b7-4bbc-b328-bcf9930872ee.html
+2023-09-21 07:06:35,762|autouri.autouri|INFO| cp: (7463397d) done.
+Croo completed successfully on sample X4RG73R_sample12.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample1/atac/5afb383f-6736-4e5f-901d-d75bd4912bac/metadata.json
+Sample name: X4RG73R_sample1
+Warning: darkgrey is not a known color.
+2023-09-21 07:06:38,603|autouri.autouri|INFO| cp: (9026741d) started. src=/tmp/tmpqfydpkoj/croo.report.5afb383f-6736-4e5f-901d-d75bd4912bac.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample1/croo.report.5afb383f-6736-4e5f-901d-d75bd4912bac.html
+2023-09-21 07:06:38,606|autouri.autouri|INFO| cp: (9026741d) done.
+Croo completed successfully on sample X4RG73R_sample1.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample5/atac/6db54b4f-f131-4ea7-bb19-cc257629a2be/metadata.json
+Sample name: X4RG73R_sample5
+Warning: darkgrey is not a known color.
+2023-09-21 07:06:41,334|autouri.autouri|INFO| cp: (d3a07f74) started. src=/tmp/tmpxz_xckbs/croo.report.6db54b4f-f131-4ea7-bb19-cc257629a2be.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample5/croo.report.6db54b4f-f131-4ea7-bb19-cc257629a2be.html
+2023-09-21 07:06:41,338|autouri.autouri|INFO| cp: (d3a07f74) done.
+Croo completed successfully on sample X4RG73R_sample5.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample15/atac/c76524dc-031e-4904-81ad-d84426f887f8/metadata.json
+Sample name: X4RG73R_sample15
+Warning: darkgrey is not a known color.
+2023-09-21 07:06:44,162|autouri.autouri|INFO| cp: (61e35f1f) started. src=/tmp/tmpexpfzvxz/croo.report.c76524dc-031e-4904-81ad-d84426f887f8.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample15/croo.report.c76524dc-031e-4904-81ad-d84426f887f8.html
+2023-09-21 07:06:44,165|autouri.autouri|INFO| cp: (61e35f1f) done.
+Croo completed successfully on sample X4RG73R_sample15.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample3/atac/3c84f2c4-87c0-43e2-bec4-872545124d18/metadata.json
+Sample name: X4RG73R_sample3
+Warning: darkgrey is not a known color.
+2023-09-21 07:06:46,944|autouri.autouri|INFO| cp: (454e0e0e) started. src=/tmp/tmpujel9yzo/croo.report.3c84f2c4-87c0-43e2-bec4-872545124d18.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample3/croo.report.3c84f2c4-87c0-43e2-bec4-872545124d18.html
+2023-09-21 07:06:46,947|autouri.autouri|INFO| cp: (454e0e0e) done.
+Croo completed successfully on sample X4RG73R_sample3.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample7/atac/4a0a9b89-9e11-4373-a4d6-8534aa561968/metadata.json
+Sample name: X4RG73R_sample7
+Warning: darkgrey is not a known color.
+2023-09-21 07:06:49,988|autouri.autouri|INFO| cp: (f92e5c27) started. src=/tmp/tmpfxk34uks/croo.report.4a0a9b89-9e11-4373-a4d6-8534aa561968.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample7/croo.report.4a0a9b89-9e11-4373-a4d6-8534aa561968.html
+2023-09-21 07:06:49,991|autouri.autouri|INFO| cp: (f92e5c27) done.
+Croo completed successfully on sample X4RG73R_sample7.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample11/atac/0d298562-83e6-4592-a9a4-d20a76ca490e/metadata.json
+Sample name: X4RG73R_sample11
+Warning: darkgrey is not a known color.
+2023-09-21 07:06:52,901|autouri.autouri|INFO| cp: (070d83fa) started. src=/tmp/tmp6j5x3noy/croo.report.0d298562-83e6-4592-a9a4-d20a76ca490e.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample11/croo.report.0d298562-83e6-4592-a9a4-d20a76ca490e.html
+2023-09-21 07:06:52,905|autouri.autouri|INFO| cp: (070d83fa) done.
+Croo completed successfully on sample X4RG73R_sample11.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample2/atac/a670cb69-dd9e-431a-b086-ad349933f695/metadata.json
+Sample name: X4RG73R_sample2
+Dataset directory already exists. Proceeding...
+2023-09-21 07:06:55,636|autouri.autouri|INFO| rm: (87a0b04c) /scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample2/qc/f602d95b-d69f-4088-b110-b9da8eecb73a_atacseq_gdc_realn.nodup.no_chrM_MT.jsd_plot.png
+2023-09-21 07:06:55,640|autouri.autouri|INFO| rm: (c496cb52) /scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample2/align/rep1/f602d95b-d69f-4088-b110-b9da8eecb73a_atacseq_gdc_realn.nodup.no_chrM_MT.bam
+2023-09-21 07:06:55,645|autouri.autouri|INFO| rm: (208ce79c) /scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample2/qc/rep1/f602d95b-d69f-4088-b110-b9da8eecb73a_atacseq_gdc_realn.nodup.no_chrM_MT.samstats.qc
+2023-09-21 07:06:55,648|autouri.autouri|INFO| rm: (f48a7c23) /scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample2/qc/rep1/f602d95b-d69f-4088-b110-b9da8eecb73a_atacseq_gdc_realn.dup.qc
+2023-09-21 07:06:55,651|autouri.autouri|INFO| rm: (af8de450) /scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample2/qc/rep1/f602d95b-d69f-4088-b110-b9da8eecb73a_atacseq_gdc_realn.dupmark.lib_complexity.qc
+2023-09-21 07:06:55,654|autouri.autouri|INFO| rm: (c1780cb2) /scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample2/align/rep1/f602d95b-d69f-4088-b110-b9da8eecb73a_atacseq_gdc_realn.nodup.no_chrM_MT.tn5.tagAlign.gz
+2023-09-21 07:06:55,658|autouri.autouri|INFO| rm: (a3e60dd4) /scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample2/align/rep1/pseudorep1/f602d95b-d69f-4088-b110-b9da8eecb73a_atacseq_gdc_realn.nodup.no_chrM_MT.tn5.pr1.tagAlign.gz
+2023-09-21 07:06:55,663|autouri.autouri|INFO| rm: (4c70a0a7) /scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample2/align/rep1/pseudorep2/f602d95b-d69f-4088-b110-b9da8eecb73a_atacseq_gdc_realn.nodup.no_chrM_MT.tn5.pr2.tagAlign.gz
+2023-09-21 07:06:55,667|autouri.autouri|INFO| rm: (6046d443) /scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample2/peak/rep1/f602d95b-d69f-4088-b110-b9da8eecb73a_atacseq_gdc_realn.nodup.no_chrM_MT.tn5.pval0.01.300K.narrowPeak.gz
+2023-09-21 07:06:55,670|autouri.autouri|INFO| rm: (aa957f44) /scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample2/peak/rep1/f602d95b-d69f-4088-b110-b9da8eecb73a_atacseq_gdc_realn.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.gz
+2023-09-21 07:06:55,674|autouri.autouri|INFO| rm: (e0edb425) /scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample2/peak/rep1/f602d95b-d69f-4088-b110-b9da8eecb73a_atacseq_gdc_realn.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.bb
+2023-09-21 07:06:55,677|autouri.autouri|INFO| rm: (be6946a7) /scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample2/peak/rep1/f602d95b-d69f-4088-b110-b9da8eecb73a_atacseq_gdc_realn.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.starch
+2023-09-21 07:06:55,680|autouri.autouri|INFO| rm: (c9849127) /scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample2/peak/rep1/f602d95b-d69f-4088-b110-b9da8eecb73a_atacseq_gdc_realn.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.hammock.gz
+2023-09-21 07:06:55,685|autouri.autouri|INFO| rm: (3e6ecb2d) /scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample2/qc/rep1/f602d95b-d69f-4088-b110-b9da8eecb73a_atacseq_gdc_realn.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.frip.qc
+2023-09-21 07:06:55,689|autouri.autouri|INFO| rm: (6120c4f6) /scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample2/peak/rep1/pseudorep1/f602d95b-d69f-4088-b110-b9da8eecb73a_atacseq_gdc_realn.nodup.no_chrM_MT.tn5.pr1.pval0.01.300K.narrowPeak.gz
+2023-09-21 07:06:55,695|autouri.autouri|INFO| rm: (d3a4a569) /scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample2/peak/rep1/pseudorep1/f602d95b-d69f-4088-b110-b9da8eecb73a_atacseq_gdc_realn.nodup.no_chrM_MT.tn5.pr1.pval0.01.300K.bfilt.narrowPeak.gz
+2023-09-21 07:06:55,698|autouri.autouri|INFO| rm: (e06b656a) /scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample2/peak/rep1/pseudorep1/f602d95b-d69f-4088-b110-b9da8eecb73a_atacseq_gdc_realn.nodup.no_chrM_MT.tn5.pr1.pval0.01.300K.bfilt.narrowPeak.bb
+2023-09-21 07:06:55,703|autouri.autouri|INFO| rm: (7794d164) /scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample2/peak/rep1/pseudorep1/f602d95b-d69f-4088-b110-b9da8eecb73a_atacseq_gdc_realn.nodup.no_chrM_MT.tn5.pr1.pval0.01.300K.bfilt.narrowPeak.starch
+2023-09-21 07:06:55,706|autouri.autouri|INFO| rm: (36e8b569) /scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample2/peak/rep1/pseudorep1/f602d95b-d69f-4088-b110-b9da8eecb73a_atacseq_gdc_realn.nodup.no_chrM_MT.tn5.pr1.pval0.01.300K.bfilt.narrowPeak.hammock.gz
+2023-09-21 07:06:55,711|autouri.autouri|INFO| rm: (663cb5a5) /scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample2/qc/rep1/pseudorep1/f602d95b-d69f-4088-b110-b9da8eecb73a_atacseq_gdc_realn.nodup.no_chrM_MT.tn5.pr1.pval0.01.300K.bfilt.frip.qc
+2023-09-21 07:06:55,719|autouri.autouri|INFO| rm: (bbbe14cf) /scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample2/peak/rep1/pseudorep2/f602d95b-d69f-4088-b110-b9da8eecb73a_atacseq_gdc_realn.nodup.no_chrM_MT.tn5.pr2.pval0.01.300K.narrowPeak.gz
+2023-09-21 07:06:55,724|autouri.autouri|INFO| rm: (e07463f4) /scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample2/peak/rep1/pseudorep2/f602d95b-d69f-4088-b110-b9da8eecb73a_atacseq_gdc_realn.nodup.no_chrM_MT.tn5.pr2.pval0.01.300K.bfilt.narrowPeak.gz
+2023-09-21 07:06:55,730|autouri.autouri|INFO| rm: (30c0ca12) /scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample2/peak/rep1/pseudorep2/f602d95b-d69f-4088-b110-b9da8eecb73a_atacseq_gdc_realn.nodup.no_chrM_MT.tn5.pr2.pval0.01.300K.bfilt.narrowPeak.bb
+2023-09-21 07:06:55,736|autouri.autouri|INFO| rm: (b51fb334) /scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample2/peak/rep1/pseudorep2/f602d95b-d69f-4088-b110-b9da8eecb73a_atacseq_gdc_realn.nodup.no_chrM_MT.tn5.pr2.pval0.01.300K.bfilt.narrowPeak.starch
+2023-09-21 07:06:55,739|autouri.autouri|INFO| rm: (14f69457) /scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample2/peak/rep1/pseudorep2/f602d95b-d69f-4088-b110-b9da8eecb73a_atacseq_gdc_realn.nodup.no_chrM_MT.tn5.pr2.pval0.01.300K.bfilt.narrowPeak.hammock.gz
+2023-09-21 07:06:55,744|autouri.autouri|INFO| rm: (fa842796) /scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample2/qc/rep1/pseudorep2/f602d95b-d69f-4088-b110-b9da8eecb73a_atacseq_gdc_realn.nodup.no_chrM_MT.tn5.pr2.pval0.01.300K.bfilt.frip.qc
+2023-09-21 07:06:55,749|autouri.autouri|INFO| rm: (3cb74002) /scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample2/signal/rep1/f602d95b-d69f-4088-b110-b9da8eecb73a_atacseq_gdc_realn.nodup.no_chrM_MT.tn5.pval.signal.bigwig
+2023-09-21 07:06:55,752|autouri.autouri|INFO| rm: (2eba0379) /scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample2/signal/rep1/f602d95b-d69f-4088-b110-b9da8eecb73a_atacseq_gdc_realn.nodup.no_chrM_MT.tn5.fc.signal.bigwig
+2023-09-21 07:06:55,757|autouri.autouri|INFO| rm: (32795764) /scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample2/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.bfilt.narrowPeak.gz
+2023-09-21 07:06:55,760|autouri.autouri|INFO| rm: (32b2b252) /scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample2/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.bfilt.narrowPeak.bb
+2023-09-21 07:06:55,763|autouri.autouri|INFO| rm: (90dc5834) /scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample2/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.bfilt.narrowPeak.starch
+2023-09-21 07:06:55,766|autouri.autouri|INFO| rm: (323bb464) /scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample2/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.bfilt.narrowPeak.hammock.gz
+2023-09-21 07:06:55,768|autouri.autouri|INFO| rm: (818feb80) /scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample2/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.unthresholded-peaks.txt.gz
+2023-09-21 07:06:55,773|autouri.autouri|INFO| rm: (64ee2288) /scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample2/qc/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.unthresholded-peaks.txt.png
+2023-09-21 07:06:55,776|autouri.autouri|INFO| rm: (57a97be0) /scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample2/qc/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.log
+2023-09-21 07:06:55,779|autouri.autouri|INFO| rm: (0c1307d7) /scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample2/qc/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.idr0.05.bfilt.frip.qc
+2023-09-21 07:06:55,784|autouri.autouri|INFO| rm: (5626b10b) /scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample2/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.overlap.bfilt.narrowPeak.gz
+2023-09-21 07:06:55,788|autouri.autouri|INFO| rm: (bba0eb51) /scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample2/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.overlap.bfilt.narrowPeak.bb
+2023-09-21 07:06:55,791|autouri.autouri|INFO| rm: (2708fa69) /scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample2/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.overlap.bfilt.narrowPeak.starch
+2023-09-21 07:06:55,796|autouri.autouri|INFO| rm: (563a8772) /scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample2/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.overlap.bfilt.narrowPeak.hammock.gz
+2023-09-21 07:06:55,800|autouri.autouri|INFO| rm: (631c106c) /scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample2/qc/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.overlap.bfilt.frip.qc
+2023-09-21 07:06:55,805|autouri.autouri|INFO| rm: (a10f1321) /scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample2/peak/idr_reproducibility/idr.optimal_peak.narrowPeak.gz
+2023-09-21 07:06:55,808|autouri.autouri|INFO| rm: (fc9fa227) /scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample2/peak/idr_reproducibility/idr.optimal_peak.narrowPeak.bb
+2023-09-21 07:06:55,812|autouri.autouri|INFO| rm: (6d58a050) /scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample2/peak/idr_reproducibility/idr.optimal_peak.narrowPeak.starch
+2023-09-21 07:06:55,817|autouri.autouri|INFO| rm: (bd1e9c50) /scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample2/peak/idr_reproducibility/idr.optimal_peak.narrowPeak.hammock.gz
+2023-09-21 07:06:55,821|autouri.autouri|INFO| rm: (445776cb) /scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample2/peak/idr_reproducibility/idr.conservative_peak.narrowPeak.gz
+2023-09-21 07:06:55,825|autouri.autouri|INFO| rm: (2b550a6d) /scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample2/peak/idr_reproducibility/idr.conservative_peak.narrowPeak.bb
+2023-09-21 07:06:55,832|autouri.autouri|INFO| rm: (8fa96758) /scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample2/peak/idr_reproducibility/idr.conservative_peak.narrowPeak.starch
+2023-09-21 07:06:55,836|autouri.autouri|INFO| rm: (74b918e0) /scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample2/peak/idr_reproducibility/idr.conservative_peak.narrowPeak.hammock.gz
+2023-09-21 07:06:55,839|autouri.autouri|INFO| rm: (98e4b60f) /scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample2/qc/idr.reproducibility.qc
+2023-09-21 07:06:55,843|autouri.autouri|INFO| rm: (1b1fc2a4) /scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample2/peak/overlap_reproducibility/overlap.optimal_peak.narrowPeak.gz
+2023-09-21 07:06:55,849|autouri.autouri|INFO| rm: (41eaf311) /scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample2/peak/overlap_reproducibility/overlap.optimal_peak.narrowPeak.bb
+2023-09-21 07:06:55,855|autouri.autouri|INFO| rm: (5365e10b) /scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample2/peak/overlap_reproducibility/overlap.optimal_peak.narrowPeak.starch
+2023-09-21 07:06:55,858|autouri.autouri|INFO| rm: (d5513791) /scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample2/peak/overlap_reproducibility/overlap.optimal_peak.narrowPeak.hammock.gz
+2023-09-21 07:06:55,862|autouri.autouri|INFO| rm: (af6666b8) /scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample2/peak/overlap_reproducibility/overlap.conservative_peak.narrowPeak.gz
+2023-09-21 07:06:55,865|autouri.autouri|INFO| rm: (37e62737) /scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample2/peak/overlap_reproducibility/overlap.conservative_peak.narrowPeak.bb
+2023-09-21 07:06:55,868|autouri.autouri|INFO| rm: (28a0f670) /scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample2/peak/overlap_reproducibility/overlap.conservative_peak.narrowPeak.starch
+2023-09-21 07:06:55,871|autouri.autouri|INFO| rm: (3e121b4a) /scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample2/peak/overlap_reproducibility/overlap.conservative_peak.narrowPeak.hammock.gz
+2023-09-21 07:06:55,874|autouri.autouri|INFO| rm: (0ba94829) /scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample2/qc/overlap.reproducibility.qc
+2023-09-21 07:06:55,878|autouri.autouri|INFO| rm: (9abb13f4) /scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample2/qc/qc.html
+2023-09-21 07:06:55,881|autouri.autouri|INFO| rm: (a5b65af5) /scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample2/qc/qc.json
+Warning: darkgrey is not a known color.
+2023-09-21 07:06:55,918|autouri.autouri|INFO| cp: (ae19a5ae) started. src=/tmp/tmpv1f577ol/croo.report.a670cb69-dd9e-431a-b086-ad349933f695.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample2/croo.report.a670cb69-dd9e-431a-b086-ad349933f695.html
+2023-09-21 07:06:55,928|autouri.autouri|INFO| cp: (ae19a5ae) done.
+Croo completed successfully on sample X4RG73R_sample2.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample13/atac/1956f3cd-51d2-437c-a1ac-b33330376b39/metadata.json
+Sample name: X4RG73R_sample13
+Warning: darkgrey is not a known color.
+2023-09-21 07:06:59,028|autouri.autouri|INFO| cp: (c6014c58) started. src=/tmp/tmprgb9a2n6/croo.report.1956f3cd-51d2-437c-a1ac-b33330376b39.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample13/croo.report.1956f3cd-51d2-437c-a1ac-b33330376b39.html
+2023-09-21 07:06:59,032|autouri.autouri|INFO| cp: (c6014c58) done.
+Croo completed successfully on sample X4RG73R_sample13.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample4/atac/85a8ea50-4b07-442f-bc25-8dc3b2f87d0f/metadata.json
+Sample name: X4RG73R_sample4
+Warning: darkgrey is not a known color.
+2023-09-21 07:07:02,405|autouri.autouri|INFO| cp: (1376a547) started. src=/tmp/tmphk65gzub/croo.report.85a8ea50-4b07-442f-bc25-8dc3b2f87d0f.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample4/croo.report.85a8ea50-4b07-442f-bc25-8dc3b2f87d0f.html
+2023-09-21 07:07:02,408|autouri.autouri|INFO| cp: (1376a547) done.
+Croo completed successfully on sample X4RG73R_sample4.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample9/atac/1a630fb6-3407-4b67-a2e5-e64fd67896dc/metadata.json
+Sample name: X4RG73R_sample9
+Warning: darkgrey is not a known color.
+2023-09-21 07:07:05,264|autouri.autouri|INFO| cp: (543b872e) started. src=/tmp/tmpye_1bszg/croo.report.1a630fb6-3407-4b67-a2e5-e64fd67896dc.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample9/croo.report.1a630fb6-3407-4b67-a2e5-e64fd67896dc.html
+2023-09-21 07:07:05,267|autouri.autouri|INFO| cp: (543b872e) done.
+Croo completed successfully on sample X4RG73R_sample9.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/X4RG73R/X4RG73R_sample16/atac/a187a861-9297-44b0-96c7-49de136dd578/metadata.json
+Sample name: X4RG73R_sample16
+Warning: darkgrey is not a known color.
+2023-09-21 07:07:08,170|autouri.autouri|INFO| cp: (db872fc1) started. src=/tmp/tmpnhq5md70/croo.report.a187a861-9297-44b0-96c7-49de136dd578.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/X4RG73R/X4RG73R_sample16/croo.report.a187a861-9297-44b0-96c7-49de136dd578.html
+2023-09-21 07:07:08,173|autouri.autouri|INFO| cp: (db872fc1) done.
+Croo completed successfully on sample X4RG73R_sample16.
+
