@@ -1,22 +1,26 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC1091
-# module purge
+set -eo noclobber
+set -eo pipefail
 
+# Clean up module environment and set up job-specific environment
 # eval "$(conda shell.bash hook)"
-# conda activate snakemake_tobias
+# conda activate encd-atac
 
-# echo "finished env"
+# module load jdk/11.0.12
+# module load graphviz/5.0.1
+module load singularity
+module load java/11.0.15-openjdk
+module load miniconda3/py38_4.8.3
 
-# echo >> path/to/file.txt
-# echo "finished env" >> path/to/file.txt
-
-captured_out=$(bash /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/test/main.sh | tee /home/suffi.azizan/scratchspace/pipeline_scripts/atac-seq-workflow-scripts/test/test.log | grep -oE "RSYNC_ERROR|CROO_ERROR")
-echo "finished running env_test.sh"
-if [[ -z "$captured_out" ]]; then
-    echo "Oops! Captured variable is empty!"
+echo "Starting pipeline..."
+count=$1
+if singularity --help; then
+    source /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/test/call.sh "${count}" >> "/home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/logs/test_module.log" 2>&1
 else
-    printf "This is the captured output: \n %s" "$captured_out"
+    echo "Singularity not found. Exiting..."
 fi
+
 
 
 
