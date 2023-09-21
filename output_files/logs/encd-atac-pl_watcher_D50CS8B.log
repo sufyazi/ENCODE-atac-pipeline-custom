@@ -217,3 +217,37 @@ Processed files have been transferred to remote storage Odin.
 All sample subdirectories have been copied to Odin and removed from NSCC Aspire.
 Submitting the next batch of jobs...
 /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/encd-atac-pl_submitter-v3-ASPIRE.sh: line 12: module: command not found
+
+
+__________ REDO __________
+
+
+Dataset json directory exists. Proceeding...
+Dataset-specific output directory exists. Proceeding...
+Number of json files in the target directory: 14
+Sample ID: sample1
+Local output directory: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/D50CS8B/D50CS8B_sample1
+2023-09-21 12:41:34,028|caper.hpc|INFO| Running shell command: qsub -P 12003580 -l select=1:ncpus=4:mpiprocs=4:mem=200GB -l walltime=20:00:00 -V -N CAPER_D50CS8B_sample1 /home/users/ntu/suffiazi/si1dl9m6.sh
+2935966.pbs101
+Submitted job number 11: /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/json/D50CS8B_TCGA-THCA/D50CS8B_TCGA-THCA_sample1.json in elif-block 1
+Sample ID: sample5
+Local output directory: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/D50CS8B/D50CS8B_sample5
+2023-09-21 12:41:37,733|caper.hpc|INFO| Running shell command: qsub -P 12003580 -l select=1:ncpus=4:mpiprocs=4:mem=200GB -l walltime=20:00:00 -V -N CAPER_D50CS8B_sample5 /home/users/ntu/suffiazi/ulyc_8tm.sh
+2935967.pbs101
+Submitted job number 12: /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/json/D50CS8B_TCGA-THCA/D50CS8B_TCGA-THCA_sample5.json in elif-block 1
+Sample ID: sample14
+Local output directory: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/D50CS8B/D50CS8B_sample14
+2023-09-21 12:41:41,023|caper.hpc|INFO| Running shell command: qsub -P 12003580 -l select=1:ncpus=4:mpiprocs=4:mem=200GB -l walltime=20:00:00 -V -N CAPER_D50CS8B_sample14 /home/users/ntu/suffiazi/k8kkku2s.sh
+2935968.pbs101
+Submitted job number 13: /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/json/D50CS8B_TCGA-THCA/D50CS8B_TCGA-THCA_sample14.json in elif-block 1
+Sample ID: sample11
+Local output directory: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/D50CS8B/D50CS8B_sample11
+2023-09-21 12:41:44,534|caper.hpc|INFO| Running shell command: qsub -P 12003580 -l select=1:ncpus=4:mpiprocs=4:mem=200GB -l walltime=20:00:00 -V -N CAPER_D50CS8B_sample11 /home/users/ntu/suffiazi/nbzxqddu.sh
+2935969.pbs101
+Submitted job number 14: /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/json/D50CS8B_TCGA-THCA/D50CS8B_TCGA-THCA_sample11.json in outer elif block.
+All samples have been submitted for processing.
+Current count is 14
+Max sample count is 14
+warning: commands will be executed using /bin/sh
+job 26 at Thu Sep 21 13:41:00 2023
+Watcher script has been scheduled to run in 1 hour.
