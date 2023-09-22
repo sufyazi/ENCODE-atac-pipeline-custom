@@ -1,0 +1,14 @@
+{
+    "atac.title": "IJN8XGH_TCGA-CHOL",
+    "atac.description": "IJN8XGH_TCGA-CHOL tcga atac-seq",
+    "atac.pipeline_type": "atac",
+    "atac.align_only": false,
+    "atac.true_rep_only": false,
+    "atac.genome_tsv": "https://storage.googleapis.com/encode-pipeline-genome-data/genome_tsv/v4/hg38.tsv",
+    "atac.paired_end": true,
+    "atac.auto_detect_adapter": true,
+    "atac.align_cpu": 24,
+    "atac.bams": [
+        "/home/suffi.azizan/scratchspace/inputs/fastq/tcga-atac/TCGA-CHOL/sample_2/rep_0/0521d084-2970-478a-864f-bfdd570a8c57_atacseq_gdc_realn.bam"
+    ]
+}
