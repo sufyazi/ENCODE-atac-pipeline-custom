@@ -1,0 +1,14 @@
+{
+    "atac.title": "C3U9158_TCGA-BLCA",
+    "atac.description": "C3U9158_TCGA-BLCA tcga atac-seq",
+    "atac.pipeline_type": "atac",
+    "atac.align_only": false,
+    "atac.true_rep_only": false,
+    "atac.genome_tsv": "https://storage.googleapis.com/encode-pipeline-genome-data/genome_tsv/v4/hg38.tsv",
+    "atac.paired_end": true,
+    "atac.auto_detect_adapter": true,
+    "atac.align_cpu": 24,
+    "atac.bams": [
+        "/home/users/ntu/suffiazi/scratch/inputs/atac-seq-pipeline-raw-input/TCGA-BLCA/sample_6/rep_0/25f29fe7-2a4b-4748-84f8-85fe44807937_atacseq_gdc_realn.bam"
+    ]
+}
