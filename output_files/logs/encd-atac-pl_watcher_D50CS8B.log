@@ -357,3 +357,43 @@ The current batch of submitted jobs are still running. Will check again in 1 hou
 Number of metadata.json files indicating finished jobs: 13
 warning: commands will be executed using /bin/sh
 job 32 at Thu Sep 21 19:41:00 2023
+Max sample count has been reached. Checking to see if all jobs have finished...
+Listing successful jobs...
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/D50CS8B/D50CS8B_sample10/atac/dd7bdf58-2854-46f4-ab5d-c69e6e0b62df/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/D50CS8B/D50CS8B_sample12/atac/e2151bfa-fca7-4ba1-95f3-1fba68ede6d8/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/D50CS8B/D50CS8B_sample13/atac/197b2008-601f-4779-95ab-b933e52d7e50/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/D50CS8B/D50CS8B_sample14/atac/e7962b19-9234-4cfe-87b9-26d112063164/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/D50CS8B/D50CS8B_sample1/atac/46f91f49-4da2-4943-9787-ccfaa02d67e7/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/D50CS8B/D50CS8B_sample2/atac/56a7fc5e-90da-47ee-876d-0e62d3225294/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/D50CS8B/D50CS8B_sample3/atac/6dc17a83-6975-46df-a5f2-51f57eaacb6b/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/D50CS8B/D50CS8B_sample4/atac/6ac7a1c6-55ef-4779-bdd9-321b4d0e20e5/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/D50CS8B/D50CS8B_sample5/atac/7a67de18-31f7-4ba3-88ad-9754b9246564/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/D50CS8B/D50CS8B_sample6/atac/49312e6b-bbc9-4a35-827b-930a941d9398/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/D50CS8B/D50CS8B_sample7/atac/54764ff1-e3c3-4d3c-b985-570b73139b85/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/D50CS8B/D50CS8B_sample8/atac/b4d6df20-db8e-4295-abf8-5f063b6472f5/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/D50CS8B/D50CS8B_sample9/atac/3482b045-abe1-46e6-999c-af3224a376cb/metadata.json:    "status": "Succeeded",
+Number of metadata.json files indicating finished jobs: 13
+The current batch of submitted jobs are still running. Will check again in 1 hour.
+Number of metadata.json files indicating finished jobs: 13
+warning: commands will be executed using /bin/sh
+job 34 at Thu Sep 21 20:41:00 2023
+Max sample count has been reached. Checking to see if all jobs have finished...
+Listing successful jobs...
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/D50CS8B/D50CS8B_sample10/atac/dd7bdf58-2854-46f4-ab5d-c69e6e0b62df/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/D50CS8B/D50CS8B_sample11/atac/766176fc-c65e-4e3b-80f2-e30b72710ba0/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/D50CS8B/D50CS8B_sample12/atac/e2151bfa-fca7-4ba1-95f3-1fba68ede6d8/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/D50CS8B/D50CS8B_sample13/atac/197b2008-601f-4779-95ab-b933e52d7e50/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/D50CS8B/D50CS8B_sample14/atac/e7962b19-9234-4cfe-87b9-26d112063164/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/D50CS8B/D50CS8B_sample1/atac/46f91f49-4da2-4943-9787-ccfaa02d67e7/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/D50CS8B/D50CS8B_sample2/atac/56a7fc5e-90da-47ee-876d-0e62d3225294/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/D50CS8B/D50CS8B_sample3/atac/6dc17a83-6975-46df-a5f2-51f57eaacb6b/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/D50CS8B/D50CS8B_sample4/atac/6ac7a1c6-55ef-4779-bdd9-321b4d0e20e5/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/D50CS8B/D50CS8B_sample5/atac/7a67de18-31f7-4ba3-88ad-9754b9246564/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/D50CS8B/D50CS8B_sample6/atac/49312e6b-bbc9-4a35-827b-930a941d9398/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/D50CS8B/D50CS8B_sample7/atac/54764ff1-e3c3-4d3c-b985-570b73139b85/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/D50CS8B/D50CS8B_sample8/atac/b4d6df20-db8e-4295-abf8-5f063b6472f5/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/D50CS8B/D50CS8B_sample9/atac/3482b045-abe1-46e6-999c-af3224a376cb/metadata.json:    "status": "Succeeded",
+Number of metadata.json files indicating finished jobs: 14
+Something is wrong with the current pipeline jobs...
+Listing failed jobs...
+No errored jobs found. Exiting watcher script. Please diagnose the problem manually.

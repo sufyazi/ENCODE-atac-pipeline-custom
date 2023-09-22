@@ -18,16 +18,18 @@ max_samp_count=$6
 
 # Check if max_samp_count is not reached
 if [[ "$counter" -ne "$max_samp_count" ]]; then
-    echo "Max sample count has not been reached. Proceeding..."
-    if find "${pl_raw_output_root_dir}/${analysis_id}" -type f -name "metadata.json" -print0 | xargs -0 grep -q "Succeeded"; then
+    echo "Max sample count has not been reached."
+    if [[ $(qstat -u suffiazi | grep -c "CAPER_${analysis_id:0:3}") -eq 0 ]]; then
+        echo "No jobs are currently running. Listing successful jobs..."
+        find "${pl_raw_output_root_dir}/${analysis_id}" -type f -name "metadata.json" -print0 | xargs -0 grep "Succeeded" | sort -u
         finish_counts=$(find "${pl_raw_output_root_dir}/${analysis_id}" -type f -name "metadata.json" -print0 | xargs -0 grep "Succeeded" | sort -u | wc -l)
         echo "Number of metadata.json files indicating finished jobs: $finish_counts"
         if (( finish_counts == MAX_JOBS )); then
-            echo "All currently running jobs have finished."
             echo "Block 1 watcher script"
+            echo "All currently running jobs have successfully finished."
             echo "Submitting the next batch of jobs..."
             source /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/encd-atac-pl_submitter-v3-ASPIRE.sh "${analysis_id}" "${dataset_json_dir}" "${pl_raw_output_root_dir}" "${croo_output_root_dir}" "${counter}"
-        elif (( finish_counts != MAX_JOBS )) && [[ $(qstat -u suffiazi | grep -c "CAPER_${analysis_id:0:3}") -eq 0 ]]; then
+        elif (( finish_counts != MAX_JOBS )); then
             echo "Something is wrong with the current pipeline jobs..."
             echo "Listing errored jobs..."
             if find "${pl_raw_output_root_dir}/${analysis_id}" -type f -name "metadata.json" -print0 | xargs -0 grep -q "Workflow failed"; then
@@ -39,31 +41,25 @@ if [[ "$counter" -ne "$max_samp_count" ]]; then
             else
                 echo "Could not find failed jobs. Exiting watcher script. Please diagnose the problem manually."
             fi
-        elif (( finish_counts != MAX_JOBS )) && [[ $(qstat -u suffiazi | grep -c "CAPER_${analysis_id:0:3}") -ne 0 ]]; then
-            echo "The current batch of submitted jobs are still running. Will check again in 1 hour."
-            echo "Number of metadata.json files indicating finished jobs: $finish_counts"
-            at now + 1 hour <<EOF
-/home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/encd-atac-pl_watcher-v3-ASPIRE.sh "${analysis_id}" "${dataset_json_dir}" "${pl_raw_output_root_dir}" "${croo_output_root_dir}" "${counter}" "${max_samp_count}" >> "/home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/logs/encd-atac-pl_watcher_${analysis_id}.log" 2>&1
-EOF
         fi
-    else
-        echo "None of the currently running jobs has finished. Will check again in 1 hour."
+    elif [[ $(qstat -u suffiazi | grep -c "CAPER_${analysis_id:0:3}") -ne 0 ]]; then
+        echo "The current batch of submitted jobs are still running. Will check again in 1 hour."
+        finish_counts=$(find "${pl_raw_output_root_dir}/${analysis_id}" -type f -name "metadata.json" -print0 | xargs -0 grep "Succeeded" | sort -u | wc -l)
+        echo "Number of metadata.json files indicating finished jobs: $finish_counts"
         at now + 1 hour <<EOF
 /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/encd-atac-pl_watcher-v3-ASPIRE.sh "${analysis_id}" "${dataset_json_dir}" "${pl_raw_output_root_dir}" "${croo_output_root_dir}" "${counter}" "${max_samp_count}" >> "/home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/logs/encd-atac-pl_watcher_${analysis_id}.log" 2>&1
 EOF
     fi
-
 else
-    echo "Max sample count has been reached. Checking to see if all jobs have finished..."
-    remainder=$((counter % MAX_JOBS))
-    echo "Listing successful jobs..."
-    if find "${pl_raw_output_root_dir}/${analysis_id}" -type f -name "metadata.json" -print0 | xargs -0 grep -q "Succeeded"; then
+    echo "Max sample count has been reached."
+    if [[ $(qstat -u suffiazi | grep -c "CAPER_${analysis_id:0:3}") -eq 0 ]]; then
+        echo "No jobs are currently running. Listing successful jobs..."
         find "${pl_raw_output_root_dir}/${analysis_id}" -type f -name "metadata.json" -print0 | xargs -0 grep "Succeeded" | sort -u
         finish_counts=$(find "${pl_raw_output_root_dir}/${analysis_id}" -type f -name "metadata.json" -print0 | xargs -0 grep "Succeeded" | sort -u | wc -l)
         echo "Number of metadata.json files indicating finished jobs: $finish_counts"
-        if (( finish_counts == remainder )); then
-            echo "All currently running jobs have finished."
+        if (( finish_counts == max_samp_count )); then
             echo "Block 3 watcher script"
+            echo "All samples in the dataset have been processed successfully."
             echo "Running croo post-processing script..."
             set +e # Disable the exit on error option so that the script can continue if the croo post-processing script fails
             # Run the croo post-processing script
@@ -76,25 +72,17 @@ else
             else
                 echo "Croo post-processing script failed for this batch of jobs. Please check the log file for more details."
             fi
-        elif (( finish_counts != remainder )) && [[ $(qstat -u suffiazi | grep -c "CAPER_${analysis_id:0:3}") -eq 0 ]]; then
+        elif (( finish_counts != max_samp_count )); then
+            echo "Block 4 watcher script"
             echo "Something is wrong with the current pipeline jobs..."
             echo "Listing failed jobs..."
-            if find "${pl_raw_output_root_dir}/${analysis_id}" -type f -name "metadata.json" -print0 | xargs -0 grep -q "Workflow failed"; then
-                find "${pl_raw_output_root_dir}/${analysis_id}" -type f -name "metadata.json" -print0 | xargs -0 grep -l "Workflow failed" | sort -u
-                echo "Block 4 watcher script"
-                echo "Ending workflow prematurely. Please diagnose the problem manually."
-            else
-                echo "No errored jobs found. Exiting watcher script. Please diagnose the problem manually."
-            fi
-        elif (( finish_counts != remainder )) && [[ $(qstat -u suffiazi | grep -c "CAPER_${analysis_id:0:3}") -ne 0 ]]; then
-            echo "The current batch of submitted jobs are still running. Will check again in 1 hour."
-            echo "Number of metadata.json files indicating finished jobs: $finish_counts"
-            at now + 1 hour <<EOF
-/home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/encd-atac-pl_watcher-v3-ASPIRE.sh "${analysis_id}" "${dataset_json_dir}" "${pl_raw_output_root_dir}" "${croo_output_root_dir}" "${counter}" "${max_samp_count}" >> "/home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/logs/encd-atac-pl_watcher_${analysis_id}.log" 2>&1
-EOF
+            find "${pl_raw_output_root_dir}/${analysis_id}" -type f -name "metadata.json" -print0 | xargs -0 grep -l "Workflow failed" | sort -u
+            echo "Ending workflow prematurely. Please diagnose the problem manually."
         fi
     else
-        echo "None of the currently running jobs has finished. Will check again in 1 hour."
+        echo "The current batch of submitted jobs are still running. Will check again in 1 hour."
+        finish_counts=$(find "${pl_raw_output_root_dir}/${analysis_id}" -type f -name "metadata.json" -print0 | xargs -0 grep "Succeeded" | sort -u | wc -l)
+        echo "Number of metadata.json files indicating finished jobs: $finish_counts"
         at now + 1 hour <<EOF
 /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/encd-atac-pl_watcher-v3-ASPIRE.sh "${analysis_id}" "${dataset_json_dir}" "${pl_raw_output_root_dir}" "${croo_output_root_dir}" "${counter}" "${max_samp_count}" >> "/home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/logs/encd-atac-pl_watcher_${analysis_id}.log" 2>&1
 EOF

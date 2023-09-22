@@ -22,3 +22,74 @@ Max sample count is 3
 warning: commands will be executed using /bin/sh
 job 33 at Thu Sep 21 20:06:00 2023
 Watcher script has been scheduled to run in 1 hour.
+Max sample count has been reached. Checking to see if all jobs have finished...
+Listing successful jobs...
+None of the currently running jobs has finished. Will check again in 1 hour.
+warning: commands will be executed using /bin/sh
+job 35 at Thu Sep 21 21:06:00 2023
+Max sample count has been reached. Checking to see if all jobs have finished...
+Listing successful jobs...
+None of the currently running jobs has finished. Will check again in 1 hour.
+warning: commands will be executed using /bin/sh
+job 36 at Thu Sep 21 22:06:00 2023
+Max sample count has been reached. Checking to see if all jobs have finished...
+Listing successful jobs...
+None of the currently running jobs has finished. Will check again in 1 hour.
+warning: commands will be executed using /bin/sh
+job 37 at Thu Sep 21 23:06:00 2023
+Max sample count has been reached. Checking to see if all jobs have finished...
+Listing successful jobs...
+None of the currently running jobs has finished. Will check again in 1 hour.
+warning: commands will be executed using /bin/sh
+job 38 at Fri Sep 22 00:06:00 2023
+Max sample count has been reached. Checking to see if all jobs have finished...
+Listing successful jobs...
+None of the currently running jobs has finished. Will check again in 1 hour.
+warning: commands will be executed using /bin/sh
+job 39 at Fri Sep 22 01:06:00 2023
+Max sample count has been reached. Checking to see if all jobs have finished...
+Listing successful jobs...
+None of the currently running jobs has finished. Will check again in 1 hour.
+warning: commands will be executed using /bin/sh
+job 40 at Fri Sep 22 02:06:00 2023
+Max sample count has been reached. Checking to see if all jobs have finished...
+Listing successful jobs...
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/23EBY44/23EBY44_sample1/atac/a4016342-2d95-4cd1-8ec0-a5d9e17030f3/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/23EBY44/23EBY44_sample2/atac/5203f29e-09b1-403b-a4bf-c552a88680c4/metadata.json:    "status": "Succeeded",
+Number of metadata.json files indicating finished jobs: 2
+The current batch of submitted jobs are still running. Will check again in 1 hour.
+Number of metadata.json files indicating finished jobs: 2
+warning: commands will be executed using /bin/sh
+job 41 at Fri Sep 22 03:06:00 2023
+Max sample count has been reached. Checking to see if all jobs have finished...
+Listing successful jobs...
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/23EBY44/23EBY44_sample1/atac/a4016342-2d95-4cd1-8ec0-a5d9e17030f3/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/23EBY44/23EBY44_sample2/atac/5203f29e-09b1-403b-a4bf-c552a88680c4/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/23EBY44/23EBY44_sample3/atac/43c0e7c4-cd59-4711-a652-0e2f32a1a57a/metadata.json:    "status": "Succeeded",
+Number of metadata.json files indicating finished jobs: 3
+All currently running jobs have finished.
+Block 3 watcher script
+Running croo post-processing script...
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/23EBY44/23EBY44_sample2 /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/23EBY44/23EBY44_sample1 /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/23EBY44/23EBY44_sample3
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/23EBY44/23EBY44_sample2/atac/5203f29e-09b1-403b-a4bf-c552a88680c4/metadata.json
+Sample name: 23EBY44_sample2
+Warning: darkgrey is not a known color.
+2023-09-22 03:06:19,561|autouri.autouri|INFO| cp: (8e7b23f0) started. src=/tmp/tmpbsq689br/croo.report.5203f29e-09b1-403b-a4bf-c552a88680c4.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/23EBY44/23EBY44_sample2/croo.report.5203f29e-09b1-403b-a4bf-c552a88680c4.html
+2023-09-22 03:06:19,565|autouri.autouri|INFO| cp: (8e7b23f0) done.
+Croo completed successfully on sample 23EBY44_sample2.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/23EBY44/23EBY44_sample1/atac/a4016342-2d95-4cd1-8ec0-a5d9e17030f3/metadata.json
+Sample name: 23EBY44_sample1
+Warning: darkgrey is not a known color.
+2023-09-22 03:06:22,625|autouri.autouri|INFO| cp: (558e5948) started. src=/tmp/tmpl59ctfit/croo.report.a4016342-2d95-4cd1-8ec0-a5d9e17030f3.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/23EBY44/23EBY44_sample1/croo.report.a4016342-2d95-4cd1-8ec0-a5d9e17030f3.html
+2023-09-22 03:06:22,630|autouri.autouri|INFO| cp: (558e5948) done.
+Croo completed successfully on sample 23EBY44_sample1.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/23EBY44/23EBY44_sample3/atac/43c0e7c4-cd59-4711-a652-0e2f32a1a57a/metadata.json
+Sample name: 23EBY44_sample3
+Warning: darkgrey is not a known color.
+2023-09-22 03:06:25,782|autouri.autouri|INFO| cp: (b40aa974) started. src=/tmp/tmpnpj_ou79/croo.report.43c0e7c4-cd59-4711-a652-0e2f32a1a57a.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/23EBY44/23EBY44_sample3/croo.report.43c0e7c4-cd59-4711-a652-0e2f32a1a57a.html
+2023-09-22 03:06:25,785|autouri.autouri|INFO| cp: (b40aa974) done.
+Croo completed successfully on sample 23EBY44_sample3.
+
+Croo post-processing script completed successfully.
+All job runs have finished. Exiting watcher script...
+Workflow is done.
