@@ -1,0 +1,14 @@
+{
+    "atac.title": "N3G4TN3_TCGA-TGCT",
+    "atac.description": "N3G4TN3_TCGA-TGCT tcga atac-seq",
+    "atac.pipeline_type": "atac",
+    "atac.align_only": false,
+    "atac.true_rep_only": false,
+    "atac.genome_tsv": "https://storage.googleapis.com/encode-pipeline-genome-data/genome_tsv/v4/hg38.tsv",
+    "atac.paired_end": true,
+    "atac.auto_detect_adapter": true,
+    "atac.align_cpu": 24,
+    "atac.bams": [
+        "/home/suffi.azizan/scratchspace/inputs/fastq/tcga-atac/TCGA-TGCT/sample_6/rep_0/919734ab-79da-4aff-9bcb-29cfbf81d473_atacseq_gdc_realn.bam"
+    ]
+}
