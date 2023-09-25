@@ -121,3 +121,8 @@ The current batch of submitted jobs are still running. Will check again in 1 hou
 Number of metadata.json files indicating finished jobs: 11
 warning: commands will be executed using /bin/sh
 job 66 at Mon Sep 25 18:48:00 2023
+Max sample count has been reached.
+The current batch of submitted jobs are still running. Will check again in 1 hour.
+Number of metadata.json files indicating finished jobs: 12
+warning: commands will be executed using /bin/sh
+job 69 at Mon Sep 25 19:48:00 2023
