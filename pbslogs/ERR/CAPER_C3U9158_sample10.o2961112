@@ -1,0 +1,16 @@
+======================================================================================
+
+			Resource Usage on 2023-09-25 11:10:43.991894:
+
+	JobId: 2961112.pbs101  
+	Project: personal-suffiazi 
+	Exit Status: 137
+	NCPUs Requested: 1				NCPUs Used: 1
+							CPU Time Used: 00:00:00
+	Memory Requested: 10mb 			Memory Used: 0b
+							Vmem Used: 13092kb
+	Walltime requested: 24:00:00 			Walltime Used: 00:00:04
+	
+	Execution Nodes Used: (x1001c0s0b1n0:mem=10240kb:ncpus=1:ngpus=0)
+	
+ ======================================================================================

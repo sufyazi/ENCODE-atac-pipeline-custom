@@ -1,0 +1,123 @@
+Dataset json directory exists. Proceeding...
+Pipeline output directory for 03QUM4C did not exist so it has been created. Proceeding...
+Number of json files in the target directory: 13
+Sample ID: sample5
+Local output directory: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/03QUM4C/03QUM4C_sample5
+2023-09-24 14:22:06,404|caper.hpc|INFO| Running shell command: qsub -P 12003580 -l select=1:ncpus=4:mpiprocs=4:mem=200GB -l walltime=20:00:00 -V -N CAPER_03QUM4C_sample5 /home/users/ntu/suffiazi/zyry7qke.sh
+2956112.pbs101
+Submitted job number 1: /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/json/03QUM4C_TCGA-LGG/03QUM4C_TCGA-LGG_sample5.json in if-block 0
+Sample ID: sample10
+Local output directory: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/03QUM4C/03QUM4C_sample10
+2023-09-24 14:22:10,002|caper.hpc|INFO| Running shell command: qsub -P 12003580 -l select=1:ncpus=4:mpiprocs=4:mem=200GB -l walltime=20:00:00 -V -N CAPER_03QUM4C_sample10 /home/users/ntu/suffiazi/0g8vxcex.sh
+2956113.pbs101
+Submitted job number 2: /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/json/03QUM4C_TCGA-LGG/03QUM4C_TCGA-LGG_sample10.json in elif-block 1
+Sample ID: sample12
+Local output directory: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/03QUM4C/03QUM4C_sample12
+2023-09-24 14:22:13,458|caper.hpc|INFO| Running shell command: qsub -P 12003580 -l select=1:ncpus=4:mpiprocs=4:mem=200GB -l walltime=20:00:00 -V -N CAPER_03QUM4C_sample12 /home/users/ntu/suffiazi/dxf1au8w.sh
+2956114.pbs101
+Submitted job number 3: /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/json/03QUM4C_TCGA-LGG/03QUM4C_TCGA-LGG_sample12.json in elif-block 1
+Sample ID: sample2
+Local output directory: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/03QUM4C/03QUM4C_sample2
+2023-09-24 14:22:17,239|caper.hpc|INFO| Running shell command: qsub -P 12003580 -l select=1:ncpus=4:mpiprocs=4:mem=200GB -l walltime=20:00:00 -V -N CAPER_03QUM4C_sample2 /home/users/ntu/suffiazi/lyjr33yo.sh
+2956115.pbs101
+Submitted job number 4: /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/json/03QUM4C_TCGA-LGG/03QUM4C_TCGA-LGG_sample2.json in elif-block 1
+Sample ID: sample13
+Local output directory: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/03QUM4C/03QUM4C_sample13
+2023-09-24 14:22:20,808|caper.hpc|INFO| Running shell command: qsub -P 12003580 -l select=1:ncpus=4:mpiprocs=4:mem=200GB -l walltime=20:00:00 -V -N CAPER_03QUM4C_sample13 /home/users/ntu/suffiazi/atduxgxy.sh
+2956117.pbs101
+Submitted job number 5: /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/json/03QUM4C_TCGA-LGG/03QUM4C_TCGA-LGG_sample13.json in elif-block 1
+Sample ID: sample6
+Local output directory: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/03QUM4C/03QUM4C_sample6
+2023-09-24 14:22:24,116|caper.hpc|INFO| Running shell command: qsub -P 12003580 -l select=1:ncpus=4:mpiprocs=4:mem=200GB -l walltime=20:00:00 -V -N CAPER_03QUM4C_sample6 /home/users/ntu/suffiazi/kvkvngba.sh
+2956118.pbs101
+Submitted job number 6: /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/json/03QUM4C_TCGA-LGG/03QUM4C_TCGA-LGG_sample6.json in elif-block 1
+Sample ID: sample4
+Local output directory: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/03QUM4C/03QUM4C_sample4
+2023-09-24 14:22:27,762|caper.hpc|INFO| Running shell command: qsub -P 12003580 -l select=1:ncpus=4:mpiprocs=4:mem=200GB -l walltime=20:00:00 -V -N CAPER_03QUM4C_sample4 /home/users/ntu/suffiazi/u8zuqjns.sh
+2956121.pbs101
+Submitted job number 7: /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/json/03QUM4C_TCGA-LGG/03QUM4C_TCGA-LGG_sample4.json in elif-block 1
+Sample ID: sample1
+Local output directory: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/03QUM4C/03QUM4C_sample1
+2023-09-24 14:22:31,493|caper.hpc|INFO| Running shell command: qsub -P 12003580 -l select=1:ncpus=4:mpiprocs=4:mem=200GB -l walltime=20:00:00 -V -N CAPER_03QUM4C_sample1 /home/users/ntu/suffiazi/10k6lbbk.sh
+2956124.pbs101
+Submitted job number 8: /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/json/03QUM4C_TCGA-LGG/03QUM4C_TCGA-LGG_sample1.json in elif-block 1
+Sample ID: sample11
+Local output directory: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/03QUM4C/03QUM4C_sample11
+2023-09-24 14:22:34,737|caper.hpc|INFO| Running shell command: qsub -P 12003580 -l select=1:ncpus=4:mpiprocs=4:mem=200GB -l walltime=20:00:00 -V -N CAPER_03QUM4C_sample11 /home/users/ntu/suffiazi/qqjzinon.sh
+2956125.pbs101
+Submitted job number 9: /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/json/03QUM4C_TCGA-LGG/03QUM4C_TCGA-LGG_sample11.json in elif-block 1
+Sample ID: sample8
+Local output directory: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/03QUM4C/03QUM4C_sample8
+2023-09-24 14:22:38,304|caper.hpc|INFO| Running shell command: qsub -P 12003580 -l select=1:ncpus=4:mpiprocs=4:mem=200GB -l walltime=20:00:00 -V -N CAPER_03QUM4C_sample8 /home/users/ntu/suffiazi/k1ozf6gd.sh
+2956126.pbs101
+Submitted job number 10: /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/json/03QUM4C_TCGA-LGG/03QUM4C_TCGA-LGG_sample8.json in elif-block 2
+Max jobs at a time have been submitted.
+Current count is 10
+Current sample count is 10
+warning: commands will be executed using /bin/sh
+job 47 at Sun Sep 24 15:22:00 2023
+Watcher script has been scheduled to run in 1 hour.
+Max sample count has not been reached.
+The current batch of submitted jobs are still running. Will check again in 1 hour.
+
+---------
+
+Dataset json directory exists. Proceeding...
+Dataset-specific output directory exists. Proceeding...
+Number of json files in the target directory: 13
+Sample ID: sample3
+Local output directory: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/03QUM4C/03QUM4C_sample3
+2023-09-25 10:48:17,338|caper.hpc|INFO| Running shell command: qsub -P 12003580 -l select=1:ncpus=4:mpiprocs=4:mem=200GB -l walltime=20:00:00 -V -N CAPER_03QUM4C_sample3 /home/users/ntu/suffiazi/tz48h0m7.sh
+2961006.pbs101
+Submitted job number 11: /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/json/03QUM4C_TCGA-LGG/03QUM4C_TCGA-LGG_sample3.json in elif-block 1
+Sample ID: sample7
+Local output directory: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/03QUM4C/03QUM4C_sample7
+2023-09-25 10:48:21,422|caper.hpc|INFO| Running shell command: qsub -P 12003580 -l select=1:ncpus=4:mpiprocs=4:mem=200GB -l walltime=20:00:00 -V -N CAPER_03QUM4C_sample7 /home/users/ntu/suffiazi/voxdu6zc.sh
+2961007.pbs101
+Submitted job number 12: /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/json/03QUM4C_TCGA-LGG/03QUM4C_TCGA-LGG_sample7.json in elif-block 1
+Sample ID: sample9
+Local output directory: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/03QUM4C/03QUM4C_sample9
+2023-09-25 10:48:24,961|caper.hpc|INFO| Running shell command: qsub -P 12003580 -l select=1:ncpus=4:mpiprocs=4:mem=200GB -l walltime=20:00:00 -V -N CAPER_03QUM4C_sample9 /home/users/ntu/suffiazi/_ueqng2f.sh
+2961011.pbs101
+Submitted job number 13: /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/json/03QUM4C_TCGA-LGG/03QUM4C_TCGA-LGG_sample9.json in outer elif block.
+All samples have been submitted for processing.
+Current count is 13
+Max sample count is 13
+warning: commands will be executed using /bin/sh
+job 45 at Mon Sep 25 11:48:00 2023
+Watcher script has been scheduled to run in 1 hour.
+Max sample count has been reached.
+The current batch of submitted jobs are still running. Will check again in 1 hour.
+Number of metadata.json files indicating finished jobs: 10
+warning: commands will be executed using /bin/sh
+job 48 at Mon Sep 25 12:48:00 2023
+Max sample count has been reached.
+The current batch of submitted jobs are still running. Will check again in 1 hour.
+Number of metadata.json files indicating finished jobs: 10
+warning: commands will be executed using /bin/sh
+job 51 at Mon Sep 25 13:48:00 2023
+Max sample count has been reached.
+The current batch of submitted jobs are still running. Will check again in 1 hour.
+Number of metadata.json files indicating finished jobs: 10
+warning: commands will be executed using /bin/sh
+job 54 at Mon Sep 25 14:48:00 2023
+Max sample count has been reached.
+The current batch of submitted jobs are still running. Will check again in 1 hour.
+Number of metadata.json files indicating finished jobs: 10
+warning: commands will be executed using /bin/sh
+job 57 at Mon Sep 25 15:48:00 2023
+Max sample count has been reached.
+The current batch of submitted jobs are still running. Will check again in 1 hour.
+Number of metadata.json files indicating finished jobs: 10
+warning: commands will be executed using /bin/sh
+job 60 at Mon Sep 25 16:48:00 2023
+Max sample count has been reached.
+The current batch of submitted jobs are still running. Will check again in 1 hour.
+Number of metadata.json files indicating finished jobs: 11
+warning: commands will be executed using /bin/sh
+job 63 at Mon Sep 25 17:48:00 2023
+Max sample count has been reached.
+The current batch of submitted jobs are still running. Will check again in 1 hour.
+Number of metadata.json files indicating finished jobs: 11
+warning: commands will be executed using /bin/sh
+job 66 at Mon Sep 25 18:48:00 2023

@@ -1,0 +1,14 @@
+{
+    "atac.title": "Q8P35DS_TCGA-KIRC",
+    "atac.description": "Q8P35DS_TCGA-KIRC tcga atac-seq",
+    "atac.pipeline_type": "atac",
+    "atac.align_only": false,
+    "atac.true_rep_only": false,
+    "atac.genome_tsv": "https://storage.googleapis.com/encode-pipeline-genome-data/genome_tsv/v4/hg38.tsv",
+    "atac.paired_end": true,
+    "atac.auto_detect_adapter": true,
+    "atac.align_cpu": 24,
+    "atac.bams": [
+        "/home/users/ntu/suffiazi/scratch/inputs/atac-seq-pipeline-raw-input/TCGA-KIRC/sample_15/rep_0/bb6daff6-703a-4c87-b8b8-d332485696dd_atacseq_gdc_realn.bam"
+    ]
+}

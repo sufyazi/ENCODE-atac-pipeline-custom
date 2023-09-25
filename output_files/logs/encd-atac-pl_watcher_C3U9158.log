@@ -57,3 +57,5 @@ Max sample count is 10
 warning: commands will be executed using /bin/sh
 job 42 at Fri Sep 22 12:53:00 2023
 Watcher script has been scheduled to run in 1 hour.
+Max sample count has been reached.
+The current batch of submitted jobs are still running. Will check again in 1 hour.

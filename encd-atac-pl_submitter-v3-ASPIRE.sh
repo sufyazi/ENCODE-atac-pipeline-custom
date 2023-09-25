@@ -11,7 +11,6 @@ set -eo pipefail
 # module load graphviz/5.0.1
 module load singularity
 module load java/11.0.15-openjdk
-module load miniconda3/py38_4.8.3
 
 # Check if the correct number of arguments were provided
 if [[ $# -ne 5 ]]; then

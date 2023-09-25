@@ -1,0 +1,14 @@
+{
+    "atac.title": "MAQI84B_TCGA-ESCA",
+    "atac.description": "MAQI84B_TCGA-ESCA tcga atac-seq",
+    "atac.pipeline_type": "atac",
+    "atac.align_only": false,
+    "atac.true_rep_only": false,
+    "atac.genome_tsv": "https://storage.googleapis.com/encode-pipeline-genome-data/genome_tsv/v4/hg38.tsv",
+    "atac.paired_end": true,
+    "atac.auto_detect_adapter": true,
+    "atac.align_cpu": 24,
+    "atac.bams": [
+        "/home/users/ntu/suffiazi/scratch/inputs/atac-seq-pipeline-raw-input/TCGA-ESCA/sample_5/rep_0/8f431139-ce0b-492e-9c22-ecebebd61a32_atacseq_gdc_realn.bam"
+    ]
+}

@@ -1,0 +1,94 @@
+2023-09-25 11:13:08,587|caper.cli|INFO| Cromwell stdout: /home/users/ntu/suffiazi/caper_logs/cromwell.MAQI84B_sample1.out
+2023-09-25 11:13:08,592|caper.caper_base|INFO| Creating a timestamped temporary directory. /home/users/ntu/suffiazi/scratch/.caper_tmp/atac/20230925_111308_590595
+2023-09-25 11:13:08,592|caper.caper_runner|INFO| Localizing files on work_dir. /home/users/ntu/suffiazi/scratch/.caper_tmp/atac/20230925_111308_590595
+2023-09-25 11:13:08,632|autouri.autouri|INFO| cp: (012f17ca) started. src=https://www.encodeproject.org/files/GRCh38_no_alt_analysis_set_GCA_000001405.15/@@download/GRCh38_no_alt_analysis_set_GCA_000001405.15.fasta.gz, dest=/home/users/ntu/suffiazi/scratch/.caper_tmp/caf534ed3cf684406e731d19be272b4a/GRCh38_no_alt_analysis_set_GCA_000001405.15.fasta.gz
+2023-09-25 11:13:21,771|autouri.autouri|INFO| cp: (012f17ca) skipped due to name_size_match. size=872949833, mt=1549739698.0
+2023-09-25 11:13:21,774|autouri.autouri|INFO| cp: (75881baa) started. src=https://www.encodeproject.org/files/GRCh38_no_alt_analysis_set_GCA_000001405.15_mito_only/@@download/GRCh38_no_alt_analysis_set_GCA_000001405.15_mito_only.fasta.gz, dest=/home/users/ntu/suffiazi/scratch/.caper_tmp/f43b63a83784d3ec8055f1a22168ed89/GRCh38_no_alt_analysis_set_GCA_000001405.15_mito_only.fasta.gz
+2023-09-25 11:13:24,411|autouri.autouri|INFO| cp: (75881baa) skipped due to md5_match. md5=05297d96dd1f7cfb45a7b637d6dd7036
+2023-09-25 11:13:24,413|autouri.autouri|INFO| cp: (61ed6048) started. src=https://www.encodeproject.org/files/ENCFF356LFX/@@download/ENCFF356LFX.bed.gz, dest=/home/users/ntu/suffiazi/scratch/.caper_tmp/f183dcba5d34f959d8b55ed438ee2e22/ENCFF356LFX.bed.gz
+2023-09-25 11:13:26,279|autouri.autouri|INFO| cp: (61ed6048) skipped due to md5_match. md5=393688b4f06c9ce26165d47433dd8c37
+2023-09-25 11:13:28,134|autouri.autouri|INFO| cp: (97937c24) started. src=https://www.encodeproject.org/files/GRCh38_EBV.chrom.sizes/@@download/GRCh38_EBV.chrom.sizes.tsv, dest=/home/users/ntu/suffiazi/scratch/.caper_tmp/c52f52c7bfa357f55a39b1de7e4d0b0c/GRCh38_EBV.chrom.sizes.tsv
+2023-09-25 11:13:29,886|autouri.autouri|INFO| cp: (97937c24) skipped due to md5_match. md5=c95303fb77cc3e11d50e3c3a4b93b3fb
+2023-09-25 11:13:29,887|autouri.autouri|INFO| cp: (68488515) started. src=https://www.encodeproject.org/files/ENCFF110MCL/@@download/ENCFF110MCL.tar.gz, dest=/home/users/ntu/suffiazi/scratch/.caper_tmp/3ff4ac4c3f59d096b1a3842a182072ae/ENCFF110MCL.tar.gz
+2023-09-25 11:13:32,805|autouri.autouri|INFO| cp: (68488515) skipped due to name_size_match. size=3749246230, mt=1571469011.0
+2023-09-25 11:13:32,808|autouri.autouri|INFO| cp: (842821ce) started. src=https://www.encodeproject.org/files/GRCh38_no_alt_analysis_set_GCA_000001405.15_mito_only_bowtie2_index/@@download/GRCh38_no_alt_analysis_set_GCA_000001405.15_mito_only_bowtie2_index.tar.gz, dest=/home/users/ntu/suffiazi/scratch/.caper_tmp/df5193e07055d13c48be59bacd0f56b8/GRCh38_no_alt_analysis_set_GCA_000001405.15_mito_only_bowtie2_index.tar.gz
+2023-09-25 11:13:34,883|autouri.autouri|INFO| cp: (842821ce) skipped due to md5_match. md5=80b263f6ea6ff65d547eef07102535db
+2023-09-25 11:13:34,884|autouri.autouri|INFO| cp: (13168bbb) started. src=https://www.encodeproject.org/files/ENCFF643CGH/@@download/ENCFF643CGH.tar.gz, dest=/home/users/ntu/suffiazi/scratch/.caper_tmp/8c692fba4640609720272154ab0faa30/ENCFF643CGH.tar.gz
+2023-09-25 11:13:38,293|autouri.autouri|INFO| cp: (13168bbb) skipped due to name_size_match. size=4318261891, mt=1549723866.0
+2023-09-25 11:13:38,295|autouri.autouri|INFO| cp: (47ab34bb) started. src=https://www.encodeproject.org/files/GRCh38_no_alt_analysis_set_GCA_000001405.15_mito_only_bwa_index/@@download/GRCh38_no_alt_analysis_set_GCA_000001405.15_mito_only_bwa_index.tar.gz, dest=/home/users/ntu/suffiazi/scratch/.caper_tmp/d3dff25534e93d893902540d81e4f475/GRCh38_no_alt_analysis_set_GCA_000001405.15_mito_only_bwa_index.tar.gz
+2023-09-25 11:13:40,740|autouri.autouri|INFO| cp: (47ab34bb) skipped due to md5_match. md5=7e088c24a017a43b1db5e8f50060eec1
+2023-09-25 11:13:40,742|autouri.autouri|INFO| cp: (6de839a5) started. src=https://www.encodeproject.org/files/ENCFF766FGL/@@download/ENCFF766FGL.bed.gz, dest=/home/users/ntu/suffiazi/scratch/.caper_tmp/f16cc7892540d7a9bc3207cc44eb8288/ENCFF766FGL.bed.gz
+2023-09-25 11:13:43,027|autouri.autouri|INFO| cp: (6de839a5) skipped due to md5_match. md5=d108aa2a392ce5dd207fb8769a6e8240
+2023-09-25 11:13:43,029|autouri.autouri|INFO| cp: (7c6a1d13) started. src=https://www.encodeproject.org/files/ENCFF304XEX/@@download/ENCFF304XEX.bed.gz, dest=/home/users/ntu/suffiazi/scratch/.caper_tmp/805e179275a9c0fb7a37def40c4312d1/ENCFF304XEX.bed.gz
+2023-09-25 11:13:47,854|autouri.autouri|INFO| cp: (7c6a1d13) skipped due to name_size_match. size=14377496, mt=1592463730.0
+2023-09-25 11:13:47,857|autouri.autouri|INFO| cp: (3c3c1e86) started. src=https://www.encodeproject.org/files/ENCFF140XLU/@@download/ENCFF140XLU.bed.gz, dest=/home/users/ntu/suffiazi/scratch/.caper_tmp/0cbd2c602ddad252bc39729fc8a29286/ENCFF140XLU.bed.gz
+2023-09-25 11:13:49,660|autouri.autouri|INFO| cp: (3c3c1e86) skipped due to md5_match. md5=91047588129069ff91ec1b0664179f8e
+2023-09-25 11:13:49,662|autouri.autouri|INFO| cp: (bf1519a3) started. src=https://www.encodeproject.org/files/ENCFF212UAV/@@download/ENCFF212UAV.bed.gz, dest=/home/users/ntu/suffiazi/scratch/.caper_tmp/1d3aa436b05f16a509edb94789c061d3/ENCFF212UAV.bed.gz
+2023-09-25 11:13:52,512|autouri.autouri|INFO| cp: (bf1519a3) skipped due to name_size_match. size=18381891, mt=1592463727.0
+2023-09-25 11:13:52,514|autouri.autouri|INFO| cp: (ba78f055) started. src=https://storage.googleapis.com/encode-pipeline-genome-data/hg38/ataqc/hg38_dnase_avg_fseq_signal_formatted.txt.gz, dest=/home/users/ntu/suffiazi/scratch/.caper_tmp/3b39284516e676ea52238f0636c0bbbf/hg38_dnase_avg_fseq_signal_formatted.txt.gz
+2023-09-25 11:13:52,753|autouri.autouri|INFO| cp: (ba78f055) skipped due to md5_match. md5=df624401f76fbd4d651e736068c43a1a
+2023-09-25 11:13:52,754|autouri.autouri|INFO| cp: (4a4d1240) started. src=https://storage.googleapis.com/encode-pipeline-genome-data/hg38/ataqc/hg38_celltype_compare_subsample.bed.gz, dest=/home/users/ntu/suffiazi/scratch/.caper_tmp/c73f434c3fa4f3f54bc2ecad09c065c2/hg38_celltype_compare_subsample.bed.gz
+2023-09-25 11:13:53,012|autouri.autouri|INFO| cp: (4a4d1240) skipped due to md5_match. md5=ced0c653d28628654288f7a8ab052590
+2023-09-25 11:13:53,013|autouri.autouri|INFO| cp: (d7de3b1e) started. src=https://storage.googleapis.com/encode-pipeline-genome-data/hg38/ataqc/hg38_dnase_avg_fseq_signal_metadata.txt, dest=/home/users/ntu/suffiazi/scratch/.caper_tmp/a9745b33b4ffdd83d7d2c5a7d3c8036a/hg38_dnase_avg_fseq_signal_metadata.txt
+2023-09-25 11:13:53,046|autouri.autouri|INFO| cp: (d7de3b1e) skipped due to md5_match. md5=3f7fd85ab9a4c6274f28c3e82a79c10d
+2023-09-25 11:13:53,538|caper.caper_workflow_opts|INFO| Singularity image found in WDL metadata. wdl=/home/users/ntu/suffiazi/apps/atac-seq-pipeline/atac.wdl, s=https://encode-pipeline-singularity-image.s3.us-west-2.amazonaws.com/atac-seq-pipeline_v2.2.2.sif
+2023-09-25 11:13:53,578|caper.cromwell|INFO| Validating WDL/inputs/imports with Womtool...
+2023-09-25 11:13:57,018|caper.nb_subproc_thread|INFO| Subprocess finished successfully.
+2023-09-25 11:13:57,018|caper.cromwell|INFO| Passed Womtool validation.
+2023-09-25 11:13:57,018|caper.caper_runner|INFO| launching run: wdl=/home/users/ntu/suffiazi/apps/atac-seq-pipeline/atac.wdl, inputs=/home/users/ntu/suffiazi/scratch/.caper_tmp/home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/json/MAQI84B_TCGA-ESCA/MAQI84B_TCGA-ESCA_sample1.local.json, backend_conf=/home/users/ntu/suffiazi/scratch/.caper_tmp/atac/20230925_111308_590595/backend.conf
+2023-09-25 11:14:39,006|caper.cromwell_workflow_monitor|INFO| Workflow: id=c2564a16-d811-4fba-88b6-fb4e4d7ed8f3, status=Submitted
+2023-09-25 11:14:39,035|caper.cromwell_workflow_monitor|INFO| Workflow: id=c2564a16-d811-4fba-88b6-fb4e4d7ed8f3, status=Running
+2023-09-25 11:14:48,822|caper.cromwell_workflow_monitor|INFO| Task: id=c2564a16-d811-4fba-88b6-fb4e4d7ed8f3, task=atac.read_genome_tsv:-1, retry=0, status=Started, job_id=2961142
+2023-09-25 11:14:48,826|caper.cromwell_workflow_monitor|INFO| Task: id=c2564a16-d811-4fba-88b6-fb4e4d7ed8f3, task=atac.read_genome_tsv:-1, retry=0, status=Running
+2023-09-25 11:15:10,373|caper.cromwell_workflow_monitor|INFO| Task: id=c2564a16-d811-4fba-88b6-fb4e4d7ed8f3, task=atac.read_genome_tsv:-1, retry=0, status=Done
+2023-09-25 11:15:18,814|caper.cromwell_workflow_monitor|INFO| Task: id=c2564a16-d811-4fba-88b6-fb4e4d7ed8f3, task=atac.filter:0, retry=0, status=Started, job_id=2961157
+2023-09-25 11:15:18,815|caper.cromwell_workflow_monitor|INFO| Task: id=c2564a16-d811-4fba-88b6-fb4e4d7ed8f3, task=atac.filter:0, retry=0, status=Running
+2023-09-25 13:55:55,753|caper.cromwell_workflow_monitor|INFO| Task: id=c2564a16-d811-4fba-88b6-fb4e4d7ed8f3, task=atac.filter:0, retry=0, status=Done
+2023-09-25 13:56:08,815|caper.cromwell_workflow_monitor|INFO| Task: id=c2564a16-d811-4fba-88b6-fb4e4d7ed8f3, task=atac.fraglen_stat_pe:0, retry=0, status=Started, job_id=2962067
+2023-09-25 13:56:08,816|caper.cromwell_workflow_monitor|INFO| Task: id=c2564a16-d811-4fba-88b6-fb4e4d7ed8f3, task=atac.gc_bias:0, retry=0, status=Started, job_id=2962068
+2023-09-25 13:56:08,825|caper.cromwell_workflow_monitor|INFO| Task: id=c2564a16-d811-4fba-88b6-fb4e4d7ed8f3, task=atac.gc_bias:0, retry=0, status=Running
+2023-09-25 13:56:08,825|caper.cromwell_workflow_monitor|INFO| Task: id=c2564a16-d811-4fba-88b6-fb4e4d7ed8f3, task=atac.fraglen_stat_pe:0, retry=0, status=Running
+2023-09-25 13:56:13,813|caper.cromwell_workflow_monitor|INFO| Task: id=c2564a16-d811-4fba-88b6-fb4e4d7ed8f3, task=atac.bam2ta:0, retry=0, status=Started, job_id=2962069
+2023-09-25 13:56:13,813|caper.cromwell_workflow_monitor|INFO| Task: id=c2564a16-d811-4fba-88b6-fb4e4d7ed8f3, task=atac.jsd:-1, retry=0, status=Started, job_id=2962070
+2023-09-25 13:56:13,814|caper.cromwell_workflow_monitor|INFO| Task: id=c2564a16-d811-4fba-88b6-fb4e4d7ed8f3, task=atac.bam2ta:0, retry=0, status=Running
+2023-09-25 13:56:13,815|caper.cromwell_workflow_monitor|INFO| Task: id=c2564a16-d811-4fba-88b6-fb4e4d7ed8f3, task=atac.jsd:-1, retry=0, status=Running
+2023-09-25 14:24:59,342|caper.cromwell_workflow_monitor|INFO| Task: id=c2564a16-d811-4fba-88b6-fb4e4d7ed8f3, task=atac.fraglen_stat_pe:0, retry=0, status=Done
+2023-09-25 14:28:06,712|caper.cromwell_workflow_monitor|INFO| Task: id=c2564a16-d811-4fba-88b6-fb4e4d7ed8f3, task=atac.jsd:-1, retry=0, status=Done
+2023-09-25 14:31:01,983|caper.cromwell_workflow_monitor|INFO| Task: id=c2564a16-d811-4fba-88b6-fb4e4d7ed8f3, task=atac.gc_bias:0, retry=0, status=Done
+2023-09-25 14:49:19,132|caper.cromwell_workflow_monitor|INFO| Task: id=c2564a16-d811-4fba-88b6-fb4e4d7ed8f3, task=atac.bam2ta:0, retry=0, status=Done
+2023-09-25 14:49:28,813|caper.cromwell_workflow_monitor|INFO| Task: id=c2564a16-d811-4fba-88b6-fb4e4d7ed8f3, task=atac.spr:0, retry=0, status=Started, job_id=2962485
+2023-09-25 14:49:28,813|caper.cromwell_workflow_monitor|INFO| Task: id=c2564a16-d811-4fba-88b6-fb4e4d7ed8f3, task=atac.spr:0, retry=0, status=Running
+2023-09-25 14:49:33,814|caper.cromwell_workflow_monitor|INFO| Task: id=c2564a16-d811-4fba-88b6-fb4e4d7ed8f3, task=atac.call_peak:0, retry=0, status=Started, job_id=2962487
+2023-09-25 14:49:33,814|caper.cromwell_workflow_monitor|INFO| Task: id=c2564a16-d811-4fba-88b6-fb4e4d7ed8f3, task=atac.annot_enrich:0, retry=0, status=Started, job_id=2962489
+2023-09-25 14:49:33,814|caper.cromwell_workflow_monitor|INFO| Task: id=c2564a16-d811-4fba-88b6-fb4e4d7ed8f3, task=atac.macs2_signal_track:0, retry=0, status=Started, job_id=2962488
+2023-09-25 14:49:33,815|caper.cromwell_workflow_monitor|INFO| Task: id=c2564a16-d811-4fba-88b6-fb4e4d7ed8f3, task=atac.call_peak:0, retry=0, status=Running
+2023-09-25 14:49:33,816|caper.cromwell_workflow_monitor|INFO| Task: id=c2564a16-d811-4fba-88b6-fb4e4d7ed8f3, task=atac.annot_enrich:0, retry=0, status=Running
+2023-09-25 14:49:33,816|caper.cromwell_workflow_monitor|INFO| Task: id=c2564a16-d811-4fba-88b6-fb4e4d7ed8f3, task=atac.macs2_signal_track:0, retry=0, status=Running
+2023-09-25 14:54:08,782|caper.cromwell_workflow_monitor|INFO| Task: id=c2564a16-d811-4fba-88b6-fb4e4d7ed8f3, task=atac.spr:0, retry=0, status=Done
+2023-09-25 14:54:18,813|caper.cromwell_workflow_monitor|INFO| Task: id=c2564a16-d811-4fba-88b6-fb4e4d7ed8f3, task=atac.call_peak_pr2:0, retry=0, status=Started, job_id=2962505
+2023-09-25 14:54:18,813|caper.cromwell_workflow_monitor|INFO| Task: id=c2564a16-d811-4fba-88b6-fb4e4d7ed8f3, task=atac.call_peak_pr1:0, retry=0, status=Started, job_id=2962507
+2023-09-25 14:54:18,813|caper.cromwell_workflow_monitor|INFO| Task: id=c2564a16-d811-4fba-88b6-fb4e4d7ed8f3, task=atac.call_peak_pr2:0, retry=0, status=Running
+2023-09-25 14:54:18,814|caper.cromwell_workflow_monitor|INFO| Task: id=c2564a16-d811-4fba-88b6-fb4e4d7ed8f3, task=atac.call_peak_pr1:0, retry=0, status=Running
+2023-09-25 15:00:48,792|caper.cromwell_workflow_monitor|INFO| Task: id=c2564a16-d811-4fba-88b6-fb4e4d7ed8f3, task=atac.call_peak_pr2:0, retry=0, status=Done
+2023-09-25 15:01:43,172|caper.cromwell_workflow_monitor|INFO| Task: id=c2564a16-d811-4fba-88b6-fb4e4d7ed8f3, task=atac.call_peak:0, retry=0, status=Done
+2023-09-25 15:02:00,932|caper.cromwell_workflow_monitor|INFO| Task: id=c2564a16-d811-4fba-88b6-fb4e4d7ed8f3, task=atac.annot_enrich:0, retry=0, status=Done
+2023-09-25 15:02:09,162|caper.cromwell_workflow_monitor|INFO| Task: id=c2564a16-d811-4fba-88b6-fb4e4d7ed8f3, task=atac.call_peak_pr1:0, retry=0, status=Done
+2023-09-25 15:02:18,812|caper.cromwell_workflow_monitor|INFO| Task: id=c2564a16-d811-4fba-88b6-fb4e4d7ed8f3, task=atac.idr_pr:0, retry=0, status=Started, job_id=2962560
+2023-09-25 15:02:18,813|caper.cromwell_workflow_monitor|INFO| Task: id=c2564a16-d811-4fba-88b6-fb4e4d7ed8f3, task=atac.idr_pr:0, retry=0, status=Running
+2023-09-25 15:02:23,812|caper.cromwell_workflow_monitor|INFO| Task: id=c2564a16-d811-4fba-88b6-fb4e4d7ed8f3, task=atac.overlap_pr:0, retry=0, status=Started, job_id=2962561
+2023-09-25 15:02:23,813|caper.cromwell_workflow_monitor|INFO| Task: id=c2564a16-d811-4fba-88b6-fb4e4d7ed8f3, task=atac.overlap_pr:0, retry=0, status=Running
+2023-09-25 15:05:25,022|caper.cromwell_workflow_monitor|INFO| Task: id=c2564a16-d811-4fba-88b6-fb4e4d7ed8f3, task=atac.overlap_pr:0, retry=0, status=Done
+2023-09-25 15:05:33,813|caper.cromwell_workflow_monitor|INFO| Task: id=c2564a16-d811-4fba-88b6-fb4e4d7ed8f3, task=atac.reproducibility_overlap:-1, retry=0, status=Started, job_id=2962579
+2023-09-25 15:05:33,813|caper.cromwell_workflow_monitor|INFO| Task: id=c2564a16-d811-4fba-88b6-fb4e4d7ed8f3, task=atac.reproducibility_overlap:-1, retry=0, status=Running
+2023-09-25 15:06:00,542|caper.cromwell_workflow_monitor|INFO| Task: id=c2564a16-d811-4fba-88b6-fb4e4d7ed8f3, task=atac.reproducibility_overlap:-1, retry=0, status=Done
+2023-09-25 15:06:53,263|caper.cromwell_workflow_monitor|INFO| Task: id=c2564a16-d811-4fba-88b6-fb4e4d7ed8f3, task=atac.idr_pr:0, retry=0, status=Done
+2023-09-25 15:07:03,813|caper.cromwell_workflow_monitor|INFO| Task: id=c2564a16-d811-4fba-88b6-fb4e4d7ed8f3, task=atac.reproducibility_idr:-1, retry=0, status=Started, job_id=2962600
+2023-09-25 15:07:03,814|caper.cromwell_workflow_monitor|INFO| Task: id=c2564a16-d811-4fba-88b6-fb4e4d7ed8f3, task=atac.reproducibility_idr:-1, retry=0, status=Running
+2023-09-25 15:07:29,643|caper.cromwell_workflow_monitor|INFO| Task: id=c2564a16-d811-4fba-88b6-fb4e4d7ed8f3, task=atac.reproducibility_idr:-1, retry=0, status=Done
+2023-09-25 16:00:16,281|caper.cromwell_workflow_monitor|INFO| Task: id=c2564a16-d811-4fba-88b6-fb4e4d7ed8f3, task=atac.macs2_signal_track:0, retry=0, status=Done
+2023-09-25 16:00:38,813|caper.cromwell_workflow_monitor|INFO| Task: id=c2564a16-d811-4fba-88b6-fb4e4d7ed8f3, task=atac.qc_report:-1, retry=0, status=Started, job_id=2962912
+2023-09-25 16:00:38,813|caper.cromwell_workflow_monitor|INFO| Task: id=c2564a16-d811-4fba-88b6-fb4e4d7ed8f3, task=atac.qc_report:-1, retry=0, status=Running
+2023-09-25 16:00:57,183|caper.cromwell_workflow_monitor|INFO| Task: id=c2564a16-d811-4fba-88b6-fb4e4d7ed8f3, task=atac.qc_report:-1, retry=0, status=Done
+2023-09-25 16:01:04,126|caper.cromwell_workflow_monitor|INFO| Workflow: id=c2564a16-d811-4fba-88b6-fb4e4d7ed8f3, status=Succeeded
+2023-09-25 16:01:37,081|caper.cromwell_metadata|INFO| Wrote metadata file. /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/MAQI84B/MAQI84B_sample1/atac/c2564a16-d811-4fba-88b6-fb4e4d7ed8f3/metadata.json
+2023-09-25 16:01:37,081|caper.nb_subproc_thread|INFO| Cromwell finished successfully.

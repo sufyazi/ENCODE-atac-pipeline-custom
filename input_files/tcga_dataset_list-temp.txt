@@ -1,2 +1,5 @@
 analysis_ID	dataset_ID
-7E1MMFH	TCGA-GBM
+MAQI84B	TCGA-ESCA
+03QUM4C	TCGA-LGG
+ggggg	test
+
