@@ -1,0 +1,14 @@
+      ======================================================================================
+      Resource Usage on 2023-09-24 23:19:57.116016:
+      JobId: 1782759.hpc-mn1  				 Project: sbs_liyh 
+      Submission Host: hpc-gekko1 
+      Exit Status: 0
+      NCPUs Requested: 4 				 NCPUs Used: 4
+      Memory Requested: 32gb 				 Memory Used: 1996848kb 
+      Vmem Used: 25168200kb
+      CPU Time Used: 00:19:26 
+      Walltime requested: 28:00:00 			 Walltime Used: 09:34:13
+      Submit Time:  Sun Sep 24 13:45:42 2023 		 Start Time: Sun Sep 24 13:45:42 2023 
+      End Time: Sun Sep 24 23:19:57 2023 
+      Execution Nodes Used: (hpc-amd007:ncpus=4:mem=33554432kb)
+      ======================================================================================
