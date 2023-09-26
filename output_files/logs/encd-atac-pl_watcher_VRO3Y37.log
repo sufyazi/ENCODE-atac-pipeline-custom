@@ -1,0 +1,74 @@
+Dataset json directory exists. Proceeding...
+Pipeline output directory for VRO3Y37 did not exist so it has been created. Proceeding...
+Number of json files in the target directory: 13
+Sample ID: sample8
+Local output directory: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/VRO3Y37/VRO3Y37_sample8
+2023-09-26 18:56:34,563|caper.hpc|INFO| Running shell command: qsub -P 12003580 -l select=1:ncpus=4:mpiprocs=4:mem=200GB -l walltime=24:00:00 -V -N CAPER_VRO3Y37_sample8 /home/users/ntu/suffiazi/uxksse1a.sh
+2971905.pbs101
+Submitted job number 1: /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/json/VRO3Y37_TCGA-SKCM/VRO3Y37_TCGA-SKCM_sample8.json in if-block 0
+Sample ID: sample9
+Local output directory: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/VRO3Y37/VRO3Y37_sample9
+2023-09-26 18:56:39,338|caper.hpc|INFO| Running shell command: qsub -P 12003580 -l select=1:ncpus=4:mpiprocs=4:mem=200GB -l walltime=24:00:00 -V -N CAPER_VRO3Y37_sample9 /home/users/ntu/suffiazi/qssqpa__.sh
+2971906.pbs101
+Submitted job number 2: /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/json/VRO3Y37_TCGA-SKCM/VRO3Y37_TCGA-SKCM_sample9.json in elif-block 1
+Sample ID: sample12
+Local output directory: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/VRO3Y37/VRO3Y37_sample12
+2023-09-26 18:56:42,578|caper.hpc|INFO| Running shell command: qsub -P 12003580 -l select=1:ncpus=4:mpiprocs=4:mem=200GB -l walltime=24:00:00 -V -N CAPER_VRO3Y37_sample12 /home/users/ntu/suffiazi/byml_kft.sh
+2971907.pbs101
+Submitted job number 3: /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/json/VRO3Y37_TCGA-SKCM/VRO3Y37_TCGA-SKCM_sample12.json in elif-block 1
+Sample ID: sample6
+Local output directory: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/VRO3Y37/VRO3Y37_sample6
+2023-09-26 18:56:48,794|caper.hpc|INFO| Running shell command: qsub -P 12003580 -l select=1:ncpus=4:mpiprocs=4:mem=200GB -l walltime=24:00:00 -V -N CAPER_VRO3Y37_sample6 /home/users/ntu/suffiazi/uxh4zmdc.sh
+2971908.pbs101
+Submitted job number 4: /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/json/VRO3Y37_TCGA-SKCM/VRO3Y37_TCGA-SKCM_sample6.json in elif-block 1
+Sample ID: sample11
+Local output directory: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/VRO3Y37/VRO3Y37_sample11
+2023-09-26 18:56:52,356|caper.hpc|INFO| Running shell command: qsub -P 12003580 -l select=1:ncpus=4:mpiprocs=4:mem=200GB -l walltime=24:00:00 -V -N CAPER_VRO3Y37_sample11 /home/users/ntu/suffiazi/mjsjodqi.sh
+2971909.pbs101
+Submitted job number 5: /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/json/VRO3Y37_TCGA-SKCM/VRO3Y37_TCGA-SKCM_sample11.json in elif-block 1
+Sample ID: sample4
+Local output directory: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/VRO3Y37/VRO3Y37_sample4
+2023-09-26 18:56:55,891|caper.hpc|INFO| Running shell command: qsub -P 12003580 -l select=1:ncpus=4:mpiprocs=4:mem=200GB -l walltime=24:00:00 -V -N CAPER_VRO3Y37_sample4 /home/users/ntu/suffiazi/fuq8bpvb.sh
+2971910.pbs101
+Submitted job number 6: /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/json/VRO3Y37_TCGA-SKCM/VRO3Y37_TCGA-SKCM_sample4.json in elif-block 1
+Sample ID: sample3
+Local output directory: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/VRO3Y37/VRO3Y37_sample3
+2023-09-26 18:56:59,152|caper.hpc|INFO| Running shell command: qsub -P 12003580 -l select=1:ncpus=4:mpiprocs=4:mem=200GB -l walltime=24:00:00 -V -N CAPER_VRO3Y37_sample3 /home/users/ntu/suffiazi/jxn7j7dj.sh
+2971911.pbs101
+Submitted job number 7: /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/json/VRO3Y37_TCGA-SKCM/VRO3Y37_TCGA-SKCM_sample3.json in elif-block 1
+Sample ID: sample10
+Local output directory: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/VRO3Y37/VRO3Y37_sample10
+2023-09-26 18:57:03,108|caper.hpc|INFO| Running shell command: qsub -P 12003580 -l select=1:ncpus=4:mpiprocs=4:mem=200GB -l walltime=24:00:00 -V -N CAPER_VRO3Y37_sample10 /home/users/ntu/suffiazi/m2w86nf9.sh
+2971912.pbs101
+Submitted job number 8: /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/json/VRO3Y37_TCGA-SKCM/VRO3Y37_TCGA-SKCM_sample10.json in elif-block 1
+Sample ID: sample5
+Local output directory: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/VRO3Y37/VRO3Y37_sample5
+2023-09-26 18:57:11,187|caper.hpc|INFO| Running shell command: qsub -P 12003580 -l select=1:ncpus=4:mpiprocs=4:mem=200GB -l walltime=24:00:00 -V -N CAPER_VRO3Y37_sample5 /home/users/ntu/suffiazi/hjg7bnr_.sh
+2971913.pbs101
+Submitted job number 9: /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/json/VRO3Y37_TCGA-SKCM/VRO3Y37_TCGA-SKCM_sample5.json in elif-block 1
+Sample ID: sample1
+Local output directory: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/VRO3Y37/VRO3Y37_sample1
+2023-09-26 18:57:14,898|caper.hpc|INFO| Running shell command: qsub -P 12003580 -l select=1:ncpus=4:mpiprocs=4:mem=200GB -l walltime=24:00:00 -V -N CAPER_VRO3Y37_sample1 /home/users/ntu/suffiazi/57iuqe0i.sh
+2971914.pbs101
+Submitted job number 10: /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/json/VRO3Y37_TCGA-SKCM/VRO3Y37_TCGA-SKCM_sample1.json in elif-block 1
+Sample ID: sample2
+Local output directory: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/VRO3Y37/VRO3Y37_sample2
+2023-09-26 18:57:18,075|caper.hpc|INFO| Running shell command: qsub -P 12003580 -l select=1:ncpus=4:mpiprocs=4:mem=200GB -l walltime=24:00:00 -V -N CAPER_VRO3Y37_sample2 /home/users/ntu/suffiazi/t752vkai.sh
+2971915.pbs101
+Submitted job number 11: /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/json/VRO3Y37_TCGA-SKCM/VRO3Y37_TCGA-SKCM_sample2.json in elif-block 1
+Sample ID: sample7
+Local output directory: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/VRO3Y37/VRO3Y37_sample7
+2023-09-26 18:57:21,351|caper.hpc|INFO| Running shell command: qsub -P 12003580 -l select=1:ncpus=4:mpiprocs=4:mem=200GB -l walltime=24:00:00 -V -N CAPER_VRO3Y37_sample7 /home/users/ntu/suffiazi/4gpwyslw.sh
+2971916.pbs101
+Submitted job number 12: /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/json/VRO3Y37_TCGA-SKCM/VRO3Y37_TCGA-SKCM_sample7.json in elif-block 1
+Sample ID: sample13
+Local output directory: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/VRO3Y37/VRO3Y37_sample13
+2023-09-26 18:57:25,553|caper.hpc|INFO| Running shell command: qsub -P 12003580 -l select=1:ncpus=4:mpiprocs=4:mem=200GB -l walltime=24:00:00 -V -N CAPER_VRO3Y37_sample13 /home/users/ntu/suffiazi/v2v7p9hd.sh
+2971917.pbs101
+Submitted job number 13: /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/json/VRO3Y37_TCGA-SKCM/VRO3Y37_TCGA-SKCM_sample13.json in outer elif block.
+All samples have been submitted for processing.
+Current count is 13
+Max sample count is 13
+warning: commands will be executed using /bin/sh
+job 72 at Tue Sep 26 19:57:00 2023
+Watcher script has been scheduled to run in 1 hour.
