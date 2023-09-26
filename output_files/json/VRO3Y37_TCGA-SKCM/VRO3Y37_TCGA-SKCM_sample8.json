@@ -1,0 +1,14 @@
+{
+    "atac.title": "VRO3Y37_TCGA-SKCM",
+    "atac.description": "VRO3Y37_TCGA-SKCM tcga atac-seq",
+    "atac.pipeline_type": "atac",
+    "atac.align_only": false,
+    "atac.true_rep_only": false,
+    "atac.genome_tsv": "https://storage.googleapis.com/encode-pipeline-genome-data/genome_tsv/v4/hg38.tsv",
+    "atac.paired_end": true,
+    "atac.auto_detect_adapter": true,
+    "atac.align_cpu": 24,
+    "atac.bams": [
+        "/home/users/ntu/suffiazi/scratch/inputs/atac-seq-pipeline-raw-input/TCGA-SKCM/sample_8/rep_0/d7b856f2-a7a4-4268-b79f-443f549d0de0_atacseq_gdc_realn.bam"
+    ]
+}

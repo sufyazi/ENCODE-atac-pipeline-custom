@@ -1,0 +1,14 @@
+{
+    "atac.title": "IML6W7I_TCGA-UCEC",
+    "atac.description": "IML6W7I_TCGA-UCEC tcga atac-seq",
+    "atac.pipeline_type": "atac",
+    "atac.align_only": false,
+    "atac.true_rep_only": false,
+    "atac.genome_tsv": "https://storage.googleapis.com/encode-pipeline-genome-data/genome_tsv/v4/hg38.tsv",
+    "atac.paired_end": true,
+    "atac.auto_detect_adapter": true,
+    "atac.align_cpu": 24,
+    "atac.bams": [
+        "/home/users/ntu/suffiazi/scratch/inputs/atac-seq-pipeline-raw-input/TCGA-UCEC/sample_8/rep_0/a0098640-40c0-46b8-98e1-68d97dac69d6_atacseq_gdc_realn.bam"
+    ]
+}
