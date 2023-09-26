@@ -126,3 +126,110 @@ The current batch of submitted jobs are still running. Will check again in 1 hou
 Number of metadata.json files indicating finished jobs: 12
 warning: commands will be executed using /bin/sh
 job 69 at Mon Sep 25 19:48:00 2023
+Max sample count has been reached.
+The current batch of submitted jobs are still running. Will check again in 1 hour.
+Number of metadata.json files indicating finished jobs: 12
+warning: commands will be executed using /bin/sh
+job 70 at Mon Sep 25 20:48:00 2023
+Max sample count has been reached.
+No jobs are currently running. Listing successful jobs...
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/03QUM4C/03QUM4C_sample10/atac/8125a2fd-42c8-4e7e-a474-97040ae788d5/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/03QUM4C/03QUM4C_sample11/atac/3660805f-91bc-4c7d-add1-f81d4b941738/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/03QUM4C/03QUM4C_sample12/atac/bb3ebedc-21bd-421e-989b-e40801c0fdc3/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/03QUM4C/03QUM4C_sample13/atac/3f569e26-df14-4ba5-9bc7-d8867a7e6184/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/03QUM4C/03QUM4C_sample1/atac/5acd0067-0df6-4d0e-92ed-475e10f4fc7f/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/03QUM4C/03QUM4C_sample2/atac/dbe20330-9052-4d87-83d9-3912d7ef65a1/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/03QUM4C/03QUM4C_sample3/atac/a8129e96-92e9-434b-927b-37cdf0805cd8/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/03QUM4C/03QUM4C_sample4/atac/13dc1a40-eb30-43ec-9d90-7cf44301e5f8/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/03QUM4C/03QUM4C_sample5/atac/f27e7b4e-560e-422b-af37-1c0e5c7f4971/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/03QUM4C/03QUM4C_sample6/atac/e300f3da-fab3-4a19-93cc-e96daa96b4bd/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/03QUM4C/03QUM4C_sample7/atac/acb4e489-14cd-4a51-bdd0-283dddf67e39/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/03QUM4C/03QUM4C_sample8/atac/b47b70bd-2f83-46cf-ac46-a151edd59357/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/03QUM4C/03QUM4C_sample9/atac/4ab2673f-0320-4440-9c54-9e92d92c1008/metadata.json:    "status": "Succeeded",
+Number of metadata.json files indicating finished jobs: 13
+Block 3 watcher script
+All samples in the dataset have been processed successfully.
+Running croo post-processing script...
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/03QUM4C/03QUM4C_sample13 /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/03QUM4C/03QUM4C_sample6 /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/03QUM4C/03QUM4C_sample1 /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/03QUM4C/03QUM4C_sample3 /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/03QUM4C/03QUM4C_sample8 /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/03QUM4C/03QUM4C_sample4 /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/03QUM4C/03QUM4C_sample12 /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/03QUM4C/03QUM4C_sample9 /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/03QUM4C/03QUM4C_sample7 /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/03QUM4C/03QUM4C_sample10 /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/03QUM4C/03QUM4C_sample2 /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/03QUM4C/03QUM4C_sample5 /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/03QUM4C/03QUM4C_sample11
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/03QUM4C/03QUM4C_sample13/atac/3f569e26-df14-4ba5-9bc7-d8867a7e6184/metadata.json
+Sample name: 03QUM4C_sample13
+Warning: darkgrey is not a known color.
+2023-09-25 20:48:35,812|autouri.autouri|INFO| cp: (1bde4903) started. src=/tmp/tmp8xu3f5d_/croo.report.3f569e26-df14-4ba5-9bc7-d8867a7e6184.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/03QUM4C/03QUM4C_sample13/croo.report.3f569e26-df14-4ba5-9bc7-d8867a7e6184.html
+2023-09-25 20:48:35,816|autouri.autouri|INFO| cp: (1bde4903) done.
+Croo completed successfully on sample 03QUM4C_sample13.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/03QUM4C/03QUM4C_sample6/atac/e300f3da-fab3-4a19-93cc-e96daa96b4bd/metadata.json
+Sample name: 03QUM4C_sample6
+Warning: darkgrey is not a known color.
+2023-09-25 20:48:39,591|autouri.autouri|INFO| cp: (2c1b2917) started. src=/tmp/tmp74mf87vt/croo.report.e300f3da-fab3-4a19-93cc-e96daa96b4bd.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/03QUM4C/03QUM4C_sample6/croo.report.e300f3da-fab3-4a19-93cc-e96daa96b4bd.html
+2023-09-25 20:48:39,596|autouri.autouri|INFO| cp: (2c1b2917) done.
+Croo completed successfully on sample 03QUM4C_sample6.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/03QUM4C/03QUM4C_sample1/atac/5acd0067-0df6-4d0e-92ed-475e10f4fc7f/metadata.json
+Sample name: 03QUM4C_sample1
+Warning: darkgrey is not a known color.
+2023-09-25 20:48:43,290|autouri.autouri|INFO| cp: (ec4bc6a8) started. src=/tmp/tmpcvvvc7e2/croo.report.5acd0067-0df6-4d0e-92ed-475e10f4fc7f.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/03QUM4C/03QUM4C_sample1/croo.report.5acd0067-0df6-4d0e-92ed-475e10f4fc7f.html
+2023-09-25 20:48:43,293|autouri.autouri|INFO| cp: (ec4bc6a8) done.
+Croo completed successfully on sample 03QUM4C_sample1.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/03QUM4C/03QUM4C_sample3/atac/a8129e96-92e9-434b-927b-37cdf0805cd8/metadata.json
+Sample name: 03QUM4C_sample3
+Warning: darkgrey is not a known color.
+2023-09-25 20:48:46,726|autouri.autouri|INFO| cp: (b6006b7a) started. src=/tmp/tmpi9jk8pfi/croo.report.a8129e96-92e9-434b-927b-37cdf0805cd8.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/03QUM4C/03QUM4C_sample3/croo.report.a8129e96-92e9-434b-927b-37cdf0805cd8.html
+2023-09-25 20:48:46,734|autouri.autouri|INFO| cp: (b6006b7a) done.
+Croo completed successfully on sample 03QUM4C_sample3.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/03QUM4C/03QUM4C_sample8/atac/b47b70bd-2f83-46cf-ac46-a151edd59357/metadata.json
+Sample name: 03QUM4C_sample8
+Warning: darkgrey is not a known color.
+2023-09-25 20:48:49,765|autouri.autouri|INFO| cp: (9bdfde31) started. src=/tmp/tmpnyj0_qtg/croo.report.b47b70bd-2f83-46cf-ac46-a151edd59357.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/03QUM4C/03QUM4C_sample8/croo.report.b47b70bd-2f83-46cf-ac46-a151edd59357.html
+2023-09-25 20:48:49,768|autouri.autouri|INFO| cp: (9bdfde31) done.
+Croo completed successfully on sample 03QUM4C_sample8.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/03QUM4C/03QUM4C_sample4/atac/13dc1a40-eb30-43ec-9d90-7cf44301e5f8/metadata.json
+Sample name: 03QUM4C_sample4
+Warning: darkgrey is not a known color.
+2023-09-25 20:48:53,368|autouri.autouri|INFO| cp: (4f4955c2) started. src=/tmp/tmpm2wcnyc9/croo.report.13dc1a40-eb30-43ec-9d90-7cf44301e5f8.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/03QUM4C/03QUM4C_sample4/croo.report.13dc1a40-eb30-43ec-9d90-7cf44301e5f8.html
+2023-09-25 20:48:53,371|autouri.autouri|INFO| cp: (4f4955c2) done.
+Croo completed successfully on sample 03QUM4C_sample4.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/03QUM4C/03QUM4C_sample12/atac/bb3ebedc-21bd-421e-989b-e40801c0fdc3/metadata.json
+Sample name: 03QUM4C_sample12
+Warning: darkgrey is not a known color.
+2023-09-25 20:48:56,922|autouri.autouri|INFO| cp: (c1d199e0) started. src=/tmp/tmpns_zeaky/croo.report.bb3ebedc-21bd-421e-989b-e40801c0fdc3.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/03QUM4C/03QUM4C_sample12/croo.report.bb3ebedc-21bd-421e-989b-e40801c0fdc3.html
+2023-09-25 20:48:56,926|autouri.autouri|INFO| cp: (c1d199e0) done.
+Croo completed successfully on sample 03QUM4C_sample12.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/03QUM4C/03QUM4C_sample9/atac/4ab2673f-0320-4440-9c54-9e92d92c1008/metadata.json
+Sample name: 03QUM4C_sample9
+Warning: darkgrey is not a known color.
+2023-09-25 20:49:00,032|autouri.autouri|INFO| cp: (46863ce6) started. src=/tmp/tmp2y26bibc/croo.report.4ab2673f-0320-4440-9c54-9e92d92c1008.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/03QUM4C/03QUM4C_sample9/croo.report.4ab2673f-0320-4440-9c54-9e92d92c1008.html
+2023-09-25 20:49:00,036|autouri.autouri|INFO| cp: (46863ce6) done.
+Croo completed successfully on sample 03QUM4C_sample9.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/03QUM4C/03QUM4C_sample7/atac/acb4e489-14cd-4a51-bdd0-283dddf67e39/metadata.json
+Sample name: 03QUM4C_sample7
+Warning: darkgrey is not a known color.
+2023-09-25 20:49:03,629|autouri.autouri|INFO| cp: (29614f20) started. src=/tmp/tmpytw5c4gh/croo.report.acb4e489-14cd-4a51-bdd0-283dddf67e39.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/03QUM4C/03QUM4C_sample7/croo.report.acb4e489-14cd-4a51-bdd0-283dddf67e39.html
+2023-09-25 20:49:03,632|autouri.autouri|INFO| cp: (29614f20) done.
+Croo completed successfully on sample 03QUM4C_sample7.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/03QUM4C/03QUM4C_sample10/atac/8125a2fd-42c8-4e7e-a474-97040ae788d5/metadata.json
+Sample name: 03QUM4C_sample10
+Warning: darkgrey is not a known color.
+2023-09-25 20:49:07,294|autouri.autouri|INFO| cp: (d859fa6d) started. src=/tmp/tmpu1y947h_/croo.report.8125a2fd-42c8-4e7e-a474-97040ae788d5.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/03QUM4C/03QUM4C_sample10/croo.report.8125a2fd-42c8-4e7e-a474-97040ae788d5.html
+2023-09-25 20:49:07,297|autouri.autouri|INFO| cp: (d859fa6d) done.
+Croo completed successfully on sample 03QUM4C_sample10.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/03QUM4C/03QUM4C_sample2/atac/dbe20330-9052-4d87-83d9-3912d7ef65a1/metadata.json
+Sample name: 03QUM4C_sample2
+Warning: darkgrey is not a known color.
+2023-09-25 20:49:10,660|autouri.autouri|INFO| cp: (986913d0) started. src=/tmp/tmpfl92_6gp/croo.report.dbe20330-9052-4d87-83d9-3912d7ef65a1.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/03QUM4C/03QUM4C_sample2/croo.report.dbe20330-9052-4d87-83d9-3912d7ef65a1.html
+2023-09-25 20:49:10,664|autouri.autouri|INFO| cp: (986913d0) done.
+Croo completed successfully on sample 03QUM4C_sample2.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/03QUM4C/03QUM4C_sample5/atac/f27e7b4e-560e-422b-af37-1c0e5c7f4971/metadata.json
+Sample name: 03QUM4C_sample5
+Warning: darkgrey is not a known color.
+2023-09-25 20:49:18,271|autouri.autouri|INFO| cp: (000efaa6) started. src=/tmp/tmp1yqzw_li/croo.report.f27e7b4e-560e-422b-af37-1c0e5c7f4971.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/03QUM4C/03QUM4C_sample5/croo.report.f27e7b4e-560e-422b-af37-1c0e5c7f4971.html
+2023-09-25 20:49:18,275|autouri.autouri|INFO| cp: (000efaa6) done.
+Croo completed successfully on sample 03QUM4C_sample5.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/03QUM4C/03QUM4C_sample11/atac/3660805f-91bc-4c7d-add1-f81d4b941738/metadata.json
+Sample name: 03QUM4C_sample11
+Warning: darkgrey is not a known color.
+2023-09-25 20:49:22,798|autouri.autouri|INFO| cp: (6700a9ce) started. src=/tmp/tmpopb0jb4z/croo.report.3660805f-91bc-4c7d-add1-f81d4b941738.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/03QUM4C/03QUM4C_sample11/croo.report.3660805f-91bc-4c7d-add1-f81d4b941738.html
+2023-09-25 20:49:22,801|autouri.autouri|INFO| cp: (6700a9ce) done.
+Croo completed successfully on sample 03QUM4C_sample11.
+
+Croo post-processing script completed successfully.
+All job runs have finished. Exiting watcher script...
+Workflow is done.

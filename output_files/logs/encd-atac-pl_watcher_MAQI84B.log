@@ -147,3 +147,140 @@ The current batch of submitted jobs are still running. Will check again in 1 hou
 Number of metadata.json files indicating finished jobs: 17
 warning: commands will be executed using /bin/sh
 job 68 at Mon Sep 25 19:19:00 2023
+Max sample count has been reached.
+No jobs are currently running. Listing successful jobs...
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/MAQI84B/MAQI84B_sample10/atac/e91a6b23-c2b8-4812-8aa2-7bbae3ad10a7/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/MAQI84B/MAQI84B_sample11/atac/6a70eb39-751a-415e-ae92-6274d114e582/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/MAQI84B/MAQI84B_sample12/atac/12e094e9-c20d-4179-bee2-92adc06003e5/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/MAQI84B/MAQI84B_sample13/atac/f6aeecaa-7c55-42ef-957f-6237a1e2f6bb/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/MAQI84B/MAQI84B_sample14/atac/7031946b-9bbb-4bf9-ac2b-ba8be15f9785/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/MAQI84B/MAQI84B_sample15/atac/bf33fbb0-e9d4-4d36-b640-095bb4a63dc2/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/MAQI84B/MAQI84B_sample16/atac/9a106a17-c379-4d37-b514-7cfee949fcf0/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/MAQI84B/MAQI84B_sample17/atac/8d982756-c452-42f7-88f2-d7fd2058a0c7/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/MAQI84B/MAQI84B_sample18/atac/14a0d66b-6df8-419b-b14b-bc6900e0bc73/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/MAQI84B/MAQI84B_sample1/atac/c2564a16-d811-4fba-88b6-fb4e4d7ed8f3/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/MAQI84B/MAQI84B_sample2/atac/a9c1658d-4fae-4d7f-b38a-ade755dbeb3a/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/MAQI84B/MAQI84B_sample3/atac/6c59af90-3aa0-468e-85b1-870aa28ff546/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/MAQI84B/MAQI84B_sample4/atac/227b28e5-2ed8-4ee6-9863-1ff15807ece7/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/MAQI84B/MAQI84B_sample5/atac/66289ae2-2e56-49c5-a508-d5e834c124d6/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/MAQI84B/MAQI84B_sample6/atac/72144abe-829f-41a0-8de1-1e5021f53b41/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/MAQI84B/MAQI84B_sample7/atac/1b0a3838-5240-4cd5-a608-e271655ca0ef/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/MAQI84B/MAQI84B_sample8/atac/4626f3fa-151d-42d7-b729-f017470bbc8a/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/MAQI84B/MAQI84B_sample9/atac/885f1a22-0863-467f-93ba-c75b2f2eb9d8/metadata.json:    "status": "Succeeded",
+Number of metadata.json files indicating finished jobs: 18
+Block 3 watcher script
+All samples in the dataset have been processed successfully.
+Running croo post-processing script...
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/MAQI84B/MAQI84B_sample14 /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/MAQI84B/MAQI84B_sample3 /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/MAQI84B/MAQI84B_sample2 /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/MAQI84B/MAQI84B_sample5 /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/MAQI84B/MAQI84B_sample6 /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/MAQI84B/MAQI84B_sample16 /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/MAQI84B/MAQI84B_sample4 /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/MAQI84B/MAQI84B_sample10 /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/MAQI84B/MAQI84B_sample18 /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/MAQI84B/MAQI84B_sample13 /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/MAQI84B/MAQI84B_sample12 /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/MAQI84B/MAQI84B_sample7 /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/MAQI84B/MAQI84B_sample1 /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/MAQI84B/MAQI84B_sample11 /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/MAQI84B/MAQI84B_sample15 /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/MAQI84B/MAQI84B_sample9 /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/MAQI84B/MAQI84B_sample8 /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/MAQI84B/MAQI84B_sample17
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/MAQI84B/MAQI84B_sample14/atac/7031946b-9bbb-4bf9-ac2b-ba8be15f9785/metadata.json
+Sample name: MAQI84B_sample14
+Warning: darkgrey is not a known color.
+2023-09-25 19:19:37,757|autouri.autouri|INFO| cp: (88a1d6be) started. src=/tmp/tmp7k_jaohd/croo.report.7031946b-9bbb-4bf9-ac2b-ba8be15f9785.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/MAQI84B/MAQI84B_sample14/croo.report.7031946b-9bbb-4bf9-ac2b-ba8be15f9785.html
+2023-09-25 19:19:37,761|autouri.autouri|INFO| cp: (88a1d6be) done.
+Croo completed successfully on sample MAQI84B_sample14.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/MAQI84B/MAQI84B_sample3/atac/6c59af90-3aa0-468e-85b1-870aa28ff546/metadata.json
+Sample name: MAQI84B_sample3
+Warning: darkgrey is not a known color.
+2023-09-25 19:19:41,352|autouri.autouri|INFO| cp: (1fecae36) started. src=/tmp/tmpadupr9wn/croo.report.6c59af90-3aa0-468e-85b1-870aa28ff546.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/MAQI84B/MAQI84B_sample3/croo.report.6c59af90-3aa0-468e-85b1-870aa28ff546.html
+2023-09-25 19:19:41,357|autouri.autouri|INFO| cp: (1fecae36) done.
+Croo completed successfully on sample MAQI84B_sample3.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/MAQI84B/MAQI84B_sample2/atac/a9c1658d-4fae-4d7f-b38a-ade755dbeb3a/metadata.json
+Sample name: MAQI84B_sample2
+Warning: darkgrey is not a known color.
+2023-09-25 19:19:44,651|autouri.autouri|INFO| cp: (318a1ffc) started. src=/tmp/tmp5jfudyv0/croo.report.a9c1658d-4fae-4d7f-b38a-ade755dbeb3a.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/MAQI84B/MAQI84B_sample2/croo.report.a9c1658d-4fae-4d7f-b38a-ade755dbeb3a.html
+2023-09-25 19:19:44,655|autouri.autouri|INFO| cp: (318a1ffc) done.
+Croo completed successfully on sample MAQI84B_sample2.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/MAQI84B/MAQI84B_sample5/atac/66289ae2-2e56-49c5-a508-d5e834c124d6/metadata.json
+Sample name: MAQI84B_sample5
+Warning: darkgrey is not a known color.
+2023-09-25 19:19:48,176|autouri.autouri|INFO| cp: (5715a19c) started. src=/tmp/tmpebtjtats/croo.report.66289ae2-2e56-49c5-a508-d5e834c124d6.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/MAQI84B/MAQI84B_sample5/croo.report.66289ae2-2e56-49c5-a508-d5e834c124d6.html
+2023-09-25 19:19:48,179|autouri.autouri|INFO| cp: (5715a19c) done.
+Croo completed successfully on sample MAQI84B_sample5.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/MAQI84B/MAQI84B_sample6/atac/72144abe-829f-41a0-8de1-1e5021f53b41/metadata.json
+Sample name: MAQI84B_sample6
+Warning: darkgrey is not a known color.
+2023-09-25 19:19:51,251|autouri.autouri|INFO| cp: (70c9177e) started. src=/tmp/tmpham015v5/croo.report.72144abe-829f-41a0-8de1-1e5021f53b41.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/MAQI84B/MAQI84B_sample6/croo.report.72144abe-829f-41a0-8de1-1e5021f53b41.html
+2023-09-25 19:19:51,267|autouri.autouri|INFO| cp: (70c9177e) done.
+Croo completed successfully on sample MAQI84B_sample6.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/MAQI84B/MAQI84B_sample16/atac/9a106a17-c379-4d37-b514-7cfee949fcf0/metadata.json
+Sample name: MAQI84B_sample16
+Warning: darkgrey is not a known color.
+2023-09-25 19:19:54,699|autouri.autouri|INFO| cp: (82602cb7) started. src=/tmp/tmppff7vpxx/croo.report.9a106a17-c379-4d37-b514-7cfee949fcf0.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/MAQI84B/MAQI84B_sample16/croo.report.9a106a17-c379-4d37-b514-7cfee949fcf0.html
+2023-09-25 19:19:54,703|autouri.autouri|INFO| cp: (82602cb7) done.
+Croo completed successfully on sample MAQI84B_sample16.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/MAQI84B/MAQI84B_sample4/atac/227b28e5-2ed8-4ee6-9863-1ff15807ece7/metadata.json
+Sample name: MAQI84B_sample4
+Warning: darkgrey is not a known color.
+2023-09-25 19:19:58,083|autouri.autouri|INFO| cp: (83f870e4) started. src=/tmp/tmpsxftspe4/croo.report.227b28e5-2ed8-4ee6-9863-1ff15807ece7.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/MAQI84B/MAQI84B_sample4/croo.report.227b28e5-2ed8-4ee6-9863-1ff15807ece7.html
+2023-09-25 19:19:58,088|autouri.autouri|INFO| cp: (83f870e4) done.
+Croo completed successfully on sample MAQI84B_sample4.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/MAQI84B/MAQI84B_sample10/atac/e91a6b23-c2b8-4812-8aa2-7bbae3ad10a7/metadata.json
+Sample name: MAQI84B_sample10
+Warning: darkgrey is not a known color.
+2023-09-25 19:20:01,392|autouri.autouri|INFO| cp: (9cb2b77c) started. src=/tmp/tmpxw0br85y/croo.report.e91a6b23-c2b8-4812-8aa2-7bbae3ad10a7.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/MAQI84B/MAQI84B_sample10/croo.report.e91a6b23-c2b8-4812-8aa2-7bbae3ad10a7.html
+2023-09-25 19:20:01,397|autouri.autouri|INFO| cp: (9cb2b77c) done.
+Croo completed successfully on sample MAQI84B_sample10.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/MAQI84B/MAQI84B_sample18/atac/14a0d66b-6df8-419b-b14b-bc6900e0bc73/metadata.json
+Sample name: MAQI84B_sample18
+Warning: darkgrey is not a known color.
+2023-09-25 19:20:04,970|autouri.autouri|INFO| cp: (6276f6c0) started. src=/tmp/tmpdmig3lxa/croo.report.14a0d66b-6df8-419b-b14b-bc6900e0bc73.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/MAQI84B/MAQI84B_sample18/croo.report.14a0d66b-6df8-419b-b14b-bc6900e0bc73.html
+2023-09-25 19:20:04,973|autouri.autouri|INFO| cp: (6276f6c0) done.
+Croo completed successfully on sample MAQI84B_sample18.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/MAQI84B/MAQI84B_sample13/atac/f6aeecaa-7c55-42ef-957f-6237a1e2f6bb/metadata.json
+Sample name: MAQI84B_sample13
+Warning: darkgrey is not a known color.
+2023-09-25 19:20:09,973|autouri.autouri|INFO| cp: (83b5b325) started. src=/tmp/tmpvue7me5w/croo.report.f6aeecaa-7c55-42ef-957f-6237a1e2f6bb.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/MAQI84B/MAQI84B_sample13/croo.report.f6aeecaa-7c55-42ef-957f-6237a1e2f6bb.html
+2023-09-25 19:20:09,977|autouri.autouri|INFO| cp: (83b5b325) done.
+Croo completed successfully on sample MAQI84B_sample13.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/MAQI84B/MAQI84B_sample12/atac/12e094e9-c20d-4179-bee2-92adc06003e5/metadata.json
+Sample name: MAQI84B_sample12
+Warning: darkgrey is not a known color.
+2023-09-25 19:20:13,432|autouri.autouri|INFO| cp: (077d5ceb) started. src=/tmp/tmp3ba8wcik/croo.report.12e094e9-c20d-4179-bee2-92adc06003e5.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/MAQI84B/MAQI84B_sample12/croo.report.12e094e9-c20d-4179-bee2-92adc06003e5.html
+2023-09-25 19:20:13,435|autouri.autouri|INFO| cp: (077d5ceb) done.
+Croo completed successfully on sample MAQI84B_sample12.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/MAQI84B/MAQI84B_sample7/atac/1b0a3838-5240-4cd5-a608-e271655ca0ef/metadata.json
+Sample name: MAQI84B_sample7
+Warning: darkgrey is not a known color.
+2023-09-25 19:20:16,536|autouri.autouri|INFO| cp: (52bb3577) started. src=/tmp/tmp58u9h1y7/croo.report.1b0a3838-5240-4cd5-a608-e271655ca0ef.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/MAQI84B/MAQI84B_sample7/croo.report.1b0a3838-5240-4cd5-a608-e271655ca0ef.html
+2023-09-25 19:20:16,539|autouri.autouri|INFO| cp: (52bb3577) done.
+Croo completed successfully on sample MAQI84B_sample7.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/MAQI84B/MAQI84B_sample1/atac/c2564a16-d811-4fba-88b6-fb4e4d7ed8f3/metadata.json
+Sample name: MAQI84B_sample1
+Warning: darkgrey is not a known color.
+2023-09-25 19:20:19,945|autouri.autouri|INFO| cp: (9349ca4b) started. src=/tmp/tmp7oig0i4s/croo.report.c2564a16-d811-4fba-88b6-fb4e4d7ed8f3.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/MAQI84B/MAQI84B_sample1/croo.report.c2564a16-d811-4fba-88b6-fb4e4d7ed8f3.html
+2023-09-25 19:20:19,962|autouri.autouri|INFO| cp: (9349ca4b) done.
+Croo completed successfully on sample MAQI84B_sample1.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/MAQI84B/MAQI84B_sample11/atac/6a70eb39-751a-415e-ae92-6274d114e582/metadata.json
+Sample name: MAQI84B_sample11
+Warning: darkgrey is not a known color.
+2023-09-25 19:20:23,574|autouri.autouri|INFO| cp: (f7eff87f) started. src=/tmp/tmp_bx2g3e8/croo.report.6a70eb39-751a-415e-ae92-6274d114e582.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/MAQI84B/MAQI84B_sample11/croo.report.6a70eb39-751a-415e-ae92-6274d114e582.html
+2023-09-25 19:20:23,577|autouri.autouri|INFO| cp: (f7eff87f) done.
+Croo completed successfully on sample MAQI84B_sample11.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/MAQI84B/MAQI84B_sample15/atac/bf33fbb0-e9d4-4d36-b640-095bb4a63dc2/metadata.json
+Sample name: MAQI84B_sample15
+Warning: darkgrey is not a known color.
+2023-09-25 19:20:27,851|autouri.autouri|INFO| cp: (737877fe) started. src=/tmp/tmprnyq54vp/croo.report.bf33fbb0-e9d4-4d36-b640-095bb4a63dc2.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/MAQI84B/MAQI84B_sample15/croo.report.bf33fbb0-e9d4-4d36-b640-095bb4a63dc2.html
+2023-09-25 19:20:27,854|autouri.autouri|INFO| cp: (737877fe) done.
+Croo completed successfully on sample MAQI84B_sample15.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/MAQI84B/MAQI84B_sample9/atac/885f1a22-0863-467f-93ba-c75b2f2eb9d8/metadata.json
+Sample name: MAQI84B_sample9
+Warning: darkgrey is not a known color.
+2023-09-25 19:20:31,985|autouri.autouri|INFO| cp: (8ceb308d) started. src=/tmp/tmpobf3m_77/croo.report.885f1a22-0863-467f-93ba-c75b2f2eb9d8.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/MAQI84B/MAQI84B_sample9/croo.report.885f1a22-0863-467f-93ba-c75b2f2eb9d8.html
+2023-09-25 19:20:31,988|autouri.autouri|INFO| cp: (8ceb308d) done.
+Croo completed successfully on sample MAQI84B_sample9.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/MAQI84B/MAQI84B_sample8/atac/4626f3fa-151d-42d7-b729-f017470bbc8a/metadata.json
+Sample name: MAQI84B_sample8
+Warning: darkgrey is not a known color.
+2023-09-25 19:20:35,551|autouri.autouri|INFO| cp: (7b1561ad) started. src=/tmp/tmpiws0st5a/croo.report.4626f3fa-151d-42d7-b729-f017470bbc8a.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/MAQI84B/MAQI84B_sample8/croo.report.4626f3fa-151d-42d7-b729-f017470bbc8a.html
+2023-09-25 19:20:35,555|autouri.autouri|INFO| cp: (7b1561ad) done.
+Croo completed successfully on sample MAQI84B_sample8.
+Metadata location: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/MAQI84B/MAQI84B_sample17/atac/8d982756-c452-42f7-88f2-d7fd2058a0c7/metadata.json
+Sample name: MAQI84B_sample17
+Warning: darkgrey is not a known color.
+2023-09-25 19:20:38,672|autouri.autouri|INFO| cp: (98dbcacc) started. src=/tmp/tmpqgqg_h8y/croo.report.8d982756-c452-42f7-88f2-d7fd2058a0c7.html, dest=/scratch/users/ntu/suffiazi/outputs/atac-croo-out/MAQI84B/MAQI84B_sample17/croo.report.8d982756-c452-42f7-88f2-d7fd2058a0c7.html
+2023-09-25 19:20:38,676|autouri.autouri|INFO| cp: (98dbcacc) done.
+Croo completed successfully on sample MAQI84B_sample17.
+
+Croo post-processing script completed successfully.
+All job runs have finished. Exiting watcher script...
+Workflow is done.
