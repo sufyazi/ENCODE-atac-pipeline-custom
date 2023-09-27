@@ -6,7 +6,7 @@ set -eo pipefail
 # Clean up module environment and set up job-specific environment
 
 # Set the number of jobs to submit at a time; this number should be unchanged for now so I will hardcode it
-declare -i MAX_JOBS=13
+declare -i MAX_JOBS=10
 
 # Assign the arguments to variables
 analysis_id=$1
@@ -44,7 +44,8 @@ if [[ "$counter" -ne "$max_samp_count" ]]; then
         fi
     elif [[ $(qstat -u suffiazi | grep -c "CAPER_${analysis_id:0:3}") -ne 0 ]]; then
         echo "The current batch of submitted jobs are still running. Will check again in 1 hour."
-        finish_counts=$(find "${pl_raw_output_root_dir}/${analysis_id}" -type f -name "metadata.json" -print0 | xargs -0 grep "Succeeded" | sort -u | wc -l)
+        find "${pl_raw_output_root_dir}/${analysis_id}" -type f -name "metadata.json" -print0 | xargs -0 grep "Succeeded" | sort -u || true
+        finish_counts=$(find "${pl_raw_output_root_dir}/${analysis_id}" -type f -name "metadata.json" -print0 | xargs -0 grep "Succeeded" | sort -u | wc -l || true)
         echo "Number of metadata.json files indicating finished jobs: $finish_counts"
         at now + 1 hour <<EOF
 /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/encd-atac-pl_watcher-v3-ASPIRE.sh "${analysis_id}" "${dataset_json_dir}" "${pl_raw_output_root_dir}" "${croo_output_root_dir}" "${counter}" "${max_samp_count}" >> "/home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/logs/encd-atac-pl_watcher_${analysis_id}.log" 2>&1
@@ -81,7 +82,8 @@ else
         fi
     else
         echo "The current batch of submitted jobs are still running. Will check again in 1 hour."
-        finish_counts=$(find "${pl_raw_output_root_dir}/${analysis_id}" -type f -name "metadata.json" -print0 | xargs -0 grep "Succeeded" | sort -u | wc -l)
+        find "${pl_raw_output_root_dir}/${analysis_id}" -type f -name "metadata.json" -print0 | xargs -0 grep "Succeeded" | sort -u || true
+        finish_counts=$(find "${pl_raw_output_root_dir}/${analysis_id}" -type f -name "metadata.json" -print0 | xargs -0 grep "Succeeded" | sort -u | wc -l || true)
         echo "Number of metadata.json files indicating finished jobs: $finish_counts"
         at now + 1 hour <<EOF
 /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/encd-atac-pl_watcher-v3-ASPIRE.sh "${analysis_id}" "${dataset_json_dir}" "${pl_raw_output_root_dir}" "${croo_output_root_dir}" "${counter}" "${max_samp_count}" >> "/home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/logs/encd-atac-pl_watcher_${analysis_id}.log" 2>&1
