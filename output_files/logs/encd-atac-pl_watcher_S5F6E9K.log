@@ -87,3 +87,39 @@ Max sample count is 16
 warning: commands will be executed using /bin/sh
 job 73 at Wed Sep 27 13:45:00 2023
 Watcher script has been scheduled to run in 1 hour.
+Max sample count has been reached.
+The current batch of submitted jobs are still running. Will check again in 1 hour.
+Number of metadata.json files indicating finished jobs: 0
+warning: commands will be executed using /bin/sh
+job 74 at Wed Sep 27 14:45:00 2023
+Max sample count has been reached.
+The current batch of submitted jobs are still running. Will check again in 1 hour.
+Number of metadata.json files indicating finished jobs: 0
+warning: commands will be executed using /bin/sh
+job 75 at Wed Sep 27 15:45:00 2023
+Max sample count has been reached.
+The current batch of submitted jobs are still running. Will check again in 1 hour.
+Number of metadata.json files indicating finished jobs: 0
+warning: commands will be executed using /bin/sh
+job 76 at Wed Sep 27 16:45:00 2023
+Max sample count has been reached.
+The current batch of submitted jobs are still running. Will check again in 1 hour.
+Number of metadata.json files indicating finished jobs: 0
+warning: commands will be executed using /bin/sh
+job 77 at Wed Sep 27 17:45:00 2023
+Max sample count has been reached.
+The current batch of submitted jobs are still running. Will check again in 1 hour.
+Number of metadata.json files indicating finished jobs: 0
+warning: commands will be executed using /bin/sh
+job 78 at Wed Sep 27 18:45:00 2023
+Max sample count has been reached.
+The current batch of submitted jobs are still running. Will check again in 1 hour.
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/S5F6E9K/S5F6E9K_sample10/atac/d1687c7e-9ef8-4a62-9061-d71b3a9ad993/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/S5F6E9K/S5F6E9K_sample11/atac/79a9b830-036d-4846-bfbd-598e7052cc8f/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/S5F6E9K/S5F6E9K_sample15/atac/337168b8-592a-4ebb-8fe8-86f86f0d36a9/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/S5F6E9K/S5F6E9K_sample16/atac/f056fc72-f0f3-4996-81a4-d1cdb357b84a/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/S5F6E9K/S5F6E9K_sample2/atac/e5af2e2c-65be-4fc7-b98d-f61246c27e31/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/S5F6E9K/S5F6E9K_sample6/atac/41eb47a7-8d5d-4588-bc85-481b1d08eda0/metadata.json:    "status": "Succeeded",
+Number of metadata.json files indicating finished jobs: 6
+warning: commands will be executed using /bin/sh
+job 79 at Wed Sep 27 19:45:00 2023

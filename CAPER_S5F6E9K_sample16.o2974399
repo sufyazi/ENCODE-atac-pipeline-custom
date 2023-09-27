@@ -1,0 +1,16 @@
+======================================================================================
+
+			Resource Usage on 2023-09-27 18:32:33.523413:
+
+	JobId: 2974399.pbs101  
+	Project: 12003580 
+	Exit Status: 0
+	NCPUs Requested: 4				NCPUs Used: 4
+							CPU Time Used: 00:08:21
+	Memory Requested: 200gb 			Memory Used: 21337360kb
+							Vmem Used: 17650764kb
+	Walltime requested: 24:00:00 			Walltime Used: 05:47:52
+	
+	Execution Nodes Used: (x1001c4s3b1n0:ncpus=4:mem=209715200kb)
+	
+ ======================================================================================
