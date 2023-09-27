@@ -1,2 +1,2 @@
 analysis_ID	dataset_ID
-S5F6E9K	TCGA-LUSC
+1U5AYE1	TCGA-PCPG

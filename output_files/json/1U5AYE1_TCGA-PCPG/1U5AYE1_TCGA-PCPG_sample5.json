@@ -1,0 +1,14 @@
+{
+    "atac.title": "1U5AYE1_TCGA-PCPG",
+    "atac.description": "1U5AYE1_TCGA-PCPG tcga atac-seq",
+    "atac.pipeline_type": "atac",
+    "atac.align_only": false,
+    "atac.true_rep_only": false,
+    "atac.genome_tsv": "https://storage.googleapis.com/encode-pipeline-genome-data/genome_tsv/v4/hg38.tsv",
+    "atac.paired_end": true,
+    "atac.auto_detect_adapter": true,
+    "atac.align_cpu": 24,
+    "atac.bams": [
+        "/home/suffi.azizan/scratchspace/inputs/fastq/tcga-atac/TCGA-PCPG/sample_5/rep_0/9d10a8ae-6471-4ca9-adb1-9d7357c4aa83_atacseq_gdc_realn.bam"
+    ]
+}
