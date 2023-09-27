@@ -1,0 +1,89 @@
+Dataset json directory exists. Proceeding...
+Pipeline output directory for S5F6E9K did not exist so it has been created. Proceeding...
+Number of json files in the target directory: 16
+Sample ID: sample2
+Local output directory: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/S5F6E9K/S5F6E9K_sample2
+2023-09-27 12:43:40,700|caper.hpc|INFO| Running shell command: qsub -P 12003580 -l select=1:ncpus=4:mpiprocs=4:mem=200GB -l walltime=24:00:00 -V -N CAPER_S5F6E9K_sample2 /home/users/ntu/suffiazi/glzzcm9f.sh
+2974389.pbs101
+Submitted job number 1: /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/json/S5F6E9K_TCGA-LUSC/S5F6E9K_TCGA-LUSC_sample2.json in if-block 0
+Sample ID: sample7
+Local output directory: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/S5F6E9K/S5F6E9K_sample7
+2023-09-27 12:43:44,073|caper.hpc|INFO| Running shell command: qsub -P 12003580 -l select=1:ncpus=4:mpiprocs=4:mem=200GB -l walltime=24:00:00 -V -N CAPER_S5F6E9K_sample7 /home/users/ntu/suffiazi/y4bpgkh4.sh
+2974391.pbs101
+Submitted job number 2: /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/json/S5F6E9K_TCGA-LUSC/S5F6E9K_TCGA-LUSC_sample7.json in elif-block 1
+Sample ID: sample5
+Local output directory: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/S5F6E9K/S5F6E9K_sample5
+2023-09-27 12:43:48,079|caper.hpc|INFO| Running shell command: qsub -P 12003580 -l select=1:ncpus=4:mpiprocs=4:mem=200GB -l walltime=24:00:00 -V -N CAPER_S5F6E9K_sample5 /home/users/ntu/suffiazi/k5s50nuz.sh
+2974392.pbs101
+Submitted job number 3: /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/json/S5F6E9K_TCGA-LUSC/S5F6E9K_TCGA-LUSC_sample5.json in elif-block 1
+Sample ID: sample3
+Local output directory: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/S5F6E9K/S5F6E9K_sample3
+2023-09-27 12:43:51,156|caper.hpc|INFO| Running shell command: qsub -P 12003580 -l select=1:ncpus=4:mpiprocs=4:mem=200GB -l walltime=24:00:00 -V -N CAPER_S5F6E9K_sample3 /home/users/ntu/suffiazi/47kllzx_.sh
+2974393.pbs101
+Submitted job number 4: /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/json/S5F6E9K_TCGA-LUSC/S5F6E9K_TCGA-LUSC_sample3.json in elif-block 1
+Sample ID: sample14
+Local output directory: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/S5F6E9K/S5F6E9K_sample14
+2023-09-27 12:43:58,623|caper.hpc|INFO| Running shell command: qsub -P 12003580 -l select=1:ncpus=4:mpiprocs=4:mem=200GB -l walltime=24:00:00 -V -N CAPER_S5F6E9K_sample14 /home/users/ntu/suffiazi/dbafxmj2.sh
+2974394.pbs101
+Submitted job number 5: /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/json/S5F6E9K_TCGA-LUSC/S5F6E9K_TCGA-LUSC_sample14.json in elif-block 1
+Sample ID: sample12
+Local output directory: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/S5F6E9K/S5F6E9K_sample12
+2023-09-27 12:44:04,714|caper.hpc|INFO| Running shell command: qsub -P 12003580 -l select=1:ncpus=4:mpiprocs=4:mem=200GB -l walltime=24:00:00 -V -N CAPER_S5F6E9K_sample12 /home/users/ntu/suffiazi/iced6qap.sh
+2974395.pbs101
+Submitted job number 6: /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/json/S5F6E9K_TCGA-LUSC/S5F6E9K_TCGA-LUSC_sample12.json in elif-block 1
+Sample ID: sample8
+Local output directory: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/S5F6E9K/S5F6E9K_sample8
+2023-09-27 12:44:08,512|caper.hpc|INFO| Running shell command: qsub -P 12003580 -l select=1:ncpus=4:mpiprocs=4:mem=200GB -l walltime=24:00:00 -V -N CAPER_S5F6E9K_sample8 /home/users/ntu/suffiazi/q8b7uugy.sh
+2974396.pbs101
+Submitted job number 7: /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/json/S5F6E9K_TCGA-LUSC/S5F6E9K_TCGA-LUSC_sample8.json in elif-block 1
+Sample ID: sample4
+Local output directory: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/S5F6E9K/S5F6E9K_sample4
+2023-09-27 12:44:24,741|caper.hpc|INFO| Running shell command: qsub -P 12003580 -l select=1:ncpus=4:mpiprocs=4:mem=200GB -l walltime=24:00:00 -V -N CAPER_S5F6E9K_sample4 /home/users/ntu/suffiazi/h5nbz8yb.sh
+2974398.pbs101
+Submitted job number 8: /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/json/S5F6E9K_TCGA-LUSC/S5F6E9K_TCGA-LUSC_sample4.json in elif-block 1
+Sample ID: sample16
+Local output directory: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/S5F6E9K/S5F6E9K_sample16
+2023-09-27 12:44:27,920|caper.hpc|INFO| Running shell command: qsub -P 12003580 -l select=1:ncpus=4:mpiprocs=4:mem=200GB -l walltime=24:00:00 -V -N CAPER_S5F6E9K_sample16 /home/users/ntu/suffiazi/aqprlckz.sh
+2974399.pbs101
+Submitted job number 9: /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/json/S5F6E9K_TCGA-LUSC/S5F6E9K_TCGA-LUSC_sample16.json in elif-block 1
+Sample ID: sample6
+Local output directory: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/S5F6E9K/S5F6E9K_sample6
+2023-09-27 12:44:39,092|caper.hpc|INFO| Running shell command: qsub -P 12003580 -l select=1:ncpus=4:mpiprocs=4:mem=200GB -l walltime=24:00:00 -V -N CAPER_S5F6E9K_sample6 /home/users/ntu/suffiazi/0xktkav0.sh
+2974400.pbs101
+Submitted job number 10: /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/json/S5F6E9K_TCGA-LUSC/S5F6E9K_TCGA-LUSC_sample6.json in elif-block 1
+Sample ID: sample13
+Local output directory: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/S5F6E9K/S5F6E9K_sample13
+2023-09-27 12:44:42,587|caper.hpc|INFO| Running shell command: qsub -P 12003580 -l select=1:ncpus=4:mpiprocs=4:mem=200GB -l walltime=24:00:00 -V -N CAPER_S5F6E9K_sample13 /home/users/ntu/suffiazi/zpnvr8m1.sh
+2974401.pbs101
+Submitted job number 11: /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/json/S5F6E9K_TCGA-LUSC/S5F6E9K_TCGA-LUSC_sample13.json in elif-block 1
+Sample ID: sample15
+Local output directory: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/S5F6E9K/S5F6E9K_sample15
+2023-09-27 12:44:45,893|caper.hpc|INFO| Running shell command: qsub -P 12003580 -l select=1:ncpus=4:mpiprocs=4:mem=200GB -l walltime=24:00:00 -V -N CAPER_S5F6E9K_sample15 /home/users/ntu/suffiazi/jhnvx09n.sh
+2974402.pbs101
+Submitted job number 12: /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/json/S5F6E9K_TCGA-LUSC/S5F6E9K_TCGA-LUSC_sample15.json in elif-block 1
+Sample ID: sample11
+Local output directory: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/S5F6E9K/S5F6E9K_sample11
+2023-09-27 12:44:52,319|caper.hpc|INFO| Running shell command: qsub -P 12003580 -l select=1:ncpus=4:mpiprocs=4:mem=200GB -l walltime=24:00:00 -V -N CAPER_S5F6E9K_sample11 /home/users/ntu/suffiazi/tzw_m_is.sh
+2974404.pbs101
+Submitted job number 13: /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/json/S5F6E9K_TCGA-LUSC/S5F6E9K_TCGA-LUSC_sample11.json in elif-block 1
+Sample ID: sample1
+Local output directory: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/S5F6E9K/S5F6E9K_sample1
+2023-09-27 12:44:55,345|caper.hpc|INFO| Running shell command: qsub -P 12003580 -l select=1:ncpus=4:mpiprocs=4:mem=200GB -l walltime=24:00:00 -V -N CAPER_S5F6E9K_sample1 /home/users/ntu/suffiazi/mf_m56gq.sh
+2974406.pbs101
+Submitted job number 14: /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/json/S5F6E9K_TCGA-LUSC/S5F6E9K_TCGA-LUSC_sample1.json in elif-block 1
+Sample ID: sample9
+Local output directory: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/S5F6E9K/S5F6E9K_sample9
+2023-09-27 12:44:58,452|caper.hpc|INFO| Running shell command: qsub -P 12003580 -l select=1:ncpus=4:mpiprocs=4:mem=200GB -l walltime=24:00:00 -V -N CAPER_S5F6E9K_sample9 /home/users/ntu/suffiazi/x3capjjz.sh
+2974407.pbs101
+Submitted job number 15: /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/json/S5F6E9K_TCGA-LUSC/S5F6E9K_TCGA-LUSC_sample9.json in elif-block 1
+Sample ID: sample10
+Local output directory: /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/S5F6E9K/S5F6E9K_sample10
+2023-09-27 12:45:01,732|caper.hpc|INFO| Running shell command: qsub -P 12003580 -l select=1:ncpus=4:mpiprocs=4:mem=200GB -l walltime=24:00:00 -V -N CAPER_S5F6E9K_sample10 /home/users/ntu/suffiazi/mgfv4222.sh
+2974408.pbs101
+Submitted job number 16: /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/output_files/json/S5F6E9K_TCGA-LUSC/S5F6E9K_TCGA-LUSC_sample10.json in outer elif block.
+All samples have been submitted for processing.
+Current count is 16
+Max sample count is 16
+warning: commands will be executed using /bin/sh
+job 73 at Wed Sep 27 13:45:00 2023
+Watcher script has been scheduled to run in 1 hour.

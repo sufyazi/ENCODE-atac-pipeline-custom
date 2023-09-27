@@ -1,0 +1,14 @@
+{
+    "atac.title": "S5F6E9K_TCGA-LUSC",
+    "atac.description": "S5F6E9K_TCGA-LUSC tcga atac-seq",
+    "atac.pipeline_type": "atac",
+    "atac.align_only": false,
+    "atac.true_rep_only": false,
+    "atac.genome_tsv": "https://storage.googleapis.com/encode-pipeline-genome-data/genome_tsv/v4/hg38.tsv",
+    "atac.paired_end": true,
+    "atac.auto_detect_adapter": true,
+    "atac.align_cpu": 24,
+    "atac.bams": [
+        "/home/users/ntu/suffiazi/scratch/inputs/atac-seq-pipeline-raw-input/TCGA-LUSC/sample_12/rep_0/0aab6a96-1e38-4edb-828a-9f445fe2146e_atacseq_gdc_realn.bam"
+    ]
+}
