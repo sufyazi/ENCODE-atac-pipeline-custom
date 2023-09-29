@@ -1,0 +1,14 @@
+{
+    "atac.title": "91W50K2_TCGA-STAD",
+    "atac.description": "91W50K2_TCGA-STAD tcga atac-seq",
+    "atac.pipeline_type": "atac",
+    "atac.align_only": false,
+    "atac.true_rep_only": false,
+    "atac.genome_tsv": "https://storage.googleapis.com/encode-pipeline-genome-data/genome_tsv/v4/hg38.tsv",
+    "atac.paired_end": true,
+    "atac.auto_detect_adapter": true,
+    "atac.align_cpu": 24,
+    "atac.bams": [
+        "/home/users/ntu/suffiazi/scratch/inputs/atac-seq-pipeline-raw-input/TCGA-STAD/sample_15/rep_0/77edc0a9-a323-4a88-b2b8-32a88c3955c4_atacseq_gdc_realn.bam"
+    ]
+}
