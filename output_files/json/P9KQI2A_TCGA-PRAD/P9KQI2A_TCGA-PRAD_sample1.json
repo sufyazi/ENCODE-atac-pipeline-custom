@@ -1,0 +1,14 @@
+{
+    "atac.title": "P9KQI2A_TCGA-PRAD",
+    "atac.description": "P9KQI2A_TCGA-PRAD tcga atac-seq",
+    "atac.pipeline_type": "atac",
+    "atac.align_only": false,
+    "atac.true_rep_only": false,
+    "atac.genome_tsv": "https://storage.googleapis.com/encode-pipeline-genome-data/genome_tsv/v4/hg38.tsv",
+    "atac.paired_end": true,
+    "atac.auto_detect_adapter": true,
+    "atac.align_cpu": 24,
+    "atac.bams": [
+        "/home/users/ntu/suffiazi/scratch/inputs/atac-seq-pipeline-raw-input/TCGA-PRAD/sample_1/rep_0/49bf2f15-d137-43dd-b648-df8aa7a1861a_atacseq_gdc_realn.bam"
+    ]
+}
