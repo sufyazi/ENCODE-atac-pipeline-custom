@@ -1,0 +1,14 @@
+{
+    "atac.title": "97JL7Q3_TCGA-KIRP",
+    "atac.description": "97JL7Q3_TCGA-KIRP tcga atac-seq",
+    "atac.pipeline_type": "atac",
+    "atac.align_only": false,
+    "atac.true_rep_only": false,
+    "atac.genome_tsv": "https://storage.googleapis.com/encode-pipeline-genome-data/genome_tsv/v4/hg38.tsv",
+    "atac.paired_end": true,
+    "atac.auto_detect_adapter": true,
+    "atac.align_cpu": 24,
+    "atac.bams": [
+        "/home/users/ntu/suffiazi/scratch/inputs/atac-seq-pipeline-raw-input/TCGA-KIRP/sample_30/rep_0/923fa56b-9b8c-4d18-8155-6a39c60a20b4_atacseq_gdc_realn.bam"
+    ]
+}

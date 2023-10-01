@@ -1,0 +1,14 @@
+{
+    "atac.title": "TKE34L5_TCGA-LUAD",
+    "atac.description": "TKE34L5_TCGA-LUAD tcga atac-seq",
+    "atac.pipeline_type": "atac",
+    "atac.align_only": false,
+    "atac.true_rep_only": false,
+    "atac.genome_tsv": "https://storage.googleapis.com/encode-pipeline-genome-data/genome_tsv/v4/hg38.tsv",
+    "atac.paired_end": true,
+    "atac.auto_detect_adapter": true,
+    "atac.align_cpu": 24,
+    "atac.bams": [
+        "/home/users/ntu/suffiazi/scratch/inputs/atac-seq-pipeline-raw-input/TCGA-LUAD/sample_4/rep_0/e4cc2fff-00e3-44ab-a6a6-d692736447a2_atacseq_gdc_realn.bam"
+    ]
+}
