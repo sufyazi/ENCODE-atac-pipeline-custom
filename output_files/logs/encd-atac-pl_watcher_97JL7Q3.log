@@ -92,3 +92,143 @@ Current sample count is 17
 warning: commands will be executed using /bin/sh
 job 48 at Sun Oct  1 13:42:00 2023
 Watcher script has been scheduled to run in 1 hour.
+Max sample count has not been reached.
+The current batch of submitted jobs are still running. Will check again in 1 hour.
+Number of metadata.json files indicating finished jobs: 0
+warning: commands will be executed using /bin/sh
+job 49 at Sun Oct  1 14:42:00 2023
+Max sample count has not been reached.
+The current batch of submitted jobs are still running. Will check again in 1 hour.
+Number of metadata.json files indicating finished jobs: 0
+warning: commands will be executed using /bin/sh
+job 50 at Sun Oct  1 15:42:00 2023
+Max sample count has not been reached.
+The current batch of submitted jobs are still running. Will check again in 1 hour.
+Number of metadata.json files indicating finished jobs: 0
+warning: commands will be executed using /bin/sh
+job 51 at Sun Oct  1 16:42:00 2023
+Max sample count has not been reached.
+The current batch of submitted jobs are still running. Will check again in 1 hour.
+Number of metadata.json files indicating finished jobs: 0
+warning: commands will be executed using /bin/sh
+job 52 at Sun Oct  1 17:42:00 2023
+Max sample count has not been reached.
+The current batch of submitted jobs are still running. Will check again in 1 hour.
+Number of metadata.json files indicating finished jobs: 0
+warning: commands will be executed using /bin/sh
+job 53 at Sun Oct  1 18:42:00 2023
+Max sample count has not been reached.
+The current batch of submitted jobs are still running. Will check again in 1 hour.
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample13/atac/16b98c83-0ee1-499b-8749-7c6af0ad93b5/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample22/atac/472b7530-64ce-46c7-a893-45e7a027b29b/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample23/atac/546ae45a-ec44-4dac-a27b-adc31d2553a1/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample29/atac/ed00842e-da60-42b3-b954-bfcc1e22551f/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample2/atac/d8545b57-aeed-4c18-a530-d1a5adc94364/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample3/atac/85b29728-5a93-4202-b2e2-d4b64544670b/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample9/atac/67d23630-1dee-448d-8e11-2362a72f8278/metadata.json:    "status": "Succeeded",
+Number of metadata.json files indicating finished jobs: 7
+warning: commands will be executed using /bin/sh
+job 54 at Sun Oct  1 19:42:00 2023
+Max sample count has not been reached.
+The current batch of submitted jobs are still running. Will check again in 1 hour.
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample12/atac/45f3814c-2c22-4edb-8807-bebf8e38589a/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample13/atac/16b98c83-0ee1-499b-8749-7c6af0ad93b5/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample22/atac/472b7530-64ce-46c7-a893-45e7a027b29b/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample23/atac/546ae45a-ec44-4dac-a27b-adc31d2553a1/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample29/atac/ed00842e-da60-42b3-b954-bfcc1e22551f/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample2/atac/d8545b57-aeed-4c18-a530-d1a5adc94364/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample3/atac/85b29728-5a93-4202-b2e2-d4b64544670b/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample5/atac/6472b114-cd0a-473f-986d-4180072745e4/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample7/atac/faa22948-fbac-4b1c-bd77-1b511271cf45/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample8/atac/a614d42a-1795-4fe4-92fc-8944e870e0bb/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample9/atac/67d23630-1dee-448d-8e11-2362a72f8278/metadata.json:    "status": "Succeeded",
+Number of metadata.json files indicating finished jobs: 11
+warning: commands will be executed using /bin/sh
+job 55 at Sun Oct  1 20:42:00 2023
+Max sample count has not been reached.
+The current batch of submitted jobs are still running. Will check again in 1 hour.
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample12/atac/45f3814c-2c22-4edb-8807-bebf8e38589a/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample13/atac/16b98c83-0ee1-499b-8749-7c6af0ad93b5/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample15/atac/a5c8a5a3-f170-45cf-84e0-eb3ea51494f9/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample16/atac/a3a9c8a3-9c0b-47a5-b4ef-20e3d756b565/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample17/atac/daad8fe9-3593-4494-b9a9-50ef291fa676/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample22/atac/472b7530-64ce-46c7-a893-45e7a027b29b/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample23/atac/546ae45a-ec44-4dac-a27b-adc31d2553a1/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample29/atac/ed00842e-da60-42b3-b954-bfcc1e22551f/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample2/atac/d8545b57-aeed-4c18-a530-d1a5adc94364/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample3/atac/85b29728-5a93-4202-b2e2-d4b64544670b/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample4/atac/c24c0406-b08f-4d5d-b388-4f58af33395e/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample5/atac/6472b114-cd0a-473f-986d-4180072745e4/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample7/atac/faa22948-fbac-4b1c-bd77-1b511271cf45/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample8/atac/a614d42a-1795-4fe4-92fc-8944e870e0bb/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample9/atac/67d23630-1dee-448d-8e11-2362a72f8278/metadata.json:    "status": "Succeeded",
+Number of metadata.json files indicating finished jobs: 15
+warning: commands will be executed using /bin/sh
+job 56 at Sun Oct  1 21:42:00 2023
+Max sample count has not been reached.
+The current batch of submitted jobs are still running. Will check again in 1 hour.
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample12/atac/45f3814c-2c22-4edb-8807-bebf8e38589a/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample13/atac/16b98c83-0ee1-499b-8749-7c6af0ad93b5/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample15/atac/a5c8a5a3-f170-45cf-84e0-eb3ea51494f9/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample16/atac/a3a9c8a3-9c0b-47a5-b4ef-20e3d756b565/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample17/atac/daad8fe9-3593-4494-b9a9-50ef291fa676/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample22/atac/472b7530-64ce-46c7-a893-45e7a027b29b/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample23/atac/546ae45a-ec44-4dac-a27b-adc31d2553a1/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample29/atac/ed00842e-da60-42b3-b954-bfcc1e22551f/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample2/atac/d8545b57-aeed-4c18-a530-d1a5adc94364/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample3/atac/85b29728-5a93-4202-b2e2-d4b64544670b/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample4/atac/c24c0406-b08f-4d5d-b388-4f58af33395e/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample5/atac/6472b114-cd0a-473f-986d-4180072745e4/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample6/atac/928804d7-22f0-4056-86e9-653df7e95e3e/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample7/atac/faa22948-fbac-4b1c-bd77-1b511271cf45/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample8/atac/a614d42a-1795-4fe4-92fc-8944e870e0bb/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample9/atac/67d23630-1dee-448d-8e11-2362a72f8278/metadata.json:    "status": "Succeeded",
+Number of metadata.json files indicating finished jobs: 16
+warning: commands will be executed using /bin/sh
+job 57 at Sun Oct  1 22:42:00 2023
+Max sample count has not been reached.
+The current batch of submitted jobs are still running. Will check again in 1 hour.
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample12/atac/45f3814c-2c22-4edb-8807-bebf8e38589a/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample13/atac/16b98c83-0ee1-499b-8749-7c6af0ad93b5/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample15/atac/a5c8a5a3-f170-45cf-84e0-eb3ea51494f9/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample16/atac/a3a9c8a3-9c0b-47a5-b4ef-20e3d756b565/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample17/atac/daad8fe9-3593-4494-b9a9-50ef291fa676/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample22/atac/472b7530-64ce-46c7-a893-45e7a027b29b/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample23/atac/546ae45a-ec44-4dac-a27b-adc31d2553a1/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample29/atac/ed00842e-da60-42b3-b954-bfcc1e22551f/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample2/atac/d8545b57-aeed-4c18-a530-d1a5adc94364/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample3/atac/85b29728-5a93-4202-b2e2-d4b64544670b/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample4/atac/c24c0406-b08f-4d5d-b388-4f58af33395e/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample5/atac/6472b114-cd0a-473f-986d-4180072745e4/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample6/atac/928804d7-22f0-4056-86e9-653df7e95e3e/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample7/atac/faa22948-fbac-4b1c-bd77-1b511271cf45/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample8/atac/a614d42a-1795-4fe4-92fc-8944e870e0bb/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample9/atac/67d23630-1dee-448d-8e11-2362a72f8278/metadata.json:    "status": "Succeeded",
+Number of metadata.json files indicating finished jobs: 16
+warning: commands will be executed using /bin/sh
+job 58 at Sun Oct  1 23:42:00 2023
+Max sample count has not been reached.
+No jobs are currently running. Listing successful jobs...
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample12/atac/45f3814c-2c22-4edb-8807-bebf8e38589a/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample13/atac/16b98c83-0ee1-499b-8749-7c6af0ad93b5/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample15/atac/a5c8a5a3-f170-45cf-84e0-eb3ea51494f9/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample16/atac/a3a9c8a3-9c0b-47a5-b4ef-20e3d756b565/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample17/atac/daad8fe9-3593-4494-b9a9-50ef291fa676/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample22/atac/472b7530-64ce-46c7-a893-45e7a027b29b/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample23/atac/546ae45a-ec44-4dac-a27b-adc31d2553a1/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample29/atac/ed00842e-da60-42b3-b954-bfcc1e22551f/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample2/atac/d8545b57-aeed-4c18-a530-d1a5adc94364/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample3/atac/85b29728-5a93-4202-b2e2-d4b64544670b/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample4/atac/c24c0406-b08f-4d5d-b388-4f58af33395e/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample5/atac/6472b114-cd0a-473f-986d-4180072745e4/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample6/atac/928804d7-22f0-4056-86e9-653df7e95e3e/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample7/atac/faa22948-fbac-4b1c-bd77-1b511271cf45/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample8/atac/a614d42a-1795-4fe4-92fc-8944e870e0bb/metadata.json:    "status": "Succeeded",
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample9/atac/67d23630-1dee-448d-8e11-2362a72f8278/metadata.json:    "status": "Succeeded",
+Number of metadata.json files indicating finished jobs: 16
+Something is wrong with the current pipeline jobs...
+Listing errored jobs...
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample24/atac/d4ba7724-1ad0-4d77-b8cf-4cd33afe3852/metadata.json
+Block 2 watcher script
+Ignoring errored jobs. Submitting the next batch of jobs...
+/home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/encd-atac-pl_submitter-v3-ASPIRE.sh: line 12: module: command not found

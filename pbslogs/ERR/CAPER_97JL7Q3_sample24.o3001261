@@ -1,0 +1,39 @@
+* Started troubleshooting workflow: id=d4ba7724-1ad0-4d77-b8cf-4cd33afe3852, status=Failed
+* Found failures JSON object.
+[
+    {
+        "causedBy": [
+            {
+                "message": "The compute backend terminated the job. If this termination is unexpected, examine likely causes such as preemption, running out of disk or memory on the compute instance, or exceeding the backend's maximum job duration.",
+                "causedBy": []
+            }
+        ],
+        "message": "Workflow failed"
+    }
+]
+* Recursively finding failures in calls (tasks)...
+
+==== NAME=atac.bam2ta, STATUS=Failed, PARENT=
+SHARD_IDX=0, RC=None, JOB_ID=3003407
+START=2023-10-01T12:29:40.742Z, END=2023-10-01T15:00:29.355Z
+STDOUT=/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample24/atac/d4ba7724-1ad0-4d77-b8cf-4cd33afe3852/call-bam2ta/shard-0/execution/stdout
+STDERR=/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample24/atac/d4ba7724-1ad0-4d77-b8cf-4cd33afe3852/call-bam2ta/shard-0/execution/stderr
+STDERR_CONTENTS=
+/scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample24/atac/d4ba7724-1ad0-4d77-b8cf-4cd33afe3852/call-bam2ta/shard-0/execution/script: line 32: 1230200 Killed                  python3 $(which encode_task_bam2ta.py) /scratch/users/ntu/suffiazi/outputs/encd-atac-pipe-raw-out/97JL7Q3/97JL7Q3_sample24/atac/d4ba7724-1ad0-4d77-b8cf-4cd33afe3852/call-bam2ta/shard-0/inputs/-1261372849/1fa4563f-9933-4815-bae6-15defd57595b_atacseq_gdc_realn.nodup.no_chrM_MT.bam --paired-end --mito-chr-name chrM --subsample 0 --mem-gb 8.735566243380308 --nth 2
+
+======================================================================================
+
+			Resource Usage on 2023-10-01 23:00:55.889959:
+
+	JobId: 3001261.pbs101  
+	Project: 12003580 
+	Exit Status: 0
+	NCPUs Requested: 4				NCPUs Used: 4
+							CPU Time Used: 00:15:10
+	Memory Requested: 200gb 			Memory Used: 58855416kb
+							Vmem Used: 18047204kb
+	Walltime requested: 24:00:00 			Walltime Used: 10:19:13
+	
+	Execution Nodes Used: (x1001c1s5b1n0:ncpus=4:mem=209715200kb)
+	
+ ======================================================================================
