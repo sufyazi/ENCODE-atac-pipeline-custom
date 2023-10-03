@@ -6,7 +6,7 @@ set -eo pipefail
 # Clean up module environment and set up job-specific environment
 
 # Set the number of jobs to submit at a time; this number should be unchanged for now so I will hardcode it
-declare -i MAX_JOBS=17
+declare -i MAX_JOBS=22
 
 # Assign the arguments to variables
 analysis_id=$1
