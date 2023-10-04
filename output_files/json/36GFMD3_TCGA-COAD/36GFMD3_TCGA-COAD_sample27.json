@@ -1,0 +1,14 @@
+{
+    "atac.title": "36GFMD3_TCGA-COAD",
+    "atac.description": "36GFMD3_TCGA-COAD tcga atac-seq",
+    "atac.pipeline_type": "atac",
+    "atac.align_only": false,
+    "atac.true_rep_only": false,
+    "atac.genome_tsv": "https://storage.googleapis.com/encode-pipeline-genome-data/genome_tsv/v4/hg38.tsv",
+    "atac.paired_end": true,
+    "atac.auto_detect_adapter": true,
+    "atac.align_cpu": 24,
+    "atac.bams": [
+        "/home/users/ntu/suffiazi/scratch/inputs/atac-seq-pipeline-raw-input/TCGA-COAD/sample_27/rep_0/d3f97380-2b8b-439a-89ea-58a5795e5ec2_atacseq_gdc_realn.bam"
+    ]
+}
