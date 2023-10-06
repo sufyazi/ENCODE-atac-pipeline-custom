@@ -28,7 +28,7 @@ if [[ "$counter" -ne "$max_samp_count" ]]; then
             echo "Block 1 watcher script"
             echo "All currently running jobs have successfully finished."
             echo "Submitting the next batch of jobs..."
-            source /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/encd-atac-pl_submitter-v3-ASPIRE.sh "${analysis_id}" "${dataset_json_dir}" "${pl_raw_output_root_dir}" "${croo_output_root_dir}" "${counter}"
+            bash /home/users/ntu/suffiazi/scripts/atac-seq-workflow-scripts/encd-atac-pl_submitter-v3-ASPIRE.sh "${analysis_id}" "${dataset_json_dir}" "${pl_raw_output_root_dir}" "${croo_output_root_dir}" "${counter}"
         elif (( finish_counts != MAX_JOBS )); then
             echo "Something is wrong with the current pipeline jobs..."
             echo "Listing errored jobs..."
